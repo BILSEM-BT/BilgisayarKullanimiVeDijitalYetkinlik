@@ -1,49 +1,41 @@
-REVİZE v4 KALİTE KONTROL RAPORU
+KALİTE KONTROL RAPORU — REVİZE v6
+Tarih: 2026-08-21
 
-1-4 TÜRKÇE Q KLAVYE
-- Türkçe Q harf dizilimi görsel şema ile gösterildi.
-- Çok karakterli tuşlarda normal=sol alt, Shift=sol üst, AltGr=sağ alt öğretim modeli açıkça işlendi.
-- @, €, ₺, #, $, {, [, ], }, \, | karakterleri örneklendirildi.
-- Windows klavye kısayolları Microsoft'un güncel Türkçe destek sayfasıyla karşılaştırıldı.
-- Shift ve Alt Gr özel karakter kullanımı MEB materyaliyle de karşılaştırıldı.
+PAKET
+- Bölüm 1-5 tam repository paketi
+- Toplam plan: 54 ders
+- Yayında: 35 ders
+- Bölüm 5: 6 / 6 yayında
 
-BÖLÜM 3
-- 3-1...3-8 derslerinin tamamı Türkçe üretildi.
-- Her derste 7 ana H2 başlığı kullanıldı; ayrıntılar alt başlıklara taşındı.
-- Word/Excel/PowerPoint için mevcut tasarımla uyumlu CSS tabanlı öğretim görselleri eklendi.
-- Word: Türkçe sekme adları, Stiller, İçindekiler, Erişilebilirliği Denetle ve PDF akışı kontrol edildi.
-- Excel: Türkçe TOPLA, ORTALAMA, EĞER, ETOPLA, ÇAPRAZARA adları güncel Microsoft belgeleriyle karşılaştırıldı.
-- Excel formül ayırıcısının bölgesel ayara göre ; veya , olabileceği açıklandı.
-- PowerPoint: Slayt Gösterisi, Sunucu Görünümü ve Zamanlama Provası adları güncel Türkçe Microsoft belgeleriyle kontrol edildi.
+SOL MENÜ DÜZELTMESİ
+- .lesson-side üzerindeki overflow-y:auto kaldırıldı.
+- Sol kart flex kolon olarak düzenlendi ve dış scrollbar engellendi.
+- .lesson-toc-list tek kaydırılabilir alan olarak ayarlandı.
+- Mobil <=960 px görünümde sol kart statik ve overflow visible; Ders İçeriği gerektiğinde max 320 px alanda kaydırılır.
 
-QUIZ DENETİMİ
-01.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
-02.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
-03.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
-04.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
-05.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
-06.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
-07.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
-08.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
-09.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
-10.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
-11.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
-12.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
-13.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
-14.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
-15.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
-16.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
-17.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
-18.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
-19.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
-20.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
-21.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
-22.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
-23.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
+BÖLÜM 5 İÇERİK KONTROLÜ
+- 5-1: 8 H2, ders+uygulama, 20 soru
+- 5-2: 8 H2, ders+uygulama, 20 soru
+- 5-3: 8 H2, ders+uygulama, 20 soru
+- 5-4: 8 H2, ders+uygulama, 20 soru
+- 5-5: 8 H2, ders+uygulama, 20 soru
+- 5-6: 8 H2, ders+uygulama, 20 soru
+- Toplam yeni soru: 120
+- Her quizde doğru cevap indeksleri: 0/1/2/3 = 5/5/5/5
 
-MODÜL DENETİMİ
-- 1-1...3-8 toplam 23 ders yayında.
-- 4-1 ve sonrası planlandı olarak korunuyor.
-- Bölüm 5 içindeki WinRAR, 7-Zip ve Sıkıştırılmış Dosyalar dersi plan içinde korunuyor.
-- Ders/uygulama permalink ve quiz yolları eşleşiyor.
-- Tasarım/layout/JS altyapısı korunmuştur; yalnız yeni öğretim görsel CSS sınıfları eklenmiştir.
+KAYNAK KONTROLÜ
+- 7-Zip resmî dokümantasyonu (7z formatı, desteklenen biçimler, AES-256)
+- RARLAB / WinRAR resmî belgeleri (RAR/ZIP oluşturma, çıkarma, çok parçalı arşiv)
+- VideoLAN VLC User Documentation (oynatma, ses/altyazı parçaları, altyazı gecikmesi)
+- Microsoft Support — Snipping Tool (Windows + Shift + S; Windows 11 video alıntısı / Windows + Shift + R)
+- GIMP 3 resmî dokümantasyonu (Crop, Scale Layer/Image, PNG Export)
+- Inkscape Basic Tutorial ve Beginners' Guide (shapes, paths/nodes, SVG, export)
+- Audacity Support (mikrofon kaydı, editing audio, saving/exporting projects)
+
+STATİK DOĞRULAMALAR
+- YAML parse kontrolü yapıldı.
+- Modül -> ders yolu -> uygulama yolu -> quiz dosyası bağlantıları kontrol edildi.
+- Bölüm 5 derslerinde 8 ana H2 başlık kontrol edildi.
+- Bölüm 5 quizlerinde soru sayısı, 4 seçenek ve cevap aralığı kontrol edildi.
+- Doğru cevap dağılımı kontrol edildi.
+- Jekyll çalıştırıcısı bu ortamda kurulu olmadığından GitHub Pages'in gerçek Ruby/Jekyll build adımı yerelde çalıştırılmadı; mevcut workflow korunmuştur.

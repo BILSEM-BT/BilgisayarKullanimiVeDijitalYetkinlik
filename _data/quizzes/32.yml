@@ -1,0 +1,183 @@
+title: Ekran Görüntüsü ve Ekran Kaydı — Uygulama
+description: Bu uygulama, dersin temel kavramlarını günlük kullanım senaryoları üzerinden pekiştirir. Her soruda tek doğru cevap vardır.
+questions:
+- id: q1
+  question: Ekran görüntüsü hangi durumda ekran kaydından daha uygundur?
+  options:
+  - Tek bir hata mesajını veya sabit ayar ekranını göstermek için
+  - Uzun bir işlem sırasını anlatmak için
+  - Konuşmalı ders videosu hazırlamak için
+  - Fare hareketlerinin tamamını göstermek için
+  answer: 0
+  explanation: Tek karelik bilgi için ekran görüntüsü daha küçük ve anlaşılırdır.
+- id: q2
+  question: Windows’ta hızlı ekran alıntısı için güncel temel kısayollardan biri hangisidir?
+  options:
+  - Ctrl + Alt + Delete
+  - Windows + Shift + S
+  - Alt + F4
+  - Windows + L
+  answer: 1
+  explanation: Microsoft desteği Windows + Shift + S ile ekran alıntısı arayüzünün açılabildiğini belirtir.
+- id: q3
+  question: Dikdörtgen ekran alıntısı modu ne yapar?
+  options:
+  - Yalnızca açık pencerenin başlığını kaydeder
+  - Tüm sabit diski görüntüler
+  - Fareyle belirlediğin dikdörtgen alanı yakalar
+  - Mikrofon kaydı başlatır
+  answer: 2
+  explanation: Dikdörtgen mod seçili alanı yakalamak için kullanılır.
+- id: q4
+  question: Pencere modu hangi durumda kullanışlıdır?
+  options:
+  - Mikrofonu kapatmak istediğinde
+  - ZIP dosyası oluştururken
+  - Ses parçası seçerken
+  - Yalnızca belirli uygulama penceresini yakalamak istediğinde
+  answer: 3
+  explanation: Pencere modu tek uygulama penceresini hızlıca yakalar.
+- id: q5
+  question: Gecikmeli ekran alıntısı ne için yararlıdır?
+  options:
+  - Tıklayınca kapanan menüyü hazırlayıp sonra yakalamak için
+  - Dosyayı şifrelemek için
+  - Videonun sesini artırmak için
+  - Görüntüyü vektöre çevirmek için
+  answer: 0
+  explanation: Gecikme, yakalanacak geçici menüyü açmaya zaman verir.
+- id: q6
+  question: Ekran alıntısı panoya kopyalandığında ne yapabilirsin?
+  options:
+  - Yalnızca bilgisayarı yeniden başlatabilirsin
+  - Word veya PowerPoint gibi bir uygulamaya yapıştırabilirsin
+  - Dosyayı otomatik ZIP yapar
+  - İnternet bağlantısını keser
+  answer: 1
+  explanation: Pano, yakalanan görüntünün başka uygulamaya yapıştırılmasını sağlar.
+- id: q7
+  question: Kırpmanın temel amacı nedir?
+  options:
+  - Dosyayı şifrelemek
+  - Altyazıyı senkronlamak
+  - Konu dışı alanları kaldırıp dikkati gerekli bölgeye yöneltmek
+  - Ses gürültüsünü azaltmak
+  answer: 2
+  explanation: Kırpma, görüntünün yalnızca gerekli bölümünü bırakır.
+- id: q8
+  question: Hassas bir e-posta adresini gizlemek için en güvenli yaklaşım hangisidir?
+  options:
+  - Yarı saydam vurgulayıcıyla bir kez üzerinden geçmek
+  - Yazıyı büyütmek
+  - Ekranı daha parlak yapmak
+  - Bilgiyi gerçekten okunamayacak biçimde kapatmak veya o alanı kırpmak
+  answer: 3
+  explanation: Yarı saydam işaretleme metni görünür bırakabilir; gerçek redaksiyon gerekir.
+- id: q9
+  question: Windows 11 Ekran Alıntısı Aracı’nın video alanı kaydı için güncel kısayol hangisidir?
+  options:
+  - Windows + Shift + R
+  - Windows + E
+  - Ctrl + P
+  - Alt + Tab
+  answer: 0
+  explanation: Microsoft’un güncel destek sayfası video alıntısı için Windows + Shift + R kısayolunu belirtir.
+- id: q10
+  question: Ekran kaydından önce neden bildirimleri kapatmak gerekir?
+  options:
+  - Videoyu otomatik 4K yapmak için
+  - Kişisel veya dikkat dağıtıcı bilgilerin kayda girmesini önlemek için
+  - Dosyayı küçültmek için
+  - Mikrofon kalitesini artırmak için
+  answer: 1
+  explanation: Bildirimler e-posta, mesaj veya özel bilgileri istemeden gösterebilir.
+- id: q11
+  question: Ekran kaydında “gerekli olan en küçük alanı” seçmenin faydası nedir?
+  options:
+  - Tüm uygulamaları kapatır
+  - Dosyayı parolalar
+  - Gizliliği artırır ve izleyicinin dikkatini konuya verir
+  - Sesi stereo yapar
+  answer: 2
+  explanation: Dar alan, gereksiz bilgi ve dikkat dağıtıcı öğeleri azaltır.
+- id: q12
+  question: Kısa bir işlemi anlatırken en iyi kayıt yaklaşımı hangisidir?
+  options:
+  - Mümkün olduğunca uzun ve beklemeli kayıt yapmak
+  - Tüm masaüstünü hiçbir hazırlık yapmadan kaydetmek
+  - İşlem bittikten sonra ne anlatacağını düşünmek
+  - Önce adımları planlayıp kısa ve odaklı bir kayıt yapmak
+  answer: 3
+  explanation: Planlama, gereksiz beklemeyi ve hataları azaltır.
+- id: q13
+  question: Arayüz ekran görüntülerinde PNG neden sık tercih edilir?
+  options:
+  - Metin ve keskin kenarları kayıpsız biçimde iyi koruyabildiği için
+  - Her zaman en küçük dosya olduğu için
+  - Video içerdiği için
+  - Mikrofon sesi sakladığı için
+  answer: 0
+  explanation: PNG arayüz ve metin ağırlıklı görüntülerde keskinliği iyi korur.
+- id: q14
+  question: Fotoğraf ağırlıklı bir ekran görüntüsünde JPEG ne avantaj sağlayabilir?
+  options:
+  - Şeffaflığı her zaman PNG’den iyi korur
+  - Daha küçük dosya boyutu sağlayabilir
+  - Katmanları GIMP gibi saklar
+  - Videoya dönüşür
+  answer: 1
+  explanation: JPEG kayıplı sıkıştırma ile fotoğraflarda dosya boyutunu azaltabilir.
+- id: q15
+  question: Ekran kaydında mikrofon gerekmiyorsa ne yapmak iyi bir uygulamadır?
+  options:
+  - Mikrofonu en yüksek seviyeye almak
+  - Tüm çevre seslerini kaydetmek
+  - Mikrofonu kapatmak
+  - Ses dosyasını ZIP’e koymak
+  answer: 2
+  explanation: Gereksiz mikrofon kaydı özel konuşmaları veya gürültüyü kayda alabilir.
+- id: q16
+  question: Ekran kaydı paylaşırken telif açısından doğru ifade hangisidir?
+  options:
+  - Ekranda görünüyorsa telif yoktur
+  - Her ücretli ders videosu kaydedilip paylaşılabilir
+  - Yalnızca dosya uzantısı telifi belirler
+  - Teknik olarak kaydedebilmek içeriği paylaşma hakkı verdiği anlamına gelmez
+  answer: 3
+  explanation: Kayıt ve paylaşım hakkı ayrı bir hukuki/etik konudur.
+- id: q17
+  question: Dosya adı için iyi örnek hangisidir?
+  options:
+  - excel-filtre-hatasi.png
+  - Ekran Görüntüsü (97).png
+  - x.png
+  - adsfasdf.png
+  answer: 0
+  explanation: Açıklayıcı dosya adı arşivleme ve paylaşımı kolaylaştırır.
+- id: q18
+  question: Ekran kaydını bitirdikten sonra ilk kontrol ne olmalıdır?
+  options:
+  - Dosyayı hemen herkese göndermek
+  - Videoyu izleyip özel bilgi, hata ve gereksiz bekleme var mı bakmak
+  - Dosya uzantısını gizlemek
+  - Kayıttaki sesi her zaman yüzde 200 yapmak
+  answer: 1
+  explanation: Yayın öncesi inceleme gizlilik ve kalite hatalarını yakalar.
+- id: q19
+  question: Tam ekran görüntüsü yerine pencere görüntüsü seçmek hangi riski azaltabilir?
+  options:
+  - Dosya sisteminin bozulmasını
+  - Mikrofonun çalışmasını
+  - Diğer açık uygulama veya bildirimlerin görünmesini
+  - VLC altyazısının kaymasını
+  answer: 2
+  explanation: Yalnızca ilgili pencereyi yakalamak gereksiz özel bilgiyi azaltır.
+- id: q20
+  question: Dersin en iyi özeti hangisidir?
+  options:
+  - Her zaman tüm ekranı kaydet
+  - Dosya adlarını varsayılan bırak
+  - Paylaşmadan önce kontrol etmeye gerek yok
+  - Doğru yakalama türünü seç, özel bilgileri gizle, kısa ve amaçlı içerik üret
+  answer: 3
+  explanation: Ekran yakalamada amaç, gizlilik ve düzen birlikte düşünülmelidir.

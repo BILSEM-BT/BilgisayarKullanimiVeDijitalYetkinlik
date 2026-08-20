@@ -1,0 +1,32 @@
+BİLGİSAYAR KULLANIMI VE DİJİTAL YETKİNLİK — REVİZE v6
+
+Bu paket, v5 paketinin tam devamıdır. Repository köküne klasörün İÇERİĞİNİ yükleyin ve aynı adlı dosyaların değiştirilmesine izin verin.
+
+YAPILANLAR
+1) Sol ders kartı kaydırma davranışı düzeltildi.
+   - lesson-side artık kendi dikey scrollbar'ını üretmez.
+   - Gerekirse yalnızca Ders İçeriği (lesson-toc-list) kaydırılır.
+   - Değişiklik merkezî CSS'te olduğu için Bölüm 4 ve diğer derslerde de geçerlidir.
+
+2) Bölüm 5 tam yayıma alındı:
+   5-1 WinRAR, 7-Zip ve Sıkıştırılmış Dosyalar
+   5-2 Medya Dosyaları ve VLC Media Player
+   5-3 Ekran Görüntüsü ve Ekran Kaydı
+   5-4 GIMP ile Görsel Düzenleme
+   5-5 Inkscape ile Vektörel Çizim
+   5-6 Audacity ile Ses Kaydı ve Düzenleme
+
+3) Her Bölüm 5 dersinde:
+   - 8 ana ders başlığı
+   - öğretim amaçlı şematik arayüz/görsel bileşenler
+   - Birlikte Uygulayalım bölümü
+   - Sık yapılan hatalar ve ders özeti
+   - kaynak kontrolü notu
+   - 20 soruluk etkileşimli uygulama
+
+4) Doğru cevap dağılımı her uygulamada A/B/C/D = 5/5/5/5 olacak biçimde dengelenmiştir.
+
+5) _data/modules.yml içinde Bölüm 5 dersleri yayında durumuna getirildi.
+   Yayımdaki ders: 35 / 54
+
+TARİH: 2026-08-21

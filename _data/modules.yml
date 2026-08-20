@@ -321,62 +321,68 @@
   section: 5
   title: WinRAR, 7-Zip ve Sıkıştırılmış Dosyalar
   slug: 5-1-winrar-7zip-ve-sikistirilmis-dosyalar
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-21'
   review_cycle: 12 ay
-  path: ''
+  path: /dersler/5-1-winrar-7zip-ve-sikistirilmis-dosyalar/
   code: 5-1
   order_in_section: 1
+  quiz_path: /uygulamalar/5-1-winrar-7zip-ve-sikistirilmis-dosyalar/
 - id: 31
   section: 5
   title: Medya Dosyaları ve VLC Media Player
   slug: 5-2-medya-dosyalari-ve-vlc-media-player
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-21'
   review_cycle: 12 ay
-  path: ''
+  path: /dersler/5-2-medya-dosyalari-ve-vlc-media-player/
   code: 5-2
   order_in_section: 2
+  quiz_path: /uygulamalar/5-2-medya-dosyalari-ve-vlc-media-player/
 - id: 32
   section: 5
   title: Ekran Görüntüsü ve Ekran Kaydı
   slug: 5-3-ekran-goruntusu-ve-ekran-kaydi
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-21'
   review_cycle: 6-12 ay
-  path: ''
+  path: /dersler/5-3-ekran-goruntusu-ve-ekran-kaydi/
   code: 5-3
   order_in_section: 3
+  quiz_path: /uygulamalar/5-3-ekran-goruntusu-ve-ekran-kaydi/
 - id: 33
   section: 5
   title: GIMP ile Görsel Düzenleme
   slug: 5-4-gimp-ile-gorsel-duzenleme
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-21'
   review_cycle: 6-12 ay
-  path: ''
+  path: /dersler/5-4-gimp-ile-gorsel-duzenleme/
   code: 5-4
   order_in_section: 4
+  quiz_path: /uygulamalar/5-4-gimp-ile-gorsel-duzenleme/
 - id: 34
   section: 5
   title: Inkscape ile Vektörel Çizim
   slug: 5-5-inkscape-ile-vektorel-cizim
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-21'
   review_cycle: 6-12 ay
-  path: ''
+  path: /dersler/5-5-inkscape-ile-vektorel-cizim/
   code: 5-5
   order_in_section: 5
+  quiz_path: /uygulamalar/5-5-inkscape-ile-vektorel-cizim/
 - id: 35
   section: 5
   title: Audacity ile Ses Kaydı ve Düzenleme
   slug: 5-6-audacity-ile-ses-kaydi-ve-duzenleme
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-21'
   review_cycle: 6-12 ay
-  path: ''
+  path: /dersler/5-6-audacity-ile-ses-kaydi-ve-duzenleme/
   code: 5-6
   order_in_section: 6
+  quiz_path: /uygulamalar/5-6-audacity-ile-ses-kaydi-ve-duzenleme/
 - id: 36
   section: 6
   title: Visual Studio Kullanımı

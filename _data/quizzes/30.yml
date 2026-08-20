@@ -1,0 +1,183 @@
+title: WinRAR, 7-Zip ve Sıkıştırılmış Dosyalar — Uygulama
+description: Bu uygulama, dersin temel kavramlarını günlük kullanım senaryoları üzerinden pekiştirir. Her soruda tek doğru cevap vardır.
+questions:
+- id: q1
+  question: Arşiv dosyasının temel amacı nedir?
+  options:
+  - Birden fazla dosya ve klasörü tek paket içinde toplamak
+  - Her dosyayı mutlaka fotoğrafa dönüştürmek
+  - İnternet hızını artırmak
+  - Dosyaları işletim sisteminden silmek
+  answer: 0
+  explanation: Arşiv, dosya ve klasörleri tek bir paket içinde düzenli biçimde taşıyabilir.
+- id: q2
+  question: Sıkıştırma ile ilgili doğru ifade hangisidir?
+  options:
+  - Her dosya mutlaka yüzde 90 küçülür
+  - Zaten sıkıştırılmış JPEG/MP3/MP4 dosyalarında ek kazanç sınırlı olabilir
+  - Sıkıştırma yalnızca klasör adını değiştirir
+  - Sıkıştırma dosyayı otomatik olarak şifreler
+  answer: 1
+  explanation: Sıkıştırma verinin yapısına bağlıdır; zaten sıkıştırılmış medyada ek küçülme az olabilir.
+- id: q3
+  question: Aşağıdakilerden hangisi bir yedekleme stratejisini en iyi açıklar?
+  options:
+  - Tek ZIP dosyasını aynı diskte bırakmak
+  - Dosyanın adını Yedek.zip yapmak
+  - Verinin ayrı ve güvenli başka bir konumda ek kopyasını tutmak
+  - Dosyayı yalnızca masaüstüne taşımak
+  answer: 2
+  explanation: Yedekleme, aynı verinin bağımsız başka bir kopyasını güvenli yerde tutmayı gerektirir.
+- id: q4
+  question: 7z biçiminin resmî olarak sunduğu güvenlik özelliklerinden biri hangisidir?
+  options:
+  - Dosyayı antivirüssüz güvenli ilan etme
+  - Parolayı otomatik e-postalama
+  - Tüm dosyaları çalıştırılabilir yapma
+  - AES-256 şifreleme desteği
+  answer: 3
+  explanation: 7-Zip belgeleri 7z biçiminde AES-256 şifreleme desteğini belirtir.
+- id: q5
+  question: WinRAR hangi iki biçimde yeni arşiv oluşturmayı resmî olarak destekler?
+  options:
+  - RAR ve ZIP
+  - MP3 ve WAV
+  - PNG ve JPEG
+  - DOCX ve PPTX
+  answer: 0
+  explanation: RARLAB, WinRAR ile RAR ve ZIP arşivi oluşturulabildiğini açıklar.
+- id: q6
+  question: Çok parçalı bir RAR arşivini çıkarmak için en doğru yaklaşım hangisidir?
+  options:
+  - Sadece son parçayı açmak
+  - Tüm parçaları aynı klasörde bulundurup ilk parçadan çıkarmaya başlamak
+  - Parçaların adını rastgele değiştirmek
+  - Her parçayı farklı klasöre taşımak
+  answer: 1
+  explanation: Çok parçalı arşivler birlikte tutulmalı ve çıkarma ilk part dosyasından başlatılmalıdır.
+- id: q7
+  question: Bir arşivde beklemediğin baslat.exe dosyasını görürsen ne yapmalısın?
+  options:
+  - Arşiv içinde olduğu için hemen çalıştırmalısın
+  - Uzantısını .pdf yapmalısın
+  - Çalıştırmadan önce kaynağı ve dosyanın amacını doğrulamalısın
+  - Parolalıysa güvenli saymalısın
+  answer: 2
+  explanation: Çalıştırılabilir dosyalar özellikle doğrulanmalı; arşiv içinde olmaları güvenilirlik kanıtı değildir.
+- id: q8
+  question: “ArşivAdı\ klasörüne çıkar” seçeneğinin avantajı nedir?
+  options:
+  - Dosyaları internete yükler
+  - Arşivi otomatik siler
+  - Tüm dosyaları şifreler
+  - Dosyaları ayrı bir klasörde tutarak bulunduğun klasörün karışmasını önler
+  answer: 3
+  explanation: Ayrı klasöre çıkarmak çok dosyalı arşivlerde düzeni korur.
+- id: q9
+  question: Arşivin içindeki bir programı kullanmadan önce hangi yöntem daha güvenilir ve düzenlidir?
+  options:
+  - Arşivin tamamını uygun bir klasöre çıkarıp sonra dosyayı açmak
+  - Arşivi yeniden adlandırmadan çalıştırmak
+  - Dosyaları tek tek masaüstüne sürüklemek zorunludur
+  - Uzantıları gizlemek
+  answer: 0
+  explanation: Önce tam çıkarma, bağımlı dosyaların birlikte bulunmasını ve içeriğin incelenmesini kolaylaştırır.
+- id: q10
+  question: Yeni arşive ad verirken en iyi örnek hangisidir?
+  options:
+  - Yeni klasör (17).zip
+  - robotik-projesi-grup2.zip
+  - aaa.zip
+  - dosya.zip.zip.zip
+  answer: 1
+  explanation: Anlamlı ad dosyanın içeriğini ve kullanım amacını sonradan bulmayı kolaylaştırır.
+- id: q11
+  question: Daha yüksek sıkıştırma düzeyi için genel olarak hangi ödünleşim beklenir?
+  options:
+  - Dosyanın otomatik virüssüz olması
+  - Parolasızken şifreli olması
+  - Daha fazla işlem süresi karşılığında bazen daha küçük arşiv
+  - Her zaman daha hızlı açılması
+  answer: 2
+  explanation: Sıkıştırma düzeyi hız ve dosya boyutu arasında bir tercihtir.
+- id: q12
+  question: Parolalı arşiv hakkında doğru ifade hangisidir?
+  options:
+  - Parola varsa virüs bulunamaz
+  - Parola dosya kaynağını doğrular
+  - Parola tüm çalıştırılabilir dosyaları PDF yapar
+  - Şifreleme içeriğin gizliliğini koruyabilir fakat dosyanın zararsız olduğunu kanıtlamaz
+  answer: 3
+  explanation: Şifreleme erişimi sınırlar; içerik yine zararlı olabilir.
+- id: q13
+  question: Hassas bir arşivin parolasını paylaşırken hangi ilke daha güvenlidir?
+  options:
+  - Arşiv ve parolayı kurum kurallarına uygun ayrı güvenli kanallardan iletmek
+  - Parolayı dosya adında yazmak
+  - Parolayı arşivin içine metin dosyası olarak koymak
+  - Arşivle aynı e-postada açıkça yazmak her zaman en güvenlisidir
+  answer: 0
+  explanation: Ayrı kanal, tek mesaj ele geçirildiğinde hem dosya hem parolanın birlikte gitmesi riskini azaltır.
+- id: q14
+  question: Arşiv bozuk hatasının olası nedeni hangisidir?
+  options:
+  - Ekran parlaklığı düşük olabilir
+  - İndirme yarım kalmış veya çok parçalı arşivin bir bölümü eksik olabilir
+  - Fare pili azalmış olabilir
+  - Dosya adı Türkçe olabilir
+  answer: 1
+  explanation: Eksik veya hasarlı veri arşiv bütünlüğünü bozabilir.
+- id: q15
+  question: Tanımadığın kişiden gelen parolalı “fatura” arşivinde en doğru ilk adım hangisidir?
+  options:
+  - Parolayı girip hemen içindeki dosyayı çalıştırmak
+  - Antivirüsü kapatmak
+  - Göndericiyi ve beklentiyi bağımsız biçimde doğrulamak
+  - Dosya uzantılarını gizlemek
+  answer: 2
+  explanation: Beklenmeyen parolalı arşivler şüpheli olabilir; önce kaynağı doğrulamak gerekir.
+- id: q16
+  question: 7-Zip ile RAR dosyaları için genel destek hangisidir?
+  options:
+  - Yalnızca RAR oluşturur, açamaz
+  - RAR dosyasını resme dönüştürür
+  - RAR yalnızca Linux’ta çalışır
+  - RAR arşivlerini çıkarabilir; yeni RAR oluşturma 7-Zip’in temel oluşturma biçimleri arasında değildir
+  answer: 3
+  explanation: 7-Zip resmî biçim listesinde RAR, unpacking-only biçimler arasındadır.
+- id: q17
+  question: Windows’un yerleşik ZIP özelliği ne için kullanılabilir?
+  options:
+  - Temel ZIP oluşturma ve çıkarma işlemleri için
+  - RAR üretmek zorunlu olarak
+  - MP3 düzenlemek için
+  - Videoya altyazı eklemek için
+  answer: 0
+  explanation: Windows temel ZIP işlemlerini ek program olmadan yapabilir.
+- id: q18
+  question: Bir dosyanın uzantısını görünür tutmanın güvenlik avantajı nedir?
+  options:
+  - Dosyayı otomatik küçültür
+  - video.mp4.exe gibi yanıltıcı çalıştırılabilir dosyaları fark etmeyi kolaylaştırır
+  - Parolayı gösterir
+  - Dosyayı buluta yedekler
+  answer: 1
+  explanation: Uzantı, dosya türünü anlamada önemli bir ipucudur.
+- id: q19
+  question: Aşağıdakilerden hangisi arşiv ile klasör arasındaki farktır?
+  options:
+  - Klasör her zaman şifrelidir
+  - Arşivde alt klasör bulunamaz
+  - Arşiv tek bir dosya olarak paketlenebilir; klasör dosyaları düzenler fakat tek dosya değildir
+  - Klasör yalnızca internette vardır
+  answer: 2
+  explanation: Arşiv bir paket dosyasıdır; klasör ise dosya sistemi yapısıdır.
+- id: q20
+  question: Dersin güvenli arşiv kullanımı için en iyi özeti hangisidir?
+  options:
+  - Parolalı her arşivi güvenli kabul et
+  - Dosya adı tanıdıksa kaynağı önemseme
+  - Arşivin içindeki her şeyi yönetici olarak çalıştır
+  - Kaynağı doğrula, uzantıları incele, ayrı klasöre çıkar ve çalıştırılabilir dosyalara dikkat et
+  answer: 3
+  explanation: Güvenli kullanım; kaynak, dosya türü ve kontrollü çıkarma adımlarının birlikte uygulanmasını gerektirir.

@@ -31,9 +31,25 @@ Bu sürümde içerik yapısı tahtada anlatıma uygun hâle getirildi. Derslerde
 - **3-7 — Etkili ve Görsel Sunum Hazırlama**
 - **3-8 — PDF Dosyaları ve Temel PDF İşlemleri**
 
+## Bölüm 4 — Güvenlik, Dijital Vatandaşlık ve Yapay Zekâ
+- **4-1 — Parolalar, Passkey ve İki Aşamalı Doğrulama**
+- **4-2 — Zararlı Yazılım, Phishing ve Dolandırıcılıktan Korunma**
+- **4-3 — Gizlilik, Site İzinleri ve Dijital Ayak İzi**
+- **4-4 — Telif Hakkı, Kaynak Gösterme ve Dijital Etik**
+- **4-5 — Yapay Zekâ ve Üretken Yapay Zekâ Temelleri**
+- **4-6 — Yapay Zekâyı Etkili, Güvenli ve Doğru Kullanma**
+
+## Bölüm 5 — Dijital Medya ve İçerik Üretimi
+- **5-1 — WinRAR, 7-Zip ve Sıkıştırılmış Dosyalar**
+- **5-2 — Medya Dosyaları ve VLC Media Player**
+- **5-3 — Ekran Görüntüsü ve Ekran Kaydı**
+- **5-4 — GIMP ile Görsel Düzenleme**
+- **5-5 — Inkscape ile Vektörel Çizim**
+- **5-6 — Audacity ile Ses Kaydı ve Düzenleme**
+
 ## Sonraki bölümler
 
-Bölüm 4–8 başlıkları `_data/modules.yml` içinde planlandı durumunda yer alır. Bölüm 5 içinde **WinRAR, 7-Zip ve Sıkıştırılmış Dosyalar** ayrı ders olarak planlanmıştır.
+Bölüm 6–8 başlıkları `_data/modules.yml` içinde planlandı durumunda yer alır.
 
 ## İçerik standardı
 

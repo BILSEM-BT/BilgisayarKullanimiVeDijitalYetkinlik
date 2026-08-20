@@ -1,0 +1,11 @@
+{
+  "version": "v6",
+  "date": "2026-08-21",
+  "planned_modules": 54,
+  "live_modules": 35,
+  "section5_live": 6,
+  "new_quiz_questions": 120,
+  "sidebar_outer_scrollbar": false,
+  "toc_scrollbar_when_needed": true,
+  "validation": "passed"
+}

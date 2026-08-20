@@ -1,0 +1,183 @@
+title: Medya Dosyaları ve VLC Media Player — Uygulama
+description: Bu uygulama, dersin temel kavramlarını günlük kullanım senaryoları üzerinden pekiştirir. Her soruda tek doğru cevap vardır.
+questions:
+- id: q1
+  question: Video dosyasında “kapsayıcı” kavramı neyi anlatır?
+  options:
+  - Video, ses, altyazı gibi akışları tek dosyada taşıyan yapıyı
+  - Yalnızca ekran çözünürlüğünü
+  - Bilgisayar kasasını
+  - İnternet tarayıcısını
+  answer: 0
+  explanation: MP4/MKV gibi kapsayıcılar farklı medya akışlarını tek dosyada tutabilir.
+- id: q2
+  question: Codec’in temel görevi nedir?
+  options:
+  - Dosya adını değiştirmek
+  - Ses veya görüntü verisini kodlamak ve çözüp oynatılabilir hâle getirmek
+  - Altyazıyı çevirmen olmadan tercüme etmek
+  - Ekranı fiziksel olarak büyütmek
+  answer: 1
+  explanation: Codec, medya verisinin kodlanması/çözülmesiyle ilgilidir.
+- id: q3
+  question: Aynı .mp4 uzantılı iki dosyanın VLC’de farklı davranmasının olası nedeni nedir?
+  options:
+  - Uzantılar her zaman aynı codec’i garanti eder
+  - MP4 yalnızca ses içerir
+  - İçlerinde farklı codec’ler kullanılmış olabilir
+  - Dosya adının uzunluğu codec’i belirler
+  answer: 2
+  explanation: Kapsayıcı uzantısı, iç codec’i tek başına belirlemez.
+- id: q4
+  question: SRT dosyası genellikle ne içerir?
+  options:
+  - Sıkıştırılmış program kurulumu
+  - Vektör çizim
+  - İşletim sistemi güncellemesi
+  - Zaman kodlu metin tabanlı altyazı
+  answer: 3
+  explanation: SRT yaygın bir harici metin altyazı biçimidir.
+- id: q5
+  question: VLC’nin temel kullanım amacı nedir?
+  options:
+  - Ses ve video medya dosyalarını oynatmak ve temel oynatma kontrollerini yönetmek
+  - Arşiv sıkıştırmak
+  - 3D model çizmek
+  - Excel formülü hesaplamak
+  answer: 0
+  explanation: VLC açık kaynaklı, çok platformlu bir medya oynatıcıdır.
+- id: q6
+  question: Bir videoda Türkçe ve İngilizce ses varsa hangi özellik kullanılmalıdır?
+  options:
+  - Dosya uzantısını .tr yapmak
+  - Ses/Audio Track menüsünden uygun ses parçasını seçmek
+  - Ekran görüntüsü almak
+  - ZIP’e dönüştürmek
+  answer: 1
+  explanation: Çoklu ses akışları oynatıcıdaki ses parçası seçimiyle değiştirilebilir.
+- id: q7
+  question: Harici .srt altyazıyı kullanmak için en uygun işlem hangisidir?
+  options:
+  - SRT dosyasını .mp3 yapmak
+  - Videoyu ZIP’e sıkıştırmak
+  - VLC’nin altyazı menüsünden altyazı dosyasını eklemek
+  - Altyazı metnini dosya adına yazmak
+  answer: 2
+  explanation: VLC harici altyazı dosyasının seçilmesini destekler.
+- id: q8
+  question: Altyazı konuşmadan 2 saniye önce geliyorsa hangi ayar aranmalıdır?
+  options:
+  - Ekran parlaklığı
+  - Arşiv parolası
+  - Dosya sıkıştırma oranı
+  - Altyazı gecikmesi/senkron ayarı
+  answer: 3
+  explanation: Altyazı gecikmesi zamanlama farkını düzeltmek için kullanılır.
+- id: q9
+  question: 1920×1080 ifadesi en doğrudan neyi gösterir?
+  options:
+  - Video karesinin piksel çözünürlüğünü
+  - Ses seviyesini
+  - Altyazı dilini
+  - Dosyanın telif durumunu
+  answer: 0
+  explanation: Çözünürlük karedeki yatay ve dikey piksel sayısını ifade eder.
+- id: q10
+  question: Yüksek çözünürlük neden tek başına yüksek kalite garantisi değildir?
+  options:
+  - Çözünürlük yalnızca ses dosyalarında kullanılır
+  - Bit hızı ve sıkıştırma kalitesi de görüntüyü etkiler
+  - 4K dosyalarda codec yoktur
+  - Çözünürlük dosya adından hesaplanır
+  answer: 1
+  explanation: Düşük bit hızı, yüksek çözünürlüklü görüntüde ciddi bozulma oluşturabilir.
+- id: q11
+  question: 16:9 videoyu 4:3’e zorlamak neye yol açabilir?
+  options:
+  - Sesin otomatik tercümesine
+  - Dosyanın küçülmesine
+  - Görüntünün yatay veya dikey esnemesine
+  - Altyazının şifrelenmesine
+  answer: 2
+  explanation: Yanlış en-boy oranı görüntüyü geometrik olarak bozabilir.
+- id: q12
+  question: Bir video VLC’de takılıyorsa ilk iyi sorun giderme adımlarından biri hangisidir?
+  options:
+  - Dosyayı hemen silmek
+  - Ekranı kapatmak
+  - Uzantıyı rastgele değiştirmek
+  - Başka bir medya dosyasıyla ve gerekirse başka oynatıcıyla karşılaştırmak
+  answer: 3
+  explanation: Karşılaştırma sorunun dosyada mı sistemde mi olduğunu ayırmaya yardımcı olur.
+- id: q13
+  question: MKV gibi bir kapsayıcı aynı dosyada ne taşıyabilir?
+  options:
+  - Video, birden çok ses parçası ve altyazı
+  - Yalnızca tek resim
+  - Yalnızca ZIP klasörü
+  - Sadece işletim sistemi sürücüsü
+  answer: 0
+  explanation: Kapsayıcılar birden fazla medya akışını birlikte taşıyabilir.
+- id: q14
+  question: video.mp4.exe gibi dosya adına neden dikkat edilmelidir?
+  options:
+  - MP4 dosyaları her zaman virüstür
+  - Gerçek uzantı çalıştırılabilir .exe olabilir
+  - Çift nokta çözünürlüğü düşürür
+  - VLC .exe dosyasını altyazı sayar
+  answer: 1
+  explanation: Uzantıları görünür tutmak yanıltıcı çalıştırılabilir dosyaları fark etmeyi sağlar.
+- id: q15
+  question: Bir videoyu VLC’de oynatabiliyor olmak neyi garanti etmez?
+  options:
+  - Dosyanın medya olduğunu
+  - Oynatıcının dosyayı okuyabildiğini
+  - Videoyu istediğin yerde paylaşma/telif hakkına sahip olduğunu
+  - Zaman çizgisinin çalıştığını
+  answer: 2
+  explanation: Teknik oynatma yeteneği, yasal/etik paylaşım hakkı anlamına gelmez.
+- id: q16
+  question: Oynatma listesi ne sağlar?
+  options:
+  - Dosyaları 7z’ye dönüştürmeyi
+  - Görsel katman eklemeyi
+  - Ses kaydı yapmayı zorunlu kılar
+  - Birden çok medya dosyasını sıraya koyup yönetmeyi
+  answer: 3
+  explanation: Playlist birden çok medyayı sırayla oynatmak için kullanılır.
+- id: q17
+  question: Gömülü altyazı ile harici altyazı arasındaki temel fark nedir?
+  options:
+  - Gömülü altyazı medya kapsayıcısındadır; harici altyazı ayrı dosyadır
+  - Harici altyazı her zaman ses dosyasıdır
+  - Gömülü altyazı yalnızca ZIP’te bulunur
+  - Aralarında hiçbir fark yoktur
+  answer: 0
+  explanation: Altyazı akışı kapsayıcı içinde veya ayrı dosya olarak bulunabilir.
+- id: q18
+  question: Kulaklıkla medya kullanırken iyi alışkanlık hangisidir?
+  options:
+  - Her videoda sesi yüzde 200 yapmak
+  - Sistem ve oynatıcı sesini gereksiz yere en yükseğe çıkarmamak
+  - Altyazı açınca sesi de artırmak
+  - Ses seviyesini yalnızca dosya boyutuna göre ayarlamak
+  answer: 1
+  explanation: Uzun süre yüksek ses işitme sağlığı açısından risk oluşturabilir.
+- id: q19
+  question: VLC’de görüntü var ama ses yoksa kontrol edilecek mantıklı seçenek hangisidir?
+  options:
+  - Videoyu resme dönüştürmek
+  - SRT dosyasını silmek
+  - Doğru ses parçasının seçili ve sesin kapalı olmadığını kontrol etmek
+  - Dosya adını kısaltmak
+  answer: 2
+  explanation: Ses parçası ve mute/ses seviyesi temel kontrollerdir.
+- id: q20
+  question: Medya dosyaları için en iyi genel yaklaşım hangisidir?
+  options:
+  - MP4 gördüğünde tüm teknik bilgiyi bildiğini varsaymak
+  - Her dosyayı aynı en-boy oranına zorlamak
+  - Codec sorununu dosya adını değiştirerek çözmeye çalışmak
+  - Uzantı, kapsayıcı, codec ve oynatma ayarlarını ayrı kavramlar olarak değerlendirmek
+  answer: 3
+  explanation: Medya sorunlarını doğru çözmek için bu kavramların birbirinden ayrılması gerekir.

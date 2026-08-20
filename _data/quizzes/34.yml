@@ -1,0 +1,183 @@
+title: Inkscape ile Vektörel Çizim — Uygulama
+description: Bu uygulama, dersin temel kavramlarını günlük kullanım senaryoları üzerinden pekiştirir. Her soruda tek doğru cevap vardır.
+questions:
+- id: q1
+  question: Vektör grafik nasıl tanımlanır?
+  options:
+  - Şekil, çizgi, eğri ve koordinatların matematiksel tanımlarıyla oluşturulan grafik
+  - Yalnızca piksellerden oluşan fotoğraf
+  - Sıkıştırılmış arşiv
+  - Ses dalga biçimi
+  answer: 0
+  explanation: Vektör çizimler geometrik nesne ve yollarla tanımlanır.
+- id: q2
+  question: Vektör grafiğin önemli avantajı nedir?
+  options:
+  - Her zaman fotoğraftan daha gerçekçi olması
+  - Uygun biçimde büyütüldüğünde kenarların piksel piksel bozulmaması
+  - Dosyanın otomatik telifsiz olması
+  - Yalnızca siyah-beyaz olabilmesi
+  answer: 1
+  explanation: Vektörler çözünürlükten bağımsız ölçeklenebilir.
+- id: q3
+  question: Inkscape’in temel düzenlenebilir dosya biçimi hangisidir?
+  options:
+  - MP3
+  - RAR
+  - SVG
+  - XCF
+  answer: 2
+  explanation: SVG vektör grafik için temel açık biçimdir.
+- id: q4
+  question: Fotoğraf düzenleme için hangisi daha uygun araç yaklaşımıdır?
+  options:
+  - Yalnızca Inkscape vektör yolu
+  - 7-Zip
+  - VLC
+  - GIMP gibi raster düzenleyici
+  answer: 3
+  explanation: Fotoğraflar raster veridir ve raster düzenleyiciler uygundur.
+- id: q5
+  question: Inkscape’te Fill neyi ifade eder?
+  options:
+  - Nesnenin iç dolgu rengini
+  - Dış çizgi kalınlığını
+  - Ses seviyesini
+  - Arşiv parolasını
+  answer: 0
+  explanation: Fill nesnenin iç kısmını renklendirir.
+- id: q6
+  question: Stroke neyi ifade eder?
+  options:
+  - Dosya uzantısını
+  - Nesnenin kontur/dış çizgisini
+  - Video altyazısını
+  - Mikrofon girişini
+  answer: 1
+  explanation: Stroke dış çizgi özelliklerini ifade eder.
+- id: q7
+  question: Birden çok nesneyi düzgün hizalamak için ne kullanılmalıdır?
+  options:
+  - Göz kararıyla tek tek sürüklemek zorunludur
+  - VLC zaman çizgisi
+  - Hizalama ve dağıtma araçları
+  - ZIP çıkarma menüsü
+  answer: 2
+  explanation: Hizalama araçları tutarlı geometrik yerleşim sağlar.
+- id: q8
+  question: Gruplama ne işe yarar?
+  options:
+  - Nesneleri kalıcı olarak siler
+  - SVG’yi MP3 yapar
+  - Katmanları arşivler
+  - Birden çok nesneyi birlikte seçip taşımayı kolaylaştırır
+  answer: 3
+  explanation: Group, nesneleri tek bir grup gibi yönetmeyi sağlar.
+- id: q9
+  question: Shape ile Path arasındaki farklardan biri nedir?
+  options:
+  - Shape özel geometrik tutamaçlara sahip olabilir; Path düğümlerle düzenlenir
+  - Path yalnızca ses içerir
+  - Shape hiçbir zaman düzenlenemez
+  - Aralarında fark yoktur
+  answer: 0
+  explanation: Inkscape geometrik shapes ve düğümlü paths kavramlarını ayırır.
+- id: q10
+  question: Object to Path işlemi ne yapar?
+  options:
+  - PNG’yi ses dosyasına çevirir
+  - Geometrik şekli düğümlerle düzenlenebilen yola dönüştürür
+  - Arşivi şifreler
+  - Metni otomatik tercüme eder
+  answer: 1
+  explanation: Bu işlem shape nesnesini path yapar.
+- id: q11
+  question: Shape bir kez path’e dönüştürüldüğünde önemli sonuç nedir?
+  options:
+  - Dosya silinir
+  - SVG açılamaz
+  - Özgün shape türünün özel denetimlerine doğrudan geri dönmek mümkün değildir
+  - Tüm renkler kaybolur
+  answer: 2
+  explanation: Inkscape rehberi shape→path dönüşümünün tersinin doğrudan olmadığını belirtir.
+- id: q12
+  question: Node aracı ne için kullanılır?
+  options:
+  - Ses kaydı almak için
+  - ZIP arşivi açmak için
+  - Video oynatmak için
+  - Path üzerindeki düğüm ve eğri segmentlerini düzenlemek için
+  answer: 3
+  explanation: Node tool, path geometrisini düzenler.
+- id: q13
+  question: Çok fazla düğüm kullanmanın sakıncası nedir?
+  options:
+  - Çizimi gereksiz karmaşık ve zor düzenlenir hâle getirir
+  - Vektörü otomatik raster yapar
+  - Dosyayı kesin küçültür
+  - Telif hakkını kaldırır
+  answer: 0
+  explanation: Az ve gerekli düğüm daha temiz kontrol sağlar.
+- id: q14
+  question: Metni path’e dönüştürmenin sonucu nedir?
+  options:
+  - Metin ses dosyasına dönüşür
+  - Yazı artık normal metin gibi kolayca düzenlenemez fakat görünümü fonta daha az bağımlı olur
+  - Metin her zaman silinir
+  - SVG şifrelenir
+  answer: 1
+  explanation: Path’e çevrilen metin harf geometrisine dönüşür.
+- id: q15
+  question: Neden düzenlenebilir SVG ana kopyası saklanmalıdır?
+  options:
+  - PNG çalışmadığı için
+  - PDF hiçbir yerde açılamadığı için
+  - Sonradan nesne, katman ve path düzenlemelerine geri dönebilmek için
+  - SVG yalnızca arşivdir
+  answer: 2
+  explanation: Ana SVG gelecekteki düzenlemeyi korur.
+- id: q16
+  question: PNG dışa aktarmanın sonucu nedir?
+  options:
+  - Yeni ses parçası oluşur
+  - SVG otomatik şifrelenir
+  - Arşiv bölünür
+  - Vektör çizimin belirli piksel boyutunda raster çıktısı oluşur
+  answer: 3
+  explanation: PNG raster bir görüntü çıktısıdır.
+- id: q17
+  question: PDF çıktısı hakkında doğru yaklaşım hangisidir?
+  options:
+  - PDF üretilebilir ama düzenlenebilir SVG ana kopyasını da korumak gerekir
+  - PDF her zaman SVG ile tamamen aynı düzenleme bilgisini taşır
+  - SVG silinmelidir
+  - PDF yalnızca ses içerir
+  answer: 0
+  explanation: Inkscape rehberi farklı formatların tüm özellikleri korumayabileceğini belirtir.
+- id: q18
+  question: Bir ikon tasarlarken küçük boyutta da anlaşılır olması için ne önemlidir?
+  options:
+  - Mümkün olan en fazla düğümü kullanmak
+  - Aşırı ince çizgi ve gereksiz küçük ayrıntıdan kaçınmak
+  - Her öğeyi ayrı dosyaya koymak
+  - Yalnızca fotoğraf kullanmak
+  answer: 1
+  explanation: Basit ve güçlü siluet küçük ölçeklerde daha okunaklıdır.
+- id: q19
+  question: Başkasına ait logo veya yazı tipini kullanırken ne kontrol edilmelidir?
+  options:
+  - Yalnızca dosya boyutu
+  - Monitör çözünürlüğü
+  - Lisans, telif ve kullanım hakkı
+  - Mikrofon seviyesi
+  answer: 2
+  explanation: Tasarım öğelerinin de kullanım koşulları olabilir.
+- id: q20
+  question: Inkscape dersinin en iyi özeti hangisidir?
+  options:
+  - Her çizimi yalnız PNG sakla
+  - Raster ve vektörü aynı kabul et
+  - Hizalamayı yalnız göz kararı yap
+  - Şekilleri düzenle, gerekirse path/node kullan, SVG ana kopyayı koru ve uygun çıktı üret
+  answer: 3
+  explanation: Temel vektör üretim süreci bu adımlarla özetlenir.

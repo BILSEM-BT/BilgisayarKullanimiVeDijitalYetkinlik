@@ -50,7 +50,7 @@ Bu paket Bölüm 1'i tam olarak içerir:
 - **1-6 — Windows Ayarları, Uygulamalar ve Güncellemeler**
 - **1-7 — Görev Yöneticisi ve Temel Sorun Giderme**
 
-Bölüm 2–8 dersleri `_data/modules.yml` içinde planlanmıştır; içerik paketleri bölüm bölüm eklenecektir.
+Bölüm 1–5 dersleri yayımdadır. Bölüm 6–8 dersleri `_data/modules.yml` içinde planlanmıştır; içerik paketleri bölüm bölüm eklenecektir.
 
 ## Dosya yapısı
 
@@ -121,3 +121,25 @@ GitHub Actions workflow dosyası `.github/workflows/pages.yml` altında bulunur.
 ## Revize v3
 
 Bölüm 1 ve Bölüm 2, daha az ana başlık ve daha ayrıntılı sınıf anlatımı standardına göre yayımlandı. Ders sayfalarında önceki/sonraki ders gezinmesi ve kod tabanlı tamamlanma takibi bulunur.
+
+## Revize v5 — Bölüm 4
+
+Bu paketle **Bölüm 4 — Güvenlik, Dijital Vatandaşlık ve Yapay Zekâ** tamamlanmıştır.
+
+- 4-1 — Parolalar, Passkey ve İki Aşamalı Doğrulama
+- 4-2 — Zararlı Yazılım, Phishing ve Dolandırıcılıktan Korunma
+- 4-3 — Gizlilik, Site İzinleri ve Dijital Ayak İzi
+- 4-4 — Telif Hakkı, Kaynak Gösterme ve Dijital Etik
+- 4-5 — Yapay Zekâ ve Üretken Yapay Zekâ Temelleri
+- 4-6 — Yapay Zekâyı Etkili, Güvenli ve Doğru Kullanma
+
+Her derste 20 soruluk etkileşimli uygulama bulunur. Bölüm 4 güvenlik ve AI içerikleri NIST, CISA, FIDO Alliance, Creative Commons, T.C. Kültür ve Turizm Bakanlığı, UNESCO ve ilgili güncel üretici rehberleriyle karşılaştırılmıştır.
+
+
+## Revize v6 — Bölüm 5 ve sol ders menüsü düzeltmesi
+
+- Bölüm 4 dahil tüm ders sayfalarında sol kartın kendi kaydırma çubuğu kaldırıldı.
+- Masaüstünde sol kart görünür alana sığmadığında kaydırma yalnızca **Ders İçeriği** listesinin içinde yapılır.
+- Mobil görünümde sol kart normal sayfa akışında kalır; uzun Ders İçeriği listesi kendi alanında kaydırılabilir.
+- **Bölüm 5 — Dijital Medya ve İçerik Üretimi** içindeki 6 ders ve 120 soruluk uygulama seti yayıma alındı.
+- Toplam 54 dersin **35'i yayında** durumundadır.

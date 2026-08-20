@@ -1,0 +1,183 @@
+title: GIMP ile Görsel Düzenleme — Uygulama
+description: Bu uygulama, dersin temel kavramlarını günlük kullanım senaryoları üzerinden pekiştirir. Her soruda tek doğru cevap vardır.
+questions:
+- id: q1
+  question: Raster görselin temel yapı taşı nedir?
+  options:
+  - Piksel
+  - Düğüm yolu
+  - Arşiv parçası
+  - Ses codec’i
+  answer: 0
+  explanation: Raster görseller renk değerleri taşıyan piksellerden oluşur.
+- id: q2
+  question: Küçük bir raster görseli çok büyüttüğünde neden gerçek ayrıntı artmaz?
+  options:
+  - Dosya uzantısı değişir
+  - Yazılım yeni gerçek bilgi üretmez, var olan pikseller arasında tahmin yapar
+  - Katmanlar otomatik çoğalır
+  - JPEG vektör olur
+  answer: 1
+  explanation: Interpolation yeni ayrıntı oluşturmaz; büyütme bulanıklığa yol açabilir.
+- id: q3
+  question: GIMP’te katmanın amacı nedir?
+  options:
+  - Her dosyayı ZIP yapmak
+  - Videoya altyazı eklemek
+  - Öğeleri birbirinden bağımsız düzenlenebilir parçalarda tutmak
+  - Ses kaydı yapmak
+  answer: 2
+  explanation: Katmanlar görsel öğelerin bağımsız düzenlenmesini sağlar.
+- id: q4
+  question: Aşağıdaki biçimlerden hangisi GIMP proje yapısını ve katmanları korur?
+  options:
+  - JPEG
+  - MP3
+  - SRT
+  - XCF
+  answer: 3
+  explanation: XCF GIMP’in düzenlenebilir proje biçimidir.
+- id: q5
+  question: PNG hangi kullanımda özellikle uygundur?
+  options:
+  - Şeffaflık veya keskin grafik/metin içeren görsellerde
+  - Uzun ses kaydında
+  - RAR arşivi oluştururken
+  - Video codec’i olarak
+  answer: 0
+  explanation: PNG kayıpsız sıkıştırma ve alfa şeffaflığı destekler.
+- id: q6
+  question: JPEG ile ilgili doğru ifade hangisidir?
+  options:
+  - Katmanları eksiksiz saklar
+  - Fotoğraflarda yaygındır ve kayıplı sıkıştırma kullanır
+  - Şeffaflığı her zaman destekler
+  - Vektör yolu içerir
+  answer: 1
+  explanation: JPEG fotoğraflarda yaygın kayıplı bir görsel biçimidir.
+- id: q7
+  question: GIMP’te katman sırası neyi etkiler?
+  options:
+  - Ses seviyesini
+  - Arşiv parolasını
+  - Hangi öğenin diğerinin önünde/arkasında görüneceğini
+  - Videonun altyazı dilini
+  answer: 2
+  explanation: Üst katmanlar alt katmanları örtebilir.
+- id: q8
+  question: Önemli bir filtreyi denemeden önce katmanı çoğaltmanın faydası nedir?
+  options:
+  - Dosyayı otomatik küçültür
+  - Görseli vektöre çevirir
+  - Altyazı oluşturur
+  - Geri dönmeyi ve karşılaştırmayı kolaylaştırır
+  answer: 3
+  explanation: Kopya katman, özgün veriyi koruyarak deneme yapmayı kolaylaştırır.
+- id: q9
+  question: Kırpma işlemi ne yapar?
+  options:
+  - Görselin istenmeyen dış alanlarını kaldırır
+  - Pikselleri sese çevirir
+  - Arşivi şifreler
+  - Katmanları ses parçası yapar
+  answer: 0
+  explanation: Crop, görüntünün çerçevesini daraltır.
+- id: q10
+  question: Bir görseli ölçeklerken oranı korumanın amacı nedir?
+  options:
+  - Dosyayı şifrelemek
+  - Görüntünün yatay/dikey esneyip bozulmasını önlemek
+  - Katman sayısını azaltmak
+  - JPEG’i SVG yapmak
+  answer: 1
+  explanation: Oran korunmazsa nesneler deforme olabilir.
+- id: q11
+  question: GIMP’te Image → Scale Image ile Layer → Scale Layer arasındaki temel fark nedir?
+  options:
+  - İkisi de yalnızca sesi değiştirir
+  - İkisi de ZIP oluşturur
+  - Biri tüm görsel boyutunu, diğeri seçili katmanın boyutunu değiştirir
+  - Aralarında hiçbir fark yoktur
+  answer: 2
+  explanation: Image ve Layer işlemleri farklı kapsamda çalışır.
+- id: q12
+  question: Metni ayrı katmanda tutmak neden yararlıdır?
+  options:
+  - Metin otomatik şifrelenir
+  - Dosya video olur
+  - Katman sayısı sıfırlanır
+  - Metni sonradan bağımsız taşıyıp düzenleyebilirsin
+  answer: 3
+  explanation: Metin katmanı içerikten bağımsız düzenleme esnekliği sağlar.
+- id: q13
+  question: Bir işlemin yalnızca belirli bölgeyi etkilemesi için ne kullanılabilir?
+  options:
+  - Seçim alanı
+  - Arşiv parolası
+  - VLC oynatma listesi
+  - Ses codec’i
+  answer: 0
+  explanation: Selection, düzenleme işlemini belirli bölgeyle sınırlar.
+- id: q14
+  question: GIMP’te son kullanıcıya PNG/JPEG üretmek için hangi işlem kullanılır?
+  options:
+  - Yalnızca Save Project
+  - Export / Export As
+  - Audio Track
+  - Extract Here
+  answer: 1
+  explanation: PNG/JPEG gibi çıktı biçimleri dışa aktarılır.
+- id: q15
+  question: XCF ile PNG arasındaki temel fark nedir?
+  options:
+  - PNG her zaman katmanları korur
+  - XCF medya oynatıcı biçimidir
+  - XCF düzenlenebilir proje yapısını, PNG ise son görüntü çıktısını temsil eder
+  - İkisi yalnızca ses dosyasıdır
+  answer: 2
+  explanation: Proje dosyası düzenleme bilgisini korur; PNG çoğunlukla birleşik çıktıdır.
+- id: q16
+  question: JPEG’i tekrar tekrar düşük kaliteyle dışa aktarmak neye yol açabilir?
+  options:
+  - Görselin vektörleşmesine
+  - Katmanların çoğalmasına
+  - Ses seviyesinin artmasına
+  - Kayıplı sıkıştırma artefaktlarının artmasına
+  answer: 3
+  explanation: Her kayıplı yeniden kodlama kaliteyi daha da düşürebilir.
+- id: q17
+  question: Bir duyuru görselinde logo, fotoğraf ve başlığı ayrı katmanlarda tutmak ne sağlar?
+  options:
+  - Her öğeyi bağımsız düzenleme esnekliği
+  - Dosyayı otomatik 7z yapar
+  - Videoyu açar
+  - Mikrofonu kapatır
+  answer: 0
+  explanation: Katmanlar tasarım öğelerinin bağımsız yönetilmesini sağlar.
+- id: q18
+  question: Fotoğrafı kullanmadan önce hangi konu da kontrol edilmelidir?
+  options:
+  - Yalnızca dosya boyutu
+  - Telif ve kişisel veri/izin durumu
+  - Fare modeli
+  - Monitör markası
+  answer: 1
+  explanation: Teknik olarak düzenleyebilmek kullanım hakkı anlamına gelmez.
+- id: q19
+  question: Aşağıdakilerden hangisi daha güvenli çalışma alışkanlığıdır?
+  options:
+  - Tek kopya üzerinde geri dönüşsüz işlemler yapmak
+  - Tüm katmanları hemen birleştirmek zorunludur
+  - Kaynak dosyayı koruyup düzenlenebilir XCF kopyasıyla çalışmak
+  - Her resmi maksimum büyütmek
+  answer: 2
+  explanation: Kaynak ve proje dosyasını korumak geri dönüş olanağı verir.
+- id: q20
+  question: GIMP dersinin en iyi özeti hangisidir?
+  options:
+  - Her görseli JPEG yap
+  - Katmanları gereksiz say
+  - Büyütme ile yeni ayrıntı oluştuğunu varsay
+  - Piksel mantığını bil, katmanlarla düzenle, XCF’yi koru ve uygun biçimde dışa aktar
+  answer: 3
+  explanation: Bu dört ilke temel raster düzenleme iş akışını özetler.

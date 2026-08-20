@@ -1,0 +1,183 @@
+title: Audacity ile Ses Kaydı ve Düzenleme — Uygulama
+description: Bu uygulama, dersin temel kavramlarını günlük kullanım senaryoları üzerinden pekiştirir. Her soruda tek doğru cevap vardır.
+questions:
+- id: q1
+  question: Audacity’de waveform neyi gösterir?
+  options:
+  - Sesin zaman içindeki genlik/dalga biçimi görünümünü
+  - Dosya arşiv yapısını
+  - Vektör düğümlerini
+  - Video altyazısını
+  answer: 0
+  explanation: Waveform sesin görsel temsilidir.
+- id: q2
+  question: Waveform’daki çok büyük tepe değerleri genel olarak neyi gösterebilir?
+  options:
+  - Dosyanın şifreli olduğunu
+  - Daha yüksek sesli bölümleri
+  - Videonun çözünürlüğünü
+  - SVG düğüm sayısını
+  answer: 1
+  explanation: Genlik büyüdükçe ses seviyesi genellikle daha yüksektir.
+- id: q3
+  question: Konuşma kaydında kayıt öncesi en önemli adımlardan biri nedir?
+  options:
+  - Önce ZIP oluşturmak
+  - VLC altyazısını açmak
+  - Doğru mikrofonu seçip kısa test kaydı yapmak
+  - GIMP katmanı eklemek
+  answer: 2
+  explanation: Test kayıt, yanlış giriş veya seviye problemini erken yakalar.
+- id: q4
+  question: Kayıt göstergesi sürekli kırmızıya vuruyorsa ne riski vardır?
+  options:
+  - Dosyanın vektörleşmesi
+  - Altyazı kayması
+  - Arşiv parolasının silinmesi
+  - Clipping ve bozulma
+  answer: 3
+  explanation: Aşırı yüksek giriş seviyesi sinyalin kırpılmasına neden olabilir.
+- id: q5
+  question: Tek konuşmacı kaydında mono neden yeterli olabilir?
+  options:
+  - Yön bilgisine ihtiyaç yoksa daha basit ve küçük çıktı sağlayabilir
+  - Mono her zaman daha yüksek kalitedir
+  - Stereo ses içeremez
+  - Mono yalnızca videoda çalışır
+  answer: 0
+  explanation: Konuşma gibi merkezli kaynaklarda stereo yön bilgisi gerekmeyebilir.
+- id: q6
+  question: Waveform üzerinde sürükleyerek bir alan seçmek ne sağlar?
+  options:
+  - Dosyayı otomatik MP3 yapmayı
+  - Silme veya efekt gibi işlemleri belirli zaman aralığına uygulamayı
+  - Mikrofonu kapatmayı
+  - SVG oluşturmayı
+  answer: 1
+  explanation: Selection düzenleme kapsamını belirler.
+- id: q7
+  question: Delete/Backspace ile ne yapılabilir?
+  options:
+  - Tüm işletim sistemini silmek
+  - Dosyayı ZIP’e dönüştürmek
+  - Seçili ses bölümünü kaldırmak
+  - Video codec’ini değiştirmek
+  answer: 2
+  explanation: Audacity’de seçili ses bölümü silinebilir.
+- id: q8
+  question: Split Clip işleminin amacı nedir?
+  options:
+  - Sesi arşivlemek
+  - Videoya altyazı eklemek
+  - Görseli kırpmak
+  - Tek ses parçasını bağımsız kliplere ayırmak
+  answer: 3
+  explanation: Split, kliplerin ayrı taşınabilmesini sağlar.
+- id: q9
+  question: Klip taşıma ne işe yarar?
+  options:
+  - Ses parçalarının zaman çizgisindeki sırasını/konumunu değiştirmeyi
+  - Dosya uzantısını gizlemeyi
+  - Mikrofonu fiziksel olarak onarmayı
+  - Video çözünürlüğünü artırmayı
+  answer: 0
+  explanation: Klipler zaman çizgisinde yeniden konumlandırılabilir.
+- id: q10
+  question: Fade In ne yapar?
+  options:
+  - Sesi aniden keser
+  - Sesin başlangıçta yavaşça yükselmesini sağlar
+  - Dosyayı şifreler
+  - Waveform’u vektöre çevirir
+  answer: 1
+  explanation: Fade In yumuşak ses girişi oluşturur.
+- id: q11
+  question: Gürültü azaltmayı aşırı kullanmanın olası sonucu nedir?
+  options:
+  - Dosyanın SVG olması
+  - Mikrofonun stereo olması
+  - Sesin metalik veya yapay hâle gelmesi
+  - Arşiv parolasının güçlenmesi
+  answer: 2
+  explanation: Aşırı işlem istenen konuşma sinyalini de bozabilir.
+- id: q12
+  question: En iyi gürültü azaltma stratejisinin ilk adımı nedir?
+  options:
+  - Her kayıtta maksimum efekt uygulamak
+  - Mikrofonu hoparlöre dayamak
+  - Kaydı ZIP içinde yapmak
+  - Mümkün olduğunca temiz bir ortamda doğru seviyede kayıt almak
+  answer: 3
+  explanation: İyi kaynak kaydı sonradan düzeltme ihtiyacını azaltır.
+- id: q13
+  question: AUP3 dosyası nedir?
+  options:
+  - Audacity’nin düzenlenebilir proje dosyası
+  - Yaygın medya oynatıcı ses biçimi
+  - Video kapsayıcısı
+  - Vektör grafik biçimi
+  answer: 0
+  explanation: AUP3 proje verisini ve düzenlemeyi saklar.
+- id: q14
+  question: Dinleyiciye MP3 üretmek için hangi işlem gerekir?
+  options:
+  - Yalnızca projeyi AUP3 kaydetmek
+  - Export Audio / dışa aktarma
+  - Object to Path
+  - Extract Here
+  answer: 1
+  explanation: Son kullanıcı ses dosyası export işlemiyle oluşturulur.
+- id: q15
+  question: WAV için genel olarak doğru ifade hangisidir?
+  options:
+  - Her zaman kayıplı sıkıştırılır
+  - Vektör biçimidir
+  - Yüksek uyumlulukta, çoğu senaryoda MP3’e göre daha büyük bir ses dosyası olabilir
+  - Altyazı dosyasıdır
+  answer: 2
+  explanation: WAV çoğunlukla sıkıştırılmamış PCM gibi büyük veri taşır.
+- id: q16
+  question: FLAC’ın önemli özelliği nedir?
+  options:
+  - Her zaman MP3’ten daha kayıplı olması
+  - Yalnızca video içermesi
+  - SVG’yi açması
+  - Kayıpsız sıkıştırma ile ses bilgisini koruyabilmesi
+  answer: 3
+  explanation: FLAC lossless ses sıkıştırma biçimidir.
+- id: q17
+  question: Audacity’nin aktif proje dosyasını neden yalnızca yavaş USB/ağ sürücüsünde çalıştırmamak gerekir?
+  options:
+  - Kayıt/düzenleme sırasında hızlı ve kesintisiz disk erişimi gerektiği için
+  - USB hiçbir ses dosyası taşıyamaz
+  - AUP3 sadece internette açılır
+  - Mikrofon USB görünce kapanır
+  answer: 0
+  explanation: Resmî Audacity desteği aktif projeler için yerel, güvenilir depolamayı önerir.
+- id: q18
+  question: Kayıt öncesi telefon bildirimlerini kapatmak neden yararlıdır?
+  options:
+  - MP3’ü vektöre dönüştürür
+  - İstenmeyen bildirim seslerinin kayda girmesini azaltır
+  - Dosyayı otomatik küçültür
+  - Mikrofonu stereo yapar
+  answer: 1
+  explanation: Sessiz ve kontrollü ortam kayıt kalitesini artırır.
+- id: q19
+  question: Başkasına ait müziği podcast’e eklemeden önce ne değerlendirilmelidir?
+  options:
+  - Yalnızca dosya adının kısa olması
+  - Monitör parlaklığı
+  - Telif/lisans ve kullanım izni
+  - ZIP sıkıştırma oranı
+  answer: 2
+  explanation: Ses içeriğinin paylaşımı için kullanım hakkı önemlidir.
+- id: q20
+  question: Audacity dersinin en iyi özeti hangisidir?
+  options:
+  - Her kaydı maksimum sesle al
+  - AUP3 dosyasını MP3 san
+  - Gürültüyü yalnız efektle çözmeye çalış
+  - Doğru giriş ve seviye ile kaydet, waveform üzerinde düzenle, AUP3’ü koru ve uygun ses biçimine export et
+  answer: 3
+  explanation: Temel ses üretim iş akışı kayıt, düzenleme, proje kaydı ve export adımlarından oluşur.
