@@ -1,0 +1,183 @@
+title: Etkili ve Görsel Sunum Hazırlama
+description: Sunum mesajı, görsel hiyerarşi, grafik, renk, prova ve sunum tekniğini değerlendir.
+questions:
+- id: q1
+  question: Sunum hazırlamadan önce ilk sorulardan biri hangisidir?
+  options:
+  - İzleyicinin kim olduğunu ve ne hatırlamasını istediğini belirlemek
+  - Kaç animasyon kullanılacağını seçmek
+  - Dosyayı hemen PDF yapmak
+  - Tüm metni slayta kopyalamak
+  answer: 0
+  explanation: Sunum tasarımı hedef kitle ve ana mesajla başlar.
+- id: q2
+  question: “Bir slayt = bir ana fikir” yaklaşımının yararı nedir?
+  options:
+  - Slayt sayısını her zaman 1’e indirmek
+  - İzleyicinin mesajı daha kolay takip etmesi
+  - Yalnız resim kullanmak
+  - Konuşmacıyı gereksiz yapmak
+  answer: 1
+  explanation: Tek odak bilişsel yükü azaltır.
+- id: q3
+  question: Görsel hiyerarşi neyi belirlemeye yardım eder?
+  options:
+  - Dosyanın uzantısını
+  - Klavye dilini
+  - İzleyicinin önce hangi öğeye bakacağını
+  - İnternet hızını
+  answer: 2
+  explanation: Boyut, kontrast ve konum dikkat sırasını etkiler.
+- id: q4
+  question: Slaytta boş alan bırakmak neden yararlıdır?
+  options:
+  - PowerPoint boş alanı silemez
+  - Dosya boyutunu mutlaka küçültür
+  - Animasyonu kapatır
+  - Öğelerin ayrılmasını ve okunmasını kolaylaştırır
+  answer: 3
+  explanation: Whitespace tasarım öğeleri arasında nefes alanı sağlar.
+- id: q5
+  question: Renk neden tek başına anlam taşımamalıdır?
+  options:
+  - Renk PowerPoint’te kullanılamaz
+  - Renk görme farklılıkları ve ekran/projeksiyon koşulları ayrımı zorlaştırabilir
+  - Bütün yazıcılar siyah beyazdır
+  - Tema renkleri yasaktır
+  answer: 1
+  explanation: Etiket/şekil gibi ikinci gösterge erişilebilirliği artırır.
+- id: q6
+  question: Yazı boyutunu değerlendirirken hangi ortam düşünülmelidir?
+  options:
+  - Yalnız kendi dizüstü ekranı
+  - Dosyanın kaydedildiği klasör
+  - Sunumun izleneceği mesafe ve projeksiyon koşulları
+  - Klavye markası
+  answer: 2
+  explanation: Sınıfın arkasından okunabilirlik önemlidir.
+- id: q7
+  question: Bir görselin sunuma eklenmesi için en iyi gerekçe nedir?
+  options:
+  - Boş alanı doldurması
+  - Renk sayısını artırması
+  - Her slaytta resim zorunlu olması
+  - Bir fikri açıklaması veya kanıtı görselleştirmesi
+  answer: 3
+  explanation: Görsel mesajı desteklemelidir.
+- id: q8
+  question: Zamana göre değişimi sunmak için hangi grafik genellikle uygundur?
+  options:
+  - Çizgi grafik
+  - Pasta grafik
+  - Metin kutusu
+  - Rastgele şekiller
+  answer: 0
+  explanation: Line chart trendi göstermede uygundur.
+- id: q9
+  question: Aşırı animasyonun riski nedir?
+  options:
+  - Sunuyu otomatik Word yapmak
+  - Klavye girişini kapatmak
+  - İzleyicinin dikkatini mesajdan efektlere çekmek
+  - PDF’i silememek
+  answer: 2
+  explanation: Efektler içerikten daha baskın olmamalıdır.
+- id: q10
+  question: Zamanlama Provası neye yardımcı olur?
+  options:
+  - Excel formülü hesaplamaya
+  - PDF OCR yapmaya
+  - Dosya sıkıştırmaya
+  - Sunumun slayt bazında/toplam süresini ölçmeye
+  answer: 3
+  explanation: Rehearse Timings sunum sürelerini prova eder.
+- id: q11
+  question: Sunucu Görünümü sunucuya ne gösterebilir?
+  options:
+  - Notlar, sıradaki slayt ve süre gibi ek bilgiler
+  - Yalnız izleyicinin gördüğü ekranı
+  - Windows ayarlarını zorunlu olarak
+  - Excel tablosunu otomatik
+  answer: 0
+  explanation: Presenter View sunucuya ek kontrol bilgileri sunar.
+- id: q12
+  question: “Grafik 1” yerine hangi başlık daha etkilidir?
+  options:
+  - “Şeyler”
+  - “Yeni algoritma sıcaklık sapmasını %35 azalttı”
+  - Başlıksız grafik
+  - “Mavi Grafik”
+  answer: 1
+  explanation: Mesaj odaklı başlık grafiğin sonucunu hızla anlatır.
+- id: q13
+  question: Slayta konuşacağın her cümleyi yazmak neden sakıncalıdır?
+  options:
+  - PowerPoint cümle desteklemez
+  - Yazılar kaydedilmez
+  - Slayt gösterisi kapanır
+  - İzleyici metni okumaya odaklanıp konuşmayı kaçırabilir
+  answer: 3
+  explanation: Sunum slaytı konuşmanın metni değil desteğidir.
+- id: q14
+  question: Tutarlı tema ne sağlar?
+  options:
+  - Sunum boyunca ortak görsel dil
+  - Her slaytta farklı yazı tipi
+  - Daha fazla dosya
+  - Otomatik kaynakça
+  answer: 0
+  explanation: Tutarlılık profesyonellik ve bilişsel kolaylık sağlar.
+- id: q15
+  question: Bir grafik kullanırken birim yazmak neden önemlidir?
+  options:
+  - Grafiği animasyonlu yapar
+  - Sayının yüzde, saniye, TL vb. neyi ifade ettiğini açıklar
+  - Dosyayı şifreler
+  - Eksenleri siler
+  answer: 1
+  explanation: Units data interpretation için kritiktir.
+- id: q16
+  question: Sunum öncesi PDF yedeği almak neden yararlı olabilir?
+  options:
+  - PPTX dosyasını otomatik düzeltir
+  - Videoyu kaydeder
+  - Başka bilgisayarda düzenin bozulması durumunda statik sunum alternatifi sağlar
+  - Sunucu notlarını büyütür
+  answer: 2
+  explanation: PDF statik yedek sunum için kullanılabilir.
+- id: q17
+  question: Bir “kötü slaytı” düzeltirken ilk yapılacak iş ne olmalıdır?
+  options:
+  - Slaytın tek ana mesajını belirlemek
+  - Daha fazla ikon eklemek
+  - Bütün metni kalın yapmak
+  - 10 animasyon eklemek
+  answer: 0
+  explanation: Önce içerik odağı belirlenir, sonra tasarım sadeleştirilir.
+- id: q18
+  question: Sunum görselinin kullanım hakkını kontrol etmek neden önemlidir?
+  options:
+  - Dosya boyutunu artırmak için
+  - Slayt numarasını değiştirmek için
+  - Telif ve etik kullanım için
+  - Klavye hızını artırmak için
+  answer: 2
+  explanation: İnternette bulunan görsellerin tümü serbest kullanımda değildir.
+- id: q19
+  question: Konuşmacı notları nasıl kullanılmalıdır?
+  options:
+  - Slayttaki bütün metni iki kat yazmak için
+  - Kısa hatırlatıcı ve anlatım desteği olarak
+  - İzleyiciye gizli bilgi göstermek için
+  - Formül hesaplamak için
+  answer: 1
+  explanation: Notes sunucunun anlatım akışını destekler.
+- id: q20
+  question: Etkili sunumun en doğru ölçütü nedir?
+  options:
+  - Kullanılan efekt sayısı
+  - Slayt sayısının çokluğu
+  - Her slaytta 10 renk olması
+  - İzleyicinin ana mesajı doğru ve kolay anlaması
+  answer: 3
+  explanation: Sunum tasarımının amacı iletişimdir.

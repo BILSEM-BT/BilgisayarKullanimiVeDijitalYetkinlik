@@ -1,0 +1,183 @@
+title: Microsoft PowerPoint Temel Kullanımı
+description: PowerPoint Türkçe arayüzü, slayt düzeni, görsel, tema, geçiş/animasyon ve sunum bilgisini değerlendir.
+questions:
+- id: q1
+  question: PowerPoint’te yeni slayt eklemek için temel sekmelerden hangisi kullanılır?
+  options:
+  - Giriş
+  - Veri
+  - Formüller
+  - Başvurular
+  answer: 0
+  explanation: Giriş sekmesinde Yeni Slayt ve Düzen komutları bulunur.
+- id: q2
+  question: Slayt Düzeni kullanmanın temel yararı nedir?
+  options:
+  - Dosyayı şifrelemek
+  - Başlık ve içerik yerleşimini tutarlı tutmak
+  - Videoyu sıkıştırmak
+  - Klavye dilini değiştirmek
+  answer: 1
+  explanation: Hazır layout yapısı slaytlar arasında tutarlılık sağlar.
+- id: q3
+  question: Geçiş neyi etkiler?
+  options:
+  - Yalnız slayt içindeki bir şekli
+  - Excel formülünü
+  - Bir slayttan diğerine geçiş davranışını
+  - Dosya adını
+  answer: 2
+  explanation: Transition slaytlar arasındaki efekttir.
+- id: q4
+  question: Animasyon neyi etkiler?
+  options:
+  - Slaytlar arası dosya adını
+  - Yazıcıyı
+  - Klavye düzenini
+  - Slayt içindeki nesnelerin görünme/hareket davranışını
+  answer: 3
+  explanation: Animation slide içindeki nesnelere uygulanır.
+- id: q5
+  question: Animasyonların sırasını yönetmek için hangi araç kullanılabilir?
+  options:
+  - Formül Çubuğu
+  - Animasyon Bölmesi
+  - Dosya Gezgini
+  - İçindekiler
+  answer: 1
+  explanation: Animation Pane nesne animasyonlarının sırasını ve zamanlamasını gösterir.
+- id: q6
+  question: Konuşmacı Notları ne için kullanılır?
+  options:
+  - İzleyiciye büyük paragraf göstermek için
+  - Dosyayı PDF yapmak için
+  - Sunucunun hatırlatıcılarını slayta yüklemeden saklamak için
+  - Grafik hesaplamak için
+  answer: 2
+  explanation: Speaker notes sunucunun kendi anlatım desteğidir.
+- id: q7
+  question: Sunumu en baştan başlatmak için hangi sekme kullanılır?
+  options:
+  - Giriş
+  - Veri
+  - Düzen
+  - Slayt Gösterisi
+  answer: 3
+  explanation: Slideshow sekmesinde Baştan seçeneği bulunur.
+- id: q8
+  question: Sunucu Görünümü’nün yararı nedir?
+  options:
+  - Sunucuya notları/sıradaki slaytı gösterirken izleyiciye yalnız sunuyu göstermek
+  - Herkese aynı notları göstermek
+  - Dosyayı silmek
+  - Excel’i açmak
+  answer: 0
+  explanation: Presenter View farklı ekranlarda sunucu araçlarını ayrı gösterir.
+- id: q9
+  question: Sunum slaydına uzun paragraf yapıştırmanın temel sakıncası nedir?
+  options:
+  - PowerPoint paragraf gösteremez
+  - Dosya kaydedilmez
+  - İzleyicinin hem okuyup hem konuşmacıyı dinlemesini zorlaştırması
+  - Geçişler çalışmaz
+  answer: 2
+  explanation: Slayt konuşmayı desteklemeli; uzun belge metni olmamalıdır.
+- id: q10
+  question: Tema neyi sağlar?
+  options:
+  - Her slaytı farklılaştırmayı
+  - Dosyayı ZIP yapmayı
+  - Sesi otomatik kaydetmeyi
+  - Sununun renk, yazı ve görsel dilinde genel tutarlılık
+  answer: 3
+  explanation: Theme sunu genelinde görsel sistem oluşturur.
+- id: q11
+  question: Bir resmi orantılı büyütmek için en güvenli yöntem hangisidir?
+  options:
+  - Köşe tutamacından ölçeklemek
+  - Yalnız yan kenardan çekmek
+  - Resmi metne çevirmek
+  - Başlığı silmek
+  answer: 0
+  explanation: Köşe tutamaçları en-boy oranını korumaya yardımcı olur.
+- id: q12
+  question: Şekiller özellikle hangi iş için yararlıdır?
+  options:
+  - Excel hücresi hesaplamak
+  - Basit diyagram ve akışları görselleştirmek
+  - PDF redaksiyonu yapmak
+  - Klavye düzeni seçmek
+  answer: 1
+  explanation: Shapes temel süreç/diyagram anlatımında kullanışlıdır.
+- id: q13
+  question: Bir slaytta bütün nesnelere farklı animasyon vermek neden iyi fikir olmayabilir?
+  options:
+  - PowerPoint animasyon desteklemez
+  - Dosyayı Word’e dönüştürür
+  - Sunucu Görünümünü kapatır
+  - Dikkati içerikten efektlere çekebilir
+  answer: 3
+  explanation: Animasyon amaçlı ve sınırlı kullanılmalıdır.
+- id: q14
+  question: PowerPoint’te slayt küçük resimleri nerede yaygın olarak görünür?
+  options:
+  - Sol taraftaki slayt bölmesinde
+  - Formül çubuğunda
+  - Windows görev çubuğunda
+  - PDF yorum panelinde
+  answer: 0
+  explanation: Normal görünümde slayt thumbnails solda bulunur.
+- id: q15
+  question: Slayt başlığının temel görevi nedir?
+  options:
+  - Dosyayı kaydetmek
+  - İzleyiciye slaytın ana fikrini hızlı vermek
+  - Slaytı gizlemek
+  - Resmi sıkıştırmak
+  answer: 1
+  explanation: Başlık bilgi hiyerarşisinin ana öğesidir.
+- id: q16
+  question: PowerPoint dosyasının yaygın modern uzantısı hangisidir?
+  options:
+  - .xlsx
+  - .docx
+  - .pptx
+  - .zip
+  answer: 2
+  explanation: .pptx modern PowerPoint sunu biçimidir.
+- id: q17
+  question: Slayt Gösterisi sırasında izleyicinin konuşmacı notlarını görmemesi için hangi özellik yararlıdır?
+  options:
+  - Sunucu Görünümü
+  - Tablo Tasarımı
+  - Word Stilleri
+  - Excel Filtresi
+  answer: 0
+  explanation: Presenter View notları sunucu ekranında tutar.
+- id: q18
+  question: Slaytta bir süreç anlatımı için iyi örnek hangisidir?
+  options:
+  - 12 satır tek paragraf
+  - Rastgele 10 clipart
+  - Sensör → Mikrodenetleyici → Motor gibi sade bir diyagram
+  - Her kelimeyi farklı renkte yazmak
+  answer: 2
+  explanation: Sade görsel akış ilişkileri hızlı anlatır.
+- id: q19
+  question: Sunumu başka bilgisayarda göstermeden önce ne yapılmalıdır?
+  options:
+  - Kaynak dosyayı silmek
+  - Slayt Gösterisi ile baştan sona test etmek ve gerekirse PDF yedeği almak
+  - Bütün yazıları resme çevirmek
+  - Windows’u yeniden kurmak
+  answer: 1
+  explanation: Ön test font, video, bağlantı ve görünüm sorunlarını yakalar.
+- id: q20
+  question: PowerPoint temel kullanımının doğru özeti hangisidir?
+  options:
+  - Slaytı belge gibi doldurmak
+  - Her slayta çok sayıda efekt eklemek
+  - Yalnız tema değiştirmek
+  - Tutarlı slayt yapısı, kısa metin, uygun görsel ve kontrollü sunum araçları kullanmak
+  answer: 3
+  explanation: Araçların amacı anlaşılır bir görsel anlatımı desteklemektir.

@@ -1,0 +1,183 @@
+title: Microsoft Word Temel Kullanımı
+description: Word Türkçe arayüzü, metin düzenleme, biçimlendirme, paragraf, tablo-resim ve kaydetme bilgisini değerlendir.
+questions:
+- id: q1
+  question: Word’de yazı tipi, paragraf ve stillerin temel olarak bulunduğu sekme hangisidir?
+  options:
+  - Giriş
+  - Ekle
+  - Başvurular
+  - Görünüm
+  answer: 0
+  explanation: Giriş sekmesi temel metin ve paragraf biçimlendirme araçlarını içerir.
+- id: q2
+  question: Bir Word belgesindeki bütün içeriği seçmek için hangi kısayol kullanılır?
+  options:
+  - Ctrl + S
+  - Ctrl + A
+  - Ctrl + P
+  - Ctrl + H
+  answer: 1
+  explanation: Ctrl+A geçerli belgedeki tüm içeriği seçer.
+- id: q3
+  question: Kopyala ve Kes arasındaki temel fark nedir?
+  options:
+  - İkisi de dosyayı siler
+  - Kopyala yalnız resimde çalışır
+  - Kopyala kaynak içeriği yerinde bırakır; Kes taşımak üzere panoya alır
+  - Kes yalnız internette çalışır
+  answer: 2
+  explanation: Kopyalama çoğaltma, kesme ise genellikle taşıma iş akışıdır.
+- id: q4
+  question: Uzun belgede bir sözcüğü bulmak için en yaygın kısayol hangisidir?
+  options:
+  - Ctrl + B
+  - Ctrl + N
+  - Alt + F4
+  - Ctrl + F
+  answer: 3
+  explanation: Ctrl+F Word dahil birçok uygulamada Bul işlevini açar.
+- id: q5
+  question: Bir başlığı vurgulamak için en uygun yöntem hangisidir?
+  options:
+  - Başlığın önüne 20 boşluk koymak
+  - Başlığı seçip tutarlı yazı tipi, boyut ve vurgu uygulamak
+  - Her harfi farklı renge boyamak
+  - Başlıktan önce 15 Enter basmak
+  answer: 1
+  explanation: Biçimlendirme araçları boşluk/Enter ile görsel hile yapmaktan daha düzenlidir.
+- id: q6
+  question: Metni sayfanın ortasına yatay hizalamak için hangi paragraf komutu kullanılır?
+  options:
+  - İki Yana Yasla
+  - Sola Hizala
+  - Ortala
+  - Satır Aralığı
+  answer: 2
+  explanation: Ortala paragrafı sol ve sağ kenarlar arasında merkezler.
+- id: q7
+  question: Bir belgeye tablo eklemek için hangi sekme kullanılır?
+  options:
+  - Görünüm
+  - Gözden Geçir
+  - Dosya
+  - Ekle
+  answer: 3
+  explanation: Tablo, resim ve benzeri nesneler Ekle sekmesindedir.
+- id: q8
+  question: Bir resmin en-boy oranını koruyarak boyutlandırmada genel olarak hangi tutamaç tercih edilir?
+  options:
+  - Köşe tutamacı
+  - Yalnız üst kenar
+  - Belgenin kaydırma çubuğu
+  - Durum çubuğu
+  answer: 0
+  explanation: Köşe tutamacı resmi orantılı ölçeklendirmede en güvenli yöntemlerden biridir.
+- id: q9
+  question: '`Ctrl + S` ne yapar?'
+  options:
+  - Belgeyi yazdırır
+  - Yeni belge açar
+  - Belgeyi kaydeder
+  - Metni bulur
+  answer: 2
+  explanation: Ctrl+S standart kaydet kısayoludur.
+- id: q10
+  question: Farklı Kaydet ne zaman özellikle kullanışlıdır?
+  options:
+  - Yalnız yazım denetimi yaparken
+  - Metni seçerken
+  - Pencereyi küçültürken
+  - Belgeyi başka ad, konum veya biçimde yeni kopya olarak kaydetmek istediğinde
+  answer: 3
+  explanation: Farklı Kaydet yeni dosya adı/konum/biçim seçmeye yarar.
+- id: q11
+  question: Bir Word belgesi diske kaydedildiğinde yaygın modern uzantısı hangisidir?
+  options:
+  - .docx
+  - .xlsx
+  - .pptx
+  - .mp3
+  answer: 0
+  explanation: .docx modern Word belge biçimidir.
+- id: q12
+  question: Paragraf hizalamak için art arda boşluk kullanmak neden kötü yöntemdir?
+  options:
+  - Word boşluk yazamaz
+  - Yazı veya sayfa değiştiğinde hizalama kolayca bozulur
+  - Boşluk yalnız Excel’de kullanılır
+  - PDF oluşturmayı her zaman engeller
+  answer: 1
+  explanation: Gerçek hizalama/paragraf araçları düzeni daha kararlı tutar.
+- id: q13
+  question: Madde işaretli liste hangi içerik için uygundur?
+  options:
+  - Mutlaka adım sırası olan işlem için
+  - Yalnız başlık için
+  - Dosya adı için
+  - Sırası zorunlu olmayan maddeler için
+  answer: 3
+  explanation: Sıra önemli değilse madde işaretli liste uygundur; adımlarda numaralandırma tercih edilir.
+- id: q14
+  question: '`Ctrl + H` Word’de yaygın olarak ne açar?'
+  options:
+  - Bul ve Değiştir
+  - Yazdır
+  - Kaydet
+  - Yeni pencere
+  answer: 0
+  explanation: Ctrl+H metni toplu bulup değiştirme arayüzünü açar.
+- id: q15
+  question: Tabloyu sayfada yalnızca nesneleri hizalamak için gereksiz kullanmanın sakıncası nedir?
+  options:
+  - Tablo hiçbir zaman metin içermez
+  - Belge yapısını ve erişilebilirliği gereksiz karmaşıklaştırabilir
+  - Word tabloları kaydedemez
+  - Tablo PDF’e dönüşmez
+  answer: 1
+  explanation: Tablo veri yapısı için kullanılmalı; gereksiz yerleşim tabloları erişilebilirliği zorlaştırabilir.
+- id: q16
+  question: Word’de resme köprü eklemek veya seçili metni bağlantıya dönüştürmek için yaygın kısayol hangisidir?
+  options:
+  - Ctrl + L
+  - Ctrl + R
+  - Ctrl + K
+  - Ctrl + D
+  answer: 2
+  explanation: Ctrl+K Office uygulamalarında köprü eklemek için yaygın kısayoldur.
+- id: q17
+  question: A4, kenar boşlukları ve sayfa yönlendirme ayarları en çok hangi sekmeyle ilişkilidir?
+  options:
+  - Düzen
+  - Postalar
+  - Gözden Geçir
+  - Giriş
+  answer: 0
+  explanation: Sayfa düzeni seçenekleri Düzen sekmesindedir.
+- id: q18
+  question: Belgede bir işlemi yanlış yaptıysan ilk denenebilecek kısayol hangisidir?
+  options:
+  - Ctrl + X
+  - Ctrl + V
+  - Ctrl + Z
+  - Ctrl + P
+  answer: 2
+  explanation: Ctrl+Z son işlemi geri alır.
+- id: q19
+  question: Dosya adlandırmada en iyi yaklaşım hangisidir?
+  options:
+  - Yeni Belge (37).docx bırakmak
+  - İçeriği ve sürümü anlatan anlaşılır bir ad kullanmak
+  - Dosya adını yalnız noktalardan oluşturmak
+  - Her dosyaya aynı adı vermek
+  answer: 1
+  explanation: Anlaşılır dosya adı arama ve sürüm takibini kolaylaştırır.
+- id: q20
+  question: Word temel kullanımının en doğru özeti hangisidir?
+  options:
+  - Yalnız font değiştirmek
+  - Yalnız yazdırmak
+  - Yalnız resim eklemek
+  - İçeriği doğru yazmak, seçmek, biçimlendirmek, nesneler eklemek ve doğru konuma kaydetmek
+  answer: 3
+  explanation: Word üretkenliği yazma, düzenleme, biçim ve dosya yönetimini birlikte gerektirir.

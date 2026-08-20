@@ -21,9 +21,19 @@ Bu sürümde içerik yapısı tahtada anlatıma uygun hâle getirildi. Derslerde
 - **2-7 — Google Docs, Sheets ve Slides ile Ortak Çalışma**
 - **2-8 — Çevrim İçi Toplantı ve Ekran Paylaşımı**
 
+## Bölüm 3 — Office ve Belge Üretimi
+- **3-1 — Microsoft Word Temel Kullanımı**
+- **3-2 — Word ile Düzenli Belge ve PDF Oluşturma**
+- **3-3 — Microsoft Excel Temel Kullanımı**
+- **3-4 — Excel Formülleri ve Temel Fonksiyonlar**
+- **3-5 — Excel'de Tablo, Sıralama, Filtreleme ve Grafik**
+- **3-6 — Microsoft PowerPoint Temel Kullanımı**
+- **3-7 — Etkili ve Görsel Sunum Hazırlama**
+- **3-8 — PDF Dosyaları ve Temel PDF İşlemleri**
+
 ## Sonraki bölümler
 
-Bölüm 3–8 başlıkları `_data/modules.yml` içinde planlandı durumunda yer alır. Bölüm 5 içinde **WinRAR, 7-Zip ve Sıkıştırılmış Dosyalar** ayrı ders olarak planlanmıştır.
+Bölüm 4–8 başlıkları `_data/modules.yml` içinde planlandı durumunda yer alır. Bölüm 5 içinde **WinRAR, 7-Zip ve Sıkıştırılmış Dosyalar** ayrı ders olarak planlanmıştır.
 
 ## İçerik standardı
 

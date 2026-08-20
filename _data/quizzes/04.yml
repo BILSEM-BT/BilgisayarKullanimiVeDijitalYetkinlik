@@ -1,183 +1,183 @@
 title: Klavye Tuşları ve Klavye Kısayolları
-description: Klavye tuşlarını, metin gezinmesini ve Windows'ta en yararlı kısayolları uygulama senaryolarıyla değerlendir.
+description: Türkçe Q klavye, Shift/AltGr karakter mantığı, düzenleme ve Windows kısayollarını değerlendir.
 questions:
 - id: q1
+  question: Türkçe Q klavyede çok karakterli bir tuşun sol üst köşesindeki karakteri yazmak için hangi tuş kullanılır?
+  options:
+  - Shift
+  - Ctrl
+  - AltGr
+  - Caps Lock
+  answer: 0
+  explanation: Bu dersteki Türkçe Q gösteriminde sol üst karakter Shift ile yazılır.
+- id: q2
+  question: Türkçe Q klavyede çok karakterli bir tuşun sağ alt köşesindeki üçüncü karakteri yazmak için hangi tuş kullanılır?
+  options:
+  - Shift
+  - AltGr
+  - Tab
+  - Esc
+  answer: 1
+  explanation: AltGr, Türkçe Q düzeninde sağ alt seviyedeki üçüncü karakterlere erişmek için kullanılır.
+- id: q3
+  question: Türkçe Q düzeninde `@` işareti hangi birleşimle yazılır?
+  options:
+  - Shift + Q
+  - Ctrl + Q
+  - AltGr + Q
+  - Alt + 2
+  answer: 2
+  explanation: Windows Türkçe Q düzeninde Q tuşunun AltGr seviyesi @ işaretidir.
+- id: q4
+  question: Türkçe Q düzeninde `!` işareti hangi birleşimle yazılır?
+  options:
+  - AltGr + 1
+  - Ctrl + 1
+  - Shift + 2
+  - Shift + 1
+  answer: 3
+  explanation: 1 tuşunun Shift seviyesinde ! bulunur.
+- id: q5
+  question: Türkçe Q düzeninde `{` karakteri nasıl yazılır?
+  options:
+  - Shift + 7
+  - AltGr + 7
+  - Ctrl + 7
+  - AltGr + 8
+  answer: 1
+  explanation: 7 tuşunun AltGr seviyesinde { karakteri bulunur.
+- id: q6
+  question: Türkçe Q düzeninde `[` karakteri nasıl yazılır?
+  options:
+  - Shift + 8
+  - AltGr + 9
+  - AltGr + 8
+  - Ctrl + 8
+  answer: 2
+  explanation: 8 tuşunun AltGr seviyesinde [ karakteri bulunur.
+- id: q7
+  question: Türkçe Q düzeninde Türk lirası simgesi `₺` hangi birleşimle yazılır?
+  options:
+  - Shift + T
+  - AltGr + E
+  - Ctrl + T
+  - AltGr + T
+  answer: 3
+  explanation: Windows Türkçe Q düzeninde T tuşunun AltGr seviyesi ₺ simgesidir.
+- id: q8
   question: Backspace tuşunun metindeki yaygın görevi nedir?
   options:
   - İmlecin solundaki karakteri silmek
   - İmlecin sağındaki karakteri silmek
   - Tüm belgeyi seçmek
-  - Ayarlar'ı açmak
+  - Yeni paragraf açmak
   answer: 0
-  explanation: Backspace genellikle imlecin sol tarafındaki karakteri siler.
-- id: q2
-  question: Delete tuşu metinde genellikle ne yapar?
-  options:
-  - Yalnız büyük harf açar
-  - İmlecin sağındaki karakteri veya seçili içeriği siler
-  - Belgeyi kaydeder
-  - Windows'u kilitler
-  answer: 1
-  explanation: Delete ile Backspace yön bakımından farklı davranır.
-- id: q3
-  question: Shift tuşunun temel kullanım örneği hangisidir?
-  options:
-  - Bilgisayarı kapatmak
-  - Dosyayı kalıcı silmek
-  - Bir harfi geçici olarak büyük yazmak veya ikinci karaktere erişmek
-  - Wi-Fi'yi açmak
-  answer: 2
-  explanation: Shift başka tuşlarla birlikte geçici değiştirici olarak kullanılır.
-- id: q4
-  question: Caps Lock ne yapar?
-  options:
-  - Pano geçmişini açar
-  - Dosyayı yeniden adlandırır
-  - Görev Yöneticisi'ni açar
-  - Büyük harf yazma modunu açıp kapatır
-  answer: 3
-  explanation: Caps Lock sürekli büyük harf durumunu değiştirir.
-- id: q5
-  question: Tab tuşu formlarda yaygın olarak ne işe yarar?
-  options:
-  - Belgeyi kapatmak
-  - Bir sonraki alana veya odaklanabilir öğeye geçmek
-  - Ekran görüntüsü almak
-  - Dosyayı kopyalamak
-  answer: 1
-  explanation: Tab, arayüzde odak geçişi ve bazı metinlerde girinti için kullanılır.
-- id: q6
-  question: Shift + Tab kombinasyonu çoğu arayüzde ne yapar?
-  options:
-  - Bilgisayarı kilitler
-  - Tüm metni siler
-  - Odakta geriye doğru ilerler
-  - Tarayıcıyı yeniler
-  answer: 2
-  explanation: Shift+Tab, Tab ile yapılan ileri odak geçişinin tersidir.
-- id: q7
-  question: Home tuşunun metinde yaygın görevi hangisidir?
-  options:
-  - İmleci belgenin sonuna götürmek
-  - Windows ana ekranına dönmek
-  - Dosyayı açmak
-  - İmleci satırın başına götürmek
-  answer: 3
-  explanation: Home çoğu metin düzenleyicide satırın başına hareket eder.
-- id: q8
-  question: End tuşu çoğu metin düzenleyicide ne yapar?
-  options:
-  - İmleci satırın sonuna götürür
-  - Bilgisayarı kapatır
-  - Metni kalın yapar
-  - Geri Dönüşüm Kutusu'nu açar
-  answer: 0
-  explanation: End tuşu satırın sonuna hızlı geçiş sağlar.
+  explanation: Backspace genellikle imlecin solundaki karakteri siler.
 - id: q9
-  question: Ctrl + C kısayolu ne yapar?
+  question: Delete tuşunun metindeki yaygın görevi nedir?
   options:
-  - Seçili içeriği keser
-  - Belgeyi kapatır
-  - Seçili içeriği kopyalar
-  - Ayarlar'ı açar
+  - İmlecin solundaki karakteri silmek
+  - Belgeyi kaydetmek
+  - İmlecin sağındaki karakteri veya seçili içeriği silmek
+  - Sekme değiştirmek
   answer: 2
-  explanation: Ctrl+C yaygın kopyalama kısayoludur.
+  explanation: Delete, imlecin sağını veya seçili öğeyi silmekte kullanılır.
 - id: q10
-  question: Ctrl + X ne için kullanılır?
+  question: '`Shift + Tab` çoğu form ve iletişim kutusunda ne yapar?'
   options:
-  - Yapıştırmak için
-  - Tümünü seçmek için
-  - Masaüstünü göstermek için
-  - Seçili içeriği kesmek için
+  - Bir sonraki alana geçer
+  - Pencereyi kapatır
+  - Pano geçmişini açar
+  - Bir önceki alana/öğeye geri gider
   answer: 3
-  explanation: Ctrl+X seçili içeriği taşımaya hazırlamak üzere keser.
+  explanation: Tab ileri, Shift+Tab geriye doğru odak hareketi sağlar.
 - id: q11
-  question: Ctrl + V ne yapar?
+  question: '`Ctrl + Sağ Ok` çoğu metin alanında ne yapar?'
   options:
-  - Panodaki içeriği yapıştırır
-  - Son işlemi geri alır
-  - Dosya Gezgini'ni açar
-  - Yardımı açar
+  - İmleci sonraki kelimeye doğru taşır
+  - Tüm metni seçer
+  - Satırı siler
+  - Pencereyi sağa yaslar
   answer: 0
-  explanation: Ctrl+V kopyalanan veya kesilen içeriği hedefe yapıştırır.
+  explanation: Ctrl ile ok tuşları çoğu düzenleyicide kelime bazında gezinir.
 - id: q12
-  question: Ctrl + Z'nin yaygın görevi nedir?
+  question: '`Shift + Sağ Ok` ne için kullanılır?'
   options:
-  - Tüm metni seçmek
-  - Son işlemi geri almak
-  - Bilgisayarı kilitlemek
-  - Görev Yöneticisi'ni açmak
+  - Belgeyi kaydetmek
+  - Metni karakter karakter seçimi genişletmek
+  - Tarayıcıyı yenilemek
+  - Klavyeyi Türkçeye çevirmek
   answer: 1
-  explanation: Ctrl+Z birçok uygulamada son işlemi geri alır.
+  explanation: Shift ile gezinme tuşları seçim alanını genişletir.
 - id: q13
-  question: Ctrl + A ne anlama gelir?
+  question: '`Ctrl + C` ne yapar?'
   options:
-  - Yeni belge açmak
-  - Yazdırmak
-  - Bilgisayarı kapatmak
-  - Geçerli alandaki tüm öğeleri veya metni seçmek
+  - Seçili içeriği taşımak üzere keser
+  - Panodakini yapıştırır
+  - Programı kapatır
+  - Seçili içeriği panoya kopyalar
   answer: 3
-  explanation: Ctrl+A odağın bulunduğu alandaki tüm içeriği seçer.
+  explanation: Ctrl+C seçili içeriğin kopyasını panoya alır.
 - id: q14
-  question: Windows + E kısayolu ne açar?
+  question: '`Ctrl + X` ne yapar?'
   options:
-  - Dosya Gezgini'ni
-  - Ayarlar'ı
-  - Pano geçmişini
-  - Görev Yöneticisi'ni
+  - Seçili içeriği taşımak üzere keser
+  - Seçili içeriği kopyalar
+  - Son işlemi geri alır
+  - Tümünü seçer
   answer: 0
-  explanation: Windows+E Windows Dosya Gezgini'ni açar.
+  explanation: Ctrl+X kesme komutudur; içerik yapıştırılmak üzere panoya alınır.
 - id: q15
-  question: Windows + I ne açar?
+  question: '`Ctrl + V` ne yapar?'
   options:
-  - Dosya Gezgini'ni
-  - Ayarlar uygulamasını
-  - Başlat menüsünü kapatır
-  - Yazıcı kuyruğunu
+  - Panoyu temizler
+  - Panodaki içeriği yapıştırır
+  - Pencereyi küçültür
+  - Belgeyi yazdırır
   answer: 1
-  explanation: Windows+I doğrudan Windows Ayarları'nı açar.
+  explanation: Ctrl+V panodaki son uygun içeriği hedef konuma yapıştırır.
 - id: q16
-  question: Ctrl + Shift + Esc ne açar?
+  question: '`Windows + E` kısayolu ne açar?'
   options:
-  - Dosya Gezgini'ni
-  - Pano geçmişini
-  - Görev Yöneticisi'ni
-  - Word'ü
+  - Ayarlar
+  - Görev Yöneticisi
+  - Dosya Gezgini
+  - Pano geçmişi
   answer: 2
-  explanation: Bu kısayol Görev Yöneticisi'ni doğrudan açar.
+  explanation: Windows+E Dosya Gezgini kısayoludur.
 - id: q17
-  question: F2 Windows Dosya Gezgini'nde seçili öğe üzerinde yaygın olarak ne yapar?
+  question: '`Windows + Ara Çubuğu` ne için kullanılır?'
   options:
-  - Yeniden adlandırmayı başlatır
-  - Dosyayı kopyalar
-  - Ekranı kapatır
-  - Yeni klasör açar
+  - Yüklü giriş dilleri ve klavye düzenleri arasında geçmek
+  - Dosyayı kalıcı silmek
+  - Ekran görüntüsü almak
+  - Bilgisayarı kapatmak
   answer: 0
-  explanation: F2 seçili dosya/klasörü yeniden adlandırmak için yaygın Windows kısayoludur.
+  explanation: Windows+Ara Çubuğu giriş dili/klavye düzeni değiştirir.
 - id: q18
-  question: Fn tuşu için en doğru açıklama hangisidir?
+  question: '`Alt + Tab` kısayolunun görevi nedir?'
   options:
-  - Her bilgisayarda F5'i zorunlu olarak ses açar
-  - Dosya kopyalamanın standart Windows kısayoludur
-  - Dizüstü klavyelerde bazı tuşların ikinci işlevlerine erişebilir ve davranışı üreticiye göre değişebilir
-  - Windows'u yeniden başlatır
+  - Etkin uygulamayı kapatmak
+  - Dosyayı yeniden adlandırmak
+  - Açık uygulamalar arasında geçiş yapmak
+  - Yazdırma penceresini açmak
   answer: 2
-  explanation: Fn tuşu donanım üreticisine bağlı özel işlevlerle kullanılabilir.
+  explanation: Alt+Tab açık pencereler/uygulamalar arasında geçiş için kullanılır.
 - id: q19
-  question: AltGr ile hangi karakterlerin yazılacağı neye bağlı olabilir?
+  question: '`F2` Windows Dosya Gezgini’nde seçili öğede yaygın olarak ne yapar?'
   options:
-  - SSD kapasitesine
-  - Seçili klavye dili ve düzenine
-  - Monitör boyutuna
-  - RAM miktarına
+  - Öğeyi kopyalar
+  - Yeniden adlandırmayı başlatır
+  - Bilgisayarı kilitler
+  - Ayarlar uygulamasını açar
   answer: 1
-  explanation: AltGr kombinasyonları klavye düzenine göre değişebilir.
+  explanation: Microsoft Windows kısayollarında F2 seçili öğeyi yeniden adlandırır.
 - id: q20
-  question: İyi klavye kullanımı için en doğru yaklaşım hangisidir?
+  question: Bir fiziksel klavyede tuşlar Türkçe Q görünmesine rağmen yanlış karakterler çıkıyorsa ilk kontrol ne olmalıdır?
   options:
-  - Bütün kısayolları ezberleyip anlamını bilmemek
-  - Fareyi hiçbir zaman kullanmamak
-  - Her tuşa aynı anda basmak
-  - Tuşların görevini ve bağlamını anlayıp uygun kısayolları bilinçli kullanmak
+  - Monitör parlaklığı
+  - Dosya uzantıları
+  - Hoparlör ses düzeyi
+  - Windows’ta seçili giriş dili/klavye düzeni
   answer: 3
-  explanation: Klavye hâkimiyeti amaçlı ve kontrollü kullanım demektir.
+  explanation: Fiziksel tuş üzerindeki baskı ile işletim sisteminde seçilen klavye düzeni farklı olabilir.

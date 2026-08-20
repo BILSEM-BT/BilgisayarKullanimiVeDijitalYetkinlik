@@ -1,0 +1,183 @@
+title: Microsoft Excel Temel Kullanımı
+description: Çalışma kitabı/sayfası, hücre, veri türü, biçim ve basit formül bilgisini değerlendir.
+questions:
+- id: q1
+  question: Excel’de `.xlsx` dosyasının tamamına ne denir?
+  options:
+  - Çalışma kitabı
+  - Çalışma sayfası
+  - Hücre
+  - Formül çubuğu
+  answer: 0
+  explanation: Bir Excel dosyası çalışma kitabıdır; içinde birden çok çalışma sayfası bulunabilir.
+- id: q2
+  question: A1 ifadesi neyi belirtir?
+  options:
+  - A adlı dosyayı
+  - A sütunu ile 1. satırın kesişimindeki hücreyi
+  - 1. çalışma kitabını
+  - Bir grafik türünü
+  answer: 1
+  explanation: Hücre adresi sütun harfi ve satır numarasından oluşur.
+- id: q3
+  question: A1:D10 neyi ifade eder?
+  options:
+  - Yalnız A1 hücresini
+  - D10 adlı dosyayı
+  - A1’den D10’a uzanan hücre aralığını
+  - Bir tarih biçimini
+  answer: 2
+  explanation: İki hücre adresi arasındaki iki nokta dikdörtgen aralığı belirtir.
+- id: q4
+  question: Excel formülü hangi karakterle başlar?
+  options:
+  - '#'
+  - '@'
+  - '&'
+  - '='
+  answer: 3
+  explanation: Excel’de formüller eşittir işaretiyle başlatılır.
+- id: q5
+  question: D2 hücresinde adet B2, birim fiyat C2 ise toplam için doğru formül hangisidir?
+  options:
+  - B2+C2 metni
+  - =B2*C2
+  - =B2&C2
+  - =D2*D2
+  answer: 1
+  explanation: Adet ile birim fiyat çarpılır.
+- id: q6
+  question: Para değerinin hücrede sayı olarak kalması için en iyi yöntem hangisidir?
+  options:
+  - 450 TL metnini tek hücreye yazmak
+  - Her sayıyı resme çevirmek
+  - Sayısal değeri girip Para Birimi/Sayı biçimi uygulamak
+  - Hücreyi boş bırakmak
+  answer: 2
+  explanation: Biçim görünümü değiştirir; sayısal değeri hesaplanabilir tutar.
+- id: q7
+  question: Çalışma kitabındaki Sayfa1, Bütçe gibi sekmeler nedir?
+  options:
+  - Grafikler
+  - Formüller
+  - Yazıcılar
+  - Çalışma sayfaları
+  answer: 3
+  explanation: Bir workbook içinde birden çok worksheet olabilir.
+- id: q8
+  question: Bir hücredeki mevcut içeriği düzenlemek için kullanılabilen tuş hangisidir?
+  options:
+  - F2
+  - F5
+  - F11
+  - Esc
+  answer: 0
+  explanation: Excel’de F2 etkin hücrenin içeriğini düzenleme moduna geçirir.
+- id: q9
+  question: Doldurma tutamacı ne işe yarayabilir?
+  options:
+  - Dosyayı kapatmaya
+  - Yazıcı kurmaya
+  - Formülü veya seriyi komşu hücrelere kopyalamaya/devam ettirmeye
+  - Klavye dilini değiştirmeye
+  answer: 2
+  explanation: Fill handle formül ve dizileri uzatmada kullanılır.
+- id: q10
+  question: 0,25 değerine Yüzde biçimi uygulanırsa tipik görünüm ne olur?
+  options:
+  - 0,25 TL
+  - 2500%
+  - 25 metin
+  - 25%
+  answer: 3
+  explanation: 0,25 sayısının yüzde gösterimi 25%’tir.
+- id: q11
+  question: Bir sütun başlığı sığmıyorsa en iyi çözümlerden biri hangisidir?
+  options:
+  - Sütun genişliğini ayarlamak veya otomatik sığdırmak
+  - Veriyi başka dosyaya silmek
+  - Formülü kaldırmak
+  - Bilgisayarı yeniden başlatmak
+  answer: 0
+  explanation: Sütun genişliği görünüm problemidir.
+- id: q12
+  question: Excel veri tablosunun ortasında çok sayıda birleştirilmiş hücre neden sorun olabilir?
+  options:
+  - Excel hücre birleştiremez
+  - Sıralama ve filtreleme gibi veri işlemlerini zorlaştırabilir
+  - Dosyayı kaydetmeyi engeller
+  - Formül çubuğunu kaldırır
+  answer: 1
+  explanation: Birleşik hücreler veri yapısını bozar ve işlemleri zorlaştırır.
+- id: q13
+  question: Hesap sonucu neden elle yazılmak yerine formülle oluşturulmalıdır?
+  options:
+  - Formüller daha renkli olduğu için
+  - Elle sayı yazmak yasak olduğu için
+  - PDF bunu gerektirdiği için
+  - Girdiler değiştiğinde sonuç otomatik güncellenebilsin diye
+  answer: 3
+  explanation: Formül hücre bağımlılıklarıyla dinamik hesap yapar.
+- id: q14
+  question: Excel’de hücrede görünen biçim ile gerçek değer aynı şey midir?
+  options:
+  - Her zaman değil; biçim değerin görüntülenme şeklini değiştirebilir
+  - Her zaman aynıdır
+  - Biçim değeri mutlaka sıfırlar
+  - Biçim yalnız metinde vardır
+  answer: 0
+  explanation: Sayı/tarih/yüzde biçimleri temel değeri değiştirmeden görünümü değiştirebilir.
+- id: q15
+  question: Telefon numarası gibi başında sıfır bulunabilecek ve hesap yapılmayacak veri nasıl tutulabilir?
+  options:
+  - Mutlaka yüzde olarak
+  - Metin olarak
+  - Yalnız grafik olarak
+  - Formül hatası olarak
+  answer: 1
+  explanation: Kimlik/telefon gibi değerlerde baştaki sıfırı korumak için metin uygun olabilir.
+- id: q16
+  question: '`Delete` Excel hücresinde yaygın olarak ne yapar?'
+  options:
+  - Çalışma kitabını siler
+  - Excel’i kaldırır
+  - Seçili hücrenin içeriğini temizler
+  - Sütunu otomatik grafiğe çevirir
+  answer: 2
+  explanation: Delete seçili hücre içeriğini kaldırır; dosyayı silmez.
+- id: q17
+  question: Otomatik Toplam aracı genellikle hangi işlevi hızlı oluşturur?
+  options:
+  - TOPLA
+  - EĞER
+  - ÇAPRAZARA
+  - YAZDIR
+  answer: 0
+  explanation: AutoSum seçilen/önerilen aralık için TOPLA formülü üretir.
+- id: q18
+  question: Bir Excel dosyasını anlamlı adla kaydetmenin yararı nedir?
+  options:
+  - Hücre sayısını artırır
+  - Formülü gizler
+  - Daha sonra dosyayı bulmayı ve amacını anlamayı kolaylaştırır
+  - Grafiği otomatik oluşturur
+  answer: 2
+  explanation: Dosya yönetimi çalışma düzeninin parçasıdır.
+- id: q19
+  question: Çalışma sayfası ile çalışma kitabı arasındaki doğru ilişki hangisidir?
+  options:
+  - Çalışma sayfası birçok çalışma kitabı içerir
+  - Çalışma kitabı bir veya daha fazla çalışma sayfası içerebilir
+  - İkisi tamamen aynıdır
+  - Çalışma kitabı yalnız grafiktir
+  answer: 1
+  explanation: Workbook kapsayıcı, worksheet içindeki sayfalardır.
+- id: q20
+  question: Excel temel kullanımının doğru özeti hangisidir?
+  options:
+  - Yalnız hücre boyama
+  - Yalnız grafik çizme
+  - Yalnız metin yazma
+  - Veriyi hücrelere düzenli girme, doğru biçimleme ve hücre başvurulu hesaplama yapma
+  answer: 3
+  explanation: Temel Excel becerisi veri yapısı ve hesaplamayı birlikte içerir.

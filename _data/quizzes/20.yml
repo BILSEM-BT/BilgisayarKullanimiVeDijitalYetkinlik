@@ -1,0 +1,183 @@
+title: Excel'de Tablo, Sıralama, Filtreleme ve Grafik
+description: Düzenli veri, tablo, sıralama, filtreleme ve grafik seçimini değerlendir.
+questions:
+- id: q1
+  question: Düzenli veri tablosunda bir satır genellikle neyi temsil etmelidir?
+  options:
+  - Bir kaydı/gözlemi
+  - Bütün veri kümesini
+  - Yalnız başlığı
+  - Dosya adını
+  answer: 0
+  explanation: Tidy tablo mantığında her satır bir kayıt/gözlem olarak düzenlenir.
+- id: q2
+  question: Excel Tablosu oluşturmanın yararlarından biri hangisidir?
+  options:
+  - Windows’u güncellemesi
+  - Başlıklara filtre denetimleri ekleyip veri yönetimini kolaylaştırması
+  - PDF’i şifrelemesi
+  - Klavye dilini değiştirmesi
+  answer: 1
+  explanation: Excel table yapısı filtre/sıralama ve otomatik genişleme gibi kolaylıklar sağlar.
+- id: q3
+  question: Sıralama ne yapar?
+  options:
+  - Uymayan satırları siler
+  - Formülleri resme çevirir
+  - Kayıtların görüntülenme/satır sırasını belirli ölçüte göre yeniden düzenler
+  - Dosyayı kapatır
+  answer: 2
+  explanation: Sort kayıtların sırasını değiştirir.
+- id: q4
+  question: Filtreleme ne yapar?
+  options:
+  - Uymayan kayıtları kesin siler
+  - Dosyayı sıkıştırır
+  - Hücreleri birleştirir
+  - Ölçüte uymayan kayıtları geçici olarak gizleyip istenenleri gösterir
+  answer: 3
+  explanation: Filter veri satırlarını silmeden görünümü daraltır.
+- id: q5
+  question: Yalnız Puan sütununu diğer sütunlardan bağımsız sıralamak hangi riski taşır?
+  options:
+  - Excel’i kapatmak
+  - Takım ile puan eşleşmesini bozmak
+  - Yazı tipini değiştirmek
+  - PDF oluşturmak
+  answer: 1
+  explanation: Kayıt satırı bütün hâlde sıralanmalıdır.
+- id: q6
+  question: Zamana göre değişimi göstermek için genellikle hangi grafik uygundur?
+  options:
+  - Pasta grafik
+  - Dağıtılmamış metin
+  - Çizgi grafik
+  - Dosya listesi
+  answer: 2
+  explanation: Line chart zaman serisi eğilimini göstermede yaygındır.
+- id: q7
+  question: Kategorilerin puanlarını karşılaştırmak için hangi grafik genellikle uygundur?
+  options:
+  - Yalnız pasta grafik
+  - Metin kutusu
+  - Formül çubuğu
+  - Sütun/çubuk grafik
+  answer: 3
+  explanation: Bar/column kategorik değer karşılaştırmasını açık gösterir.
+- id: q8
+  question: Pasta grafiği ne zaman daha anlamlıdır?
+  options:
+  - Az sayıda kategorinin bir bütün içindeki paylarını göstermek için
+  - 100 kategorinin sıralamasında
+  - Zaman içindeki ayrıntılı trendde
+  - Formül hatalarını bulmada
+  answer: 0
+  explanation: Pie chart part-to-whole ve az kategori için daha uygundur.
+- id: q9
+  question: Filtre uygulandığında uymayan satırlara ne olur?
+  options:
+  - Kalıcı silinir
+  - PDF olur
+  - Gizlenir; veri silinmez
+  - Başka dosyaya taşınır
+  answer: 2
+  explanation: Filter koşula uymayan satırları geçici olarak görünmez yapar.
+- id: q10
+  question: Filtreyi kaldırınca ne beklenir?
+  options:
+  - Dosyanın kapanması
+  - Formüllerin silinmesi
+  - Grafiğin zorunlu silinmesi
+  - Gizlenmiş kayıtların yeniden görünmesi
+  answer: 3
+  explanation: Filtre temizlenince tüm kayıtlar yeniden görünür.
+- id: q11
+  question: Grafik başlığında en iyi yaklaşım hangisidir?
+  options:
+  - Grafiğin gösterdiği mesajı/ölçümü açıkça belirtmek
+  - Grafik 1 yazmakla yetinmek
+  - Başlığı tamamen kaldırmak
+  - Yalnız renk adı yazmak
+  answer: 0
+  explanation: Anlamlı başlık izleyicinin grafiği hızlı anlamasını sağlar.
+- id: q12
+  question: Grafikte eksen birimi neden önemlidir?
+  options:
+  - Dosyayı küçültür
+  - Sayıların neyi ölçtüğünü anlamayı sağlar
+  - Hücre adresini değiştirir
+  - Klavye kısayolu üretir
+  answer: 1
+  explanation: Örn. saniye, TL, yüzde gibi birimler değerin anlamını verir.
+- id: q13
+  question: Veri tablosunun ortasında boş satırlar neden sorun olabilir?
+  options:
+  - Excel boş satır gösteremez
+  - Dosya kaydedilemez
+  - Grafikler yasaktır
+  - Tablo aralığı, filtre ve analiz akışını bölebilir
+  answer: 3
+  explanation: Kesintisiz veri aralığı analiz araçları için daha sağlıklıdır.
+- id: q14
+  question: Aynı sütunda `88`, `92 puan`, `76` gibi karışık veri neden sakıncalıdır?
+  options:
+  - Sayı ve metin karışımı sıralama/hesaplamayı bozabilir
+  - Renkleri azaltır
+  - PDF’i büyütür
+  - Sayfa adını değiştirir
+  answer: 0
+  explanation: Bir sütun mümkün olduğunca aynı tür veriyi taşımalıdır.
+- id: q15
+  question: Excel Tablosu başlık okları ne için kullanılabilir?
+  options:
+  - Yalnız yazdırmak için
+  - Sıralama ve filtreleme için
+  - Formül yazmak için
+  - Dosya adını değiştirmek için
+  answer: 1
+  explanation: Table headers yerleşik sort/filter kontrolleri sunar.
+- id: q16
+  question: Bir filtre sonucunu başka biriyle paylaşmadan önce neyi belirtmek yararlıdır?
+  options:
+  - Klavye markasını
+  - Windows duvar kağıdını
+  - Hangi filtre ölçütlerinin uygulandığını
+  - Dosyanın oluşturulduğu bilgisayarın rengini
+  answer: 2
+  explanation: Filtrelenmiş görünüm bağlamı sonuçların doğru yorumlanması için önemlidir.
+- id: q17
+  question: 3B ve çok süslü grafiklerin riski nedir?
+  options:
+  - Veri karşılaştırmasını görsel olarak zorlaştırabilmesi
+  - Excel’in kapanması
+  - Dosyanın metne dönüşmesi
+  - Formüllerin şifrelenmesi
+  answer: 0
+  explanation: Süsleme veri algısını bozabilir.
+- id: q18
+  question: Grafik oluştururken önce ne seçilmelidir?
+  options:
+  - Klavye dili
+  - Dosya uzantısı
+  - Grafikte kullanılacak ilgili veri aralığı
+  - Windows hesabı
+  answer: 2
+  explanation: Chart source data doğru seçilmelidir.
+- id: q19
+  question: Sıralama ile filtre arasındaki temel fark hangisidir?
+  options:
+  - İkisi tamamen aynıdır
+  - Sıralama kayıtların sırasını değiştirir; filtre görünür kayıtları daraltır
+  - Filtre sıralar, sıralama siler
+  - İkisi de yalnız grafik üretir
+  answer: 1
+  explanation: Sort order, filter visibility üzerinde çalışır.
+- id: q20
+  question: İyi veri sunumunun özeti hangisidir?
+  options:
+  - Her hücreyi farklı renge boyamak
+  - Bütün veriyi tek hücreye yazmak
+  - Her zaman pasta grafik kullanmak
+  - Düzenli tablo + doğru sıralama/filtre + soruya uygun sade grafik
+  answer: 3
+  explanation: Veri yapısı ve uygun görselleştirme birlikte anlam üretir.

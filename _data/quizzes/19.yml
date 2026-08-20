@@ -1,0 +1,183 @@
+title: Excel Formülleri ve Temel Fonksiyonlar
+description: Formül okuma, hücre başvuruları ve Türkçe Excel işlevlerini değerlendir.
+questions:
+- id: q1
+  question: Excel’de `$F$1` ne tür hücre başvurusudur?
+  options:
+  - Mutlak başvuru
+  - Göreli başvuru
+  - Metin biçimi
+  - Hata değeri
+  answer: 0
+  explanation: Dolar işaretleri hem sütunu hem satırı sabitler.
+- id: q2
+  question: D2’de `=B2*C2` formülü D3’e kopyalandığında normalde ne olur?
+  options:
+  - =B2*C2 olarak kalır
+  - =B3*C3
+  - =D3*D3
+  - =B1*C1
+  answer: 1
+  explanation: Göreli başvurular kopyalandıkları konuma göre değişir.
+- id: q3
+  question: '`=TOPLA(A1:A5)` ne yapar?'
+  options:
+  - Ortalamasını alır
+  - En küçüğü bulur
+  - A1:A5 aralığındaki değerleri toplar
+  - Metni sıralar
+  answer: 2
+  explanation: TOPLA işlevi belirtilen değerleri toplar.
+- id: q4
+  question: '`=ORTALAMA(B2:D2)` ne döndürür?'
+  options:
+  - En büyük değeri
+  - Metin uzunluğunu
+  - Satır sayısını
+  - B2 ile D2 arasındaki sayıların aritmetik ortalamasını
+  answer: 3
+  explanation: ORTALAMA aritmetik ortalama hesaplar.
+- id: q5
+  question: Bir aralıktaki en büyük sayıyı bulmak için hangi işlev kullanılır?
+  options:
+  - MİN
+  - MAK
+  - TOPLA
+  - EĞER
+  answer: 1
+  explanation: MAK maksimum değeri verir.
+- id: q6
+  question: Bir aralıktaki en küçük sayıyı bulmak için hangi işlev kullanılır?
+  options:
+  - MAK
+  - ETOPLA
+  - MİN
+  - ÇAPRAZARA
+  answer: 2
+  explanation: MİN minimum değeri verir.
+- id: q7
+  question: '`EĞER(E2>=50;"Geçti";"Kaldı")` formülünün amacı nedir?'
+  options:
+  - E2’yi her zaman 50 yapmak
+  - E2’yi silmek
+  - Tabloyu filtrelemek
+  - E2 değerine göre iki metin sonucundan birini seçmek
+  answer: 3
+  explanation: EĞER koşula göre doğru/yanlış sonucunu seçer.
+- id: q8
+  question: EĞER formülünde `"Geçti"` neden çift tırnak içindedir?
+  options:
+  - Metin sabiti olduğu için
+  - Hücre adresi olduğu için
+  - Sayı olduğu için
+  - Grafik adı olduğu için
+  answer: 0
+  explanation: Formül içindeki metin değerleri tırnakla yazılır.
+- id: q9
+  question: ETOPLA ne için kullanılır?
+  options:
+  - Bütün hücreleri silmek için
+  - Grafik çizmek için
+  - Belirli ölçüte uyan değerleri toplamak için
+  - PDF oluşturmak için
+  answer: 2
+  explanation: ETOPLA ölçüt tabanlı toplam alır.
+- id: q10
+  question: ÇAPRAZARA’nın temel amacı nedir?
+  options:
+  - Dosya uzantısını değiştirmek
+  - Hücre rengini seçmek
+  - Yazdırma alanı belirlemek
+  - Bir değeri arayıp eşleşen satır/sütundan ilgili sonucu döndürmek
+  answer: 3
+  explanation: XLOOKUP/ÇAPRAZARA arama ve başvuru işlevdir.
+- id: q11
+  question: ÇAPRAZARA Excel 2016’da yeni formül olarak kullanılabilir mi?
+  options:
+  - Hayır; daha yeni Excel sürümlerinin işlevlerinden biridir
+  - Evet bütün Excel sürümlerinde vardır
+  - Yalnız Word’de vardır
+  - Sadece PDF’de çalışır
+  answer: 0
+  explanation: Microsoft ÇAPRAZARA’nın Excel 2016/2019’da yeni işlev olarak bulunmadığını belirtir.
+- id: q12
+  question: '`#BÖL/0!` hatası neyi düşündürür?'
+  options:
+  - Yazıcı kapalı
+  - Bir değerin sıfıra bölünmeye çalışıldığını
+  - Dosya adı uzun
+  - Grafik gizli
+  answer: 1
+  explanation: DIV/0 sıfıra bölme hatasıdır.
+- id: q13
+  question: Arama işlevi eşleşme bulamazsa görülebilecek hata hangisidir?
+  options:
+  - '#BÖL/0!'
+  - '#BAŞV!'
+  - '#RENK!'
+  - '#YOK'
+  answer: 3
+  explanation: '#YOK değerin bulunamadığını ifade eden yaygın arama hatasıdır.'
+- id: q14
+  question: Bir formül kopyalanınca sabit oran hücresinin değişmemesi için ne yapılır?
+  options:
+  - O hücre için mutlak başvuru kullanılır
+  - Hücre silinir
+  - Formül metne çevrilir
+  - Dosya PDF yapılır
+  answer: 0
+  explanation: Mutlak başvuru sabit referans için kullanılır.
+- id: q15
+  question: Formül bağımsız değişken ayırıcısı neden bazı bilgisayarlarda `;`, bazılarında `,` olabilir?
+  options:
+  - Klavye bozuk olduğu için
+  - Bölgesel sistem/Excel ayarlarına bağlı olabildiği için
+  - Dosya virüslü olduğu için
+  - Hücre boş olduğu için
+  answer: 1
+  explanation: Liste ayırıcısı locale/bölge ayarlarından etkilenebilir.
+- id: q16
+  question: '`=(B2+C2)/2` formülünde parantezin görevi nedir?'
+  options:
+  - Hücreleri kilitlemek
+  - Metni renklendirmek
+  - Toplamayı bölmeden önce yaptırmak
+  - Dosyayı kaydetmek
+  answer: 2
+  explanation: Parantez işlem önceliğini açıkça belirler.
+- id: q17
+  question: Formül sonucu beklenmedikse ilk iyi yaklaşım hangisidir?
+  options:
+  - Hücre başvuruları, veri türleri, parantez ve aralığı adım adım kontrol etmek
+  - Rastgele yeni işlevler eklemek
+  - Tüm tabloyu silmek
+  - Windows’u yeniden kurmak
+  answer: 0
+  explanation: Sistematik formül okuma hatayı bulmayı kolaylaştırır.
+- id: q18
+  question: EĞER işlevi kaç temel sonuç yolu üretir?
+  options:
+  - Her zaman dört sonuç
+  - Yalnız tek sonuç
+  - Koşul doğruysa bir, yanlışsa başka sonuç
+  - Sonsuz sonuç
+  answer: 2
+  explanation: IF/EĞER mantıksal sınamaya göre doğru/yanlış yolları üretir.
+- id: q19
+  question: Göreli başvurunun güçlü olduğu durum hangisidir?
+  options:
+  - Her kopyada aynı sabit oran hücresini tutmak
+  - Aynı satır hesap mantığını aşağıdaki satırlara kopyalamak
+  - Dosya adını sabitlemek
+  - Grafik başlığını çevirmek
+  answer: 1
+  explanation: Göreli referans kopyalama ile satır/sütuna uyum sağlar.
+- id: q20
+  question: İyi Excel formül kullanımının özeti hangisidir?
+  options:
+  - İşlev adlarını ezberlemek ama anlamamak
+  - Her sonucu elle yazmak
+  - Yalnız renk kullanmak
+  - Formülü okuyabilmek, doğru başvuru türünü seçmek ve hataları anlamlandırmak
+  answer: 3
+  explanation: Doğru formül kullanımı mantık ve başvuru bilgisini gerektirir.

@@ -1,0 +1,183 @@
+title: Word ile Düzenli Belge ve PDF Oluşturma
+description: Stiller, belge yapısı, içindekiler, erişilebilirlik ve PDF çıktısını değerlendir.
+questions:
+- id: q1
+  question: Otomatik İçindekiler Tablosu için en önemli hazırlık nedir?
+  options:
+  - Bölüm başlıklarında yerleşik Başlık stillerini kullanmak
+  - Başlıklara elle nokta koymak
+  - Her sayfayı resim yapmak
+  - Başlıkları yalnız kırmızı yapmak
+  answer: 0
+  explanation: Word içindekiler tablosunu başlık stillerine göre oluşturur.
+- id: q2
+  question: Ana bölüm başlığı için hangi stil en uygundur?
+  options:
+  - Normal
+  - Başlık 1
+  - Alıntı
+  - Alt Bilgi
+  answer: 1
+  explanation: Başlık 1 ana bölüm seviyesini belirtir.
+- id: q3
+  question: Belge değiştikten sonra otomatik içindekiler nasıl yenilenebilir?
+  options:
+  - Başlıkları silerek
+  - PDF’i yeniden adlandırarak
+  - İçindekiler üzerinde Alanı Güncelleştir komutuyla
+  - Word’ü kaldırarak
+  answer: 2
+  explanation: Microsoft Word içindekiler değişiklikten sonra Alanı Güncelleştir ile yenilenebilir.
+- id: q4
+  question: Yeni bölümü yeni sayfadan başlatmak için neden çok sayıda Enter yerine Sayfa Sonu kullanılır?
+  options:
+  - Enter Word’de çalışmadığı için
+  - PDF yalnız Sayfa Sonu kabul ettiği için
+  - Sayfa Sonu yazıyı şifrelediği için
+  - Önceki içerik değişse de sayfa geçişi daha kararlı kaldığı için
+  answer: 3
+  explanation: Sayfa sonu yapısal sayfa geçişidir.
+- id: q5
+  question: Resim yazısının temel amacı nedir?
+  options:
+  - Resmi şifrelemek
+  - Şekil/tabloyu numara ve açıklamayla tanımlamak
+  - Dosyayı küçültmek
+  - Görseli döndürmek
+  answer: 1
+  explanation: Resim yazısı nesneyi tanımlar ve numaralandırmaya yardım eder.
+- id: q6
+  question: Görsele alternatif metin eklemek neden önemlidir?
+  options:
+  - Görsel çözünürlüğünü artırmak için
+  - Dosyayı ZIP yapmak için
+  - Görseli göremeyen kullanıcıların içeriğin amacını anlayabilmesine yardımcı olmak için
+  - Sayfa numarasını değiştirmek için
+  answer: 2
+  explanation: Alternatif metin erişilebilirlik sağlar.
+- id: q7
+  question: Gözden Geçir > Erişilebilirliği Denetle ne için kullanılır?
+  options:
+  - İnternet hızını ölçmek
+  - Belgeyi Excel’e çevirmek
+  - Yazıcı sürücüsünü kurmak
+  - Belgedeki erişilebilirlik sorunlarını bulmaya yardımcı olmak için
+  answer: 3
+  explanation: Erişilebilirlik Denetleyicisi belge yapısı ve nesnelerde sorunları işaretleyebilir.
+- id: q8
+  question: Sayfa numarasını her sayfaya elle yazmak yerine hangi özellik kullanılmalıdır?
+  options:
+  - Ekle > Sayfa Numarası
+  - Bul ve Değiştir
+  - Tablo Tasarımı
+  - Yazım Denetimi
+  answer: 0
+  explanation: Otomatik sayfa numarası ekleme belgedeki sayfa değişikliklerine uyum sağlar.
+- id: q9
+  question: PDF oluşturduktan sonra en iyi sonraki adım nedir?
+  options:
+  - Kaynak DOCX’i hemen silmek
+  - Dosya adını gizlemek
+  - PDF’i açıp sayfa, tablo, görsel ve bağlantıları kontrol etmek
+  - PDF’in boyutunu sıfırlamak
+  answer: 2
+  explanation: Dışa aktarma sonrası görsel ve işlevsel kontrol gerekir.
+- id: q10
+  question: DOCX ve PDF’yi birlikte saklamanın yararı nedir?
+  options:
+  - İki dosya mutlaka aynı boyutta olur
+  - PDF yalnız DOCX içinden açılır
+  - DOCX yalnız yazdırma içindir
+  - DOCX düzenlenebilir kaynak, PDF teslim/paylaşım kopyası olarak kullanılabilir
+  answer: 3
+  explanation: Kaynak ve teslim biçiminin amaçları farklıdır.
+- id: q11
+  question: Başlık seviyelerinde iyi sıra hangisidir?
+  options:
+  - Başlık 1 → Başlık 2 → Başlık 3
+  - Başlık 3 → Başlık 1 → Başlık 2
+  - Yalnız Normal stili
+  - Rastgele başlık seviyeleri
+  answer: 0
+  explanation: Mantıksal hiyerarşi hem gezinme hem erişilebilirlik için önemlidir.
+- id: q12
+  question: Tablo erişilebilirliği için ne önemlidir?
+  options:
+  - Bütün hücreleri birleştirmek
+  - Açıklayıcı sütun üst bilgileri kullanmak
+  - Başlık satırını boş bırakmak
+  - Tabloyu resme çevirmek
+  answer: 1
+  explanation: Ekran okuyucular sütun başlıklarıyla tablo bağlamını daha iyi iletebilir.
+- id: q13
+  question: Bir kapak sayfasının temel amacı nedir?
+  options:
+  - Belgeyi şifrelemek
+  - Formülleri hesaplamak
+  - Görselleri sıkıştırmak
+  - Belgenin kimliğini ve temel bilgilerini düzenli sunmak
+  answer: 3
+  explanation: Kapak proje adı, ekip, kurum ve tarih gibi kimlik bilgilerini taşır.
+- id: q14
+  question: Başlık yalnız kalın ve büyük yapıldığında neden gerçek Başlık 1 sayılmaz?
+  options:
+  - Görsel biçim ile yapısal stil farklı şeylerdir
+  - Kalın yazı Word’de yasaktır
+  - Başlık 1 yalnız PDF’de vardır
+  - Büyük yazı kaydedilemez
+  answer: 0
+  explanation: Yerleşik stil belgenin semantik yapısını taşır.
+- id: q15
+  question: PDF’e aktarırken Excel/Word tablosunun sayfadan taşması hangi kontrolde fark edilir?
+  options:
+  - Yalnız dosya adından
+  - Sayfa/çıktı önizlemesi ve oluşturulan PDF’i açarak
+  - Windows saatinden
+  - Klavye dilinden
+  answer: 1
+  explanation: Görsel çıktı kontrolü taşma ve kırılmaları gösterir.
+- id: q16
+  question: Word’de otomatik içindekiler hangi sekmeyle ilişkilidir?
+  options:
+  - Giriş
+  - Tasarım
+  - Başvurular
+  - Postalar
+  answer: 2
+  explanation: İçindekiler Başvurular sekmesindedir.
+- id: q17
+  question: Rapor görselindeki önemli bilgiyi yalnız resim içindeki yazıyla vermek neden sakıncalıdır?
+  options:
+  - Ekran okuyucu ve metin araması açısından bilgi erişilemez olabilir
+  - Resimler renk gösteremez
+  - PDF resim içermez
+  - Word resimleri kaydetmez
+  answer: 0
+  explanation: Önemli bilgi metin olarak da sunulmalı ve alternatif metin düşünülmelidir.
+- id: q18
+  question: Teslimden önce kaynakların ve yazımın kontrol edilmesi hangi aşamadır?
+  options:
+  - İlk kaydetme
+  - Kopyalama
+  - Gözden geçirme / son kontrol
+  - Dosya indirme
+  answer: 2
+  explanation: Son kontrol içerik ve biçim hatalarını teslimden önce yakalar.
+- id: q19
+  question: Sayfa sonu ile bölüm sonu aynı kavram mıdır?
+  options:
+  - Evet tamamen aynıdır
+  - Hayır; sayfa sonu yeni sayfa başlatır, bölüm sonu daha kapsamlı bölüm biçimlendirme ayrımı sağlar
+  - İkisi de dosyayı siler
+  - İkisi de yalnız Excel’dedir
+  answer: 1
+  explanation: Word’de page break ve section break farklı yapılardır.
+- id: q20
+  question: Düzenli rapor üretmenin en doğru akışı hangisidir?
+  options:
+  - Önce PDF oluştur → sonra Word yaz
+  - Her şeyi boşlukla hizala
+  - Kaynak dosyayı sil → sonra düzenle
+  - Yapıyı kur → stilleri uygula → içerik/görselleri düzenle → içindekiler/erişilebilirlik → PDF ve son kontrol
+  answer: 3
+  explanation: Yapıdan çıktıya doğru kontrollü ilerlemek hata riskini azaltır.

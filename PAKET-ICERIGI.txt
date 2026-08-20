@@ -1,33 +1,17 @@
-BİLGİSAYAR KULLANIMI VE DİJİTAL YETKİNLİK — REVİZE v3
+Bilgisayar Kullanımı ve Dijital Yetkinlik — Revize v4
 
-Bu paket TAM WEB PROJESİDİR.
-Genel Jekyll/GitHub Pages şablon dosyalarının tamamını içerir.
+Bu tam site paketi şunları içerir:
+- Mevcut web tasarımı, layout, CSS, JavaScript ve GitHub Pages şablonları.
+- Bölüm 1 ve Bölüm 2'nin mevcut yayımlanmış dersleri.
+- 1-4 Klavye Tuşları ve Klavye Kısayolları dersinin Türkçe Q klavyeye göre yenilenmiş sürümü.
+- Bölüm 3 — Office ve Belge Üretimi 3-1...3-8 derslerinin tamamı.
+- Bölüm 3'ün 8 uygulaması ve 160 sorusu.
+- 1-4 uygulamasının Türkçe Q düzenine göre yenilenmiş 20 sorusu.
+- Bölüm 1–3 quizlerinin yapısal kalite kontrolü.
+- Bölüm 5 planında WinRAR, 7-Zip ve Sıkıştırılmış Dosyalar dersi korunmuştur.
 
-YAYINDA:
-- Bölüm 1: 7/7 ders
-- Bölüm 2: 8/8 ders
-- Toplam yayımdaki ders: 15
+DİL
+Bölüm 3 içeriği Türkçe hazırlanmıştır. Word, Excel ve PowerPoint menü/komut adlarında Türkçe Microsoft arayüz adları kullanılmıştır. Excel işlevlerinde Türkçe işlev adları kullanılır.
 
-BÖLÜM 1 YENİ SIRA:
-1-1 Bilgisayarın Tarihçesi
-1-2 Bilgisayarı Tanı: Donanım, Yazılım ve Temel Kavramlar
-1-3 Windows Masaüstü, Başlat Menüsü ve Görev Çubuğu
-1-4 Klavye Tuşları ve Klavye Kısayolları
-1-5 Fare, Touchpad, Seçim, Kopyalama, Kesme ve Yapıştırma
-1-6 Windows Dosya Gezgini: Dosya ve Klasörlerle Çalışma
-1-7 Windows Ayarları, Uygulamalar ve Güncellemeler
-
-DÜZELTMELER:
-- Ders sayfası sol menüde ders adı ve uygulama bağlantısı güvenli şekilde gösterilir.
-- Tamamlanan ders kartı ve Derse Gir butonu yeşil olur.
-- İlerleme kod tabanlı v3 yapıya taşındı; eski Bölüm 1 ilerlemesi uygun derslere göç ettirilir.
-- Önceki Ders / Sonraki Ders düğmeleri sol menüye eklendi.
-- Dosya Gezgini dersinde dosya-klasör farkı, kopyala/kes/yapıştır, dosya uzantılarını gösterme ve gizli öğeleri gösterme ayrıntılıdır.
-- Ana sayfa tanıtım metni güncellendi.
-- Bölüm 5 planında WinRAR, 7-Zip ve Sıkıştırılmış Dosyalar dersi bulunur.
-
-UYGULAMALAR:
-- 15 ders x 20 soru = 300 soru
-- Her soruda 4 seçenek ve tek doğru cevap
-- Her quizde A/B/C/D = 5/5/5/5 doğru cevap dağılımı
-- Yanıttan sonra doğru seçenek ve açıklama gösterilir
+GITHUB
+ZIP içindeki BilgisayarKullanimiVeDijitalYetkinlik-Bolum1-2-3-Revize-v4 klasörünün İÇERİĞİNİ repository köküne yükleyin ve aynı adlı dosyaları değiştirin.

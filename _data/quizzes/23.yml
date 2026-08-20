@@ -1,0 +1,183 @@
+title: PDF Dosyaları ve Temel PDF İşlemleri
+description: PDF görüntüleme, arama, açıklama, oluşturma, OCR ve güvenlik kavramlarını değerlendir.
+questions:
+- id: q1
+  question: PDF’nin temel amaçlarından biri nedir?
+  options:
+  - Belgenin sayfa düzenini farklı cihazlarda büyük ölçüde koruyarak paylaşmak
+  - Excel formülü hesaplamak
+  - Klavye dilini değiştirmek
+  - Windows’u güncellemek
+  answer: 0
+  explanation: PDF taşınabilir, sabit sayfa görünümüne yakın paylaşım formatıdır.
+- id: q2
+  question: Bir raporun hem DOCX hem PDF sürümünü saklamak neden yararlıdır?
+  options:
+  - İkisi aynı dosyadır
+  - DOCX düzenlenebilir kaynak, PDF paylaşım/teslim kopyası olabilir
+  - PDF düzenleme için her zaman daha iyidir
+  - DOCX yalnız resimdir
+  answer: 1
+  explanation: Kaynak ve dağıtım dosyaları farklı amaçlara hizmet eder.
+- id: q3
+  question: '`Ctrl + F` PDF’de ne için kullanılır?'
+  options:
+  - PDF’i silmek
+  - Sayfayı yazdırmak
+  - Aranabilir metin içinde bulma yapmak
+  - Kamerayı açmak
+  answer: 2
+  explanation: Find searchable text layer üzerinde çalışır.
+- id: q4
+  question: Taranmış bir PDF’de Ctrl+F neden sonuç vermeyebilir?
+  options:
+  - PDF uzantısı yanlış olduğu için her zaman
+  - Monitör küçük olduğu için
+  - Dosya adı Türkçe olduğu için
+  - Sayfalar yalnız görüntü olup aranabilir metin katmanı bulunmayabilir
+  answer: 3
+  explanation: Image-only scan OCR yapılmadıysa metin olarak aranamaz.
+- id: q5
+  question: OCR ne yapar?
+  options:
+  - PDF’i fiziksel olarak tarar
+  - Görüntüdeki karakterleri makinece işlenebilir metin olarak tanımaya çalışır
+  - Yazıcıyı kurar
+  - Dosyayı ZIP yapar
+  answer: 1
+  explanation: Optical Character Recognition görüntü içindeki yazıyı metne dönüştürmeye çalışır.
+- id: q6
+  question: OCR sonucunda neden gözle kontrol gerekir?
+  options:
+  - OCR her zaman belgeyi siler
+  - OCR yalnız sayılarda çalışır
+  - Türkçe karakterler, düşük kalite ve eğik sayfa hatalı tanınabilir
+  - PDF kaydedilemez
+  answer: 2
+  explanation: OCR olasılıksal tanıma yapar ve hata üretebilir.
+- id: q7
+  question: Fareyle çizilmiş imza ile dijital imza arasındaki fark nedir?
+  options:
+  - İkisi tamamen aynıdır
+  - Çizilmiş imza her zaman daha güvenlidir
+  - Dijital imza yalnız resimdir
+  - Dijital imza sertifika/kriptografiyle teknik doğrulama sağlayabilir; çizilmiş imza yalnız görsel olabilir
+  answer: 3
+  explanation: Cryptographic digital signature belge bütünlüğü ve kimlik doğrulaması amaçlar.
+- id: q8
+  question: PDF üzerine siyah dikdörtgen çizmek neden gerçek redaksiyon sayılmaz?
+  options:
+  - Alttaki hassas metin dosyada kalabilir ve geri çıkarılabilir
+  - Siyah renk PDF’de yasaktır
+  - PDF şekil içermez
+  - Metin otomatik şifrelenir
+  answer: 0
+  explanation: Gerçek redaction içeriği dosyadan kaldırmalıdır.
+- id: q9
+  question: Office’ten PDF oluşturduktan sonra ne yapılmalıdır?
+  options:
+  - Kaynak dosya hemen silinmelidir
+  - PDF yeniden adlandırılmamalıdır
+  - PDF açılıp sayfa, tablo, görsel ve bağlantılar kontrol edilmelidir
+  - Yalnız dosya boyutuna bakılmalıdır
+  answer: 2
+  explanation: Export sonrası output verification önemlidir.
+- id: q10
+  question: Geniş Excel tablosunu PDF yaparken özellikle ne kontrol edilmelidir?
+  options:
+  - Klavye ışığı
+  - Mikrofon seviyesi
+  - Tarayıcı geçmişi
+  - Yazdırma alanı, yönlendirme ve ölçeklendirme
+  answer: 3
+  explanation: Spreadsheet printing page breaks can split columns.
+- id: q11
+  question: PDF görüntüleyicide vurgulama ve yorum araçları ne için kullanılır?
+  options:
+  - Belge üzerinde inceleme notları eklemek için
+  - Dosya sistemini formatlamak için
+  - Excel formülü çalıştırmak için
+  - Klavye düzeni değiştirmek için
+  answer: 0
+  explanation: Annotations review ve feedback için kullanılır.
+- id: q12
+  question: Bir PDF formundaki alanları doldurmak ile kaynak PDF tasarımını değiştirmek aynı şey midir?
+  options:
+  - Evet tamamen aynıdır
+  - Hayır; form alanlarını doldurmak mevcut alanlara veri girer
+  - Form doldurmak dosyayı siler
+  - PDF form içeremez
+  answer: 1
+  explanation: Form fill ve document editing farklı işlemlerdir.
+- id: q13
+  question: PDF açma parolası neyi amaçlar?
+  options:
+  - Belgeyi otomatik yayımlamayı
+  - Grafik çizmek
+  - Klavyeyi kilitlemek
+  - Dosyayı açmak için parola gerektirmeyi
+  answer: 3
+  explanation: Password protection access control sağlar.
+- id: q14
+  question: Erişilebilir PDF üretimine en iyi başlangıç hangisidir?
+  options:
+  - Kaynak Word belgesinde doğru başlıklar, alt metinler ve tablo yapısı kullanmak
+  - PDF’e sonradan rastgele renk eklemek
+  - Tüm metni resme çevirmek
+  - Başlıkları yalnız kalın yapmak
+  answer: 0
+  explanation: Accessible source structure exported PDF kalitesini artırır.
+- id: q15
+  question: PDF’de sayfa küçük resimleri ne için yararlıdır?
+  options:
+  - Metni çevirmek için
+  - Uzun belgede sayfalar arasında hızlı gezinmek için
+  - Dosyayı sıkıştırmak için
+  - Parola üretmek için
+  answer: 1
+  explanation: Thumbnail navigation sayfa konumunu hızlı seçmeyi sağlar.
+- id: q16
+  question: PDF’nin yakınlaştırılması neyi değiştirir?
+  options:
+  - Belgenin gerçek sayfa boyutunu mutlaka
+  - Kaynak Word metnini
+  - Ekrandaki görüntüleme ölçeğini
+  - Dosyanın yazımını
+  answer: 2
+  explanation: Zoom viewer display scale’ını değiştirir.
+- id: q17
+  question: Bir teslim PDF’sinin dosya adı nasıl olmalıdır?
+  options:
+  - Proje/öğrenci gibi içeriği anlatan düzenli bir ad
+  - Yeni Belge 58.pdf
+  - Yalnız .pdf
+  - Rastgele karakterler
+  answer: 0
+  explanation: Anlamlı file naming teslim ve arşivlemeyi kolaylaştırır.
+- id: q18
+  question: PDF yalnızca görüntü olduğunda metni seçememek neyi düşündürür?
+  options:
+  - Dosyanın kesin virüslü olduğunu
+  - PDF formatının bozuk olduğunu kesin
+  - Taranmış/image-only PDF olabileceğini
+  - Excel’in kurulu olmadığını
+  answer: 2
+  explanation: Image-only scans text selection sağlamaz; OCR gerekebilir.
+- id: q19
+  question: Kaynak DOCX/XLSX/PPTX dosyasını PDF oluşturduktan sonra neden hemen silmemeliyiz?
+  options:
+  - PDF açılmaz
+  - İleride düzenleme ve yeniden çıktı için kaynak dosya gerekir
+  - Windows izin vermez
+  - Klavye çalışmaz
+  answer: 1
+  explanation: Editable source future changes için gereklidir.
+- id: q20
+  question: PDF iş akışının iyi özeti hangisidir?
+  options:
+  - Önce kaynak dosyayı sil → sonra PDF ara
+  - Yalnız PDF’i yeniden adlandır
+  - Her PDF’i ekran görüntüsüne çevir
+  - Kaynak dosyayı düzenle → çıktı önizle → PDF oluştur → PDF’i aç ve doğrula → düzenli adla paylaş
+  answer: 3
+  explanation: Controlled export and verification prevents delivery errors.

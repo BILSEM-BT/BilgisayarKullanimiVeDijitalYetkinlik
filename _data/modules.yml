@@ -167,82 +167,90 @@
   section: 3
   title: Microsoft Word Temel Kullanımı
   slug: 3-1-microsoft-word-temel-kullanimi
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-20'
   review_cycle: 6 ay
-  path: ''
+  path: /dersler/3-1-microsoft-word-temel-kullanimi/
   code: 3-1
   order_in_section: 1
+  quiz_path: /uygulamalar/3-1-microsoft-word-temel-kullanimi/
 - id: 17
   section: 3
   title: Word ile Düzenli Belge ve PDF Oluşturma
   slug: 3-2-word-ile-duzenli-belge-ve-pdf-olusturma
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-20'
   review_cycle: 6 ay
-  path: ''
+  path: /dersler/3-2-word-ile-duzenli-belge-ve-pdf-olusturma/
   code: 3-2
   order_in_section: 2
+  quiz_path: /uygulamalar/3-2-word-ile-duzenli-belge-ve-pdf-olusturma/
 - id: 18
   section: 3
   title: Microsoft Excel Temel Kullanımı
   slug: 3-3-microsoft-excel-temel-kullanimi
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-20'
   review_cycle: 6 ay
-  path: ''
+  path: /dersler/3-3-microsoft-excel-temel-kullanimi/
   code: 3-3
   order_in_section: 3
+  quiz_path: /uygulamalar/3-3-microsoft-excel-temel-kullanimi/
 - id: 19
   section: 3
   title: Excel Formülleri ve Temel Fonksiyonlar
   slug: 3-4-excel-formulleri-ve-temel-fonksiyonlar
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-20'
   review_cycle: 6 ay
-  path: ''
+  path: /dersler/3-4-excel-formulleri-ve-temel-fonksiyonlar/
   code: 3-4
   order_in_section: 4
+  quiz_path: /uygulamalar/3-4-excel-formulleri-ve-temel-fonksiyonlar/
 - id: 20
   section: 3
   title: Excel'de Tablo, Sıralama, Filtreleme ve Grafik
   slug: 3-5-excel-tablo-siralama-filtreleme-ve-grafik
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-20'
   review_cycle: 6 ay
-  path: ''
+  path: /dersler/3-5-excel-tablo-siralama-filtreleme-ve-grafik/
   code: 3-5
   order_in_section: 5
+  quiz_path: /uygulamalar/3-5-excel-tablo-siralama-filtreleme-ve-grafik/
 - id: 21
   section: 3
   title: Microsoft PowerPoint Temel Kullanımı
   slug: 3-6-microsoft-powerpoint-temel-kullanimi
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-20'
   review_cycle: 6 ay
-  path: ''
+  path: /dersler/3-6-microsoft-powerpoint-temel-kullanimi/
   code: 3-6
   order_in_section: 6
+  quiz_path: /uygulamalar/3-6-microsoft-powerpoint-temel-kullanimi/
 - id: 22
   section: 3
   title: Etkili ve Görsel Sunum Hazırlama
   slug: 3-7-etkili-ve-gorsel-sunum-hazirlama
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-20'
   review_cycle: 6 ay
-  path: ''
+  path: /dersler/3-7-etkili-ve-gorsel-sunum-hazirlama/
   code: 3-7
   order_in_section: 7
+  quiz_path: /uygulamalar/3-7-etkili-ve-gorsel-sunum-hazirlama/
 - id: 23
   section: 3
   title: PDF Dosyaları ve Temel PDF İşlemleri
   slug: 3-8-pdf-dosyalari-ve-temel-pdf-islemleri
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-20'
   review_cycle: 6 ay
-  path: ''
+  path: /dersler/3-8-pdf-dosyalari-ve-temel-pdf-islemleri/
   code: 3-8
   order_in_section: 8
+  quiz_path: /uygulamalar/3-8-pdf-dosyalari-ve-temel-pdf-islemleri/
 - id: 24
   section: 4
   title: Parolalar, Passkey ve İki Aşamalı Doğrulama

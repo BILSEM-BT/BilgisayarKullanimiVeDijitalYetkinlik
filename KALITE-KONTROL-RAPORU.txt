@@ -1,39 +1,49 @@
-KALİTE KONTROL RAPORU — REVİZE v3
+REVİZE v4 KALİTE KONTROL RAPORU
 
-Tarih: 2026-08-20
+1-4 TÜRKÇE Q KLAVYE
+- Türkçe Q harf dizilimi görsel şema ile gösterildi.
+- Çok karakterli tuşlarda normal=sol alt, Shift=sol üst, AltGr=sağ alt öğretim modeli açıkça işlendi.
+- @, €, ₺, #, $, {, [, ], }, \, | karakterleri örneklendirildi.
+- Windows klavye kısayolları Microsoft'un güncel Türkçe destek sayfasıyla karşılaştırıldı.
+- Shift ve Alt Gr özel karakter kullanımı MEB materyaliyle de karşılaştırıldı.
 
-Yapısal kontroller:
-- 54 modül tanımlı.
-- Bölüm 1: 7/7 yayında.
-- Bölüm 2: 8/8 yayında.
-- Bölüm 3–8: planlandı.
-- 15 ders sayfası + 15 uygulama sayfası mevcut.
-- 300 uygulama sorusu doğrulandı.
-- Her quiz A/B/C/D = 5/5/5/5.
-- Her yayımlanan derste 6–8 ana H2 başlığı var.
-- Görünür {#...} başlık etiketi yok.
-- Ders/permalink/quiz yolları modules.yml ile eşleşiyor.
-- 1-1 ders başlığı ve uygulama yolu front matter yerine modules.yml üzerinden de güvenli gösteriliyor.
-- 1-6 Dosya Gezgini: dosya-klasör farkı, Ctrl+C/X/V, dosya adı uzantıları, gizli öğeler ve uzantı değiştirme uyarısı doğrulandı.
-- Sol menü: Uygulamaya Geç + Önceki ders + Sonraki ders mevcut.
-- İlerleme v3: ders kodu tabanlı; tamamlanan kart ve düğme için yeşil is-completed durumu CSS/JS ile bağlı.
-- Ana sayfa tanıtım metni istenen yeni metinle güncellendi.
-- Bölüm 5 planında WinRAR, 7-Zip ve Sıkıştırılmış Dosyalar yer alıyor.
-- Bölüm 2 Google araçlarının öğrenciye dönük Türkçe arayüz terimleri yeniden gözden geçirildi.
+BÖLÜM 3
+- 3-1...3-8 derslerinin tamamı Türkçe üretildi.
+- Her derste 7 ana H2 başlığı kullanıldı; ayrıntılar alt başlıklara taşındı.
+- Word/Excel/PowerPoint için mevcut tasarımla uyumlu CSS tabanlı öğretim görselleri eklendi.
+- Word: Türkçe sekme adları, Stiller, İçindekiler, Erişilebilirliği Denetle ve PDF akışı kontrol edildi.
+- Excel: Türkçe TOPLA, ORTALAMA, EĞER, ETOPLA, ÇAPRAZARA adları güncel Microsoft belgeleriyle karşılaştırıldı.
+- Excel formül ayırıcısının bölgesel ayara göre ; veya , olabileceği açıklandı.
+- PowerPoint: Slayt Gösterisi, Sunucu Görünümü ve Zamanlama Provası adları güncel Türkçe Microsoft belgeleriyle kontrol edildi.
 
-Ders özeti:
-- 1-1 — Bilgisayarın Tarihçesi: 7 ana başlık, 20 soru
-- 1-2 — Bilgisayarı Tanı: Donanım, Yazılım ve Temel Kavramlar: 7 ana başlık, 20 soru
-- 1-3 — Windows Masaüstü, Başlat Menüsü ve Görev Çubuğu: 7 ana başlık, 20 soru
-- 1-4 — Klavye Tuşları ve Klavye Kısayolları: 7 ana başlık, 20 soru
-- 1-5 — Fare, Touchpad, Seçim, Kopyalama, Kesme ve Yapıştırma: 7 ana başlık, 20 soru
-- 1-6 — Windows Dosya Gezgini: Dosya ve Klasörlerle Çalışma: 7 ana başlık, 20 soru
-- 1-7 — Windows Ayarları, Uygulamalar ve Güncellemeler: 7 ana başlık, 20 soru
-- 2-1 — İnternet ve Web Tarayıcısı Kullanımı: 7 ana başlık, 20 soru
-- 2-2 — İnternette Etkili Arama: 7 ana başlık, 20 soru
-- 2-3 — Dijital Bilgiyi Değerlendirme ve Doğrulama: 7 ana başlık, 20 soru
-- 2-4 — İndirme, Yükleme ve Güvenli Dosya Kullanımı: 7 ana başlık, 20 soru
-- 2-5 — E-Posta ve Gmail Kullanımı: 7 ana başlık, 20 soru
-- 2-6 — Google Drive ve Bulutta Dosya Yönetimi: 6 ana başlık, 20 soru
-- 2-7 — Google Docs, Sheets ve Slides ile Ortak Çalışma: 7 ana başlık, 20 soru
-- 2-8 — Çevrim İçi Toplantı ve Ekran Paylaşımı: 7 ana başlık, 20 soru
+QUIZ DENETİMİ
+01.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
+02.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
+03.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
+04.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
+05.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
+06.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
+07.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
+08.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
+09.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
+10.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
+11.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
+12.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
+13.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
+14.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
+15.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
+16.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
+17.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
+18.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
+19.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
+20.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
+21.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
+22.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
+23.yml: 20 soru, A/B/C/D = 5/5/5/5, seçenekler benzersiz, açıklamalar mevcut
+
+MODÜL DENETİMİ
+- 1-1...3-8 toplam 23 ders yayında.
+- 4-1 ve sonrası planlandı olarak korunuyor.
+- Bölüm 5 içindeki WinRAR, 7-Zip ve Sıkıştırılmış Dosyalar dersi plan içinde korunuyor.
+- Ders/uygulama permalink ve quiz yolları eşleşiyor.
+- Tasarım/layout/JS altyapısı korunmuştur; yalnız yeni öğretim görsel CSS sınıfları eklenmiştir.
