@@ -52,7 +52,7 @@ _includes/footer.html</code></pre>
   <div class="path-card" style="margin-top:14px">
     <h2>Ders listesi</h2>
     <pre><code>_data/modules.yml</code></pre>
-    <p>Ders adı, görünür ders kodu, bölüm, sıra, durum, güncelleme tarihi ve gözden geçirme periyodu buradan yönetilir. v2 müfredatında 8 bölüm ve 54 ders planlanmıştır.</p>
+    <p>Ders adı, görünür ders kodu, bölüm, sıra, durum, güncelleme tarihi ve gözden geçirme periyodu buradan yönetilir. v9 müfredatında 8 bölüm ve 53 ders bulunur; 51 ders yayında, 8-5 ve 8-6 planlıdır.</p>
   </div>
 
   <div class="path-card" style="margin-top:14px">

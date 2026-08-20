@@ -173,7 +173,7 @@ questions:
   answer: 2
   explanation: Yalnızca ilgili pencereyi yakalamak gereksiz özel bilgiyi azaltır.
 - id: q20
-  question: Dersin en iyi özeti hangisidir?
+  question: Ekran görüntüsü ve ekran kaydı dersinin en iyi özeti hangisidir?
   options:
   - Her zaman tüm ekranı kaydet
   - Dosya adlarını varsayılan bırak

@@ -385,7 +385,7 @@
   quiz_path: /uygulamalar/5-6-audacity-ile-ses-kaydi-ve-duzenleme/
 - id: 36
   section: 6
-  title: Visual Studio Kullanımı
+  title: Visual Studio 2026 Community Insiders Kullanımı
   slug: 6-1-visual-studio-kullanimi
   status: yayında
   updated: '2026-08-21'
@@ -396,7 +396,7 @@
   quiz_path: /uygulamalar/6-1-visual-studio-kullanimi/
 - id: 37
   section: 6
-  title: Visual Studio Code Kullanımı
+  title: Visual Studio Code Insiders Kullanımı
   slug: 6-2-visual-studio-code-kullanimi
   status: yayında
   updated: '2026-08-21'
@@ -519,42 +519,46 @@
   section: 8
   title: Tinkercad ile 3D Tasarım
   slug: 8-1-tinkercad-ile-3d-tasarim
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-21'
   review_cycle: 6 ay
-  path: ''
+  path: /dersler/8-1-tinkercad-ile-3d-tasarim/
   code: 8-1
   order_in_section: 1
+  quiz_path: /uygulamalar/8-1-tinkercad-ile-3d-tasarim/
 - id: 49
   section: 8
   title: Tinkercad Codeblocks ile Algoritmik 3D Tasarım
   slug: 8-2-tinkercad-codeblocks-ile-algoritmik-3d-tasarim
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-21'
   review_cycle: 6 ay
-  path: ''
+  path: /dersler/8-2-tinkercad-codeblocks-ile-algoritmik-3d-tasarim/
   code: 8-2
   order_in_section: 2
+  quiz_path: /uygulamalar/8-2-tinkercad-codeblocks-ile-algoritmik-3d-tasarim/
 - id: 50
   section: 8
   title: Onshape ile Parametrik CAD
   slug: 8-3-onshape-ile-parametrik-cad
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-21'
   review_cycle: 6 ay
-  path: ''
+  path: /dersler/8-3-onshape-ile-parametrik-cad/
   code: 8-3
   order_in_section: 3
+  quiz_path: /uygulamalar/8-3-onshape-ile-parametrik-cad/
 - id: 51
   section: 8
   title: SOLIDWORKS ile 3D Modelleme
   slug: 8-4-solidworks-ile-3d-modelleme
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-21'
   review_cycle: 6 ay
-  path: ''
+  path: /dersler/8-4-solidworks-ile-3d-modelleme/
   code: 8-4
   order_in_section: 4
+  quiz_path: /uygulamalar/8-4-solidworks-ile-3d-modelleme/
 - id: 52
   section: 8
   title: 3D Yazıcı, Slicer ve Baskıya Hazırlık
@@ -575,13 +579,3 @@
   path: ''
   code: 8-6
   order_in_section: 6
-- id: 54
-  section: 8
-  title: Baştan Sona Dijital Yetkinlik Projesi
-  slug: 8-7-bastan-sona-dijital-yetkinlik-projesi
-  status: planlandı
-  updated: ''
-  review_cycle: 12 ay
-  path: ''
-  code: 8-7
-  order_in_section: 7

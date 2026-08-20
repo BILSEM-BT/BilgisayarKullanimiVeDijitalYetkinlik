@@ -1,183 +1,185 @@
-title: Visual Studio Kullanımı — Uygulama
-description: Visual Studio’nun Türkçe arayüzü, iş yükleri, çözüm/proje yapısı, derleme, çalıştırma ve temel hata ayıklama kavramlarını ölçer.
+title: Visual Studio 2026 Community Insiders Kullanımı — Uygulama
+description: Community Insiders kurulumu, Python development iş yükü, Python yorumlayıcısı, temel diller/iş yükleri, Python projesi, çalıştırma,
+  terminal ve hata ayıklama bilgilerini ölçer.
 questions:
 - id: q1
-  question: Visual Studio için en doğru tanım hangisidir?
+  question: Bu derste kullanılacak Visual Studio sürümü hangisidir?
   options:
-  - Kod düzenleme, proje yönetimi, derleme ve hata ayıklama araçlarını bir araya getiren bir IDE’dir
-  - Yalnızca web tarayıcısıdır
-  - Sadece dosya sıkıştırma programıdır
-  - GitHub’ın başka adıdır
+  - Visual Studio 2026 Community Insiders
+  - Visual Studio Code Stable
+  - Visual Studio 2022 Professional
+  - Python IDLE
   answer: 0
-  explanation: Visual Studio, geliştirme araçlarını aynı ortamda birleştiren bir tümleşik geliştirme ortamıdır (IDE).
+  explanation: Dersin hedef geliştirme ortamı Visual Studio 2026 Community Insiders sürümüdür.
 - id: q2
-  question: Visual Studio’yu Türkçe arayüzle kullanmak için mevcut kuruluma hangi bileşen eklenebilir?
+  question: Visual Studio 2026 Community Insiders için derste verilen resmî indirme adresi hangisidir?
   options:
-  - Yeni ekran kartı sürücüsü
-  - Visual Studio Yükleyicisi içinden Türkçe dil paketi
-  - GitHub repository’si
-  - Sadece bir PDF okuyucu
+  - python.org/downloads/
+  - visualstudio.microsoft.com/insiders/
+  - github.com/microsoft/vscode
+  - makecode.microbit.org
   answer: 1
-  explanation: Microsoft, Visual Studio için Türkçe dil paketini destekler; dil paketleri Visual Studio Yükleyicisi’nden yönetilebilir.
+  explanation: Microsoft, Visual Studio Insiders indirmelerini visualstudio.microsoft.com/insiders/ sayfasından sunar.
 - id: q3
-  question: C# konsol projesi şablonu görünmüyorsa ilk kontrol edilmesi gerekenlerden biri hangisidir?
+  question: Visual Studio Installer içinde Python çalışmaları için hangi iş yükü seçilmelidir?
   options:
-  - Monitör çözünürlüğü
-  - Dosya adının uzunluğu
-  - .NET ile ilgili gerekli iş yükünün kurulu olup olmadığı
-  - Tarayıcı geçmişi
+  - Game development with C++
+  - Desktop development with C++
+  - Python development
+  - Node.js development
   answer: 2
-  explanation: Proje şablonları gerekli iş yükleriyle gelir; .NET konsol çalışmaları için uygun .NET iş yükü kurulmalıdır.
+  explanation: Microsoft’un Visual Studio Python belgeleri Python araçları için Python development iş yükünün seçilmesini belirtir.
 - id: q4
-  question: Visual Studio’da “çözüm (solution)” neyi ifade eder?
+  question: Visual Studio’ya Python development iş yükünü eklemek tek başına neden yeterli olmayabilir?
   options:
-  - Sadece derlenmiş .exe dosyasını
-  - Tek bir kod satırını
-  - Bir hata mesajının otomatik cevabını
-  - Bir veya daha fazla ilgili projeyi düzenleyen kapsayıcıyı
+  - Çünkü mutlaka Java kurulmalıdır
+  - Çünkü Visual Studio yalnız C# çalıştırır
+  - Çünkü GitHub hesabı zorunludur
+  - Çünkü Python kodunu çalıştıracak ayrı bir Python yorumlayıcısı da gerekir
   answer: 3
-  explanation: Çözüm, Visual Studio’da bir veya daha fazla ilgili projeyi birlikte düzenleyen kapsayıcıdır.
+  explanation: Visual Studio Python araçlarını sağlar; Python kodunun çalışması için ayrıca desteklenen bir Python yorumlayıcısı gerekir.
 - id: q5
-  question: Çözüm Gezgini’nin temel görevi nedir?
+  question: Visual Studio 2026 arayüzünü Türkçe kullanmak için Installer’da hangi bölümden Türkçe eklenebilir?
   options:
-  - Çözümdeki proje ve dosyaları görüp yönetmeye yardımcı olmak
-  - İnternet hızını ölçmek
-  - Bilgisayarı antivirüsle taramak
-  - Sadece renk temasını değiştirmek
+  - Dil paketleri / Language packs
+  - Git Changes
+  - Solution Explorer
+  - Terminal
   answer: 0
-  explanation: Çözüm Gezgini, proje ve dosya yapısını görmenin temel araçlarından biridir.
+  explanation: Visual Studio Installer içindeki Language packs/Dil paketleri bölümünden desteklenen arayüz dilleri yönetilir.
 - id: q6
-  question: '`Program.cs` başlangıç düzeyindeki bir C# konsol projesinde genellikle ne içerir?'
+  question: Dersin sistem notuna göre Visual Studio 2026 ARM64 sürümünde Python geliştirme iş yükü için durum nedir?
   options:
-  - Yalnızca resim dosyalarını
-  - C# kaynak kodunu
-  - GitHub hesabı parolasını
-  - Derlenmiş video çıktısını
+  - Her ARM64 cihazda zorunlu olarak yüklüdür
+  - Visual Studio ARM64 üzerinde Python development iş yükü desteklenmez
+  - Yalnız internet yokken çalışır
+  - Sadece macOS üzerinde desteklenir
   answer: 1
-  explanation: '`.cs` uzantılı dosyalar C# kaynak kod dosyalarıdır.'
+  explanation: Microsoft’un Visual Studio 2026 sistem gereksinimlerinde ARM64 Visual Studio için Python development iş yükünün desteklenmediği
+    belirtilir.
 - id: q7
-  question: Derleme (build) için doğru açıklama hangisidir?
+  question: Visual Studio Installer’daki “iş yükü (workload)” neyi ifade eder?
   options:
-  - Dosyayı otomatik olarak GitHub’a yükler
-  - Sadece klasör adını değiştirir
-  - Kaynak kodu hedef çıktıya dönüştürür ve derleme hatalarını ortaya çıkarır
-  - Programın tüm mantığının kesin doğru olduğunu kanıtlar
+  - Sadece programlama dilinin dosya uzantısını
+  - Bir kullanıcının proje klasörünü
+  - Belirli geliştirme senaryosu için gerekli araç ve bileşen grubunu
+  - Bilgisayarın işlemci kullanım yüzdesini
   answer: 2
-  explanation: Build, kaynak kodu derler; başarılı derleme mantıksal doğruluğu garanti etmez.
+  explanation: İş yükleri; Python, .NET, C++ veya web geliştirme gibi senaryolar için gereken bileşenleri gruplar.
 - id: q8
-  question: Microsoft belgelerine göre F5’in Visual Studio’daki temel kullanımı nedir?
+  question: C# ile Visual Studio’da aşağıdakilerden hangisi yapılabilecek alanlara iyi bir örnektir?
   options:
-  - Projeyi silmek
-  - Çözümü sıkıştırmak
-  - Türkçe dil paketini kaldırmak
-  - Uygulamayı hata ayıklayıcı altında başlatmak
+  - Yalnız resim sıkıştırma
+  - Sadece klavye sürücüsü güncelleme
+  - Yalnız PDF okuma
+  - .NET masaüstü, web/API ve çok platformlu uygulama geliştirme
   answer: 3
-  explanation: F5, uygulamayı debug/hata ayıklama modunda başlatmak için kullanılır.
+  explanation: C# ve .NET iş yükleri masaüstü, web/API ve çok platformlu uygulama geliştirme gibi alanlarda kullanılabilir.
 - id: q9
-  question: Ctrl+F5’in temel farkı nedir?
+  question: C/C++ iş yükleri hangi kullanım alanıyla özellikle ilişkilidir?
   options:
-  - Uygulamayı hata ayıklama olmadan başlatır
-  - Bilgisayarı yeniden başlatır
-  - Git commit oluşturur
-  - Kodun yazı tipini büyütür
+  - Yüksek performanslı yerel uygulamalar, sistem/oyun ve bazı gömülü geliştirme senaryoları
+  - Yalnız kelime işlem
+  - Sadece e-posta gönderme
+  - Yalnız sunum hazırlama
   answer: 0
-  explanation: Ctrl+F5, Visual Studio’da Start Without Debugging / Hata Ayıklama Olmadan Başlat işlevine karşılık gelir.
+  explanation: C/C++ Visual Studio’da yüksek performanslı yerel yazılımlar, oyun, sistem ve belirli gömülü/Linux geliştirme senaryolarında kullanılır.
 - id: q10
-  question: Breakpoint (kesme noktası) ne işe yarar?
+  question: JavaScript/TypeScript için Visual Studio’daki yaygın geliştirme alanı hangisidir?
   options:
-  - Projeyi GitHub Pages’ta yayımlar
-  - Program belirli satıra geldiğinde yürütmeyi duraklatıp durumu incelemeye yardım eder
-  - Dosyayı şifreler
-  - İş yükünü kaldırır
+  - Sadece BIOS güncelleme
+  - Web ve Node.js uygulamaları
+  - Yalnız elektronik devre çizimi
+  - Sadece 3D baskı dilimleme
   answer: 1
-  explanation: Kesme noktası, hata ayıklamada yürütmeyi belirli satırda durdurmak için kullanılır.
+  explanation: JavaScript/TypeScript web ön yüzü ve Node.js tabanlı uygulamalarda yaygın olarak kullanılır.
 - id: q11
-  question: IntelliSense için doğru ifade hangisidir?
+  question: Yeni bir Python projesi oluştururken derste önerilen şablon hangisidir?
   options:
-  - Her önerisi programın amacı açısından zorunlu olarak doğrudur
-  - Kodu internete yükler
-  - Kod tamamlama ve bilgi önerileriyle yazmayı kolaylaştırır; son kararı geliştirici verir
-  - Yalnızca resim düzenler
+  - Blank Solution
+  - C++ Console App
+  - Python Application
+  - Class Library (.NET)
   answer: 2
-  explanation: IntelliSense yardımcı öneriler sunar; önerinin mantıksal olarak uygunluğunu geliştirici değerlendirir.
+  explanation: Ders akışında ilk Python projesi için Python Application şablonu kullanılır.
 - id: q12
-  question: Aşağıdakilerden hangisi iyi bir hata ayıklama yaklaşımı değildir?
+  question: “Python ortamı/yorumlayıcısı” ile ilgili doğru ifade hangisidir?
   options:
-  - Hata mesajını okumak
-  - Hatanın dosya ve satırını kontrol etmek
-  - Değişkenleri incelemek
-  - Hata mesajını görmeden kodu rastgele değiştirmeye devam etmek
+  - Yalnız proje dosyalarının adını tutar
+  - Sadece Visual Studio temasını belirler
+  - Bir Git branch’idir
+  - .py kaynak kodunu gerçekten çalıştıran Python kurulumudur
   answer: 3
-  explanation: Sistematik hata ayıklama; mesajı, konumu ve program durumunu incelemeyi gerektirir.
+  explanation: Yorumlayıcı, Python kaynak kodunu yürütür; proje ve kaynak dosyasıyla aynı kavram değildir.
 - id: q13
-  question: '`bin` ve `obj` klasörleri için başlangıç düzeyinde en doğru yaklaşım hangisidir?'
+  question: Örnek programdaki `float(input(...))` kullanımının amacı nedir?
   options:
-  - Bunların çoğunlukla derleme sırasında üretilen çıktılar/ara dosyalar olduğunu bilmek
-  - Kaynak kodun tamamını yalnız buraya yazmak
-  - Her çalıştırmadan önce elle yeniden adlandırmak
-  - GitHub parolasını burada saklamak
+  - Kullanıcı girdisini alıp ondalıklı sayıya dönüştürmek
+  - Programı otomatik olarak GitHub’a yüklemek
+  - Bir kesme noktası oluşturmak
+  - Visual Studio’yu kapatmak
   answer: 0
-  explanation: '`bin` ve `obj` genellikle derleme tarafından üretilir; asıl kaynak dosyalarla karıştırılmamalıdır.'
+  explanation: input() metin alır; float() bu metni ondalıklı sayıya dönüştürür.
 - id: q14
-  question: Visual Studio ile Visual Studio Code arasındaki ilişki için doğru ifade hangisidir?
+  question: Visual Studio’da Ctrl+F5 ne yapar?
   options:
-  - Aynı programın iki dosya adı
-  - Farklı ürünlerdir; Visual Studio kapsamlı IDE, VS Code daha hafif ve genişletilebilir editördür
-  - VS Code yalnız Visual Studio içinden açılır
-  - Visual Studio yalnız web tarayıcısıdır
+  - Projeyi siler
+  - Programı hata ayıklama olmadan başlatır
+  - Türkçe dil paketini açar
+  - Yeni terminal sekmesi oluşturur
   answer: 1
-  explanation: İsimleri benzer olsa da Visual Studio ve VS Code ayrı ürünlerdir.
+  explanation: Ctrl+F5, Start Without Debugging/Hata Ayıklama Olmadan Başlat komutudur.
 - id: q15
-  question: Bir program başarıyla derleniyorsa hangisi yine de mümkün olabilir?
+  question: Visual Studio’da F5’in temel görevi nedir?
   options:
-  - Kaynak dosyası artık yoktur
-  - Program zorunlu olarak GitHub’a yüklenmiştir
-  - Program mantıksal olarak yanlış sonuç üretebilir
-  - Breakpoint kullanılamaz
+  - Dosyayı yeniden adlandırmak
+  - Yalnız kaydetmek
+  - Programı hata ayıklayıcı ile başlatmak/devam ettirmek
+  - Installer’ı açmak
   answer: 2
-  explanation: Derleme sözdizimi/tür gibi sorunları yakalayabilir; mantıksal hata yine bulunabilir.
+  explanation: F5 Visual Studio’da hata ayıklama oturumunu başlatmak veya sürdürmek için kullanılır.
 - id: q16
-  question: Bir Visual Studio projesini internetten indirdiğinde ilk güvenlik yaklaşımı hangisi olmalıdır?
+  question: Visual Studio’da çalışan hata ayıklama oturumu hangi kısayolla durdurulabilir?
   options:
-  - Her dosyayı yönetici olarak çalıştırmak
-  - Antivirüsü kapatmak
-  - Kaynağı önemsememek
-  - Kaynağı ve kodun ne yaptığını değerlendirip güvenmeden çalıştırmamak
+  - Ctrl+P
+  - F9
+  - Ctrl+F5
+  - Shift+F5
   answer: 3
-  explanation: Kaynağı bilinmeyen kod yürütülebilir davranış içerir; çalıştırmadan önce değerlendirilmelidir.
+  explanation: Shift+F5, Stop Debugging/Hata Ayıklamayı Durdur komutudur.
 - id: q17
-  question: Proje adlandırmada en iyi örnek hangisidir?
+  question: Bir satıra breakpoint (kesme noktası) ekleyip/kaldırmak için yaygın Visual Studio kısayolu hangisidir?
   options:
-  - IlkKonsolUygulamam
-  - YeniProjeSonSon2
-  - aaaa
-  - Adsız1
+  - F9
+  - Ctrl+R
+  - Alt+Enter
+  - Shift+F11
   answer: 0
-  explanation: Anlamlı proje adı, çalışma amacını daha sonra kolay bulmayı sağlar.
+  explanation: F9 seçili satırdaki kesme noktasını açıp kapatmak için kullanılır.
 - id: q18
-  question: Kodda bir değişiklik yaptıktan sonra eski çıktı görüyorsan ilk basit kontrollerden biri hangisidir?
+  question: Visual Studio’nun tümleşik terminali derste hangi menü yoluyla açılmaktadır?
   options:
-  - Monitörü kapatmak
-  - Dosyanın kaydedildiğini ve doğru projenin çalıştırıldığını kontrol etmek
-  - Projeyi rastgele silmek
-  - Dil paketini kaldırmak
+  - Dosya → Yazdır
+  - Görünüm → Terminal
+  - Yardım → Hakkında
+  - Git → Clone
   answer: 1
-  explanation: Kaydedilmemiş değişiklik veya yanlış başlangıç projesi eski sonuç görmeye neden olabilir.
+  explanation: Ders akışında tümleşik terminal Görünüm/View → Terminal yoluyla açılır.
 - id: q19
-  question: Visual Studio Yükleyicisi’ndeki “iş yükü” neyi temsil eder?
+  question: Terminal proje klasöründeyken `program.py` dosyasını çalıştırmak için hangi komut kullanılabilir?
   options:
-  - Bir web sitesi parolası
-  - Sadece tema rengi
-  - Belirli geliştirme türü için gereken araç ve bileşen grubunu
-  - Bir Git branch’ini
+  - git program.py
+  - run program.py
+  - python program.py
+  - build program.py
   answer: 2
-  explanation: Workload/iş yükü belirli geliştirme senaryosu için bileşenleri gruplayan kurulum seçeneğidir.
+  explanation: Python komutu PATH üzerinde tanımlıysa `python program.py` dosyayı terminalden çalıştırır.
 - id: q20
-  question: Dersin temel iş akışını en iyi hangisi özetler?
+  question: Terminalde çalışan ve bitmeyen bir Python işlemini kesmek için çoğu terminalde hangi tuş birleşimi kullanılır?
   options:
-  - Yalnız kod yaz, sonucu hiç çalıştırma
-  - Her hatada programı yeniden kur
-  - Kaynak kod yerine bin klasörünü düzenle
-  - Proje oluştur/aç → kodu düzenle ve kaydet → derle/çalıştır → sonucu ve hataları incele
+  - Ctrl+S
+  - Ctrl+B
+  - Alt+F4
+  - Ctrl+C
   answer: 3
-  explanation: Visual Studio’da güvenilir başlangıç akışı proje, düzenleme, derleme/çalıştırma ve kontrol adımlarından oluşur.
+  explanation: Ctrl+C terminaldeki ön plan işlemini kesmek için yaygın yöntemdir; Python çoğunlukla KeyboardInterrupt ile sonlanır.

@@ -1083,3 +1083,26 @@ code{
   .app-demo-body{grid-template-columns:1fr}.app-demo-sidebar{border-right:0;border-bottom:1px solid #cbd5e1;display:flex;gap:6px;overflow:auto}.app-demo-sidebar span{min-width:max-content;margin:0}
   .layer-stack{grid-template-columns:1fr}.layers-panel{display:flex;gap:6px;overflow:auto}.layers-panel span{min-width:100px;margin:0}
 }
+
+
+/* Ders içi açıklamalı ekran/terminal görselleri */
+.lesson-figure {
+  margin: 20px 0;
+  border: 1px solid #d4deea;
+  border-radius: 14px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 8px 22px rgba(19, 38, 72, .05);
+}
+.lesson-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.lesson-figure figcaption {
+  padding: 10px 14px;
+  font-size: .86rem;
+  color: var(--muted);
+  background: #f8fafc;
+  border-top: 1px solid #e2e8f0;
+}

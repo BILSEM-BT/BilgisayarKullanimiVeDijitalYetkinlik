@@ -1,0 +1,183 @@
+title: Tinkercad Codeblocks ile Algoritmik 3D Tasarım — Uygulama
+description: Codeblocks çalışma mantığı, Run, 3D Viewer, sıra, değişken, döngü, Move/Rotate/Scale ve parametrik tekrar desenlerini ölçer.
+questions:
+- id: q1
+  question: Tinkercad Codeblocks’un temel yaklaşımı nedir?
+  options:
+  - Blok tabanlı komutlarla algoritmik olarak 3D geometri üretmek
+  - Yalnız elle serbest çizim yapmak
+  - Sadece elektronik devre simüle etmek
+  - Metin belgesi hazırlamak
+  answer: 0
+  explanation: Codeblocks, blokları sıralayarak ve parametreleyerek 3D şekiller üretmeyi sağlar.
+- id: q2
+  question: Codeblocks’ta Run komutu ne yapar?
+  options:
+  - Dosyayı siler
+  - Blok dizisini çalıştırıp 3D Viewer’daki sonucu oluşturur/günceller
+  - Yalnız kamera rengini değiştirir
+  - Yeni kullanıcı hesabı açar
+  answer: 1
+  explanation: Run, blok programını yürütür ve elde edilen geometrinin 3D Viewer’da görünmesini sağlar.
+- id: q3
+  question: 3D Viewer alanının görevi nedir?
+  options:
+  - Kod bloklarını metne çevirmek
+  - Yalnız dosya adını göstermek
+  - Algoritmanın ürettiği 3D sonucu görsel olarak incelemek
+  - İnternet hızını ölçmek
+  answer: 2
+  explanation: 3D Viewer, blokların çalışmasıyla oluşan 3D modeli gösterir.
+- id: q4
+  question: Bir algoritmadaki “sequence / sıra” kavramı neden önemlidir?
+  options:
+  - Çünkü blokların rengi yalnız sıraya göre değişir
+  - Çünkü sadece dosya adı sıralanır
+  - Çünkü her blok aynı anda çalışır
+  - Çünkü işlemlerin uygulanma sırası oluşan geometriyi etkileyebilir
+  answer: 3
+  explanation: Taşıma, döndürme ve şekil oluşturma gibi işlemlerin sırası nihai modeli değiştirebilir.
+- id: q5
+  question: Loop / döngü kullanmanın temel yararı nedir?
+  options:
+  - Tekrarlanan işlemleri daha az blokla sistematik biçimde yapmak
+  - Modeli otomatik olarak STL’ye çevirmek
+  - Yalnız renk seçmek
+  - Hesabı kapatmak
+  answer: 0
+  explanation: Döngüler aynı işlem grubunu belirli sayıda tekrar ederek tekrar eden desenleri kolaylaştırır.
+- id: q6
+  question: Variable / değişken ne için kullanılır?
+  options:
+  - Sadece görünüş açısını değiştirir
+  - Adet, boyut veya açı gibi yeniden kullanılan değerleri isimlendirip yönetmek için
+  - Yalnız şeklin rengini kilitler
+  - Dosyayı paylaşmayı engeller
+  answer: 1
+  explanation: Değişkenler tasarım parametrelerini tek noktadan yönetmeyi ve modeli daha esnek değiştirmeyi sağlar.
+- id: q7
+  question: Move işlemi neyi değiştirir?
+  options:
+  - Şeklin dosya türünü
+  - Sadece rengini
+  - Nesnenin konumunu
+  - Nesnenin kullanıcı hesabını
+  answer: 2
+  explanation: Move, X/Y/Z doğrultularında nesnenin konumunu değiştirir.
+- id: q8
+  question: Rotate işleminin amacı nedir?
+  options:
+  - Nesneyi kopyalamak
+  - Nesneyi Hole yapmak
+  - Değişkeni silmek
+  - Nesnenin yönelimini belirli bir açıyla döndürmek
+  answer: 3
+  explanation: Rotate geometrinin yönelimini açıyla değiştirir.
+- id: q9
+  question: Scale işlemi hangi özelliği değiştirir?
+  options:
+  - Nesnenin boyutunu/ölçeğini
+  - Yalnız görünüş yönünü
+  - Dosya sahibini
+  - Blok kategorisinin adını
+  answer: 0
+  explanation: Scale nesnenin geometrik ölçüsünü büyütmek veya küçültmek için kullanılır.
+- id: q10
+  question: 12 elemanın bir çember etrafında eşit aralıkla yerleşmesi için her tekrardaki ideal açı adımı kaç derecedir?
+  options:
+  - 12°
+  - 30°
+  - 60°
+  - 120°
+  answer: 1
+  explanation: Tam daire 360° olduğundan 360/12 = 30° olur.
+- id: q11
+  question: Dairesel bir desende eleman sayısını `adet` değişkeniyle tanımlamanın avantajı nedir?
+  options:
+  - Modeli renksiz yapar
+  - Run komutunu devre dışı bırakır
+  - '`adet` değiştiğinde döngü ve açı hesabını buna bağlı kurarak tasarımı kolayca uyarlamayı sağlar'
+  - Dosyayı otomatik yazdırır
+  answer: 2
+  explanation: Parametrik düşünmede bir değişkeni farklı hesapların kaynağı yapmak modelin uyarlanabilirliğini artırır.
+- id: q12
+  question: Parametrik/algoritmik tasarım için doğru ifade hangisidir?
+  options:
+  - Her modeli yalnız göz kararı çizmek demektir
+  - Sadece hazır modeli indirmektir
+  - Hiç sayı kullanmamak demektir
+  - Geometriyi kurallar, değişkenler ve tekrarlar üzerinden üretip değerleri değiştirerek sonucu güncelleyebilmek demektir
+  answer: 3
+  explanation: Codeblocks’un gücü; tasarımı sabit elle yerleştirme yerine kurallar ve parametrelerle kurabilmektir.
+- id: q13
+  question: Bir Codeblocks tasarımında hatayı bulmanın iyi ilk adımı hangisidir?
+  options:
+  - Run sonrası sonucu inceleyip blokları küçük gruplar hâlinde test etmek
+  - Tüm blokları rastgele silmek
+  - Tarayıcı geçmişini temizlemek
+  - Değişken adlarını gizlemek
+  answer: 0
+  explanation: Algoritmayı küçük adımlarda çalıştırmak hangi bloktan sonra sonuç bozulduğunu görmeyi kolaylaştırır.
+- id: q14
+  question: Tekrarlanan bir desen her adımda beklenmedik biçimde uzaklaşıyorsa ilk kontrol edilmesi gerekenlerden biri hangisidir?
+  options:
+  - Ekran parlaklığı
+  - Move/Rotate değerlerinin döngü içinde nasıl biriktiği
+  - Kullanıcı avatarı
+  - Tarayıcı sekme rengi
+  answer: 1
+  explanation: Döngü içindeki dönüşümlerin her turda kümülatif uygulanması konumun beklenmedik biçimde kaymasına yol açabilir.
+- id: q15
+  question: Algoritmada “başlangıç konumu” neden önemlidir?
+  options:
+  - Yalnız dosya adını değiştirir
+  - Sadece rengi belirler
+  - Sonraki Move/Rotate işlemlerinin hangi referanstan başlayacağını etkiler
+  - Run düğmesini gizler
+  answer: 2
+  explanation: Dönüşümler başlangıç geometrisi ve konumu üzerine uygulanır; başlangıç referansı desenin yerini belirler.
+- id: q16
+  question: Bir değişkeni `adet = 0` yapıp ardından `360 / adet` hesaplamak neden hatalıdır?
+  options:
+  - Nesne aynalanır
+  - Scale çalışmaz
+  - Renk değişir
+  - Sıfıra bölme tanımsız olduğundan açı hesabı geçerli olmaz
+  answer: 3
+  explanation: Bir değeri bölen olarak kullanmadan önce sıfır olamayacağı garanti edilmelidir.
+- id: q17
+  question: Codeblocks ile tasarım yapmanın elle tek tek kopyalamaya göre önemli avantajı hangisidir?
+  options:
+  - Tekrarlı geometrinin kurala bağlı ve yeniden üretilebilir olması
+  - Her tasarımın zorunlu olarak daha güzel olması
+  - İnternetsiz her cihazda çalışması
+  - Hiç ölçü gerektirmemesi
+  answer: 0
+  explanation: Algoritmik model, aynı kuralı tekrarlanabilir biçimde uygular ve parametre değişince yeniden üretilebilir.
+- id: q18
+  question: Bir modelde aynı boyut birkaç yerde kullanılıyorsa en sürdürülebilir yaklaşım hangisidir?
+  options:
+  - Her yerde farklı rastgele sayı kullanmak
+  - Ortak değeri bir değişkende tutup ilgili bloklarda kullanmak
+  - Bütün blokları kilitlemek
+  - Yalnız son blokta sayı yazmak
+  answer: 1
+  explanation: Ortak parametreyi değişkende tutmak tek değişiklikle tasarımın ilgili bölümlerini güncellemeyi kolaylaştırır.
+- id: q19
+  question: 3D Viewer’da model görünmüyorsa aşağıdakilerden hangisi anlamlı bir kontroldür?
+  options:
+  - Bilgisayarın duvar kâğıdını değiştirmek
+  - Mikrofonu açmak
+  - Run çalıştırıldığını, şekil oluşturan blok bulunduğunu ve konum/ölçeğin görünür aralıkta olduğunu kontrol etmek
+  - Tarayıcı şifresini değiştirmek
+  answer: 2
+  explanation: Çalıştırma, şekil üretimi, konum ve ölçek görünmeme sorunlarında temel kontrol noktalarıdır.
+- id: q20
+  question: Dersin temel Codeblocks akışını en iyi hangisi özetler?
+  options:
+  - Modeli indir → hiçbir bloğu açma
+  - Sadece şeklin rengini seç
+  - Blokları rastgele diz ve sonucu kontrol etme
+  - Problemi tanımla → parametre/değişkenleri belirle → şekil ve dönüşüm bloklarını sırala → döngüyü kur → Run → 3D sonucu kontrol et ve düzelt
+  answer: 3
+  explanation: Algoritmik 3D tasarım planlama, parametreleme, blokların sıralanması, çalıştırma ve doğrulama döngüsüdür.

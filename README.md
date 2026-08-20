@@ -8,7 +8,7 @@ Bu repository, **Bilgisayar Kullanımı ve Dijital Yetkinlik** ders portalının
 
 ## Revize v2 yaklaşımı
 
-Müfredat, önceki 73 derslik çok parçalı yapıdan **8 bölüm ve 54 derse** yeniden düzenlenmiştir. Amaç daha az ders ve daha az ana başlıkla, tahtada açılıp doğrudan anlatılabilecek daha güçlü ders içerikleri oluşturmaktır.
+Müfredat, önceki 73 derslik çok parçalı yapıdan **8 bölüm ve 53 derse** yeniden düzenlenmiştir. Amaç daha az ders ve daha az ana başlıkla, tahtada açılıp doğrudan anlatılabilecek daha güçlü ders içerikleri oluşturmaktır.
 
 Derslerin yeni içerik standardı:
 
@@ -23,7 +23,7 @@ Derslerin yeni içerik standardı:
 ## İki öğrenme yolu
 
 - **Genel Yeterlik:** Bölümler 1–5
-- **Programlama Yeterlik:** Bölümler 6–8 (Bölüm 6–7 yayımdadır; Bölüm 8 planlıdır)
+- **Programlama Yeterlik:** Bölümler 6–8 (Bölüm 6–7 tam yayımdadır; Bölüm 8 kısmen yayımdadır)
 
 ## Bölümler
 
@@ -34,9 +34,9 @@ Derslerin yeni içerik standardı:
 5. **Dijital Medya ve İçerik Üretimi** — 6 ders
 6. **Yazılım Geliştirme ve Proje Araçları** — 6 ders
 7. **Blok Programlama, Robotik ve Elektronik** — 6 ders
-8. **3D Tasarım ve Dijital Üretim** — 7 ders
+8. **3D Tasarım ve Dijital Üretim** — 6 ders
 
-Toplam: **54 ders**
+Toplam: **53 ders**
 
 ## İlk yayın paketi
 
@@ -50,7 +50,7 @@ Bu paket Bölüm 1'i tam olarak içerir:
 - **1-6 — Windows Ayarları, Uygulamalar ve Güncellemeler**
 - **1-7 — Görev Yöneticisi ve Temel Sorun Giderme**
 
-Bölüm 1–7 dersleri yayımdadır. Bölüm 8 dersleri `_data/modules.yml` içinde planlanmıştır; içerik paketi sonraki sürümde eklenecektir.
+Bölüm 1–7 dersleri yayımdadır. Bölüm 8 içinde 8-1–8-4 yayımdadır; 8-5 ve 8-6 planlıdır. 8-7 müfredattan çıkarılmıştır.
 
 ## Dosya yapısı
 
@@ -167,3 +167,14 @@ Bu paketle **Bölüm 7 — Blok Programlama, Robotik ve Elektronik** tamamlanmı
 Her derste 20 soruluk etkileşimli uygulama bulunur. Bölüm 7 ile 6 yeni ders ve 120 yeni soru yayıma alınmıştır. Toplam 54 dersin **47'si yayında**, yayımdaki toplam uygulama sorusu **940** durumundadır.
 
 Bölüm 7 içerikleri Scratch, Makeblock, Microsoft MakeCode/micro:bit, Autodesk Tinkercad ve Arduino'nun resmî/güncel kaynaklarıyla karşılaştırılmış; fiziksel elektronik ve robotik konularında simülasyonun gerçek donanım güvenlik sınırlarının yerine geçmediği özellikle vurgulanmıştır.
+
+
+## Revize v9 — Visual Studio/VS Code Insiders ve Bölüm 8
+
+- 6-1 dersi **Visual Studio 2026 Community Insiders** için yeniden yazıldı; resmî indirme/kurulum, Python development iş yükü, ayrı Python yorumlayıcısı, diğer temel diller/iş yükleri, örnek Python projesi, çalıştırma ve terminal çıktısı işlendi.
+- 6-2 dersi **Visual Studio Code Insiders** için yeniden yazıldı; kurulum, arayüz panelleri, çok dilli geliştirme, Python eklentisi/yorumlayıcısı, terminal, çalıştırma-durdurma, debug ve temel kısayollar işlendi.
+- 8-1 **Tinkercad ile 3D Tasarım** ve 8-2 **Tinkercad Codeblocks ile Algoritmik 3D Tasarım** Türkçe kullanım akışıyla yayımlandı.
+- 8-3 **Onshape ile Parametrik CAD** ve 8-4 **SOLIDWORKS ile 3D Modelleme** İngilizce ders/quiz içeriğiyle yayımlandı.
+- 8-7 kaldırıldı. Müfredat artık **53 ders**, bunun **51'i yayında** ve **2'si planlıdır**.
+- Yayımdaki uygulama soru sayısı **1020**'dir.
+- Ana sayfa açıklaması **“Bilgisayar Temellerinden Dijital Okuryazarlık”** olarak güncellendi.

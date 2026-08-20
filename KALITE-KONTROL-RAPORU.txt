@@ -1,72 +1,76 @@
-KALİTE KONTROL RAPORU — v8
+KALİTE KONTROL RAPORU — v9
 Tarih: 2026-08-21
 
-PORTAL
-- Toplam plan: 54 ders
-- Yayında: 47 ders
-- Bölüm 1–7: yayında
-- Bölüm 8: planlı (7 ders)
+PORTAL / MÜFREDAT
+- Toplam müfredat: 53 ders — TAMAM
+- Yayında: 51 ders — TAMAM
+- Planlı: 2 ders (8-5, 8-6) — TAMAM
+- 8-7 modules.yml kayıtlarından kaldırıldı — TAMAM
+- Ana sayfa açıklaması “Bilgisayar Temellerinden Dijital Okuryazarlık” — TAMAM
 
-BÖLÜM 7
-- 6 ders sayfası: TAMAM
-- 6 uygulama sayfası: TAMAM
-- 6 quiz veri dosyası: TAMAM
-- 120 yeni soru: TAMAM
-- Her derste 8 ana içerik başlığı: TAMAM
-- Ders/uygulama bağlantıları: TAMAM
-- Güncelleme tarihi 2026-08-21: TAMAM
+DERS 6-1 — VISUAL STUDIO 2026 COMMUNITY INSIDERS
+- Resmî Insiders indirme adresi işlendi — TAMAM
+- Community ücretsiz eğitim/öğrenci kullanım çerçevesi güncel Microsoft sayfalarıyla kontrol edildi — TAMAM
+- Installer ve Workloads kurulumu anlatıldı — TAMAM
+- Python development iş yükü ve Python yorumlayıcısı ayrımı anlatıldı — TAMAM
+- Python yanında C#, Visual Basic, F#, C/C++ ve JavaScript/TypeScript kullanım alanları açıklandı — TAMAM
+- Python Application proje akışı ve örnek kod — TAMAM
+- Ctrl+F5 / F5 / Shift+F5 / F9 ve Terminal akışı — TAMAM
+- Çalışan Python örneğinin terminal görünümü ders içine eklendi — TAMAM
+- Örnek not ortalaması kodu gerçek Python ile çalıştırıldı: 80 ve 90 girdileri için 86.0 — TAMAM
 
-DİL VE PROGRAM DOĞRULAMASI
-- 7-1 Scratch: Türkçe web + Türkçe masaüstü kullanım anlatımı: TAMAM
-- 7-1 verilen Scratch stüdyosu ders içine proje inceleme kaynağı olarak işlendi: TAMAM
-- 7-2 mBlock 5: Türkçe web + Türkçe masaüstü kullanım anlatımı: TAMAM
-- 7-2 Live / Upload ve cihaz-bağlantı ayrımı resmî Makeblock kaynaklarıyla kontrol edildi: TAMAM
-- 7-3 MakeCode for micro:bit: Türkçe kullanım ve dil seçimi doğrulandı: TAMAM
-- 7-4 Tinkercad Circuits: Türkçe ders anlatımı; sürüme göre değişebilen arayüz etiketlerinde İngilizce özgün adlar parantez içinde: TAMAM
-- 7-5 Arduino IDE 2: Türkçe dil paketi ve güncel Türkçe çeviri dosyası doğrulandı: TAMAM
-- 7-5 güncel resmî Türkçe terim “Seri Port Ekranı” kullanıldı: TAMAM
-- 7-6 Robotik Proje Geliştirme ve Hata Ayıklama: Türkçe: TAMAM
+DERS 6-2 — VISUAL STUDIO CODE INSIDERS
+- Resmî Insiders indirme/kurulum bilgisi — TAMAM
+- User Installer / System Installer ayrımı — TAMAM
+- Çok dilli çalışma mantığı ve gerekli runtime/SDK/extension ayrımı — TAMAM
+- Activity Bar, Primary Side Bar, Editor, Panel, Status Bar — TAMAM
+- Python interpreter + Microsoft Python extension + Select Interpreter — TAMAM
+- Örnek Python programı, Run Python File in Terminal ve terminal görünümü — TAMAM
+- Ctrl+C ile terminal sürecini kesme ve Shift+F5 ile debug oturumunu durdurma ayrımı — TAMAM
+- Ctrl+Shift+P, Ctrl+P, Ctrl+`, Ctrl+B, Ctrl+Shift+X, F5, F10, F11 kısayolları — TAMAM
 
-İÇERİK DOĞRULUĞU / ÖĞRENCİ GÜVENLİĞİ
-- Scratch stüdyosu düzenleyici gibi gösterilmedi: TAMAM
-- mLink 2 tüm mBlock cihazları için değişmez zorunluluk gibi anlatılmadı: TAMAM
-- Live ve Upload modları birbirinden doğru ayrıldı: TAMAM
-- micro:bit V2 özellikleri V1'e genellenmedi: TAMAM
-- Tinkercad simülasyonu fiziksel güvenliğin garantisi gibi gösterilmedi: TAMAM
-- Ohm Kanunu, LED kutupluluğu, açık/kısa devre ve ölçüm bağlantı ilkeleri kontrol edildi: TAMAM
-- Arduino kart/port, Doğrula/Yükle, setup()/loop(), seri haberleşme bilgileri kontrol edildi: TAMAM
-- Karttan karta değişen GPIO sınırları için tek bir evrensel sayı verilmedi: TAMAM
-- Motor gibi yüklerde uygun sürücü/güç düzeni gerekliliği vurgulandı: TAMAM
-- 7-6'da test, ölçüm ve kanıta dayalı hata ayıklama yöntemi kullanıldı: TAMAM
+BÖLÜM 8
+- 8-1 Tinkercad ile 3D Tasarım — Türkçe kullanım — TAMAM
+- 8-2 Tinkercad Codeblocks ile Algoritmik 3D Tasarım — Türkçe kullanım — TAMAM
+- 8-3 Onshape ile Parametrik CAD — İngilizce içerik ve İngilizce quiz — TAMAM
+- 8-4 SOLIDWORKS ile 3D Modelleme — İngilizce içerik ve İngilizce quiz — TAMAM
+- 8-5 ve 8-6 planlı bırakıldı — TAMAM
+- 8-7 kaldırıldı — TAMAM
 
-QUIZ KONTROLLERİ
-- Yayımdaki 47 quiz x 20 soru = 940 soru: TAMAM
-- Bölüm 7: 6 quiz x 20 soru = 120 yeni soru: TAMAM
-- Her soruda 4 benzersiz seçenek: TAMAM
-- Her soruda tek doğru answer değeri (0–3): TAMAM
-- Her soruda açıklama: TAMAM
-- Her quizde soru kimlikleri benzersiz: TAMAM
-- Her quizde A/B/C/D doğru cevap dağılımı 5/5/5/5: TAMAM
-- Bölüm 7'nin 120 sorusu ilgili ders içeriğiyle karşılaştırıldı: TAMAM
+KAYNAK / DOĞRULUK KONTROLÜ
+- Visual Studio 2026 Insiders / Community / Python: Microsoft / Visual Studio resmî kaynakları — TAMAM
+- VS Code Insiders / Python / UI / Terminal: code.visualstudio.com — TAMAM
+- Tinkercad 3D Design / Codeblocks / kısayollar: Autodesk Tinkercad resmî kaynakları — TAMAM
+- Onshape: Onshape Help — TAMAM
+- SOLIDWORKS 2026: SOLIDWORKS Design Help — TAMAM
+- Değiştirilen/yeni 6 quizdeki 120 soru ders içeriği ve kaynaklarla yeniden karşılaştırıldı — TAMAM
+- Önceki v8 denetiminden taşınan soruların yapı ve cevap indeksleri yeniden kontrol edildi — TAMAM
 
-ANA SAYFA VE DERS ŞABLONU
-- Ders kartlarında “Son Güncelleme Tarihi” gösterimi korunmuştur: TAMAM
-- “Gözden geçirme” etiketi ana sayfa kartından kaldırılmıştır: TAMAM
-- Sol ders panelinin tamamında kaydırma çubuğu yoktur: TAMAM
-- Gerektiğinde yalnız “Ders İçeriği” listesi kayar: TAMAM
+QUIZ / UYGULAMA KONTROLLERİ
+- 51 canlı quiz × 20 soru = 1020 soru — TAMAM
+- Her soruda 4 benzersiz seçenek — TAMAM
+- Her soruda answer 0–3 aralığında tek doğru seçenek — TAMAM
+- Her soruda açıklama alanı — TAMAM
+- Her quizde soru kimlikleri benzersiz — TAMAM
+- Her quizde A/B/C/D doğru cevap dağılımı 5/5/5/5 — TAMAM
+- Farklı dersler arasında birebir aynı soru metni: 0 — TAMAM
 
 YAPISAL KONTROLLER
-- 54 modules.yml kaydı: TAMAM
-- 47 canlı ders yolu: TAMAM
-- 47 canlı uygulama yolu: TAMAM
-- module_id / quiz_id eşleşmeleri: TAMAM
-- Markdown front matter parse testi: 98 dosya / 0 hata
-- Bölüm 7 previous/next gezinmesi modules.yml sırasıyla otomatik çalışır: TAMAM
-- Bölüm 8 planlı bırakılmıştır: TAMAM
+- modules.yml: 53 benzersiz kayıt — TAMAM
+- Canlı ders yolu: 51 / 51 mevcut — TAMAM
+- Canlı uygulama yolu: 51 / 51 mevcut — TAMAM
+- Canlı quiz veri dosyası: 51 / 51 mevcut — TAMAM
+- lesson module_id / permalink / quiz_path eşleşmesi — TAMAM
+- application quiz_id / lesson_path / permalink eşleşmesi — TAMAM
+- Markdown front matter: 106 dosya parse edildi, 0 hata — TAMAM
+- Visual Studio ve VS Code terminal görselleri mevcut ve CSS ile responsive — TAMAM
+- Sol ders paneli önceki düzeltmedeki gibi genel scrollbar oluşturmuyor; gerekirse yalnız Ders İçeriği listesi kayıyor — KORUNDU
+- Ders kartlarında Son Güncelleme Tarihi kullanımı — KORUNDU
 
-YEREL BUILD NOTU
-- Çalışma ortamında Jekyll ve Bundler kurulu olmadığı için yerel Jekyll build çalıştırılmadı.
-- GitHub'a yükleme sonrasında GitHub Pages / Actions build sonucu ayrıca kontrol edilmelidir.
+BUILD NOTU
+- Çalışma ortamında Ruby bulundu; Bundler/Jekyll komutu kurulu olmadığı için yerel Jekyll build çalıştırılamadı.
+- GitHub Pages workflow dosyası korunmuştur.
 
-ZIP BÜTÜNLÜK TESTİ
-- Nihai paket unzip -t ile kontrol edildi: TAMAM
+NİHAİ DURUM
+- VALIDATION-v9.json: PASS
+- Nihai ZIP paketi `unzip -t` ile bütünlük testinden geçirilmiştir: TAMAM

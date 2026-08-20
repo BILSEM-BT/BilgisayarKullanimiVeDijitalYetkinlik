@@ -1,183 +1,184 @@
-title: Visual Studio Code Kullanımı — Uygulama
-description: VS Code’un Türkçe arayüzü, proje klasörü, temel görünümler, Language Pack, Komut Paleti, uzantı, terminal ve hata ayıklama kavramlarını ölçer.
+title: Visual Studio Code Insiders Kullanımı — Uygulama
+description: VS Code Insiders kurulumu, arayüz alanları, çok dilli çalışma mantığı, Python eklentisi/yorumlayıcısı, terminal, çalıştırma, durdurma
+  ve hata ayıklama kısayollarını ölçer.
 questions:
 - id: q1
-  question: Visual Studio Code için en doğru tanım hangisidir?
+  question: Visual Studio Code Insiders için doğru ifade hangisidir?
   options:
-  - Eklentilerle genişletilebilen, çok platformlu bir kod düzenleyicisidir
-  - Yalnızca antivirüs programıdır
-  - GitHub Pages sunucusudur
-  - Sadece C# derleyicisidir
+  - Yeni özellikleri günlük/çok sık yapılarla daha erken sunan ve Stable ile yan yana kurulabilen önizleme kanalıdır
+  - Visual Studio Community’nin başka adıdır
+  - Yalnız çevrim dışı çalışan bir Python yorumlayıcısıdır
+  - Sadece GitHub Pages düzenleyicisidir
   answer: 0
-  explanation: VS Code, çok platformlu ve uzantılarla genişletilebilen bir kod düzenleyicisidir.
+  explanation: VS Code Insiders, yeni değişiklikleri Stable’dan önce alan önizleme sürümüdür ve Stable ile yan yana kurulabilir.
 - id: q2
-  question: VS Code’un varsayılan görüntüleme dili nedir?
+  question: VS Code Insiders için derste verilen resmî indirme adresi hangisidir?
   options:
-  - Türkçe
-  - İngilizce
-  - Yalnız Almanca
-  - Programlama diline göre otomatik olarak Python
+  - visualstudio.microsoft.com/insiders/
+  - code.visualstudio.com/insiders/
+  - python.org/downloads/
+  - scratch.mit.edu
   answer: 1
-  explanation: Resmî VS Code belgeleri varsayılan görüntüleme dilinin İngilizce olduğunu belirtir.
+  explanation: Visual Studio Code Insiders, code.visualstudio.com/insiders/ adresinden indirilir.
 - id: q3
-  question: Türkçe VS Code arayüzü nasıl sağlanır?
+  question: VS Code Insiders’ta Python geliştirmek için temel hazırlık hangisidir?
   options:
-  - Dosya uzantısını .tr yapmak
-  - Windows’u yeniden kurmak
-  - Türkçe Language Pack kullanmak
-  - GitHub repository adını turkce yapmak
+  - Yalnız Git kurmak
+  - Sadece bir .py dosyası oluşturmak
+  - Python yorumlayıcısı ile Microsoft Python eklentisini kurmak
+  - Visual Studio Installer’dan C++ iş yükü seçmek
   answer: 2
-  explanation: Türkçe, VS Code’un desteklediği Language Pack tabanlı görüntüleme dillerindendir.
+  explanation: VS Code Python geliştirme akışı; çalışan bir Python yorumlayıcısı ve Microsoft Python extension/eklentisini gerektirir.
 - id: q4
-  question: Windows/Linux’ta Ctrl+Shift+P neyi açar?
+  question: VS Code’un programlama dilleriyle ilişkisi için en doğru ifade hangisidir?
   options:
-  - Görev Yöneticisi’ni
-  - Tarayıcı geçmişini
-  - Yalnız dosya kaydetmeyi
-  - Komut Paleti’ni
+  - Yalnız Python kodu yazabilir
+  - Yalnız JavaScript çalıştırır
+  - Her dili eklentisiz aynı özelliklerle destekler
+  - Birçok dilde metin/kod düzenlenebilir; dil özellikleri ve çalıştırma için ilgili çalışma zamanı/SDK/derleyici ve çoğu zaman eklenti gerekir
   answer: 3
-  explanation: Ctrl+Shift+P, VS Code Command Palette / Komut Paleti’ni açar.
+  explanation: VS Code çok dilli bir editördür; gerçek çalıştırma ve gelişmiş dil desteği ilgili araç zincirine bağlıdır.
 - id: q5
-  question: Gezgin (Explorer) görünümünün temel görevi nedir?
+  question: VS Code’daki Activity Bar’ın temel görevi nedir?
   options:
-  - Açık klasördeki dosya ve klasör yapısını göstermek
-  - İnternet hızını artırmak
-  - Ses kaydetmek
-  - GitHub hesabını silmek
+  - Explorer, Search, Source Control, Run and Debug ve Extensions gibi ana görünümler arasında geçiş sağlamak
+  - Programın Python sürümünü derlemek
+  - Sadece terminal çıktısını temizlemek
+  - Windows kullanıcı hesabını değiştirmek
   answer: 0
-  explanation: Explorer/Gezgin proje dosyaları ve klasör yapısını gösterir.
+  explanation: Activity Bar ana çalışma görünümlerine erişim sağlar.
 - id: q6
-  question: Ara (Search) görünümü hangi durumda özellikle kullanışlıdır?
+  question: Primary Side Bar genellikle ne gösterir?
   options:
-  - Yalnız ekran görüntüsü almak için
-  - Açık proje klasöründeki birçok dosyada metin aramak için
-  - Sadece uzantı kaldırmak için
-  - Bilgisayarı kapatmak için
+  - Yalnız saat ve tarih
+  - Seçilen görünümün içeriğini; örneğin Explorer’daki dosya ağacını
+  - Sadece çalışan Python çıktısını
+  - BIOS ayarlarını
   answer: 1
-  explanation: Search, proje genelinde arama ve değiştirme yapmaya yardım eder.
+  explanation: Primary Side Bar, Activity Bar’dan seçilen görünümün ayrıntılarını gösterir.
 - id: q7
-  question: Source Control / Kaynak Denetimi görünümü hangi sistemle bütünleşik çalışabilir?
+  question: VS Code’daki Panel alanında hangileri bulunabilir?
   options:
-  - GIMP
-  - VLC
-  - Git
-  - 7-Zip
+  - Yalnız masaüstü simgeleri
+  - Sadece uzantı mağazası
+  - Terminal, Problems, Output ve Debug Console gibi araçlar
+  - Windows Denetim Masası
   answer: 2
-  explanation: VS Code yerleşik Git source control desteği sunar.
+  explanation: Panel; Terminal, Problems, Output ve Debug Console gibi çalışma alanlarını barındırabilir.
 - id: q8
-  question: Bir üçüncü taraf eklentinin bazı menüleri İngilizce kalıyorsa en doğru açıklama hangisidir?
+  question: Status Bar ne tür bilgiler gösterebilir?
   options:
-  - Türkçe dil paketi kesin bozuk
-  - Bilgisayarda internet yok
-  - Dosyalar silinmiştir
-  - Eklenti kendi Türkçe yerelleştirmesini sunmuyor olabilir
+  - Yalnız bilgisayarın seri numarasını
+  - Sadece tarayıcı geçmişini
+  - Yalnız dosya boyutunu
+  - Etkin dosya/dil, satır-sütun, kaynak kontrolü ve seçili Python ortamı gibi bağlamsal durumları
   answer: 3
-  explanation: Dil paketi VS Code çekirdeğini yerelleştirir; üçüncü taraf uzantıların çeviri desteği ayrı olabilir.
+  explanation: Status Bar etkin çalışma bağlamıyla ilgili hızlı durum bilgileri verir.
 - id: q9
-  question: Bir proje üzerinde çalışırken neden kök klasörü açmak yararlıdır?
+  question: Command Palette’ı açmak için yaygın VS Code kısayolu hangisidir?
   options:
-  - Gezgin, arama ve terminalin aynı proje bağlamında çalışmasını sağlar
-  - Dosyaları otomatik olarak şifreler
-  - Her dosyayı PDF yapar
-  - GitHub hesabı oluşturur
+  - Ctrl+Shift+P
+  - Ctrl+Alt+Delete
+  - F2
+  - Alt+Tab
   answer: 0
-  explanation: Klasör açmak araçların proje bağlamını görmesini sağlar.
+  explanation: Ctrl+Shift+P, Command Palette’ı açar.
 - id: q10
-  question: Dosya uzantısını `not.txt`den `not.py`ye değiştirmek için doğru ifade hangisidir?
+  question: Dosyalara hızlı gitmek için kullanılan Quick Open kısayolu hangisidir?
   options:
-  - İçeriği otomatik olarak doğru Python programına dönüştürür
-  - Yalnız ad/uzantı değişir; içerik kendi kendine başka dile dönüşmez
-  - Dosyayı GitHub’a yollar
-  - Dosyayı sıkıştırır
+  - Ctrl+Shift+X
+  - Ctrl+P
+  - Ctrl+K
+  - Alt+P
   answer: 1
-  explanation: Uzantı dosya türü için ipucudur; içeriğin yapısını otomatik dönüştürmez.
+  explanation: Ctrl+P, Quick Open ile dosya adına göre hızlı açma sağlar.
 - id: q11
-  question: Uzantı (extension) kurarken en güvenli yaklaşım hangisidir?
+  question: VS Code tümleşik terminalini açmak/göstermek için yaygın kısayol hangisidir?
   options:
-  - Gördüğün her uzantıyı kurmak
-  - Yayıncıyı önemsememek
-  - Gerçek gereksinimi, yayıncıyı ve açıklamayı değerlendirip güvenilir uzantıyı seçmek
-  - Antivirüsü kapatmak
+  - Ctrl+Shift+S
+  - Alt+T
+  - Ctrl+`
+  - F7
   answer: 2
-  explanation: Uzantılar güçlü yeteneklere sahip olabilir; gereksiz ve kaynağı belirsiz uzantılardan kaçınılmalıdır.
+  explanation: Ctrl+` (backtick), tümleşik terminali açmak/göstermek için kullanılan yaygın kısayoldur.
 - id: q12
-  question: VS Code tümleşik Terminali için doğru ifade hangisidir?
+  question: Primary Side Bar’ı açıp kapatmak için hangi kısayol kullanılır?
   options:
-  - Her programlama dilini kurulum olmadan kendisi icat eder
-  - Yalnız metin gösterir
-  - GitHub Pages’ı otomatik açar
-  - İşletim sistemindeki komut satırı araçlarını proje bağlamında kullanmaya yardım eder
+  - Ctrl+Shift+B
+  - F4
+  - Ctrl+J
+  - Ctrl+B
   answer: 3
-  explanation: Integrated Terminal, mevcut shell ve komut satırı araçlarını VS Code içinde kullanmayı sağlar.
+  explanation: Ctrl+B, Primary Side Bar görünürlüğünü değiştirir.
 - id: q13
-  question: Çalıştır ve Hata Ayıkla görünümü ne için kullanılır?
+  question: Birden fazla Python kurulumu varsa doğru yorumlayıcıyı seçmek için hangi komut kullanılabilir?
   options:
-  - Program çalışmasını, kesme noktalarını ve hata ayıklama bilgilerini incelemek için
-  - Yalnız renk teması seçmek için
-  - PDF birleştirmek için
-  - Drive bağlamak için
+  - 'Python: Select Interpreter'
+  - 'Git: Clone'
+  - 'Terminal: Kill All'
+  - 'File: Revert File'
   answer: 0
-  explanation: Run and Debug görünümü hata ayıklama araçlarını ve çalışma durumunu gösterir.
+  explanation: 'Python: Select Interpreter komutu, çalışma alanında kullanılacak Python ortamını seçmeye yarar.'
 - id: q14
-  question: Hata ayıklama desteği neden projeden projeye değişebilir?
+  question: Açık Python dosyasını terminalde çalıştırmanın ders içinde gösterilen kolay yolu hangisidir?
   options:
-  - Monitör rengine bağlıdır
-  - Kullanılan programlama dili ve kurulu uzantılara/araçlara bağlıdır
-  - Dosya adı kısa olduğu için
-  - VS Code yalnız tek dili desteklediği için
+  - Explorer’dan dosyayı silmek
+  - Run Python File in Terminal düğmesini/komutunu kullanmak
+  - Extensions görünümünü kapatmak
+  - Status Bar’ı gizlemek
   answer: 1
-  explanation: VS Code genişletilebilir olduğundan dil ve debugger desteği ilgili uzantı ve runtime’a bağlı olabilir.
+  explanation: Microsoft Python eklentisi Run Python File in Terminal komutuyla açık dosyayı seçili yorumlayıcıda çalıştırabilir.
 - id: q15
-  question: Terminale internetten alınmış bilinmeyen bir komutu yapıştırmadan önce ne yapılmalıdır?
+  question: Seçili Python satırını veya kod parçasını terminale gönderip çalıştırmak için yaygın kısayol hangisidir?
   options:
-  - Komutu yönetici olarak çalıştırmak
-  - Bütün dosyaları silmek
-  - Komutun ne yaptığını ve kaynağın güvenilirliğini anlamak
-  - Uzantısını .txt yapmak
+  - Ctrl+Enter
+  - Alt+Enter
+  - Shift+Enter
+  - Ctrl+Shift+Enter
   answer: 2
-  explanation: Terminal komutları sisteme zarar verebilir; anlamadan ve güvenmeden çalıştırılmamalıdır.
+  explanation: VS Code Python desteğinde Shift+Enter seçili satırı/kodu Python terminalinde çalıştırabilir.
 - id: q16
-  question: VS Code ile Visual Studio için doğru ifade hangisidir?
+  question: VS Code’da Python hata ayıklamasını başlatmak için yaygın tuş hangisidir?
   options:
-  - Aynı uygulamadır
-  - VS Code Visual Studio’nun yalnız tema adıdır
-  - Visual Studio sadece VS Code eklentisidir
-  - İkisi ayrı üründür ve kullanım yaklaşımları farklıdır
+  - F1
+  - F9
+  - F10
+  - F5
   answer: 3
-  explanation: Visual Studio ve VS Code farklı ürünlerdir.
+  explanation: F5 Run and Debug/hata ayıklama akışını başlatır.
 - id: q17
-  question: Bir dosyanın güncel değişikliğini çalıştırmadan önce en temel kontrol hangisidir?
+  question: Breakpoint ne işe yarar?
   options:
-  - Dosyanın kaydedildiğini kontrol etmek
-  - Ekran çözünürlüğünü düşürmek
-  - GitHub hesabını kapatmak
-  - Bilgisayarı yeniden adlandırmak
+  - Program belirli satıra geldiğinde yürütmeyi duraklatıp değişken ve program durumunu incelemeyi sağlar
+  - Dosyayı sıkıştırır
+  - Bir eklentiyi günceller
+  - Terminal yazı tipini değiştirir
   answer: 0
-  explanation: Kaydedilmemiş dosya, çalıştırılan programın eski içeriği kullanmasına yol açabilir.
+  explanation: Kesme noktası programın belirli noktada duraklamasını sağlar ve hata ayıklamayı kolaylaştırır.
 - id: q18
-  question: VS Code’daki Extensions görünümünün görevi nedir?
+  question: Hata ayıklamada F10 genellikle hangi komuttur?
   options:
-  - Yalnız klasör silmek
-  - Uzantıları bulmak, kurmak ve yönetmek
-  - Çalışma zamanı GPU’su kiralamak
-  - PDF imzalamak
+  - Stop
+  - Step Over
+  - Step Into
+  - Restart
   answer: 1
-  explanation: Extensions görünümü VS Code uzantılarını yönetmek içindir.
+  explanation: F10, Step Over komutudur; mevcut satırı çalıştırıp çağrının içine girmeden sonraki satıra ilerler.
 - id: q19
-  question: Kaynak Denetimi görünümünde bir değişikliği görmek neyi tek başına garanti etmez?
+  question: VS Code hata ayıklama oturumunu durdurmanın yaygın kısayolu hangisidir?
   options:
-  - Dosyanın projede olduğunu
-  - VS Code’un açıldığını
-  - Değişikliğin commit edilip GitHub’a push edildiğini
-  - Git’in bir sürüm kontrol sistemi olduğunu
+  - Ctrl+C
+  - F11
+  - Shift+F5
+  - Ctrl+Shift+P
   answer: 2
-  explanation: Değişiklik görünmesi commit ve push işlemlerinin tamamlandığı anlamına gelmez.
+  explanation: Shift+F5 debug oturumunu durdurur. Terminaldeki normal ön plan sürecini kesmek ise çoğu zaman Ctrl+C ile yapılır.
 - id: q20
-  question: Dersin en iyi özeti hangisidir?
+  question: Terminalde çalışan bir Python programını klavyeden kesmek için genellikle hangi birleşim kullanılır?
   options:
-  - Tek dosya aç, hiçbir klasör kullanma
-  - Her uzantıyı kur
-  - Terminal komutlarını sorgulamadan çalıştır
-  - Doğru klasörü aç, temel görünümleri kullan, güvenilir uzantı seç, kaydet ve çalıştırma/terminal sonuçlarını kontrol et
+  - Shift+F5
+  - Ctrl+P
+  - Ctrl+B
+  - Ctrl+C
   answer: 3
-  explanation: Güvenli VS Code kullanımı proje bağlamı, doğru araç, güvenilir uzantı ve kontrollü çalıştırma alışkanlıklarına dayanır.
+  explanation: Terminalde Ctrl+C ön plan sürecine kesme sinyali gönderir; Python çoğu zaman KeyboardInterrupt ile durur.

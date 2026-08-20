@@ -1,0 +1,184 @@
+title: Tinkercad ile 3D Tasarım — Uygulama
+description: Tinkercad 3D Design çalışma düzlemi, şekiller, görünüş, ölçülendirme, Align, Duplicate, Mirror, Solid/Hole/Group ve temel kısayolları
+  ölçer.
+questions:
+- id: q1
+  question: Tinkercad 3D Design için en doğru tanım hangisidir?
+  options:
+  - Tarayıcı üzerinden temel 3D modeller oluşturmayı sağlayan web tabanlı tasarım aracı
+  - Yalnız video düzenleme uygulaması
+  - Sadece metin düzenleyici
+  - Bir Python yorumlayıcısı
+  answer: 0
+  explanation: Tinkercad 3D Design web tarayıcısında çalışan, temel 3D tasarım ve modelleme için kullanılan bir araçtır.
+- id: q2
+  question: Tinkercad’de Workplane (Çalışma Düzlemi) neyi belirtir?
+  options:
+  - Modelin internet bağlantı hızını
+  - Yeni şekillerin yerleştirildiği aktif çalışma yüzeyini/düzlemini
+  - Dosyanın paylaşım iznini
+  - Renk paletinin türünü
+  answer: 1
+  explanation: Workplane, şekillerin yerleştirildiği referans çalışma düzlemidir; başka bir yüzeye de taşınabilir.
+- id: q3
+  question: Bir kutunun ölçüsünü yaklaşık sürüklemek yerine tam sayı ile ayarlamak için hangi araç özellikle yararlıdır?
+  options:
+  - Mirror
+  - ViewCube
+  - Ruler
+  - Notes
+  answer: 2
+  explanation: Ruler ölçüleri ve konumları sayısal olarak görüp hassas düzenlemeyi kolaylaştırır.
+- id: q4
+  question: ViewCube’un temel görevi nedir?
+  options:
+  - Nesneyi otomatik delik yapmak
+  - Dosyayı STL’ye dönüştürmek
+  - Nesnenin rengini değiştirmek
+  - Görüş yönünü hızlıca değiştirmek ve modele farklı açılardan bakmak
+  answer: 3
+  explanation: ViewCube kamera/görünüş yönünü değiştirmeye yardımcı olur; nesnenin kendisini zorunlu olarak döndürmez.
+- id: q5
+  question: Align (Hizala) aracının amacı nedir?
+  options:
+  - Birden fazla seçili nesneyi ortak eksen veya kenarlara göre hizalamak
+  - Nesneyi silmek
+  - Sadece yakınlaştırmak
+  - Yeni çalışma düzlemi eklemek
+  answer: 0
+  explanation: Align seçili nesneleri X/Y/Z doğrultularında ortak merkez/kenar referanslarına göre hizalar.
+- id: q6
+  question: Duplicate (Çoğalt) komutu ne yapar?
+  options:
+  - Nesneyi boşluk hâline getirir
+  - Seçili nesnenin kopyasını oluşturur
+  - Yalnız rengi değiştirir
+  - Kamerayı üst görünüme alır
+  answer: 1
+  explanation: Duplicate seçili nesnenin bir kopyasını üretir; Ctrl+D bunun yaygın kısayoludur.
+- id: q7
+  question: Mirror (Aynala) aracı ne için kullanılır?
+  options:
+  - Ölçü birimini değiştirmek
+  - Nesneyi şeffaf yapmak
+  - Seçili eksene göre nesnenin ayna görüntüsünü oluşturmak/çevirmek
+  - Dosyayı yazdırmak
+  answer: 2
+  explanation: Mirror geometriyi seçilen eksene göre ayna simetrisiyle çevirir.
+- id: q8
+  question: Bir Solid nesneden başka bir şekli çıkarmak için doğru temel yaklaşım hangisidir?
+  options:
+  - İki nesneyi farklı renge boyamak
+  - Sadece Ruler eklemek
+  - Kamerayı döndürmek
+  - Çıkarılacak şekli Hole yapmak, nesneleri seçmek ve Group uygulamak
+  answer: 3
+  explanation: Tinkercad’de Hole olarak işaretlenen şekil, Solid ile gruplanınca katıdan çıkarma etkisi oluşturur.
+- id: q9
+  question: Tinkercad 3D Design’da W kısayolu hangi araçla ilişkilidir?
+  options:
+  - Workplane
+  - Ruler
+  - Align
+  - Mirror
+  answer: 0
+  explanation: W, Workplane aracını etkinleştirmek için kullanılan Tinkercad kısayoludur.
+- id: q10
+  question: R kısayolu hangi araçla ilişkilidir?
+  options:
+  - Rotate
+  - Ruler
+  - Rename
+  - Render
+  answer: 1
+  explanation: Tinkercad kısayol çizelgesinde R, Ruler aracını yerleştirmek için kullanılır.
+- id: q11
+  question: D kısayolu seçili nesne üzerinde ne yapar?
+  options:
+  - Nesneyi çoğaltır
+  - Nesneyi aynalar
+  - Nesneyi aktif çalışma düzlemine indirir (Drop to Workplane)
+  - Nesneyi siler
+  answer: 2
+  explanation: D, seçili nesneyi aktif Workplane üzerine bırakmak/indirmek için kullanılır.
+- id: q12
+  question: L kısayolu hangi aracı açar?
+  options:
+  - Ruler
+  - Workplane
+  - Mirror
+  - Align
+  answer: 3
+  explanation: L, Align/Hizala aracının kısayoludur.
+- id: q13
+  question: Ctrl+D kısayolu ne yapar?
+  options:
+  - Seçili nesneyi çoğaltır; yinelenen dönüşümlerle tekrar düzenlerinde de kullanılabilir
+  - Nesneyi Hole yapar
+  - Tüm tasarımı siler
+  - Çalışma düzlemini gizler
+  answer: 0
+  explanation: Ctrl+D Duplicate komutudur; tekrarlandığında son dönüşümün yinelenmesi desen yapımında yararlı olabilir.
+- id: q14
+  question: M kısayolu hangi işlevle ilişkilidir?
+  options:
+  - Measure
+  - Mirror
+  - Move to origin
+  - Material
+  answer: 1
+  explanation: M, Mirror/Aynala aracının kısayoludur.
+- id: q15
+  question: Ctrl+G kısayolunun görevi nedir?
+  options:
+  - Dosyayı indirir
+  - Ruler ekler
+  - Seçili nesneleri Group ile birleştirir/işlem uygular
+  - Görünüşü sıfırlar
+  answer: 2
+  explanation: Ctrl+G seçili nesneleri Group komutuyla gruplayarak tek bir sonuç geometrisi oluşturur.
+- id: q16
+  question: Kamera görünüşünü değiştirmek ile nesneyi döndürmek arasındaki fark hangisidir?
+  options:
+  - İkisi her zaman aynı işlemdir
+  - Kamera yalnız rengi değiştirir
+  - Nesne döndürme sadece yakınlaştırır
+  - Kamera hareketi modele bakış açısını değiştirir; nesne döndürme ise model geometrisinin yönelimini değiştirir
+  answer: 3
+  explanation: ViewCube/kamera kontrolü bakış yönünü değiştirirken rotate işlemi nesnenin yönelimini değiştirir.
+- id: q17
+  question: Bir anahtarlık tasarımında deliğin konumunu güvenilir biçimde ortalamak için en uygun yaklaşım hangisidir?
+  options:
+  - Ana gövde ve delik nesnesini seçip Align ile merkez hizası kullanmak
+  - Sadece göz kararı sürüklemek
+  - Kamerayı döndürmek
+  - Nesneyi yeniden adlandırmak
+  answer: 0
+  explanation: Align, özellikle merkezleme gibi geometrik ilişkileri göz kararı yerine tekrarlanabilir biçimde kurmaya yardımcı olur.
+- id: q18
+  question: Hassas 3D tasarım için en iyi alışkanlık hangisidir?
+  options:
+  - Yalnız fareyle yaklaşık ölçü vermek
+  - Ölçüleri sayısal kontrol etmek ve hizalama/çalışma düzlemi gibi araçları amaçlı kullanmak
+  - Her nesneyi aynı boyutta yapmak
+  - Modeli hiç farklı açıdan incelememek
+  answer: 1
+  explanation: Sayısal ölçü, hizalama ve farklı görünüşlerden kontrol, tasarım hatalarını azaltır.
+- id: q19
+  question: Tinkercad’de bir deliğin gerçekten katıdan çıkarıldığını nasıl kontrol etmek en uygunudur?
+  options:
+  - Yalnız nesne adını okumak
+  - Sadece rengini değiştirmek
+  - Group sonrası modeli farklı açılardan inceleyip boşluğun oluştuğunu doğrulamak
+  - Tarayıcıyı kapatmak
+  answer: 2
+  explanation: İşlem sonrası sonucu farklı açılardan görsel olarak kontrol etmek geometri doğrulamasının temel adımıdır.
+- id: q20
+  question: Dersin temel tasarım akışını en iyi hangisi özetler?
+  options:
+  - Önce renk seç → dosyayı kapat
+  - Yalnız bir şekil sürükle ve bitir
+  - Önce dışa aktar sonra ölçülendir
+  - Çalışma düzlemi ve şekilleri seç → ölçülendir/konumlandır → hizala/dönüştür → Solid/Hole işlemlerini uygula → sonucu kontrol et
+  answer: 3
+  explanation: Ders ölçülü yerleştirme, dönüşümler, birleştirme/çıkarma ve son kontrolü birlikte ele alır.

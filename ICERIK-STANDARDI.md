@@ -13,3 +13,7 @@
 
 11. Program/arayüz dili kullanıcı isteğine göre hazırlanır; dil desteği güncel resmî kaynakta doğrulanmadan varsayılmaz.
 12. Elektronik/robotik derslerinde simülasyon gerçek donanım güvenliğinin yerine konmaz; kart ve bileşen sınırları model bazında resmî teknik kaynaktan kontrol edilir.
+13. Önizleme/Insiders yazılımlarında sürüm adı, indirme adresi ve kararlılık notu açıkça belirtilir; Stable sürümle aynı ürün gibi varsayılmaz.
+14. Ekran görüntüsü yerine şematik bir öğretim görseli kullanılıyorsa görsel altyazısında bunun “örnek/şematik görünüm” olduğu açıkça belirtilir.
+15. İngilizce hazırlanması istenen derslerde ders anlatımı ve uygulama soruları aynı dilde tutulur.
+

@@ -1,12 +1,15 @@
 - id: 1
   title: Bilgisayar ve Windows Kullanımı
-  description: Bilgisayarın gelişimini kavra; bilgisayarı tanı, Windows masaüstünü, klavye-fareyi, dosya-klasör yönetimini ve temel ayarları güvenle kullan.
+  description: Bilgisayarın gelişimini kavra; bilgisayarı tanı, Windows masaüstünü, klavye-fareyi, dosya-klasör yönetimini
+    ve temel ayarları güvenle kullan.
 - id: 2
   title: İnternet, Web, E-Posta ve Bulut
-  description: İnternete bağlanma ve tarayıcı kullanımı, etkili arama, bilgi doğrulama, güvenli dosya kullanımı, Gmail, Drive ve çevrim içi çalışma.
+  description: İnternete bağlanma ve tarayıcı kullanımı, etkili arama, bilgi doğrulama, güvenli dosya kullanımı, Gmail, Drive
+    ve çevrim içi çalışma.
 - id: 3
   title: Office ve Belge Üretimi
-  description: Word, Excel, PowerPoint ve PDF ile günlük okul ve proje çalışmalarını düzenli, anlaşılır ve etkili biçimde üret.
+  description: Word, Excel, PowerPoint ve PDF ile günlük okul ve proje çalışmalarını düzenli, anlaşılır ve etkili biçimde
+    üret.
 - id: 4
   title: Güvenlik, Dijital Vatandaşlık ve Yapay Zekâ
   description: Hesap güvenliği, phishing, gizlilik, telif, dijital etik ve yapay zekâyı doğru kullanma becerileri.
@@ -21,4 +24,4 @@
   description: Scratch, mBlock, MakeCode, Tinkercad Circuits, Arduino ve robotik proje geliştirme.
 - id: 8
   title: 3D Tasarım ve Dijital Üretim
-  description: Tinkercad, Onshape, SOLIDWORKS, 3D yazıcı-slicer, Blender ve bütünleşik dijital proje.
+  description: Tinkercad, Onshape, SOLIDWORKS, 3D yazıcı-slicer ve Blender ile 3D tasarım ve dijital üretim.

@@ -11,7 +11,7 @@ questions:
   answer: 0
   explanation: Kaynak kimliği ve uzmanlığı temel bağlamdır.
 - id: q2
-  question: Birincil kaynak örneği hangisidir?
+  question: Dijital bilgiyi değerlendirirken aşağıdakilerden hangisi birincil kaynağa iyi bir örnektir?
   options:
   - Kaynağı vermeyen sosyal medya özeti
   - Araştırmanın yayımlanmış özgün makalesi veya standart metni

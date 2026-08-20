@@ -1,0 +1,185 @@
+title: Onshape ile Parametrik CAD — Uygulama
+description: 'Checks the English Onshape lesson: parametric design, Part Studios, sketches, dimensions/constraints, Extrude, Fillet/Chamfer, feature
+  order, Mates, Mate Connectors, and Versions.'
+questions:
+- id: q1
+  question: What is the key idea of parametric CAD in this lesson?
+  options:
+  - Geometry is driven by dimensions, constraints, and feature parameters that can be edited later
+  - Every shape must be sculpted freehand
+  - A model cannot be changed after creation
+  - Only colors are stored as parameters
+  answer: 0
+  explanation: Parametric CAD records design intent through dimensions, constraints, and feature parameters so the model can update when they
+    change.
+- id: q2
+  question: Where are part features such as sketches and extrudes normally created in Onshape?
+  options:
+  - Assembly only
+  - Part Studio
+  - Drawing sheet only
+  - App Store
+  answer: 1
+  explanation: Part Studios are Onshape workspaces for creating parts using sketches and features.
+- id: q3
+  question: What should you select before starting a normal 2D sketch?
+  options:
+  - A browser bookmark
+  - A material color
+  - A plane or planar face
+  - A file download folder
+  answer: 2
+  explanation: A sketch needs a sketch plane, which can be a default plane or a planar face.
+- id: q4
+  question: What is the main purpose of sketch constraints?
+  options:
+  - To export an STL automatically
+  - To change the browser language
+  - To make every line the same color
+  - To define geometric relationships such as horizontal, vertical, coincident, tangent, or equal
+  answer: 3
+  explanation: Constraints capture geometric relationships and help preserve design intent.
+- id: q5
+  question: Which shortcut is documented for the Dimension tool in an Onshape sketch?
+  options:
+  - D
+  - E
+  - F
+  - M
+  answer: 0
+  explanation: Onshape documents D as the shortcut for the sketch Dimension tool.
+- id: q6
+  question: Which Extrude operation adds material to an existing part?
+  options:
+  - Remove
+  - Add
+  - Intersect only
+  - Split
+  answer: 1
+  explanation: Add adds the extruded volume to an existing part.
+- id: q7
+  question: Which Extrude operation is used to cut material away?
+  options:
+  - New
+  - Add
+  - Remove
+  - Transform
+  answer: 2
+  explanation: Remove subtracts the extrusion from existing geometry.
+- id: q8
+  question: Which end type is appropriate when a cut should pass completely through the target part?
+  options:
+  - Blind only
+  - Symmetric only
+  - Up to vertex only
+  - Through all
+  answer: 3
+  explanation: Through all extends the extrusion through the full target geometry in its direction.
+- id: q9
+  question: In Onshape, what does a Fillet feature do?
+  options:
+  - Rounds selected edges or creates a rounded transition
+  - Creates a flat bevel
+  - Deletes the entire Part Studio
+  - Adds a drawing sheet
+  answer: 0
+  explanation: Fillet creates rounded geometry, usually controlled by a radius.
+- id: q10
+  question: In Onshape, what does a Chamfer feature create?
+  options:
+  - A circular pattern
+  - A beveled/angled edge
+  - A mate relationship
+  - A browser tab
+  answer: 1
+  explanation: Chamfer removes the sharp edge with a flat bevel rather than a round.
+- id: q11
+  question: Why does feature order matter in a parametric model?
+  options:
+  - It changes only the document name
+  - It affects only the display color
+  - Later features can depend on geometry created by earlier features
+  - It prevents dimensions from being edited
+  answer: 2
+  explanation: Feature dependencies mean an upstream edit can change or invalidate downstream geometry.
+- id: q12
+  question: What is the safest response when a downstream feature fails after an upstream edit?
+  options:
+  - Delete the whole document immediately
+  - Ignore the error
+  - Create random new features
+  - Inspect the failed feature and repair its references/design intent rather than hiding the problem
+  answer: 3
+  explanation: Parametric editing requires understanding and repairing dependencies when references change.
+- id: q13
+  question: What is a Mate Connector primarily used for in Onshape assemblies?
+  options:
+  - To define a local coordinate/reference frame for mating components
+  - To set sketch line color
+  - To download a document
+  - To rename a Version
+  answer: 0
+  explanation: Mate Connectors provide reference frames that Mates use to position and relate assembly instances.
+- id: q14
+  question: What do Mates control in an Onshape Assembly?
+  options:
+  - The browser cache
+  - Relative position and allowed motion between component instances
+  - The sketch grid color
+  - The document thumbnail only
+  answer: 1
+  explanation: Mates define how assembly components are positioned and how they can move relative to one another.
+- id: q15
+  question: Which statement about a named Onshape Version is correct?
+  options:
+  - It is always the same as the active workspace
+  - It is an editable temporary sketch
+  - It is a view-only, immutable snapshot that can be used as a stable point in history
+  - It deletes all earlier history
+  answer: 2
+  explanation: Named Versions are immutable/view-only snapshots used for stable milestones and branching.
+- id: q16
+  question: What is the difference between a Workspace and a named Version?
+  options:
+  - There is no difference
+  - A Workspace is view-only and a Version is always editable
+  - Both are only downloaded files
+  - A Workspace is the editable state; a Version is a fixed snapshot
+  answer: 3
+  explanation: Workspaces evolve with edits, while named Versions preserve a specific immutable state.
+- id: q17
+  question: Which modeling habit best captures design intent?
+  options:
+  - Dimension and constrain geometry based on the functional relationships that should remain true
+  - Place everything approximately by eye
+  - Avoid all constraints
+  - Use random feature names and values
+  answer: 0
+  explanation: Functional dimensions and constraints make later changes predictable and meaningful.
+- id: q18
+  question: If you need to change a plate thickness created by an Extrude, what is normally the best parametric edit?
+  options:
+  - Move the browser window
+  - Edit the controlling Extrude depth
+  - Delete the sketch plane
+  - Convert the whole document to an image
+  answer: 1
+  explanation: Editing the feature parameter preserves the parametric model history and intent.
+- id: q19
+  question: What is a useful way to verify a sketch before building a 3D feature?
+  options:
+  - Check only its color
+  - Ignore dimensions
+  - Confirm its dimensions, constraints, and profile are appropriate for the intended feature
+  - Rename the browser tab
+  answer: 2
+  explanation: A well-defined sketch with correct profile and design intent reduces downstream modeling problems.
+- id: q20
+  question: Which sequence best represents the lesson workflow?
+  options:
+  - Export first → sketch later
+  - Assembly → delete document → sketch
+  - Color → screenshot → print
+  - Document/Part Studio → sketch and constrain → create/edit features → inspect dependencies → use Assembly/Mates and Versions when needed
+  answer: 3
+  explanation: The lesson moves from parametric sketching and features to dependency awareness, assembly relationships, and version control.

@@ -1,0 +1,11 @@
+SON DÜZENLEME NOTU — v9
+
+1) 6-1 Visual Studio 2026 Community Insiders için yeniden hazırlandı.
+2) 6-2 Visual Studio Code Insiders için yeniden hazırlandı.
+3) Her iki derse de Python örnek çalışma/terminal görünümü eklendi. Görseller öğretim amaçlı şematik örneklerdir.
+4) 8-1, 8-2, 8-3 ve 8-4 yayıma alındı.
+5) 8-7 tamamen kaldırıldı. 8-5 ve 8-6 planlı olarak bırakıldı.
+6) Ana sayfa açıklaması “Bilgisayar Temellerinden Dijital Okuryazarlık” yapıldı.
+7) Canlı quizler yapısal olarak yeniden doğrulanmalıdır; ayrıntı VALIDATION-v9.json dosyasındadır.
+
+GitHub yükleme: Bu klasörün İÇERİĞİNİ repository köküne yükleyin ve aynı adlı dosyaların üzerine yazılmasına izin verin.

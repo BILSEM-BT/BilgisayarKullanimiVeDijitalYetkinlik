@@ -83,7 +83,7 @@ questions:
   answer: 2
   explanation: Tam hata metni sorguyu keskinleştirir.
 - id: q10
-  question: Birincil kaynak örneği hangisidir?
+  question: İnternette bilgi doğrularken aşağıdakilerden hangisi birincil kaynağa iyi bir örnektir?
   options:
   - Kaynağı belirtmeyen sosyal medya yorumu
   - Reklam banner’ı

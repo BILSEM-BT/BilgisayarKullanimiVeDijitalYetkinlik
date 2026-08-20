@@ -1,6 +1,6 @@
-# Bilgisayar Kullanımı ve Dijital Yetkinlik — Revize Müfredat v3
+# Bilgisayar Kullanımı ve Dijital Yetkinlik — Güncel Müfredat v9
 
-Bu sürümde içerik yapısı tahtada anlatıma uygun hâle getirildi. Derslerde çok sayıda küçük ana başlık yerine genellikle 6–8 ana başlık ve bunların altında ayrıntılı alt başlıklar kullanılır.
+Bu sürümde içerik yapısı tahtada anlatıma uygun biçimde korunur. Yayımdaki her derste ayrıntılı ders içeriği ve 20 soruluk uygulama bulunur. Güncel yazılım davranışları üretici/resmî kaynaklarla kontrol edilir.
 
 ## Bölüm 1 — Bilgisayar ve Windows Kullanımı
 - **1-1 — Bilgisayarın Tarihçesi**
@@ -48,31 +48,42 @@ Bu sürümde içerik yapısı tahtada anlatıma uygun hâle getirildi. Derslerde
 - **5-6 — Audacity ile Ses Kaydı ve Düzenleme**
 
 ## Bölüm 6 — Yazılım Geliştirme ve Proje Araçları
-- **6-1 — Visual Studio Kullanımı** — Türkçe program/arayüz
-- **6-2 — Visual Studio Code Kullanımı** — Türkçe program/arayüz
-- **6-3 — Algoritma ve diagrams.net ile Akış Şemaları** — Türkçe program/arayüz
-- **6-4 — Git ve GitHub Temelleri** — İngilizce program/arayüz etiketleri
-- **6-5 — GitHub Desktop ve GitHub Pages** — İngilizce program/arayüz etiketleri
-- **6-6 — Google Colab Kullanımı** — Türkçe program/arayüz
+- **6-1 — Visual Studio 2026 Community Insiders Kullanımı** — Türkçe arayüz; Python geliştirme odaklı
+- **6-2 — Visual Studio Code Insiders Kullanımı** — Türkçe anlatım; Insiders arayüzü ve Python örneği
+- **6-3 — Algoritma ve diagrams.net ile Akış Şemaları** — Türkçe
+- **6-4 — Git ve GitHub Temelleri** — İngilizce program/arayüz etiketleri, Türkçe anlatım
+- **6-5 — GitHub Desktop ve GitHub Pages** — İngilizce program/arayüz etiketleri, Türkçe anlatım
+- **6-6 — Google Colab Kullanımı** — Türkçe
 
 ## Bölüm 7 — Blok Programlama, Robotik ve Elektronik
-- **7-1 — Scratch ile Programlamaya Giriş** — Türkçe web + Türkçe masaüstü Scratch uygulaması; Scratch Programlamaya Giriş stüdyosu incelemesi
-- **7-2 — mBlock ile Robotik Kodlama** — Türkçe web + Türkçe masaüstü mBlock 5
-- **7-3 — Microsoft MakeCode ve micro:bit** — Türkçe web arayüzü
+- **7-1 — Scratch ile Programlamaya Giriş** — Türkçe web + masaüstü
+- **7-2 — mBlock ile Robotik Kodlama** — Türkçe web + masaüstü
+- **7-3 — Microsoft MakeCode ve micro:bit** — Türkçe
 - **7-4 — Tinkercad Circuits ile Temel Elektronik** — Türkçe kullanım
-- **7-5 — Arduino IDE ve Arduino Programlama** — Türkçe Arduino IDE 2 (dil desteği doğrulandı)
+- **7-5 — Arduino IDE ve Arduino Programlama** — Türkçe dil desteğine göre hazırlanmış içerik
 - **7-6 — Robotik Proje Geliştirme ve Hata Ayıklama** — Türkçe
 
-## Sonraki bölüm
+## Bölüm 8 — 3D Tasarım ve Dijital Üretim
+- **8-1 — Tinkercad ile 3D Tasarım** — **yayında**, Türkçe kullanım
+- **8-2 — Tinkercad Codeblocks ile Algoritmik 3D Tasarım** — **yayında**, Türkçe kullanım
+- **8-3 — Onshape ile Parametrik CAD** — **yayında**, İngilizce ders içeriği
+- **8-4 — SOLIDWORKS ile 3D Modelleme** — **yayında**, İngilizce ders içeriği
+- **8-5 — 3D Yazıcı, Slicer ve Baskıya Hazırlık** — planlandı
+- **8-6 — Blender ile 3D Görselleştirme** — planlandı
 
-Bölüm 8 başlıkları `_data/modules.yml` içinde planlandı durumunda yer alır.
+**8-7 müfredattan kaldırılmıştır.**
+
+## Güncel durum
+- Toplam müfredat: **53 ders**
+- Yayında: **51 ders**
+- Planlanan: **2 ders** (8-5 ve 8-6)
+- Yayımdaki uygulama sorusu: **1020**
 
 ## İçerik standardı
-
 - Öğretmenin tahtada/projeksiyonda anlatabileceği akış.
 - Genellikle 6–8 ana H2 başlığı; ayrıntılar H3/H4 altında.
 - İşlem ağırlıklı derslerde şematik görseller ve gerçek senaryolar.
 - Her yayımlanan derste 20 soru; dört seçenek, tek doğru cevap ve açıklama.
 - Doğru cevap konumları dengeli.
 - Güncel yazılım davranışlarında resmî kaynak kontrolü.
-- Tasarım/şablon dosyaları merkezî; içerik değişikliği tasarımı bozmaz.
+- Ders sol panelinde genel kaydırma yoktur; gerekiyorsa yalnız Ders İçeriği listesi kayar.

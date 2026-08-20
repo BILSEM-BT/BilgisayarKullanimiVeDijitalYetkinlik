@@ -1,5 +1,6 @@
 title: Google Colab Kullanımı — Uygulama
-description: Colab’ın Türkçe arayüzü, notebook, metin/kod hücresi, runtime, geçici dosyalar, Drive erişimi, paylaşım ve güvenli çalışma kavramlarını ölçer.
+description: Colab’ın Türkçe arayüzü, notebook, metin/kod hücresi, runtime, geçici dosyalar, Drive erişimi, paylaşım ve güvenli çalışma kavramlarını
+  ölçer.
 questions:
 - id: q1
   question: Google Colab için en doğru tanım hangisidir?
@@ -173,7 +174,7 @@ questions:
   answer: 2
   explanation: Kurulum ve veri hazırlama adımlarının notebook’ta açık olması başkasının tekrar çalıştırmasını kolaylaştırır.
 - id: q20
-  question: Dersin en iyi özeti hangisidir?
+  question: Google Colab dersinin en iyi özeti hangisidir?
   options:
   - Runtime dosyalarını kalıcı san
   - Her notebook’a bütün Drive erişimi ver

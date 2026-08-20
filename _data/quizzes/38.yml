@@ -173,7 +173,7 @@ questions:
   answer: 2
   explanation: Toplama, girdiler üzerinde yapılan işlemdir.
 - id: q20
-  question: Dersin en iyi özeti hangisidir?
+  question: Algoritma ve akış şemaları dersinin en iyi özeti hangisidir?
   options:
   - Önce şekilleri rastgele seç, sonra problemi düşün
   - Tüm adımları dikdörtgen yap

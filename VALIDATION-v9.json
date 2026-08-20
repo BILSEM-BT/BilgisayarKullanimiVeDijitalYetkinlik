@@ -1,0 +1,30 @@
+{
+  "version": "v9",
+  "date": "2026-08-21",
+  "modules_total": 53,
+  "live_modules": 51,
+  "planned_modules": 2,
+  "planned_codes": [
+    "8-5",
+    "8-6"
+  ],
+  "quiz_files_for_live": 51,
+  "questions_for_live": 1020,
+  "front_matter_files_parsed": 106,
+  "answer_distribution_standard": "5/5/5/5 per live quiz",
+  "changed_or_new_quizzes_source_reviewed": [
+    "6-1",
+    "6-2",
+    "8-1",
+    "8-2",
+    "8-3",
+    "8-4"
+  ],
+  "changed_or_new_questions_source_reviewed": 120,
+  "unchanged_questions_carried_from_v8_audit": 895,
+  "previously_audited_questions_with_wording_refined_in_v9": 5,
+  "duplicate_exact_question_texts_across_lessons": 0,
+  "errors": [],
+  "warnings": [],
+  "status": "PASS"
+}

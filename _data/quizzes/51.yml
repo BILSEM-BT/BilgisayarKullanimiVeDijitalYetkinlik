@@ -1,0 +1,184 @@
+title: SOLIDWORKS ile 3D Modelleme — Uygulama
+description: 'Checks the English SOLIDWORKS 2026 lesson: interface, Part/Sketch, relations, Smart Dimension, Boss/Base, Cut, Fillet, Chamfer,
+  FeatureManager, and design intent.'
+questions:
+- id: q1
+  question: Which interface area shows sketches and features in model-history order?
+  options:
+  - FeatureManager Design Tree
+  - Task Pane only
+  - Status Bar only
+  - File Explorer
+  answer: 0
+  explanation: The FeatureManager Design Tree lists model items such as sketches and features and helps reveal their order and dependencies.
+- id: q2
+  question: Which interface area displays settings for the currently active sketch/feature command?
+  options:
+  - Graphics Area
+  - PropertyManager
+  - Windows Task Manager
+  - Browser address bar
+  answer: 1
+  explanation: PropertyManager shows parameters and options for the active SOLIDWORKS command or feature.
+- id: q3
+  question: When beginning a normal sketch in a new Part, what do you typically select?
+  options:
+  - A printer
+  - A web URL
+  - A default plane or planar face
+  - A Git branch
+  answer: 2
+  explanation: Sketches normally begin on a plane or planar face.
+- id: q4
+  question: What is the role of sketch relations such as Horizontal, Vertical, Coincident, and Tangent?
+  options:
+  - They export the part automatically
+  - They choose the material only
+  - They save the file
+  - They define geometric relationships and behavior
+  answer: 3
+  explanation: Relations constrain geometric behavior and work with dimensions to capture design intent.
+- id: q5
+  question: Which SOLIDWORKS tool is used to add numerical dimensions to sketch entities?
+  options:
+  - Smart Dimension
+  - Extruded Cut
+  - Fillet
+  - Move Component
+  answer: 0
+  explanation: Smart Dimension creates dimensional constraints such as length, distance, angle, radius, and diameter.
+- id: q6
+  question: What does Extruded Boss/Base do?
+  options:
+  - Removes all sketches
+  - Adds material by extruding a sketch profile
+  - Creates an Assembly Mate
+  - Only changes display color
+  answer: 1
+  explanation: Extruded Boss/Base creates/adds solid material from a sketch profile.
+- id: q7
+  question: Which feature removes material using a sketch profile?
+  options:
+  - Extruded Boss/Base
+  - Reference Plane
+  - Extruded Cut
+  - Appearance
+  answer: 2
+  explanation: Extruded Cut subtracts material according to the sketch profile and end condition.
+- id: q8
+  question: Which end condition is useful for a hole that must pass completely through the part?
+  options:
+  - Blind only
+  - Mid Plane only
+  - Offset from Surface only
+  - Through All
+  answer: 3
+  explanation: Through All extends the cut through all relevant material in the chosen direction.
+- id: q9
+  question: What does a Fillet do?
+  options:
+  - Rounds selected edges/faces with a radius
+  - Creates a flat bevel only
+  - Deletes the feature tree
+  - Adds a sketch relation
+  answer: 0
+  explanation: A Fillet creates rounded transitions rather than flat beveled faces.
+- id: q10
+  question: What does a Chamfer create?
+  options:
+  - A circular sketch relation
+  - A flat beveled edge
+  - A new Windows user
+  - A cloud Version
+  answer: 1
+  explanation: A Chamfer replaces a sharp edge with a flat angled bevel.
+- id: q11
+  question: Why should feature order be considered when editing a SOLIDWORKS part?
+  options:
+  - It changes only the window theme
+  - It affects only the file name
+  - Downstream features may depend on geometry created by earlier features
+  - It prevents the file from being saved
+  answer: 2
+  explanation: Feature dependencies can cause later features to rebuild differently or fail after upstream changes.
+- id: q12
+  question: If you want to change the depth of the base extrusion from 8 mm to 12 mm, what is the preferred parametric action?
+  options:
+  - Drag a random face without checking history
+  - Delete the whole part
+  - Create a screenshot
+  - Edit the controlling Boss-Extrude feature depth
+  answer: 3
+  explanation: Editing the original feature parameter is the clear parametric way to change the intended extrusion depth.
+- id: q13
+  question: What does “design intent” mean in a beginner sketch?
+  options:
+  - Dimensions and relations reflect the functional relationships that should stay true when the model changes
+  - Every entity is placed approximately
+  - No dimensions are used
+  - All features have the same name
+  answer: 0
+  explanation: Design intent means constraints and dimensions encode how geometry should behave under change.
+- id: q14
+  question: What is the typical SOLIDWORKS file extension for a Part document?
+  options:
+  - .SLDASM
+  - .SLDPRT
+  - .SLDDRW
+  - .STEPX
+  answer: 1
+  explanation: SOLIDWORKS Part documents normally use the .SLDPRT extension.
+- id: q15
+  question: Which statement correctly compares a Fillet and a Chamfer?
+  options:
+  - Both always create identical geometry
+  - Fillet is only for sketches
+  - Fillet creates a rounded transition, while Chamfer creates a flat bevel
+  - Chamfer always creates a circular hole
+  answer: 2
+  explanation: 'The two features modify edges differently: rounded versus flat beveled geometry.'
+- id: q16
+  question: Why is a closed sketch profile often required for a basic solid Boss-Extrude?
+  options:
+  - Because the file must be encrypted
+  - Because only colors can be extruded
+  - Because sketches cannot contain lines
+  - Because the feature needs an enclosed region to create a solid volume
+  answer: 3
+  explanation: A closed 2D region provides the boundary of the solid material being extruded in a standard Boss/Base feature.
+- id: q17
+  question: Which check is most useful after changing an early sketch dimension?
+  options:
+  - Rebuild/inspect the model and check downstream features for the intended result
+  - Ignore the FeatureManager
+  - Delete all dimensions
+  - Change the Windows wallpaper
+  answer: 0
+  explanation: Upstream changes can propagate; rebuilding and checking downstream geometry confirms the model still matches intent.
+- id: q18
+  question: In the guided practice, which tool controls the 80 mm × 50 mm rectangle numerically?
+  options:
+  - Task Pane
+  - Smart Dimension
+  - Chamfer
+  - View Orientation
+  answer: 1
+  explanation: Smart Dimension sets the rectangle’s intended numerical size.
+- id: q19
+  question: For a mounting hole that must go fully through the plate, which combination is appropriate?
+  options:
+  - Extruded Boss/Base + Blind
+  - Fillet + radius
+  - Extruded Cut + Through All
+  - Chamfer + Mid Plane
+  answer: 2
+  explanation: An Extruded Cut with Through All is a standard way to make a through-hole from a sketch profile.
+- id: q20
+  question: Which workflow best matches the lesson?
+  options:
+  - Open Part → add random features → never inspect
+  - Sketch → screenshot → delete
+  - Only use direct face dragging
+  - New Part → choose plane → sketch/relations/dimensions → Boss/Base → Cut/Fillet/Chamfer → inspect/edit FeatureManager history
+  answer: 3
+  explanation: The lesson teaches a history-based parametric Part workflow from sketch through features and verification.

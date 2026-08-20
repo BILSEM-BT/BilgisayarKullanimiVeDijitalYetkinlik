@@ -1,4 +1,4 @@
-PAKET İÇERİĞİ — v7
+PAKET İÇERİĞİ — v9
 
 Tam repository: Bilgisayar Kullanımı ve Dijital Yetkinlik
 
@@ -8,19 +8,19 @@ Tam repository: Bilgisayar Kullanımı ve Dijital Yetkinlik
 - Bölüm 4: 6 ders — yayında
 - Bölüm 5: 6 ders — yayında
 - Bölüm 6: 6 ders — yayında
-- Bölüm 7: 6 ders — planlandı
-- Bölüm 8: 7 ders — planlandı
+- Bölüm 7: 6 ders — yayında
+- Bölüm 8: 6 ders — 4 yayında, 2 planlandı
 
-Toplam plan: 54 ders
-Yayında: 41 ders
-Toplam yayımdaki uygulama sorusu: 820
+Toplam plan: 53 ders
+Yayında: 51 ders
+Toplam yayımdaki uygulama sorusu: 1020
 
-Bölüm 6 arayüz dili:
-- 6-1, 6-2, 6-3, 6-6: Türkçe
-- 6-4, 6-5: English UI labels (anlatım Türkçe)
-
-Ana sayfa değişikliği:
-- Ders kartlarında Gözden geçirme alanı kaldırıldı.
-- Son Güncelleme Tarihi gösteriliyor.
+Son v9 değişiklikleri:
+- 6-1: Visual Studio 2026 Community Insiders + Python geliştirme kurulumu ve örnek proje
+- 6-2: Visual Studio Code Insiders + Python kurulumu, terminal, çalıştırma/durdurma, debug ve kısayollar
+- 8-1 ve 8-2: Türkçe Tinkercad 3D Design / Codeblocks
+- 8-3 ve 8-4: İngilizce Onshape / SOLIDWORKS içerikleri
+- 8-7 kaldırıldı
+- Ana sayfa açıklaması: “Bilgisayar Temellerinden Dijital Okuryazarlık”
 
 Paket tam repository kopyasıdır; klasörün içeriği GitHub repository köküne yüklenmelidir.
