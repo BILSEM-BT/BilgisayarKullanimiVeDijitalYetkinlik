@@ -1,0 +1,540 @@
+- id: 1
+  section: 1
+  title: 'Bilgisayarı Tanı: Donanım, Yazılım ve Temel Kavramlar'
+  slug: 1-1-bilgisayari-tani-donanim-yazilim-ve-temel-kavramlar
+  status: yayında
+  updated: '2026-08-20'
+  review_cycle: 12 ay
+  path: /dersler/1-1-bilgisayari-tani-donanim-yazilim-ve-temel-kavramlar/
+  code: 1-1
+  order_in_section: 1
+- id: 2
+  section: 1
+  title: Windows Masaüstü, Başlat Menüsü ve Görev Çubuğu
+  slug: 1-2-windows-masaustu-baslat-menusu-ve-gorev-cubugu
+  status: yayında
+  updated: '2026-08-20'
+  review_cycle: 6-12 ay
+  path: /dersler/1-2-windows-masaustu-baslat-menusu-ve-gorev-cubugu/
+  code: 1-2
+  order_in_section: 2
+- id: 3
+  section: 1
+  title: Klavye Tuşları ve Klavye Kısayolları
+  slug: 1-3-klavye-tuslari-ve-klavye-kisayollari
+  status: yayında
+  updated: '2026-08-20'
+  review_cycle: 12 ay
+  path: /dersler/1-3-klavye-tuslari-ve-klavye-kisayollari/
+  code: 1-3
+  order_in_section: 3
+- id: 4
+  section: 1
+  title: Fare, Touchpad, Seçim, Kopyalama, Kesme ve Yapıştırma
+  slug: 1-4-fare-touchpad-secim-kopyalama-kesme-ve-yapistirma
+  status: yayında
+  updated: '2026-08-20'
+  review_cycle: 12 ay
+  path: /dersler/1-4-fare-touchpad-secim-kopyalama-kesme-ve-yapistirma/
+  code: 1-4
+  order_in_section: 4
+- id: 5
+  section: 1
+  title: 'Windows Dosya Gezgini: Dosya ve Klasörlerle Çalışma'
+  slug: 1-5-windows-dosya-gezgini-dosya-ve-klasorlerle-calisma
+  status: yayında
+  updated: '2026-08-20'
+  review_cycle: 6-12 ay
+  path: /dersler/1-5-windows-dosya-gezgini-dosya-ve-klasorlerle-calisma/
+  code: 1-5
+  order_in_section: 5
+- id: 6
+  section: 1
+  title: Windows Ayarları, Uygulamalar ve Güncellemeler
+  slug: 1-6-windows-ayarlari-uygulamalar-ve-guncellemeler
+  status: yayında
+  updated: '2026-08-20'
+  review_cycle: 6 ay
+  path: /dersler/1-6-windows-ayarlari-uygulamalar-ve-guncellemeler/
+  code: 1-6
+  order_in_section: 6
+- id: 7
+  section: 1
+  title: Görev Yöneticisi ve Temel Sorun Giderme
+  slug: 1-7-gorev-yoneticisi-ve-temel-sorun-giderme
+  status: yayında
+  updated: '2026-08-20'
+  review_cycle: 6-12 ay
+  path: /dersler/1-7-gorev-yoneticisi-ve-temel-sorun-giderme/
+  code: 1-7
+  order_in_section: 7
+- id: 8
+  section: 2
+  title: İnternet ve Web Tarayıcısı Kullanımı
+  slug: 2-1-internet-ve-web-tarayicisi-kullanimi
+  status: planlandı
+  updated: ''
+  review_cycle: 6 ay
+  path: ''
+  code: 2-1
+  order_in_section: 1
+- id: 9
+  section: 2
+  title: İnternette Etkili Arama
+  slug: 2-2-internette-etkili-arama
+  status: planlandı
+  updated: ''
+  review_cycle: 6 ay
+  path: ''
+  code: 2-2
+  order_in_section: 2
+- id: 10
+  section: 2
+  title: Dijital Bilgiyi Değerlendirme ve Doğrulama
+  slug: 2-3-dijital-bilgiyi-degerlendirme-ve-dogrulama
+  status: planlandı
+  updated: ''
+  review_cycle: 6 ay
+  path: ''
+  code: 2-3
+  order_in_section: 3
+- id: 11
+  section: 2
+  title: İndirme, Yükleme ve Güvenli Dosya Kullanımı
+  slug: 2-4-indirme-yukleme-ve-guvenli-dosya-kullanimi
+  status: planlandı
+  updated: ''
+  review_cycle: 6 ay
+  path: ''
+  code: 2-4
+  order_in_section: 4
+- id: 12
+  section: 2
+  title: E-Posta ve Gmail Kullanımı
+  slug: 2-5-e-posta-ve-gmail-kullanimi
+  status: planlandı
+  updated: ''
+  review_cycle: 6 ay
+  path: ''
+  code: 2-5
+  order_in_section: 5
+- id: 13
+  section: 2
+  title: Google Drive ve Bulutta Dosya Yönetimi
+  slug: 2-6-google-drive-ve-bulutta-dosya-yonetimi
+  status: planlandı
+  updated: ''
+  review_cycle: 6 ay
+  path: ''
+  code: 2-6
+  order_in_section: 6
+- id: 14
+  section: 2
+  title: Google Docs, Sheets ve Slides ile Ortak Çalışma
+  slug: 2-7-google-docs-sheets-ve-slides-ile-ortak-calisma
+  status: planlandı
+  updated: ''
+  review_cycle: 6 ay
+  path: ''
+  code: 2-7
+  order_in_section: 7
+- id: 15
+  section: 2
+  title: Çevrim İçi Toplantı ve Ekran Paylaşımı
+  slug: 2-8-cevrim-ici-toplanti-ve-ekran-paylasimi
+  status: planlandı
+  updated: ''
+  review_cycle: 6 ay
+  path: ''
+  code: 2-8
+  order_in_section: 8
+- id: 16
+  section: 3
+  title: Microsoft Word Temel Kullanımı
+  slug: 3-1-microsoft-word-temel-kullanimi
+  status: planlandı
+  updated: ''
+  review_cycle: 6 ay
+  path: ''
+  code: 3-1
+  order_in_section: 1
+- id: 17
+  section: 3
+  title: Word ile Düzenli Belge ve PDF Oluşturma
+  slug: 3-2-word-ile-duzenli-belge-ve-pdf-olusturma
+  status: planlandı
+  updated: ''
+  review_cycle: 6 ay
+  path: ''
+  code: 3-2
+  order_in_section: 2
+- id: 18
+  section: 3
+  title: Microsoft Excel Temel Kullanımı
+  slug: 3-3-microsoft-excel-temel-kullanimi
+  status: planlandı
+  updated: ''
+  review_cycle: 6 ay
+  path: ''
+  code: 3-3
+  order_in_section: 3
+- id: 19
+  section: 3
+  title: Excel Formülleri ve Temel Fonksiyonlar
+  slug: 3-4-excel-formulleri-ve-temel-fonksiyonlar
+  status: planlandı
+  updated: ''
+  review_cycle: 6 ay
+  path: ''
+  code: 3-4
+  order_in_section: 4
+- id: 20
+  section: 3
+  title: Excel'de Tablo, Sıralama, Filtreleme ve Grafik
+  slug: 3-5-excel-tablo-siralama-filtreleme-ve-grafik
+  status: planlandı
+  updated: ''
+  review_cycle: 6 ay
+  path: ''
+  code: 3-5
+  order_in_section: 5
+- id: 21
+  section: 3
+  title: Microsoft PowerPoint Temel Kullanımı
+  slug: 3-6-microsoft-powerpoint-temel-kullanimi
+  status: planlandı
+  updated: ''
+  review_cycle: 6 ay
+  path: ''
+  code: 3-6
+  order_in_section: 6
+- id: 22
+  section: 3
+  title: Etkili ve Görsel Sunum Hazırlama
+  slug: 3-7-etkili-ve-gorsel-sunum-hazirlama
+  status: planlandı
+  updated: ''
+  review_cycle: 6 ay
+  path: ''
+  code: 3-7
+  order_in_section: 7
+- id: 23
+  section: 3
+  title: PDF Dosyaları ve Temel PDF İşlemleri
+  slug: 3-8-pdf-dosyalari-ve-temel-pdf-islemleri
+  status: planlandı
+  updated: ''
+  review_cycle: 6 ay
+  path: ''
+  code: 3-8
+  order_in_section: 8
+- id: 24
+  section: 4
+  title: Parolalar, Passkey ve İki Aşamalı Doğrulama
+  slug: 4-1-parolalar-passkey-ve-iki-asamali-dogrulama
+  status: planlandı
+  updated: ''
+  review_cycle: 6 ay
+  path: ''
+  code: 4-1
+  order_in_section: 1
+- id: 25
+  section: 4
+  title: Zararlı Yazılım, Phishing ve Dolandırıcılıktan Korunma
+  slug: 4-2-zararli-yazilim-phishing-ve-dolandiriciliktan-korunma
+  status: planlandı
+  updated: ''
+  review_cycle: 3-6 ay
+  path: ''
+  code: 4-2
+  order_in_section: 2
+- id: 26
+  section: 4
+  title: Gizlilik, Site İzinleri ve Dijital Ayak İzi
+  slug: 4-3-gizlilik-site-izinleri-ve-dijital-ayak-izi
+  status: planlandı
+  updated: ''
+  review_cycle: 3-6 ay
+  path: ''
+  code: 4-3
+  order_in_section: 3
+- id: 27
+  section: 4
+  title: Telif Hakkı, Kaynak Gösterme ve Dijital Etik
+  slug: 4-4-telif-hakki-kaynak-gosterme-ve-dijital-etik
+  status: planlandı
+  updated: ''
+  review_cycle: 6-12 ay
+  path: ''
+  code: 4-4
+  order_in_section: 4
+- id: 28
+  section: 4
+  title: Yapay Zekâ ve Üretken Yapay Zekâ Temelleri
+  slug: 4-5-yapay-zeka-ve-uretken-yapay-zeka-temelleri
+  status: planlandı
+  updated: ''
+  review_cycle: 3 ay
+  path: ''
+  code: 4-5
+  order_in_section: 5
+- id: 29
+  section: 4
+  title: Yapay Zekâyı Etkili, Güvenli ve Doğru Kullanma
+  slug: 4-6-yapay-zekayi-etkili-guvenli-ve-dogru-kullanma
+  status: planlandı
+  updated: ''
+  review_cycle: 3 ay
+  path: ''
+  code: 4-6
+  order_in_section: 6
+- id: 30
+  section: 5
+  title: WinRAR, 7-Zip ve Sıkıştırılmış Dosyalar
+  slug: 5-1-winrar-7zip-ve-sikistirilmis-dosyalar
+  status: planlandı
+  updated: ''
+  review_cycle: 12 ay
+  path: ''
+  code: 5-1
+  order_in_section: 1
+- id: 31
+  section: 5
+  title: Medya Dosyaları ve VLC Media Player
+  slug: 5-2-medya-dosyalari-ve-vlc-media-player
+  status: planlandı
+  updated: ''
+  review_cycle: 12 ay
+  path: ''
+  code: 5-2
+  order_in_section: 2
+- id: 32
+  section: 5
+  title: Ekran Görüntüsü ve Ekran Kaydı
+  slug: 5-3-ekran-goruntusu-ve-ekran-kaydi
+  status: planlandı
+  updated: ''
+  review_cycle: 6-12 ay
+  path: ''
+  code: 5-3
+  order_in_section: 3
+- id: 33
+  section: 5
+  title: GIMP ile Görsel Düzenleme
+  slug: 5-4-gimp-ile-gorsel-duzenleme
+  status: planlandı
+  updated: ''
+  review_cycle: 6-12 ay
+  path: ''
+  code: 5-4
+  order_in_section: 4
+- id: 34
+  section: 5
+  title: Inkscape ile Vektörel Çizim
+  slug: 5-5-inkscape-ile-vektorel-cizim
+  status: planlandı
+  updated: ''
+  review_cycle: 6-12 ay
+  path: ''
+  code: 5-5
+  order_in_section: 5
+- id: 35
+  section: 5
+  title: Audacity ile Ses Kaydı ve Düzenleme
+  slug: 5-6-audacity-ile-ses-kaydi-ve-duzenleme
+  status: planlandı
+  updated: ''
+  review_cycle: 6-12 ay
+  path: ''
+  code: 5-6
+  order_in_section: 6
+- id: 36
+  section: 6
+  title: Visual Studio Kullanımı
+  slug: 6-1-visual-studio-kullanimi
+  status: planlandı
+  updated: ''
+  review_cycle: 6 ay
+  path: ''
+  code: 6-1
+  order_in_section: 1
+- id: 37
+  section: 6
+  title: Visual Studio Code Kullanımı
+  slug: 6-2-visual-studio-code-kullanimi
+  status: planlandı
+  updated: ''
+  review_cycle: 6 ay
+  path: ''
+  code: 6-2
+  order_in_section: 2
+- id: 38
+  section: 6
+  title: Algoritma ve diagrams.net ile Akış Şemaları
+  slug: 6-3-algoritma-ve-diagrams-net-ile-akis-semalari
+  status: planlandı
+  updated: ''
+  review_cycle: 6-12 ay
+  path: ''
+  code: 6-3
+  order_in_section: 3
+- id: 39
+  section: 6
+  title: Git ve GitHub Temelleri
+  slug: 6-4-git-ve-github-temelleri
+  status: planlandı
+  updated: ''
+  review_cycle: 6 ay
+  path: ''
+  code: 6-4
+  order_in_section: 4
+- id: 40
+  section: 6
+  title: GitHub Desktop ve GitHub Pages
+  slug: 6-5-github-desktop-ve-github-pages
+  status: planlandı
+  updated: ''
+  review_cycle: 6 ay
+  path: ''
+  code: 6-5
+  order_in_section: 5
+- id: 41
+  section: 6
+  title: Google Colab Kullanımı
+  slug: 6-6-google-colab-kullanimi
+  status: planlandı
+  updated: ''
+  review_cycle: 6 ay
+  path: ''
+  code: 6-6
+  order_in_section: 6
+- id: 42
+  section: 7
+  title: Scratch ile Programlamaya Giriş
+  slug: 7-1-scratch-ile-programlamaya-giris
+  status: planlandı
+  updated: ''
+  review_cycle: 6 ay
+  path: ''
+  code: 7-1
+  order_in_section: 1
+- id: 43
+  section: 7
+  title: mBlock ile Robotik Kodlama
+  slug: 7-2-mblock-ile-robotik-kodlama
+  status: planlandı
+  updated: ''
+  review_cycle: 6 ay
+  path: ''
+  code: 7-2
+  order_in_section: 2
+- id: 44
+  section: 7
+  title: Microsoft MakeCode ve micro:bit
+  slug: 7-3-microsoft-makecode-ve-microbit
+  status: planlandı
+  updated: ''
+  review_cycle: 6 ay
+  path: ''
+  code: 7-3
+  order_in_section: 3
+- id: 45
+  section: 7
+  title: Tinkercad Circuits ile Temel Elektronik
+  slug: 7-4-tinkercad-circuits-ile-temel-elektronik
+  status: planlandı
+  updated: ''
+  review_cycle: 6 ay
+  path: ''
+  code: 7-4
+  order_in_section: 4
+- id: 46
+  section: 7
+  title: Arduino IDE ve Arduino Programlama
+  slug: 7-5-arduino-ide-ve-arduino-programlama
+  status: planlandı
+  updated: ''
+  review_cycle: 6 ay
+  path: ''
+  code: 7-5
+  order_in_section: 5
+- id: 47
+  section: 7
+  title: Robotik Proje Geliştirme ve Hata Ayıklama
+  slug: 7-6-robotik-proje-gelistirme-ve-hata-ayiklama
+  status: planlandı
+  updated: ''
+  review_cycle: 6 ay
+  path: ''
+  code: 7-6
+  order_in_section: 6
+- id: 48
+  section: 8
+  title: Tinkercad ile 3D Tasarım
+  slug: 8-1-tinkercad-ile-3d-tasarim
+  status: planlandı
+  updated: ''
+  review_cycle: 6 ay
+  path: ''
+  code: 8-1
+  order_in_section: 1
+- id: 49
+  section: 8
+  title: Tinkercad Codeblocks ile Algoritmik 3D Tasarım
+  slug: 8-2-tinkercad-codeblocks-ile-algoritmik-3d-tasarim
+  status: planlandı
+  updated: ''
+  review_cycle: 6 ay
+  path: ''
+  code: 8-2
+  order_in_section: 2
+- id: 50
+  section: 8
+  title: Onshape ile Parametrik CAD
+  slug: 8-3-onshape-ile-parametrik-cad
+  status: planlandı
+  updated: ''
+  review_cycle: 6 ay
+  path: ''
+  code: 8-3
+  order_in_section: 3
+- id: 51
+  section: 8
+  title: SOLIDWORKS ile 3D Modelleme
+  slug: 8-4-solidworks-ile-3d-modelleme
+  status: planlandı
+  updated: ''
+  review_cycle: 6 ay
+  path: ''
+  code: 8-4
+  order_in_section: 4
+- id: 52
+  section: 8
+  title: 3D Yazıcı, Slicer ve Baskıya Hazırlık
+  slug: 8-5-3d-yazici-slicer-ve-baskiya-hazirlik
+  status: planlandı
+  updated: ''
+  review_cycle: 6 ay
+  path: ''
+  code: 8-5
+  order_in_section: 5
+- id: 53
+  section: 8
+  title: Blender ile 3D Görselleştirme
+  slug: 8-6-blender-ile-3d-gorsellestirme
+  status: planlandı
+  updated: ''
+  review_cycle: 6 ay
+  path: ''
+  code: 8-6
+  order_in_section: 6
+- id: 54
+  section: 8
+  title: Baştan Sona Dijital Yetkinlik Projesi
+  slug: 8-7-bastan-sona-dijital-yetkinlik-projesi
+  status: planlandı
+  updated: ''
+  review_cycle: 12 ay
+  path: ''
+  code: 8-7
+  order_in_section: 7

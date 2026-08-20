@@ -1,0 +1,35 @@
+---
+layout: default
+---
+{% assign quiz = site.data.quizzes[page.quiz_id] %}
+<div class="wrap quiz-shell">
+  <header class="quiz-hero">
+    <a class="back-link" href="{{ page.lesson_path | relative_url }}">Derse Dön</a>
+    <p class="eyebrow">{{ site.title }}</p>
+    <p class="quiz-kicker">Etkileşimli Uygulama</p>
+    <h1>{{ quiz.title }}</h1>
+    <p>{{ quiz.description }}</p>
+    <div class="quiz-instructions">
+      Her soruda yalnızca <strong>bir doğru seçenek</strong> vardır. Önce cevabını işaretle, sonra <strong>Cevabı Kontrol Et</strong> düğmesine bas.
+      Doğru veya yanlış sonuçtan sonra <strong>doğru seçenek ve açıklama</strong> gösterilir. Yanlış yanıtta kendi seçimin de ayrıca belirtilir.
+    </div>
+  </header>
+
+  <section class="quiz-stats">
+    <div><span>İlerleme</span><strong id="quizProgress">0 / {{ quiz.questions | size }}</strong></div>
+    <div><span>Doğru</span><strong id="quizCorrect">0</strong></div>
+    <div><span>Yanlış</span><strong id="quizWrong">0</strong></div>
+    <button id="quizReset" type="button">Uygulamayı Sıfırla</button>
+  </section>
+
+  <div id="quizApp"></div>
+  <div id="quizFinal" class="quiz-final">
+    {{ quiz.questions | size }} sorunun tamamını kontrol ettiğinde sonuç burada gösterilecek.
+  </div>
+</div>
+
+<script>
+window.BILSEM_QUIZ = {{ quiz.questions | jsonify }};
+window.BILSEM_QUIZ_TITLE = {{ quiz.title | jsonify }};
+</script>
+<script src="{{ '/assets/js/quiz.js' | relative_url }}"></script>

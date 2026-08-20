@@ -1,0 +1,183 @@
+title: 'Windows Dosya Gezgini: Dosya ve Klasörlerle Çalışma'
+description: Dosya-klasör farkı, Dosya Gezgini, klasör yapısı, kopyalama-taşıma, silme ve arama bilgisini senaryolarla değerlendir.
+questions:
+- id: q1
+  question: Dosya ile klasör arasındaki temel fark nedir?
+  options:
+  - Dosya içeriği saklar; klasör dosya ve alt klasörleri düzenler
+  - Klasör yalnız resimdir, dosya yalnız metindir
+  - Dosya fiziksel, klasör yazılımdır
+  - İkisi tamamen aynı şeydir
+  answer: 0
+  explanation: Dosya belirli içeriğin dijital kaydıdır; klasör bu dosyaları ve alt klasörleri organize eder.
+- id: q2
+  question: Aşağıdakilerden hangisi dosyadır?
+  options:
+  - Belgeler
+  - rapor.docx
+  - Fotograflar klasörü
+  - Bu Bilgisayar
+  answer: 1
+  explanation: '`.docx` uzantılı rapor belirli bir Word dosyasıdır.'
+- id: q3
+  question: Aşağıdakilerden hangisi klasör yapısına örnektir?
+  options:
+  - Ctrl + C
+  - Windows + E
+  - BILSEM-Proje > 01-Rapor > proje-raporu.docx
+  - CPU %25
+  answer: 2
+  explanation: Bu ifade klasör ve alt klasörler içinde bir dosyanın konumunu gösterir.
+- id: q4
+  question: Windows + E ne açar?
+  options:
+  - Ayarlar'ı
+  - Görev Yöneticisi'ni
+  - Pano geçmişini
+  - Dosya Gezgini'ni
+  answer: 3
+  explanation: Windows+E Dosya Gezgini'ni açan standart kısayoldur.
+- id: q5
+  question: Dosya uzantısı ne hakkında ipucu verir?
+  options:
+  - Bilgisayarın pil yüzdesi hakkında
+  - Dosyanın türü ve hangi programlarla ilişkili olabileceği hakkında
+  - Monitör boyutu hakkında
+  - Wi-Fi parolası hakkında
+  answer: 1
+  explanation: '`.pdf`, `.docx`, `.jpg` gibi uzantılar dosya türünü belirtir.'
+- id: q6
+  question: Bir `.jpg` dosyasının adını yalnızca `.pdf` yaparsan ne olur?
+  options:
+  - Gerçek PDF'ye kesin dönüşür
+  - Windows silinir
+  - Dosyanın gerçek içeriği otomatik olarak PDF'ye dönüşmez
+  - Dosya mutlaka bozulmadan Word belgesi olur
+  answer: 2
+  explanation: Uzantıyı yeniden adlandırmak dosya formatını dönüştürme işlemi değildir.
+- id: q7
+  question: F2 Dosya Gezgini'nde ne için kullanılabilir?
+  options:
+  - Dosyayı yazdırmak
+  - Windows Update'i açmak
+  - Tüm dosyaları seçmek
+  - Seçili dosya veya klasörü yeniden adlandırmak
+  answer: 3
+  explanation: F2 seçili öğede yeniden adlandırmayı başlatır.
+- id: q8
+  question: Kopyalama işleminin doğru akışı hangisidir?
+  options:
+  - Dosyayı seç → Ctrl+C → hedef klasörü aç → Ctrl+V
+  - Dosyayı seç → Delete → Alt+F4
+  - Windows+I → Ctrl+P
+  - F2 → Windows+L
+  answer: 0
+  explanation: Kopyala-yapıştır kaynak dosyayı koruyup hedefte yeni kopya oluşturur.
+- id: q9
+  question: Bir dosyayı başka klasöre taşımak için hangi akış uygundur?
+  options:
+  - Ctrl+C → aynı yerde Ctrl+V
+  - Delete → Geri Dönüşüm Kutusu'nu boşalt
+  - Dosyayı seç → Ctrl+X → hedef klasörü aç → Ctrl+V
+  - F5 → Ctrl+P
+  answer: 2
+  explanation: Kes-yapıştır dosyanın konumunu değiştirir.
+- id: q10
+  question: Geri Dönüşüm Kutusu için en doğru ifade hangisidir?
+  options:
+  - Her silinen dosyayı sonsuza kadar saklar
+  - Yalnız internet dosyalarını tutar
+  - Windows güncellemelerini depolar
+  - Bazı normal yerel silme işlemlerinde dosyayı geçici olarak tutabilir fakat yedekleme sistemi değildir
+  answer: 3
+  explanation: Geri Dönüşüm Kutusu yardımcı bir geri alma alanıdır; kalıcı yedek değildir.
+- id: q11
+  question: İyi dosya adı hangisidir?
+  options:
+  - robotik-proje-raporu-v02.docx
+  - sonson2gercekfinal.docx
+  - aaa.docx
+  - yeni belge (17).docx
+  answer: 0
+  explanation: Açıklayıcı ve sürümü anlaşılır dosya adları düzeni kolaylaştırır.
+- id: q12
+  question: Dosya Gezgini adres çubuğu neyi anlamaya yardım eder?
+  options:
+  - CPU sıcaklığını
+  - Şu anda hangi klasör konumunda bulunduğunu
+  - Klavyenin dilini
+  - Wi-Fi hızını
+  answer: 1
+  explanation: Adres çubuğu mevcut klasör yolunu/konumunu gösterir.
+- id: q13
+  question: Aynı isimli `sonuc.xlsx` dosyaları iki farklı klasörde bulunuyorsa ne doğrudur?
+  options:
+  - Windows bunları zorunlu olarak tek dosya yapar
+  - Birinin mutlaka kısayol olması gerekir
+  - İki dosya aynı anda bulunamaz
+  - Konumları farklı olduğu için iki ayrı dosyadır
+  answer: 3
+  explanation: Dosyanın kimliğinde adı kadar konumu da önemlidir.
+- id: q14
+  question: Bir dosyayı kaydederken en önemli kontrollerden biri hangisidir?
+  options:
+  - Dosyanın hangi klasöre kaydedildiğini kontrol etmek
+  - Monitörü kapatmak
+  - Klavye dilini değiştirmek
+  - Görev Yöneticisi'ni kapatmak
+  answer: 0
+  explanation: Kaydetme konumu bilinmezse dosyayı daha sonra bulmak zorlaşır.
+- id: q15
+  question: Dosya Gezgini'nde Ayrıntılar görünümü ne zaman faydalıdır?
+  options:
+  - Yalnız oyun oynarken
+  - Dosya türü, tarih veya boyut gibi bilgileri karşılaştırırken
+  - Windows'u kapatırken
+  - Klavye tuşlarını öğrenirken
+  answer: 1
+  explanation: Ayrıntılar görünümü dosyalar hakkında ek sütun bilgileri sunabilir.
+- id: q16
+  question: Bir klasörün içine başka klasör koymaya ne denebilir?
+  options:
+  - CPU çekirdeği ekleme
+  - Pano oluşturma
+  - Alt klasör oluşturma
+  - Uygulama sabitleme
+  answer: 2
+  explanation: Klasörler hiyerarşik biçimde başka klasörler içerebilir.
+- id: q17
+  question: Masaüstünü tüm dosyaların tek depolama yeri yapmak neden iyi değildir?
+  options:
+  - Dosyalar karışır, bulma ve düzenleme zorlaşır
+  - Windows masaüstünde dosya saklayamaz
+  - Masaüstü yalnız internete bağlıyken çalışır
+  - Dosya uzantıları görünmez olur
+  answer: 0
+  explanation: Amaçlı klasör yapısı dosya yönetimini kolaylaştırır.
+- id: q18
+  question: Bir dosyayı sildikten sonra Geri Dönüşüm Kutusu'ndan 'Geri Yükle' seçersen ne olur?
+  options:
+  - Dosya otomatik PDF olur
+  - Windows yeniden başlar
+  - Uygun durumda dosya önceki konumuna geri döner
+  - Dosya adı mutlaka değişir
+  answer: 2
+  explanation: Geri yükleme, öğeyi eski konumuna döndürmek için kullanılır.
+- id: q19
+  question: Dosya aramasında `proje` yazmanın amacı nedir?
+  options:
+  - Bütün dosyaları silmek
+  - Adında veya uygun arama bilgilerinde proje geçen öğeleri bulmayı kolaylaştırmak
+  - İnterneti kapatmak
+  - RAM'i boşaltmak
+  answer: 1
+  explanation: Arama, bilinen ad parçalarıyla dosya ve klasör bulmaya yardımcı olur.
+- id: q20
+  question: Düzenli dosya yönetiminin en iyi özeti hangisidir?
+  options:
+  - Her şeyi Masaüstü'ne koy
+  - Dosya türünü uzantıyı değiştirerek dönüştür
+  - Kopyalama ile taşımayı ayırma
+  - Anlamlı klasör yapısı kur, açıklayıcı ad kullan, doğru konuma kaydet ve işlem sonucunu doğrula
+  answer: 3
+  explanation: Düzenli klasör, adlandırma ve konum kontrolü dosya yönetiminin temelidir.

@@ -1,0 +1,183 @@
+title: 'Bilgisayarı Tanı: Donanım, Yazılım ve Temel Kavramlar'
+description: Donanım, yazılım, işletim sistemi, RAM, depolama ve giriş/çıkış kavramlarını günlük örnekler üzerinden kontrol et.
+questions:
+- id: q1
+  question: Bir bilgisayarın en temel çalışma modelinde doğru sıra hangisidir?
+  options:
+  - Giriş → İşlem → Çıkış; gerektiğinde depolama kullanılır
+  - Depolama → Yazıcı → İnternet → Klavye
+  - Ekran → Fare → Kasa → USB
+  - Yalnız giriş ve çıkış vardır
+  answer: 0
+  explanation: Bilgisayar veriyi girişten alır, işler, sonuç üretir ve gerektiğinde kalıcı depolamaya yazar.
+- id: q2
+  question: RAM için en doğru açıklama hangisidir?
+  options:
+  - Belgelerin kalıcı olarak saklandığı ana arşivdir
+  - Çalışan programların ve verilerin geçici çalışma alanıdır
+  - Yalnız görüntüleri ekrana gönderir
+  - İnternet bağlantısını sağlayan parçadır
+  answer: 1
+  explanation: RAM çalışma sırasında hızlı geçici bellek görevi görür; normal kullanım verileri bilgisayar kapandığında RAM'de kalmaz.
+- id: q3
+  question: SSD'nin temel görevi nedir?
+  options:
+  - Klavye tuşlarını algılamak
+  - İşlemciyi soğutmak
+  - Windows, programlar ve dosyaları kalıcı olarak saklamak
+  - Sesi hoparlöre çevirmek
+  answer: 2
+  explanation: SSD bir depolama birimidir; dosyalar ve yazılımlar burada kalıcı olarak tutulabilir.
+- id: q4
+  question: Aşağıdakilerden hangisi yazılımdır?
+  options:
+  - Klavye
+  - Monitör
+  - SSD
+  - Microsoft Word
+  answer: 3
+  explanation: Word belirli bir işi yapmak için kullanılan uygulama yazılımıdır.
+- id: q5
+  question: Windows 11 hangi tür yazılımdır?
+  options:
+  - Fiziksel depolama birimi
+  - İşletim sistemi
+  - Giriş aygıtı
+  - Yazıcı sürücüsünün donanımı
+  answer: 1
+  explanation: Windows 11 programları, dosyaları ve donanım kaynaklarını yöneten bir işletim sistemidir.
+- id: q6
+  question: Aşağıdakilerden hangisi bir giriş birimidir?
+  options:
+  - Monitör
+  - Hoparlör
+  - Mikrofon
+  - Projektör
+  answer: 2
+  explanation: Mikrofon sesi bilgisayara veri olarak gönderir; bu nedenle giriş birimidir.
+- id: q7
+  question: Dokunmatik ekran neden hem giriş hem çıkış birimi sayılabilir?
+  options:
+  - Yalnız elektrik tükettiği için
+  - İçinde SSD bulunduğu için
+  - Her zaman yazıcı olarak çalıştığı için
+  - Görüntü verir ve dokunma bilgisini bilgisayara gönderir
+  answer: 3
+  explanation: Ekran görüntü çıkışı verir; dokunma algılama ise kullanıcıdan bilgisayara giriş sağlar.
+- id: q8
+  question: CPU için en doğru ifade hangisidir?
+  options:
+  - Program komutlarının yürütülmesi ve hesaplamalarda temel rol oynar
+  - Dosyaları yıllarca saklayan tek parçadır
+  - Yalnız ses kaydı yapar
+  - Klavye ile monitör arasındaki kablodur
+  answer: 0
+  explanation: CPU komutları işler ve hesaplamaları yürütür; ancak bilgisayarın çalışması diğer bileşenlerle birlikte gerçekleşir.
+- id: q9
+  question: Anakartın temel görevi nedir?
+  options:
+  - Dosyaları buluta yüklemek
+  - Yalnız ekran parlaklığını ayarlamak
+  - Temel bileşenlerin birbirine bağlanıp iletişim kurduğu ana devre kartı olmaktır
+  - Belgeleri PDF'ye çevirmek
+  answer: 2
+  explanation: Anakart işlemci, RAM, depolama ve bağlantıların bir arada çalıştığı ana donanım platformudur.
+- id: q10
+  question: Aşağıdakilerden hangisi uygulama yazılımına örnektir?
+  options:
+  - RAM
+  - Anakart
+  - USB bağlantı noktası
+  - VLC Media Player
+  answer: 3
+  explanation: VLC belirli bir kullanıcı görevini, medya oynatmayı, gerçekleştiren uygulamadır.
+- id: q11
+  question: Bir yazıcı sürücüsünün görevi en iyi nasıl açıklanır?
+  options:
+  - İşletim sistemi ile yazıcı arasında uygun iletişime yardımcı olmak
+  - Yazıcı kâğıdını fiziksel olarak üretmek
+  - Belgeyi internette yayınlamak
+  - RAM'i kalıcı depolamaya çevirmek
+  answer: 0
+  explanation: Sürücü, işletim sisteminin donanımın özelliklerini doğru biçimde kullanabilmesine yardımcı olan yazılımdır.
+- id: q12
+  question: Bir öğrenci çevrim içi toplantıda konuşuyor. Mikrofona göre veri akışı hangisidir?
+  options:
+  - Mikrofon yalnız çıkış görevi yapar
+  - Mikrofon bilgisayara ses verisi gönderdiği için giriş görevi yapar
+  - Mikrofon depolama birimidir
+  - Mikrofon işletim sistemidir
+  answer: 1
+  explanation: Mikrofon kullanıcının sesini bilgisayara ilettiği için giriş aygıtıdır.
+- id: q13
+  question: Aşağıdakilerden hangisi RAM ile SSD arasındaki doğru farktır?
+  options:
+  - RAM kalıcı, SSD geçicidir
+  - İkisi de yalnız görüntü üretir
+  - İkisinin görevi tamamen aynıdır
+  - RAM geçici çalışma alanıdır; SSD kalıcı depolamadır
+  answer: 3
+  explanation: 'RAM ve SSD farklı amaçlara sahiptir: aktif çalışma ve kalıcı depolama.'
+- id: q14
+  question: Bir dosyanın ekranda görünmesini sağlayan cihaz hangisidir?
+  options:
+  - Monitör
+  - Klavye
+  - Mikrofon
+  - Tarayıcı cihazı
+  answer: 0
+  explanation: Monitör bilgisayarın görsel çıktısını kullanıcıya sunan çıkış birimidir.
+- id: q15
+  question: Aşağıdakilerden hangisi donanım-yazılım eşleşmesine doğru örnektir?
+  options:
+  - Windows donanımdır; SSD yazılımdır
+  - Kamera fiziksel donanımdır; Kamera uygulaması yazılımdır
+  - Word donanımdır; klavye yazılımdır
+  - RAM uygulamadır; tarayıcı işletim sistemidir
+  answer: 1
+  explanation: Fiziksel kamera donanımdır; görüntüyü kullanan uygulama ise yazılımdır.
+- id: q16
+  question: Bir masaüstü bilgisayar ile dizüstü bilgisayar arasındaki ortak nokta hangisidir?
+  options:
+  - Dizüstünde işletim sistemi bulunmaz
+  - Masaüstünde RAM olmaz
+  - İkisi de temel olarak işlemci, bellek, depolama ve işletim sistemi gibi bileşenlerle çalışır
+  - Yalnız dizüstü dosya saklayabilir
+  answer: 2
+  explanation: Fiziksel düzenleri farklı olsa da temel bilgisayar çalışma modeli aynıdır.
+- id: q17
+  question: Aşağıdakilerden hangisi depolama birimine örnektir?
+  options:
+  - SSD
+  - Hoparlör
+  - Fare
+  - Web tarayıcısı
+  answer: 0
+  explanation: SSD dosyaların ve programların kalıcı biçimde saklandığı depolama aygıtıdır.
+- id: q18
+  question: “Kasa” ile “CPU” için doğru ifade hangisidir?
+  options:
+  - Kasa ve CPU her zaman aynı parçanın iki adıdır
+  - CPU monitörün diğer adıdır
+  - Kasa birçok bileşeni barındırır; CPU kasanın içindeki işlemcidir
+  - Kasa yalnız RAM'in yazılım adıdır
+  answer: 2
+  explanation: Günlük dilde karıştırılsa da CPU işlemcidir, kasa ise sistem bileşenlerinin bulunduğu fiziksel gövdedir.
+- id: q19
+  question: Bir uygulamayı kapattığında Windows çalışmaya devam ediyorsa bu neyi gösterir?
+  options:
+  - Windows'un donanım olduğunu
+  - İşletim sistemi ile uygulamanın farklı yazılım katmanları olduğunu
+  - Uygulamaların RAM olmadığını değil
+  - SSD'nin ekran kartı olduğunu
+  answer: 1
+  explanation: İşletim sistemi sistemi yönetmeye devam eder; uygulama belirli bir kullanıcı görevini yürütür.
+- id: q20
+  question: Bilgisayar sistemini en doğru nasıl tanımlarsın?
+  options:
+  - Yalnızca monitörden oluşan cihaz
+  - Sadece internete bağlanınca çalışan yazıcı
+  - Yalnız işlemciden oluşan makine
+  - Donanım ve yazılımın birlikte veriyi alıp işleyen, sonuç üreten ve saklayabilen dijital sistem
+  answer: 3
+  explanation: Bilgisayar tek bir parçadan değil, donanım ve yazılım bileşenlerinin birlikte çalışmasından oluşur.

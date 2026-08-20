@@ -1,0 +1,183 @@
+title: Görev Yöneticisi ve Temel Sorun Giderme
+description: Görev Yöneticisi, kaynak kullanımı ve günlük Windows sorunlarında sistematik sorun giderme yaklaşımını değerlendir.
+questions:
+- id: q1
+  question: Sorun giderirken ilk iyi adım hangisidir?
+  options:
+  - 'Sorunu açıkça tanımlamak: ne bekledim, gerçekte ne oldu?'
+  - Rastgele sistem işlemlerini kapatmak
+  - Bilgisayarı formatlamak
+  - Bütün programları silmek
+  answer: 0
+  explanation: Belirtiyi doğru tanımlamak sorunun hangi katmanda olduğunu daraltır.
+- id: q2
+  question: Görev Yöneticisi'ni doğrudan açan kısayol hangisidir?
+  options:
+  - Windows + E
+  - Ctrl + Shift + Esc
+  - Ctrl + V
+  - Alt + Enter
+  answer: 1
+  explanation: Ctrl+Shift+Esc Görev Yöneticisi'ni doğrudan açar.
+- id: q3
+  question: Görev Yöneticisi'ndeki CPU değeri ne hakkında bilgi verir?
+  options:
+  - Dosyanın uzantısı hakkında
+  - Monitörün fiziksel ölçüsü hakkında
+  - İşlemcinin o anda ne kadar yoğun kullanıldığı hakkında
+  - Klavye dilinin adı hakkında
+  answer: 2
+  explanation: CPU sütunu işlemci kullanımının anlık görünümünü verir.
+- id: q4
+  question: Yüksek CPU kullanımı gördüğünde en doğru yorum hangisidir?
+  options:
+  - Kesin virüs vardır
+  - İşlemci fiziksel olarak bozulmuştur
+  - Bütün dosyalar silinecektir
+  - Tek başına arıza kanıtı değildir; hangi uygulamanın ve ne kadar süre kullandığı incelenmelidir
+  answer: 3
+  explanation: Yoğun görevler meşru biçimde yüksek CPU kullanabilir.
+- id: q5
+  question: Bellek sütunu en çok neyi anlamaya yardım eder?
+  options:
+  - Wi-Fi parolasını
+  - Çalışan uygulamaların RAM kullanımını
+  - Dosya türünü
+  - Monitör çözünürlüğünü
+  answer: 1
+  explanation: Bellek/RAM kullanımı uygulamaların geçici bellek tüketimini gösterir.
+- id: q6
+  question: Bir uygulama 'Yanıt vermiyor' görünüyorsa önce ne yapmalısın?
+  options:
+  - Hemen rastgele bütün işlemleri sonlandırmak
+  - Bilgisayarın fişini çekmek
+  - Mümkünse biraz bekleyip çalışmayı kaydetmeyi ve normal kapatmayı denemek
+  - SSD'yi sökmek
+  answer: 2
+  explanation: Zorla sonlandırma veri kaybına yol açabileceği için normal yöntemler önce denenmelidir.
+- id: q7
+  question: Görevi sonlandır seçeneğinin riski nedir?
+  options:
+  - Dosyanın otomatik ZIP olması
+  - Windows dilinin değişmesi
+  - Monitörün kapanması
+  - Kaydedilmemiş verinin kaybolabilmesi
+  answer: 3
+  explanation: Force end işlemi uygulamayı kaydetme fırsatı olmadan durdurabilir.
+- id: q8
+  question: Görev Yöneticisi'nde tanımadığın sistem işlemi görürsen ne yapmalısın?
+  options:
+  - Rastgele kapatmak yerine araştırmalı veya öğretmen/uzman desteği almalısın
+  - Kesin virüs diye silmelisin
+  - Dosya uzantısını değiştirmelisin
+  - Her zaman en yüksek CPU'yu kapatmalısın
+  answer: 0
+  explanation: Sistem işlemlerini rastgele kapatmak Windows'un çalışmasını bozabilir.
+- id: q9
+  question: Başlangıç uygulamaları neden bilgisayar açılışını etkileyebilir?
+  options:
+  - Dosya uzantılarını değiştirdikleri için
+  - Monitörün rengini değiştirdikleri için
+  - Oturum açılırken otomatik çalışıp kaynak kullanabildikleri için
+  - Klavye tuşlarını yeniden adlandırdıkları için
+  answer: 2
+  explanation: Çok sayıda başlangıç uygulaması açılış süresi ve kaynak tüketimini artırabilir.
+- id: q10
+  question: Başlangıç uygulamalarında en doğru yaklaşım hangisidir?
+  options:
+  - Hepsini devre dışı bırakmak
+  - Hepsini etkinleştirmek
+  - Yalnız adında Microsoft olmayanları silmek
+  - Uygulamayı tanıyıp gerekli olup olmadığını değerlendirerek değişiklik yapmak
+  answer: 3
+  explanation: Bazı başlangıç uygulamaları gerekli olabilir; bilinçli değerlendirme gerekir.
+- id: q11
+  question: Yeniden başlatmanın yararı ne olabilir?
+  options:
+  - Geçici takılan süreçleri kapatıp sistemi temiz bir çalışma durumunda başlatmak
+  - RAM'i fiziksel olarak artırmak
+  - Bozuk donanımı kesin onarmak
+  - İnternet parolasını değiştirmek
+  answer: 0
+  explanation: Restart birçok geçici yazılım durumunu sıfırlar ancak kalıcı sorunun nedenini her zaman çözmez.
+- id: q12
+  question: “Ses yok” sorununda ilk kontrollerden biri hangisidir?
+  options:
+  - CPU'yu değiştirmek
+  - Ses düzeyi ve doğru çıkış aygıtının seçili olup olmadığını kontrol etmek
+  - Dosya Gezgini'ni kaldırmak
+  - SSD'yi formatlamak
+  answer: 1
+  explanation: Ses sorunu çoğu zaman sessize alma veya yanlış çıkış seçimi gibi basit ayarlardan kaynaklanabilir.
+- id: q13
+  question: “İnternet yok” sorununda hangi kontrol anlamlıdır?
+  options:
+  - Word yazı tipini değiştirmek
+  - Klasör adını değiştirmek
+  - Görev çubuğunu gizlemek
+  - Başka site veya cihazlarda bağlantının çalışıp çalışmadığını karşılaştırmak
+  answer: 3
+  explanation: Karşılaştırma sorunun tek site, tek cihaz veya ağ genelinde olup olmadığını ayırmaya yardımcı olur.
+- id: q14
+  question: Bilgisayar çok yavaşsa hangi inceleme uygundur?
+  options:
+  - Görev Yöneticisi'nde CPU, bellek ve disk kullanımını gözlemlemek
+  - Dosya uzantılarını silmek
+  - Klavye tuşlarını çıkarmak
+  - Monitörün kablosunu değiştirmek
+  answer: 0
+  explanation: Kaynak kullanımı yavaşlığa hangi uygulamanın katkıda bulunduğunu gösterebilir.
+- id: q15
+  question: Sorun giderirken aynı anda birçok ayarı değiştirmek neden kötü bir yöntemdir?
+  options:
+  - Bilgisayar bunu desteklemez
+  - Hangi değişikliğin sorunu etkilediğini anlamayı zorlaştırır
+  - Windows yalnız bir ayar içerir
+  - Klavye çalışmaz
+  answer: 1
+  explanation: Kontrollü ve tek tek değişiklik neden-sonuç ilişkisini korur.
+- id: q16
+  question: Aşırı ısınma veya yanık kokusu varsa ne yapmalısın?
+  options:
+  - Görev Yöneticisi'nde rastgele işlem kapatmalısın
+  - Daha fazla program açmalısın
+  - Cihazı güvenli biçimde kullanmayı bırakıp öğretmen/teknik destek istemelisin
+  - Güncellemeyi zorla başlatmalısın
+  answer: 2
+  explanation: Fiziksel güvenlik belirtisinde yazılımsal deneme yerine cihaz kullanımını durdurmak gerekir.
+- id: q17
+  question: Bir sorunun yalnız Word'de olup tarayıcı ve diğer programlarda olmaması neyi düşündürür?
+  options:
+  - Sorunun uygulama özelinde olabileceğini
+  - Kesin bütün Windows'un bozuk olduğunu
+  - Monitörün arızalı olduğunu
+  - Wi-Fi parolasının yanlış olduğunu
+  answer: 0
+  explanation: Tek uygulamayla sınırlı belirti, uygulama özelindeki nedenleri araştırmayı mantıklı kılar.
+- id: q18
+  question: Görev Yöneticisi'nde ağ sütunu neyi gözlemlemeye yardım eder?
+  options:
+  - Dosyaların renklerini
+  - Klavye dilini
+  - Uygulamaların ağ veri kullanımını
+  - Windows lisans anahtarını
+  answer: 2
+  explanation: Ağ etkinliği hangi uygulamanın veri kullandığını görmeye yardımcı olabilir.
+- id: q19
+  question: Sorun giderme planında “beklenen ve gerçek davranışı” yazmanın yararı nedir?
+  options:
+  - Windows'u hızlandırır
+  - Problemi ölçülebilir ve anlaşılır hâle getirir
+  - Dosyaları otomatik kurtarır
+  - Uygulamayı günceller
+  answer: 1
+  explanation: Açık problem tanımı tanılama adımlarını seçmeyi kolaylaştırır.
+- id: q20
+  question: İyi temel sorun giderme akışı hangisidir?
+  options:
+  - Rastgele komut çalıştır → dosyaları sil → yeniden başlat
+  - Önce sistemi formatla → sonra sorunu tarif et
+  - Her yüksek değeri virüs say
+  - Belirtiyi tanımla → güvenli basit kontroller → kaynağı daralt → uygun çözüm veya yardım
+  answer: 3
+  explanation: Sistematik ve aşamalı yaklaşım güvenli ve öğretilebilir sorun giderme yöntemidir.

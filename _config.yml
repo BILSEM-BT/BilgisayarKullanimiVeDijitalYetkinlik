@@ -1,0 +1,30 @@
+title: Bilgisayar Kullanımı ve Dijital Yetkinlik
+description: Bilgisayar Temellerinden Dijital Okuryazarlık ve Yapay Zekâya
+url: https://bilsem-bt.github.io
+baseurl: /BilgisayarKullanimiVeDijitalYetkinlik
+lang: tr-TR
+timezone: Europe/Istanbul
+markdown: kramdown
+permalink: pretty
+defaults:
+- scope:
+    path: ''
+  values:
+    layout: default
+- scope:
+    path: dersler
+  values:
+    layout: lesson
+- scope:
+    path: uygulamalar
+  values:
+    layout: quiz
+exclude:
+- README.md
+- Gemfile
+- Gemfile.lock
+- vendor
+institution: Niyazi Sayın Bilim ve Sanat Merkezi
+course: Bilişim Teknolojileri Dersi
+teacher: Ersin ŞANLI
+portal_version: v2

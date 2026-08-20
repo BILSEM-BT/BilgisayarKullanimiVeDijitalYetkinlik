@@ -1,0 +1,37 @@
+---
+layout: default
+---
+{% assign current = site.data.modules | where: "id", page.module_id | first %}
+<div class="wrap lesson-shell">
+  <aside class="lesson-side">
+    <a class="back-link" href="{{ '/tum-dersler/' | relative_url }}">Tüm Dersler</a>
+    <p class="eyebrow">Ders {{ current.code }}</p>
+    <h2>{{ page.title }}</h2>
+    <dl class="lesson-info lesson-info-compact">
+      <div><dt>Son güncelleme</dt><dd>{{ page.updated }}</dd></div>
+    </dl>
+    <button class="progress-button" data-complete-lesson="{{ page.module_id }}">Dersi tamamlandı olarak işaretle</button>
+    {% if page.quiz %}
+      <a class="quiz-link" href="{{ page.quiz | relative_url }}">Uygulamaya Geç</a>
+    {% endif %}
+
+    <nav class="lesson-toc" aria-label="Ders içeriği">
+      <div class="lesson-toc-header">
+        <h3>Ders İçeriği</h3>
+        <button type="button" class="lesson-toc-toggle" data-toc-toggle aria-expanded="true">Gizle</button>
+      </div>
+      <div class="lesson-toc-list" data-lesson-toc>
+        <p class="lesson-toc-empty">Başlıklar hazırlanıyor...</p>
+      </div>
+    </nav>
+  </aside>
+
+  <article class="lesson-content markdown-body" data-lesson-content>
+    <header class="lesson-hero">
+      <p class="eyebrow">{{ site.title }}</p>
+      <h1>{{ page.title }}</h1>
+      {% if page.summary %}<p class="lead">{{ page.summary }}</p>{% endif %}
+    </header>
+    {{ content }}
+  </article>
+</div>

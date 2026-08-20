@@ -1,0 +1,16 @@
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <img src="{{ '/assets/images/nsb-logo.png' | relative_url }}" alt="{{ site.institution }} logosu">
+      <span>
+        <strong>{{ site.title }}</strong>
+        <small>{{ site.description }}</small>
+      </span>
+    </a>
+    <nav class="main-nav" aria-label="Ana menü">
+      {% for item in site.data.navigation %}
+        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>

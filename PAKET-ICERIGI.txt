@@ -1,0 +1,23 @@
+BİLGİSAYAR KULLANIMI VE DİJİTAL YETKİNLİK — REVİZE v2 / BÖLÜM 1
+
+Bu ZIP bir başlangıç/baseline paketidir.
+
+İçerik:
+- Genel Jekyll/GitHub Pages şablon dosyaları
+- Mevcut portal tasarımı ve tamamlanma sistemi
+- Yeni 8 bölüm / 54 ders planı
+- Bölüm 1'in 7 ayrıntılı dersi
+- Bölüm 1'in 7 uygulama sayfası
+- 7 x 20 = 140 doğrulanmış uygulama sorusu
+- CSS tabanlı tahtada anlatım görselleri
+- GitHub Actions Pages workflow
+- Güncelleme rehberi ve müfredat v2 dosyası
+
+Bölüm 1: 7/7 yayında
+Bölüm 2–8: planlandı
+
+Dijital Medya ve İçerik Üretimi bölümüne:
+5-1 — WinRAR, 7-Zip ve Sıkıştırılmış Dosyalar
+eklenmiştir.
+
+GitHub'a ilk yüklemede ZIP içindeki `BilgisayarKullanimiVeDijitalYetkinlik` klasörünün İÇERİĞİNİ repository köküne yükleyin.

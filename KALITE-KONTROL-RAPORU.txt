@@ -1,0 +1,45 @@
+BİLGİSAYAR KULLANIMI VE DİJİTAL YETKİNLİK — v2 BÖLÜM 1 KALİTE KONTROL RAPORU
+
+Tarih: 2026-08-20
+Yeni müfredat: 8 bölüm / 54 ders
+Yayındaki dersler: Bölüm 1, 7/7
+
+İÇERİK YAPISI
+- 1-1 — Bilgisayarı Tanı: Donanım, Yazılım ve Temel Kavramlar: 7 ana başlık
+- 1-2 — Windows Masaüstü, Başlat Menüsü ve Görev Çubuğu: 7 ana başlık
+- 1-3 — Klavye Tuşları ve Klavye Kısayolları: 7 ana başlık
+- 1-4 — Fare, Touchpad, Seçim, Kopyalama, Kesme ve Yapıştırma: 7 ana başlık
+- 1-5 — Windows Dosya Gezgini: Dosya ve Klasörlerle Çalışma: 7 ana başlık
+- 1-6 — Windows Ayarları, Uygulamalar ve Güncellemeler: 7 ana başlık
+- 1-7 — Görev Yöneticisi ve Temel Sorun Giderme: 6 ana başlık
+
+UYGULAMA KONTROLÜ
+- 1-1: 20 soru; doğru seçenek dağılımı A/B/C/D = 5/5/5/5
+- 1-2: 20 soru; doğru seçenek dağılımı A/B/C/D = 5/5/5/5
+- 1-3: 20 soru; doğru seçenek dağılımı A/B/C/D = 5/5/5/5
+- 1-4: 20 soru; doğru seçenek dağılımı A/B/C/D = 5/5/5/5
+- 1-5: 20 soru; doğru seçenek dağılımı A/B/C/D = 5/5/5/5
+- 1-6: 20 soru; doğru seçenek dağılımı A/B/C/D = 5/5/5/5
+- 1-7: 20 soru; doğru seçenek dağılımı A/B/C/D = 5/5/5/5
+- Toplam soru: 140
+
+YAPISAL KONTROLLER
+- Her derste görünür {#...} başlık etiketi yok.
+- Ders permalinkleri modules.yml içindeki path değerleriyle eşleşiyor.
+- Her dersin uygulama permalink'i dersin quiz bağlantısıyla eşleşiyor.
+- Her quizde 20 benzersiz soru, 4 benzersiz seçenek, tek geçerli doğru cevap indeksi ve açıklama bulunuyor.
+- Her quizde A/B/C/D doğru cevap dağılımı 5/5/5/5.
+- Sol Ders İçeriği menüsü yalnız H2 başlıklarını aldığı için her derste 6–7 ana başlık gösteriyor.
+- Tamamlanan ders kartı ve ders içi tamamlandı düğmesi yeşil görünümünü koruyor.
+- Eski 73 derslik ilerleme ile yeni 54 derslik kimliklerin karışmaması için localStorage anahtarı v2 yapıldı.
+- Genel şablon, CSS, JavaScript, layout, include, GitHub Actions ve site yapılandırması pakete dahil.
+- Dijital Medya ve İçerik Üretimi bölümünde WinRAR, 7-Zip ve Sıkıştırılmış Dosyalar dersi planlandı.
+
+KAYNAK DOĞRULAMA
+- Windows klavye kısayolları: Microsoft Support.
+- Dosya Gezgini ve kes/kopyala/yapıştır akışı: Microsoft Support.
+- Başlat menüsü ve Tutturma (Snap): Microsoft Support.
+- Ayarlar, varsayılan uygulamalar, uygulama kaldırma ve Bluetooth: Microsoft Support.
+- Görev Yöneticisi, başlangıç uygulamaları ve performans kontrolleri: Microsoft Support.
+
+SONUÇ: Paket Bölüm 1 ve genel portal şablonu için yapısal kalite kontrollerinden geçmiştir.

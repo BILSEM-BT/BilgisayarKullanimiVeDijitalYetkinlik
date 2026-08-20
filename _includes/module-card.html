@@ -1,0 +1,21 @@
+{% assign m = include.module %}
+<article class="module-card {% if m.status == 'yayında' %}is-live{% else %}is-planned{% endif %}"
+         data-module-id="{{ m.id }}"
+         data-module-title="{{ m.title | downcase }}"
+         data-section="{{ m.section }}"
+         data-status="{{ m.status }}">
+  <div class="module-top">
+    <span class="module-no">{{ m.code }}</span>
+    <span class="status status-{{ m.status }}">{{ m.status | capitalize }}</span>
+  </div>
+  <h3>{{ m.title }}</h3>
+  <div class="module-meta">
+    <span>Gözden geçirme: {{ m.review_cycle }}</span>
+    {% if m.updated != "" %}<span>Güncelleme: {{ m.updated }}</span>{% endif %}
+  </div>
+  {% if m.status == 'yayında' %}
+    <a class="card-link" href="{{ m.path | relative_url }}">Derse Gir</a>
+  {% else %}
+    <span class="card-link disabled">Hazırlanacak</span>
+  {% endif %}
+</article>

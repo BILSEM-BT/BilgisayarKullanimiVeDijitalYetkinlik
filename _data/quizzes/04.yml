@@ -1,0 +1,183 @@
+title: Fare, Touchpad, Seçim, Kopyalama, Kesme ve Yapıştırma
+description: Seçim, çoklu seçim, pano ve kopyala-kes-yapıştır mantığını günlük Windows senaryolarıyla değerlendir.
+questions:
+- id: q1
+  question: Bir dosyaya tek tıklamak Windows Dosya Gezgini'nde çoğu zaman ne yapar?
+  options:
+  - Dosyayı seçer
+  - Dosyayı mutlaka siler
+  - Dosyayı otomatik yazdırır
+  - Windows'u kapatır
+  answer: 0
+  explanation: Tek tıklama çoğu Dosya Gezgini görünümünde öğeyi seçer.
+- id: q2
+  question: Ctrl tuşunu basılı tutarak farklı dosyalara tıklamak ne sağlar?
+  options:
+  - Tüm dosyaları silmeyi
+  - Bitişik olmayan birden fazla öğeyi seçmeyi
+  - Dosyaları ZIP yapmayı
+  - Yalnız bir dosya seçmeyi
+  answer: 1
+  explanation: Ctrl ile ayrı ayrı öğeler çoklu seçime eklenebilir.
+- id: q3
+  question: Shift ile ilk ve son dosyayı seçmek çoğu listede ne sağlar?
+  options:
+  - Yalnız son dosyayı seçer
+  - Dosya adlarını değiştirir
+  - Aradaki öğeleri de kapsayan bir aralık seçimi
+  - Pano geçmişini temizler
+  answer: 2
+  explanation: Shift seçimi ardışık bir öğe aralığını seçmek için kullanılır.
+- id: q4
+  question: Ctrl + C'nin temel görevi nedir?
+  options:
+  - Taşımak için kesmek
+  - Dosyayı silmek
+  - Pencereyi kapatmak
+  - Seçili içeriği kopyalamak
+  answer: 3
+  explanation: Ctrl+C seçili içeriği panoya kopyalar.
+- id: q5
+  question: Ctrl + X ile Ctrl + C arasındaki temel fark nedir?
+  options:
+  - Ctrl+X yazdırır, Ctrl+C kapatır
+  - Ctrl+X taşımaya hazırlarken Ctrl+C kaynak öğeyi yerinde bırakır
+  - İkisi tamamen aynıdır
+  - Ctrl+C yalnız internette çalışır
+  answer: 1
+  explanation: Kesme ve kopyalama farklı amaçlara sahiptir.
+- id: q6
+  question: Ctrl + V ne yapar?
+  options:
+  - Panoyu temizler
+  - Uygulamayı kaldırır
+  - Panodaki öğeyi hedef konuma yapıştırır
+  - Dosyayı yeniden adlandırır
+  answer: 2
+  explanation: Yapıştır komutu panodaki kopyalanmış/kesilmiş içeriği hedefe yerleştirir.
+- id: q7
+  question: Pano (clipboard) nedir?
+  options:
+  - Bilgisayarın fiziksel anakartı
+  - Yalnız fotoğraf klasörü
+  - Windows güncelleme sunucusu
+  - Kopyalanan veya kesilen içeriğin yapıştırılmayı beklediği geçici alan
+  answer: 3
+  explanation: Pano, kopyala-kes-yapıştır akışındaki geçici yazılım alanıdır.
+- id: q8
+  question: Windows + V ne için kullanılabilir?
+  options:
+  - Pano geçmişini açmak için
+  - Dosya Gezgini'ni açmak için
+  - Ayarlar'ı açmak için
+  - Bilgisayarı kilitlemek için
+  answer: 0
+  explanation: Windows+V pano geçmişini açar; ilk kullanımda etkinleştirme gerekebilir.
+- id: q9
+  question: Kopyala + Yapıştır sonucunda kaynak dosyaya ne olur?
+  options:
+  - Kaynak kesin silinir
+  - Windows kapanır
+  - Kaynak dosya yerinde kalır ve hedefte bir kopya oluşur
+  - Dosya uzantısı değişir
+  answer: 2
+  explanation: Kopyalama asıl öğeyi korur.
+- id: q10
+  question: Kes + Yapıştır işleminin amacı nedir?
+  options:
+  - Aynı konumda ikinci kopya oluşturmak
+  - Dosyayı sıkıştırmak
+  - Dosyanın türünü değiştirmek
+  - Öğeyi başka bir konuma taşımak
+  answer: 3
+  explanation: Kes-yapıştır dosyanın konumunu değiştirmek için kullanılır.
+- id: q11
+  question: Sürükle-bırak yerine başlangıçta Ctrl+C/X ve Ctrl+V öğretmek neden daha kontrollü olabilir?
+  options:
+  - Kullanıcı kopyalamak mı taşımak mı istediğini açıkça seçtiği için
+  - Sürükle-bırak hiçbir zaman çalışmadığı için
+  - Klavye her zaman daha hızlı olduğu için
+  - Dosyalar yalnız klavyeyle taşınabildiği için
+  answer: 0
+  explanation: Sürükle-bırak davranışı bağlama göre değişebilir; kopyala/kes seçimi niyeti açıklaştırır.
+- id: q12
+  question: Sağ tıklama menüsünün amacı nedir?
+  options:
+  - Windows'u yeniden kurmak
+  - Seçili öğeyle ilgili bağlamsal komutlara erişmek
+  - Monitör çözünürlüğünü otomatik değiştirmek
+  - Her dosyayı açmak
+  answer: 1
+  explanation: Sağ tıklama seçili öğe için Kopyala, Kes, Özellikler gibi seçenekler sunabilir.
+- id: q13
+  question: Ctrl + A'nın çoklu seçimde görevi nedir?
+  options:
+  - Yalnız ilk öğeyi seçmek
+  - Panoyu açmak
+  - Dosyaları taşımak
+  - Geçerli alandaki tüm öğeleri seçmek
+  answer: 3
+  explanation: Ctrl+A mevcut alanın tamamını seçmeye yarar.
+- id: q14
+  question: Bir dosyayı yanlışlıkla kestikten sonra henüz yapıştırmadıysan en doğru yaklaşım nedir?
+  options:
+  - Panik yapmadan hedefi kontrol etmek; kesme dosyayı anında yok etmez
+  - Bilgisayarın fişini çekmek
+  - SSD'yi formatlamak
+  - Windows'u yeniden kurmak
+  answer: 0
+  explanation: Kes komutu öğeyi taşımaya hazırlar; yapıştırma/işlem tamamlanana kadar kullanıcı kontrollü ilerleyebilir.
+- id: q15
+  question: Ortak bilgisayarda hassas veriyi pano geçmişinde bırakmamak neden önemlidir?
+  options:
+  - RAM hızını artırmak için
+  - Sonraki kullanıcıların panodaki içeriği görebilme riskini azaltmak için
+  - Dosya boyutunu küçültmek için
+  - Monitörü korumak için
+  answer: 1
+  explanation: Pano geçmişi gizli bilgilerin istemeden erişilebilir kalmasına neden olabilir.
+- id: q16
+  question: Bir metni başka yere taşımak için en uygun kısayol dizisi hangisidir?
+  options:
+  - Ctrl+C → Ctrl+C → Alt+F4
+  - Windows+I → F2 → Delete
+  - Metni seç → Ctrl+X → hedefe git → Ctrl+V
+  - Ctrl+A → Windows+L → F5
+  answer: 2
+  explanation: Kes ve yapıştır metni başka konuma taşır.
+- id: q17
+  question: Aynı dosyanın ikinci bir kopyasını başka klasörde oluşturmak için hangi işlem uygundur?
+  options:
+  - Ctrl+C ardından hedefte Ctrl+V
+  - Ctrl+X ardından hedefte Ctrl+V
+  - Delete ardından Enter
+  - F2 ardından Alt+F4
+  answer: 0
+  explanation: Kopyala-yapıştır kaynak dosyayı koruyarak hedefte ikinci kopya oluşturur.
+- id: q18
+  question: Çoklu seçim sırasında Ctrl tuşunu bırakıp yanlış öğeye tek tıklarsan ne olabilir?
+  options:
+  - Windows mutlaka kapanır
+  - Dosyalar otomatik silinir
+  - Önceki çoklu seçim iptal olup yalnız yeni öğe seçilebilir
+  - Klavye dili değişir
+  answer: 2
+  explanation: Tek tıklama yeni seçim oluşturabileceği için çoklu seçim dikkat ister.
+- id: q19
+  question: Bir dosyanın taşındı mı kopyalandı mı olduğunu nasıl doğrularsın?
+  options:
+  - Yalnız dosya renginden
+  - Kaynak ve hedef konumları Dosya Gezgini'nde kontrol ederek
+  - Monitör parlaklığından
+  - Klavye ışığından
+  answer: 1
+  explanation: İşlem sonucunu kaynak ve hedefte doğrulamak güvenilir yöntemdir.
+- id: q20
+  question: Kopyala-kes-yapıştır mantığını en doğru özetleyen ifade hangisidir?
+  options:
+  - Rastgele sürükle → bilgisayarı kapat
+  - Dosyayı aç → uzantıyı değiştir
+  - Her zaman yalnız Ctrl+X kullan
+  - Seç → işlemi belirle → hedefe git → yapıştır → sonucu doğrula
+  answer: 3
+  explanation: Kontrollü işlem niyet, hedef ve sonuç doğrulamasını içerir.

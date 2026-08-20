@@ -1,0 +1,24 @@
+- id: 1
+  title: Bilgisayar ve Windows Kullanımı
+  description: Bilgisayarı tanı, Windows masaüstünü kullan, klavye-fare hâkimiyeti kazan, dosya-klasörlerle çalış ve temel sorunları çöz.
+- id: 2
+  title: İnternet, Web, E-Posta ve Bulut
+  description: Tarayıcı, etkili arama, bilgi doğrulama, güvenli indirme, Gmail, Drive ve çevrim içi çalışma becerileri.
+- id: 3
+  title: Office ve Belge Üretimi
+  description: Word, Excel, PowerPoint ve PDF ile günlük okul ve proje çalışmalarını düzenli, anlaşılır ve etkili biçimde üret.
+- id: 4
+  title: Güvenlik, Dijital Vatandaşlık ve Yapay Zekâ
+  description: Hesap güvenliği, phishing, gizlilik, telif, dijital etik ve yapay zekâyı doğru kullanma becerileri.
+- id: 5
+  title: Dijital Medya ve İçerik Üretimi
+  description: WinRAR/7-Zip, VLC, ekran kaydı, GIMP, Inkscape ve Audacity ile günlük dijital içerik işlemleri.
+- id: 6
+  title: Yazılım Geliştirme ve Proje Araçları
+  description: Visual Studio, VS Code, akış şemaları, Git/GitHub, GitHub Pages ve Google Colab.
+- id: 7
+  title: Blok Programlama, Robotik ve Elektronik
+  description: Scratch, mBlock, MakeCode, Tinkercad Circuits, Arduino ve robotik proje geliştirme.
+- id: 8
+  title: 3D Tasarım ve Dijital Üretim
+  description: Tinkercad, Onshape, SOLIDWORKS, 3D yazıcı-slicer, Blender ve bütünleşik dijital proje.
