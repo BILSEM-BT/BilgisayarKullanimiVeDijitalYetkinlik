@@ -1,43 +1,72 @@
-KALİTE KONTROL RAPORU — v7
+KALİTE KONTROL RAPORU — v8
 Tarih: 2026-08-21
 
 PORTAL
 - Toplam plan: 54 ders
-- Yayında: 41 ders
-- Bölüm 1–6: yayımdadır
-- Bölüm 7–8: planlıdır
+- Yayında: 47 ders
+- Bölüm 1–7: yayında
+- Bölüm 8: planlı (7 ders)
 
-BÖLÜM 6
+BÖLÜM 7
 - 6 ders sayfası: TAMAM
 - 6 uygulama sayfası: TAMAM
+- 6 quiz veri dosyası: TAMAM
 - 120 yeni soru: TAMAM
-- 6-1/6-2/6-3/6-6 Türkçe program/arayüz: TAMAM
-- 6-4/6-5 English program/arayüz etiketleri: TAMAM
-- Güncel resmî kaynak kontrolü: TAMAM
+- Her derste 8 ana içerik başlığı: TAMAM
+- Ders/uygulama bağlantıları: TAMAM
+- Güncelleme tarihi 2026-08-21: TAMAM
 
-ANA SAYFA
-- Ders kartındaki Gözden geçirme alanı kaldırıldı: TAMAM
-- Son Güncelleme Tarihi gösterimi: TAMAM
+DİL VE PROGRAM DOĞRULAMASI
+- 7-1 Scratch: Türkçe web + Türkçe masaüstü kullanım anlatımı: TAMAM
+- 7-1 verilen Scratch stüdyosu ders içine proje inceleme kaynağı olarak işlendi: TAMAM
+- 7-2 mBlock 5: Türkçe web + Türkçe masaüstü kullanım anlatımı: TAMAM
+- 7-2 Live / Upload ve cihaz-bağlantı ayrımı resmî Makeblock kaynaklarıyla kontrol edildi: TAMAM
+- 7-3 MakeCode for micro:bit: Türkçe kullanım ve dil seçimi doğrulandı: TAMAM
+- 7-4 Tinkercad Circuits: Türkçe ders anlatımı; sürüme göre değişebilen arayüz etiketlerinde İngilizce özgün adlar parantez içinde: TAMAM
+- 7-5 Arduino IDE 2: Türkçe dil paketi ve güncel Türkçe çeviri dosyası doğrulandı: TAMAM
+- 7-5 güncel resmî Türkçe terim “Seri Port Ekranı” kullanıldı: TAMAM
+- 7-6 Robotik Proje Geliştirme ve Hata Ayıklama: Türkçe: TAMAM
 
-TÜM YAYIMDAKİ QUIZLER
-- 41 quiz x 20 soru = 820 soru: TAMAM
-- Her soruda 4 seçenek: TAMAM
-- Her soruda answer değeri 0–3: TAMAM
+İÇERİK DOĞRULUĞU / ÖĞRENCİ GÜVENLİĞİ
+- Scratch stüdyosu düzenleyici gibi gösterilmedi: TAMAM
+- mLink 2 tüm mBlock cihazları için değişmez zorunluluk gibi anlatılmadı: TAMAM
+- Live ve Upload modları birbirinden doğru ayrıldı: TAMAM
+- micro:bit V2 özellikleri V1'e genellenmedi: TAMAM
+- Tinkercad simülasyonu fiziksel güvenliğin garantisi gibi gösterilmedi: TAMAM
+- Ohm Kanunu, LED kutupluluğu, açık/kısa devre ve ölçüm bağlantı ilkeleri kontrol edildi: TAMAM
+- Arduino kart/port, Doğrula/Yükle, setup()/loop(), seri haberleşme bilgileri kontrol edildi: TAMAM
+- Karttan karta değişen GPIO sınırları için tek bir evrensel sayı verilmedi: TAMAM
+- Motor gibi yüklerde uygun sürücü/güç düzeni gerekliliği vurgulandı: TAMAM
+- 7-6'da test, ölçüm ve kanıta dayalı hata ayıklama yöntemi kullanıldı: TAMAM
+
+QUIZ KONTROLLERİ
+- Yayımdaki 47 quiz x 20 soru = 940 soru: TAMAM
+- Bölüm 7: 6 quiz x 20 soru = 120 yeni soru: TAMAM
+- Her soruda 4 benzersiz seçenek: TAMAM
+- Her soruda tek doğru answer değeri (0–3): TAMAM
 - Her soruda açıklama: TAMAM
-- Her quizde cevap dağılımı 5/5/5/5: TAMAM
-- Soru kimlikleri benzersiz: TAMAM
-- Ders/quiz konu uyumu otomatik taraması: TAMAM
-- Düşük eşleşme veren 3 mevcut soru elle gözden geçirildi: TAMAM / yanlış eşleşme yok
-- Sürüme bağlı yüksek riskli bilgiler resmî kaynaklarla tekrar kontrol edildi: TAMAM
+- Her quizde soru kimlikleri benzersiz: TAMAM
+- Her quizde A/B/C/D doğru cevap dağılımı 5/5/5/5: TAMAM
+- Bölüm 7'nin 120 sorusu ilgili ders içeriğiyle karşılaştırıldı: TAMAM
+
+ANA SAYFA VE DERS ŞABLONU
+- Ders kartlarında “Son Güncelleme Tarihi” gösterimi korunmuştur: TAMAM
+- “Gözden geçirme” etiketi ana sayfa kartından kaldırılmıştır: TAMAM
+- Sol ders panelinin tamamında kaydırma çubuğu yoktur: TAMAM
+- Gerektiğinde yalnız “Ders İçeriği” listesi kayar: TAMAM
 
 YAPISAL KONTROLLER
-- Live module lesson yolu var: TAMAM
-- Live module quiz yolu var: TAMAM
-- Front matter module_id/quiz_id eşleşmesi: TAMAM
-- Markdown front matter parse testi: 86 dosya / 0 hata
-- 6-1...6-6 previous/next gezintisi modules.yml sırasıyla otomatik çalışır: TAMAM
-- Ders sol menüsünde yalnız Ders İçeriği listesinin kayması için merkezî CSS düzeltmesi korunmuştur: TAMAM
-- ZIP bütünlük testi: TAMAM
+- 54 modules.yml kaydı: TAMAM
+- 47 canlı ders yolu: TAMAM
+- 47 canlı uygulama yolu: TAMAM
+- module_id / quiz_id eşleşmeleri: TAMAM
+- Markdown front matter parse testi: 98 dosya / 0 hata
+- Bölüm 7 previous/next gezinmesi modules.yml sırasıyla otomatik çalışır: TAMAM
+- Bölüm 8 planlı bırakılmıştır: TAMAM
 
-NOT
-Gerçek GitHub Pages/Jekyll build sonucu repository'ye yüklendikten sonra Actions logundan ayrıca kontrol edilmelidir.
+YEREL BUILD NOTU
+- Çalışma ortamında Jekyll ve Bundler kurulu olmadığı için yerel Jekyll build çalıştırılmadı.
+- GitHub'a yükleme sonrasında GitHub Pages / Actions build sonucu ayrıca kontrol edilmelidir.
+
+ZIP BÜTÜNLÜK TESTİ
+- Nihai paket unzip -t ile kontrol edildi: TAMAM

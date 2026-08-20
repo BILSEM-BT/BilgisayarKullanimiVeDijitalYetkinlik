@@ -1,0 +1,183 @@
+title: mBlock ile Robotik Kodlama — Uygulama
+description: mBlock 5 web ve masaüstü kullanımı, cihaz bağlantısı, Canlı/Yükleme modları, sensör-aktüatör modeli, uzantılar ve güvenli robotik test kavramlarını ölçer
+questions:
+- id: q1
+  question: mBlock 5 için en doğru tanım hangisidir?
+  options:
+  - Blok tabanlı programlamayı desteklenen robot ve kartlarla birleştiren eğitim programlama ortamıdır
+  - Yalnız resim görüntüleyicidir
+  - Sadece e-posta istemcisidir
+  - Yalnız dosya sıkıştırma programıdır
+  answer: 0
+  explanation: mBlock 5, Scratch 3 esintili blok programlama ve çeşitli donanım programlama özelliklerini birleştirir.
+- id: q2
+  question: Robotik projeye başlamadan önce mBlock’ta neden doğru cihaz modeli seçilmelidir?
+  options:
+  - Ekran çözünürlüğünü artırmak için
+  - Kullanılabilir bloklar, bağlantı ve yükleme davranışı seçilen cihaza göre değişebilir
+  - Dosya adını otomatik Türkçeleştirmek için
+  - Tarayıcı geçmişini silmek için
+  answer: 1
+  explanation: Cihaza özel blok ve bağlantı özellikleri doğru profil seçimine bağlıdır.
+- id: q3
+  question: mBlock’taki Canlı (Live) modunun temel özelliği hangisidir?
+  options:
+  - Programı her durumda bilgisayardan bağımsız çalıştırır
+  - Cihazı fiziksel olarak şarj eder
+  - Program davranışını gerçek zamanlı gözlemlemeyi kolaylaştırır ve çalışma sırasında bağlantının sürmesini gerektirir
+  - Projeyi PDF’e dönüştürür
+  answer: 2
+  explanation: Makeblock belgelerinde Live mod bağlantı sürerken gerçek zamanlı çalıştırma/hata ayıklama için açıklanır.
+- id: q4
+  question: mBlock’taki Yükleme (Upload) modu ne yapar?
+  options:
+  - Yalnız sahne arka planını değiştirir
+  - Sadece sensör değerini ekranda gösterir
+  - Bilgisayarın işletim sistemini günceller
+  - Programı desteklenen cihaza aktarır; başarılı yüklemeden sonra cihaz uygun durumda bilgisayardan ayrıyken çalışabilir
+  answer: 3
+  explanation: Upload modunda program cihaza yüklenir ve desteklenen cihazda bağımsız çalışabilir.
+- id: q5
+  question: mBlock web sürümünde fiziksel cihaza bağlanma konusunda en doğru yaklaşım hangisidir?
+  options:
+  - Cihaz ve güncel sürüme göre ekrandaki bağlantı yönergesini izlemek; bazı resmî akışlarda mLink 2 gerekebilir
+  - Her cihaz için kesinlikle Bluetooth kullanmak
+  - mLink 2 hiçbir zaman kullanılmaz demek
+  - Web sürümünde fiziksel cihaz bağlanamaz demek
+  answer: 0
+  explanation: Makeblock belgelerinde bazı cihaz/web akışlarında mLink 2 kullanılır; bağlantı yöntemi cihaz ve sürüme bağlıdır.
+- id: q6
+  question: Bir sensöre ait bloklar görünmüyorsa hangi adım gerekebilir?
+  options:
+  - Monitörü kapatmak
+  - İlgili cihaz/uzantıyı Uzantı Merkezi’nden eklemek
+  - Projeyi MP3 yapmak
+  - İnternet adresini değiştirmek
+  answer: 1
+  explanation: Bazı sensör ve modüllerin blokları ilgili uzantı eklendiğinde görünür.
+- id: q7
+  question: Mesafe sensörü robotik sistem modelinde hangi role örnektir?
+  options:
+  - Aktüatör çıkışı
+  - Dosya biçimi
+  - Giriş (input)
+  - Derleyici
+  answer: 2
+  explanation: Sensör çevreden veri aldığı için giriş birimidir.
+- id: q8
+  question: Motor veya LED robotik sistem modelinde genellikle hangi role örnektir?
+  options:
+  - Parola yöneticisi
+  - Web tarayıcısı
+  - Dosya uzantısı
+  - Çıkış/aktüatör
+  answer: 3
+  explanation: Motor, LED ve ses birimleri program kararını fiziksel/görsel çıktıya dönüştürür.
+- id: q9
+  question: mBlock’ta yanlış robot modeli seçilirse ne olabilir?
+  options:
+  - Cihaza uygun bloklar görünmeyebilir veya bağlantı/yükleme başarısız olabilir
+  - Bilgisayarın RAM’i otomatik artar
+  - Tüm sensörler aynı değeri verir
+  - Proje otomatik paylaşılır
+  answer: 0
+  explanation: Cihaz profili donanım özellikleri ve programlama bloklarıyla eşleşmelidir.
+- id: q10
+  question: Motorlu robotu ilk kez test ederken en güvenli başlangıç hangisidir?
+  options:
+  - En yüksek hızda masa kenarında başlatmak
+  - Açık alanda, masa kenarından uzakta, düşük hız ve kısa süreyle test etmek
+  - Tekerleklere kablo dolamak
+  - Güç değerini rastgele yükseltmek
+  answer: 1
+  explanation: Beklenmeyen hareket riskini azaltmak için kontrollü, düşük enerjili başlangıç yapılmalıdır.
+- id: q11
+  question: mBlock’ta bloklardan metin koda geçiş için hangi ifade doğrudur?
+  options:
+  - Her cihaz kesinlikle aynı Python kodunu üretir
+  - Metin kodu yalnız HTML’dir
+  - Hedef dil ve özellikler seçilen cihaz ile moda göre değişebilir
+  - Blokların metin karşılığı hiçbir cihazda görülemez
+  answer: 2
+  explanation: Makeblock farklı cihaz/modlarda Arduino C, Python vb. seçenekler sunabilir; destek cihaz bağımlıdır.
+- id: q12
+  question: mBlock 5’in Türkçe kullanımı için doğru ifade hangisidir?
+  options:
+  - Türkçe hiçbir sürümde desteklenmez
+  - Türkçe yalnız mobil cihazlarda vardır
+  - Dil, robotun pil seviyesini değiştirir
+  - mBlock 5’te Türkçe dil desteği bulunur; bazı eklenti etiketleri sürüme göre farklı/İngilizce kalabilir
+  answer: 3
+  explanation: Makeblock sürüm geçmişinde Türkçe çoklu dil desteği yer alır.
+- id: q13
+  question: mBlock masaüstü sürümü için doğru ifade hangisidir?
+  options:
+  - Windows ve macOS için masaüstü istemcisi bulunur
+  - Yalnız Linux çekirdeği olarak çalışır
+  - Sadece tarayıcı eklentisidir
+  - Robot olmadan hiç açılamaz
+  answer: 0
+  explanation: Makeblock resmî kurulum belgesi Windows ve macOS masaüstü istemcisini açıklar.
+- id: q14
+  question: Sensör değerinin doğru okunup okunmadığını küçük adımlarla görmek için hangi mod özellikle kullanışlıdır?
+  options:
+  - Yalnız Yükleme modu
+  - Canlı (Live) modu
+  - Karanlık tema
+  - Kukla kostüm modu
+  answer: 1
+  explanation: Canlı mod gerçek zamanlı gözlem ve hata ayıklamayı kolaylaştırır.
+- id: q15
+  question: Programın robot üzerinde bilgisayardan ayrıyken çalışması hedefleniyorsa hangi mod daha uygundur?
+  options:
+  - Canlı (Live) modu
+  - Yalnız Sahne modu
+  - Yükleme (Upload) modu
+  - Kostüm düzenleme modu
+  answer: 2
+  explanation: Upload modunda program cihaza yazılarak bağımsız çalıştırılabilir.
+- id: q16
+  question: “Sensör değeri 20’den küçükse dur” kuralındaki 20 neyi temsil eder?
+  options:
+  - Motorun USB port numarasını
+  - Proje dosya uzantısını
+  - Her sensörde değişmez evrensel güvenlik değerini
+  - Sensör verisi için seçilmiş bir eşik değerini
+  answer: 3
+  explanation: Eşik, sensörün birimi ve ortamına göre anlamlı ölçümlerden belirlenmelidir; evrensel değildir.
+- id: q17
+  question: mLink 2 hakkında en doğru ifade hangisidir?
+  options:
+  - Makeblock’un bazı web-donanım bağlantı akışlarında kullandığı yardımcı bağlantı yazılımıdır
+  - Her robotun içine takılan zorunlu fiziksel sensördür
+  - Arduino dilinin yeni adıdır
+  - Bir Scratch kuklasıdır
+  answer: 0
+  explanation: Resmî Makeblock belgelerinde bazı cihazların web sürümünde mLink 2 ile bağlantısı açıklanır.
+- id: q18
+  question: Canlı modda çalışan robotun bilgisayar bağlantısı kesilirse genel olarak ne beklenir?
+  options:
+  - Program kesinlikle ROM’a kalıcı yazılır
+  - Canlı program yürütmesi durabilir çünkü bu mod bağlantının sürmesine dayanır
+  - Robot otomatik firmware günceller
+  - Her zaman Upload moduna geçer
+  answer: 1
+  explanation: Live modun resmî tanımında bağlantı kesilirse programın çalışamayacağı belirtilir.
+- id: q19
+  question: mBlock’taki Kuklalar/Sahne ile Cihazlar arasındaki fark nedir?
+  options:
+  - İkisi her zaman aynı fiziksel robottur
+  - Cihazlar yalnız arka plan resmidir
+  - Kuklalar sanal sahne nesneleridir; Cihazlar fiziksel donanım programlama hedefleridir
+  - Kuklalar USB sürücüsüdür
+  answer: 2
+  explanation: mBlock hem Scratch benzeri sahne projeleri hem donanım projeleri destekler.
+- id: q20
+  question: Robot beklenmedik davranıyorsa en iyi ilk yöntem hangisidir?
+  options:
+  - Tüm kabloları ve kodu aynı anda rastgele değiştirmek
+  - Motor hızını hemen en yükseğe almak
+  - Hata mesajlarını okumadan firmware silmek
+  - Sensör değerini, koşulu ve çıktıyı küçük adımlarla ayrı ayrı test etmek
+  answer: 3
+  explanation: Alt sistemleri tek tek doğrulamak hatanın kaynağını ayırır.

@@ -1,0 +1,183 @@
+title: Microsoft MakeCode ve micro:bit — Uygulama
+description: MakeCode Türkçe arayüzü, micro:bit giriş-çıkışları, başlangıç/sürekli/olay blokları, simülatör ve gerçek karta aktarım bilgilerini ölçer
+questions:
+- id: q1
+  question: MakeCode for micro:bit’in dil desteği için doğru ifade hangisidir?
+  options:
+  - Türkçe (tr) güncel desteklenen diller arasındadır
+  - Yalnız İngilizce çalışır
+  - Türkçe yalnız masaüstü uygulamasında vardır
+  - Dil seçimi kartın firmware’ini siler
+  answer: 0
+  explanation: Microsoft pxt-microbit hedef yapılandırmasında tr desteklenen yerel diller arasında yer alır.
+- id: q2
+  question: micro:bit üzerindeki temel görüntüleme alanı hangisidir?
+  options:
+  - 1920×1080 LCD ekran
+  - 5×5 LED matrisi
+  - Mekanik yazıcı
+  - DVD sürücüsü
+  answer: 1
+  explanation: micro:bit’in ön yüzünde 5×5 LED matrisi bulunur.
+- id: q3
+  question: MakeCode’daki “başlangıçta” bloğu ne zaman çalışır?
+  options:
+  - Her A düğmesine basıldığında
+  - Yalnız tarayıcı kapanınca
+  - Program başlarken bir kez başlangıç işlemleri için
+  - Her milisaniyede zorunlu olarak
+  answer: 2
+  explanation: Başlangıçta bloğu ilk ayarlar için bir kez çalışır.
+- id: q4
+  question: MakeCode’daki “sürekli” bloğu ne için kullanılır?
+  options:
+  - Projeyi bir kez adlandırmak için
+  - USB sürücüsünü biçimlendirmek için
+  - Yalnız dosya indirmek için
+  - İçindeki işlemleri program çalıştığı sürece tekrar etmek için
+  answer: 3
+  explanation: Sürekli bloğu tekrarlı ana davranışlar için kullanılır.
+- id: q5
+  question: MakeCode simülatörünün temel amacı nedir?
+  options:
+  - Çoğu micro:bit programını tarayıcıda deneyip girişleri taklit ederek davranışı test etmek
+  - Gerçek kartın pilini şarj etmek
+  - Bilgisayarın RAM’ini artırmak
+  - Her fiziksel arızayı kesin olarak bulmak
+  answer: 0
+  explanation: Resmî simülatör belgesi çoğu programın tarayıcıda test edilebildiğini ve kullanıcı/sensör etkileşimlerinin emüle edilebildiğini belirtir.
+- id: q6
+  question: A düğmesine basılması robotik/programlama açısından ne tür bilgiye örnektir?
+  options:
+  - Çıkış motoru
+  - Giriş
+  - Dosya uzantısı
+  - Derleyici ayarı
+  answer: 1
+  explanation: Düğme kullanıcının programa verdiği giriş olaylarından biridir.
+- id: q7
+  question: LED matrisinde simge göstermek ne tür bir işlemdir?
+  options:
+  - Giriş sensörü
+  - USB port seçimi
+  - Çıkış
+  - Dosya sıkıştırma
+  answer: 2
+  explanation: LED’lerde görüntü üretmek programın çıktısıdır.
+- id: q8
+  question: Puan değerini program boyunca saklamak için en uygun araç hangisidir?
+  options:
+  - Dekor
+  - USB sürücüsü
+  - Firmware dosya adı
+  - Değişken
+  answer: 3
+  explanation: Değişken değişebilen durumu saklar.
+- id: q9
+  question: Dahili mikrofon ve hoparlör gibi özellikler hakkında hangi ifade doğrudur?
+  options:
+  - Bazı özellikler micro:bit V2’ye özgüdür; kart sürümü kontrol edilmelidir
+  - Bütün micro:bit V1 kartlarında zorunludur
+  - Yalnız simülatörde vardır, hiçbir fiziksel kartta yoktur
+  - Kart sürümü hiçbir özelliği etkilemez
+  answer: 0
+  explanation: Micro:bit V2 ek donanım özellikleri içerir; V1’e genellenmemelidir.
+- id: q10
+  question: MakeCode’dan micro:bit’e klasik dosya aktarımında kullanılan program dosyası uzantısı hangisidir?
+  options:
+  - .docx
+  - .hex
+  - .psd
+  - .mp4
+  answer: 1
+  explanation: MakeCode derlenmiş micro:bit programını .hex dosyası olarak indirebilir.
+- id: q11
+  question: USB ile bağlanan micro:bit çoğu sistemde hangi sürücü etiketiyle görünür?
+  options:
+  - ARDUINO_ONLY
+  - SCRATCH_DATA
+  - MICROBIT
+  - WINDOWS_SYS
+  answer: 2
+  explanation: Resmî MakeCode aktarım belgesi .hex dosyasının MICROBIT sürücüsüne kopyalandığını açıklar.
+- id: q12
+  question: WebUSB’nin MakeCode’da sağladığı önemli kolaylık nedir?
+  options:
+  - Kartı internetsiz şarj etmek
+  - Kodun tamamını Türkçeye çevirmek
+  - Mikrofonu V1 karta fiziksel olarak eklemek
+  - Desteklenen tarayıcı ve kartta eşleştirmeden sonra tek tıklamayla programa aktarım
+  answer: 3
+  explanation: WebUSB uygun tarayıcıda micro:bit’e doğrudan aktarım ve veri bağlantısı sağlayabilir.
+- id: q13
+  question: micro:bit bilgisayardan güç alıyor fakat MICROBIT sürücüsü görünmüyorsa ilk kontrol edileceklerden biri hangisidir?
+  options:
+  - USB kablosunun veri aktarımını destekleyip desteklemediği
+  - Ekran duvar kâğıdı
+  - Scratch kostümü
+  - PDF okuyucu
+  answer: 0
+  explanation: Şarj-only kablo güç verebilir ancak veri iletişimi kuramaz.
+- id: q14
+  question: “A düğmesine basıldığında” bloğu hangi programlama kavramına örnektir?
+  options:
+  - Sıkıştırma
+  - Olay
+  - Dosya sistemi
+  - Seri direnç
+  answer: 1
+  explanation: Belirli bir kullanıcı eylemi gerçekleştiğinde çalışan olay tabanlı programlamadır.
+- id: q15
+  question: “Eğer puan >= 5 ise gülen yüz göster” ifadesinin temel yapısı hangisidir?
+  options:
+  - Yalnız döngü
+  - Dosya indirme
+  - Koşul
+  - Port seçimi
+  answer: 2
+  explanation: Karşılaştırma sonucuna göre davranış seçildiği için koşuldur.
+- id: q16
+  question: Simülatörde programın çalışması neden gerçek kart testinin yerini tamamen tutmaz?
+  options:
+  - Simülatör hiç kod çalıştırmaz
+  - Simülatör yalnız PDF üretir
+  - Gerçek kartta blok programlama mümkün değildir
+  - Gerçek sensör, kablo, güç ve donanım davranışları simülasyondan farklı olabilir
+  answer: 3
+  explanation: Simülatör algoritmayı denemek için iyidir ama fiziksel ortamın tüm ayrıntılarını taklit etmez.
+- id: q17
+  question: WebUSB desteklenmiyorsa programı karta aktarmak için geçerli alternatif hangisidir?
+  options:
+  - .hex dosyasını MICROBIT sürücüsüne kopyalamak
+  - Dosyayı .jpg yapmak
+  - Kod ekran görüntüsünü karta sürüklemek
+  - Kartı yeniden adlandırmak
+  answer: 0
+  explanation: Resmî MakeCode belgeleri WebUSB yanında klasik .hex dosya aktarımını destekler.
+- id: q18
+  question: micro:bit projesi hazırlanırken V1/V2 farkını neden bilmeliyiz?
+  options:
+  - V1 ve V2 dosya kaydetmez
+  - Bazı yerleşik donanım özellikleri sürüme göre farklıdır
+  - V2’de LED matrisi hiç yoktur
+  - Sürüm yalnız kasanın rengini değiştirir
+  answer: 1
+  explanation: Mikrofon, dahili hoparlör ve dokunmatik logo gibi V2 özellikleri V1’e genellenmemelidir.
+- id: q19
+  question: Bir düğmeye basıldığında yalnız bir işlem yapmak için genellikle hangisi daha okunaklıdır?
+  options:
+  - Sürekli döngüde rastgele sayı üretmek
+  - Projeyi her seferinde yeniden indirmek
+  - Düğme olay bloğunu kullanmak
+  - Kartın adını değiştirmek
+  answer: 2
+  explanation: Olay bloğu belirli etkileşime doğrudan bağlanır.
+- id: q20
+  question: MakeCode projesi için en güvenli test sırası hangisidir?
+  options:
+  - Önce rastgele pinlere gerilim bağla
+  - Simülatörü hiç kullanmadan kablo değiştir
+  - Her hatada kartı biçimlendir
+  - Önce simülatörde dene, sonra kontrollü biçimde gerçek karta aktar ve test et
+  answer: 3
+  explanation: Simülatör erken mantık hatalarını yakalar; gerçek kart testi fiziksel davranışı doğrular.

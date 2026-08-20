@@ -1,0 +1,31 @@
+{
+  "version": "v8",
+  "date": "2026-08-21",
+  "module_count": 54,
+  "live_module_count": 47,
+  "quiz_count": 47,
+  "question_count": 940,
+  "expected_question_count": 940,
+  "section_7_live_count": 6,
+  "section_7_question_count": 120,
+  "section_7_h2_counts": {
+    "42": 8,
+    "43": 8,
+    "44": 8,
+    "45": 8,
+    "46": 8,
+    "47": 8
+  },
+  "section_8_planned_count": 7,
+  "frontmatter_files_parsed": 98,
+  "frontmatter_parse_errors": 0,
+  "homepage_update_label": "Son Güncelleme Tarihi",
+  "sidebar_scroll_scope": "lesson-toc-list",
+  "quiz_answer_distribution": "5/5/5/5 per quiz",
+  "quiz_structure_checked_questions": 940,
+  "section_7_research_reviewed_questions": 120,
+  "jekyll_local_build": "not_run_jekyll_and_bundle_not_installed",
+  "zip_integrity": "passed",
+  "issues": [],
+  "passed": true
+}

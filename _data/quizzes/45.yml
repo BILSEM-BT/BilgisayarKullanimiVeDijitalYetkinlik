@@ -1,0 +1,183 @@
+title: Tinkercad Circuits ile Temel Elektronik — Uygulama
+description: Tinkercad Circuits simülasyonu, gerilim-akım-direnç, LED, seri devre, breadboard ve temel elektrik güvenliği bilgilerini ölçer
+questions:
+- id: q1
+  question: Tinkercad Circuits’in temel yararı hangisidir?
+  options:
+  - Elektronik bileşenleri sanal olarak yerleştirip kablolayarak devreyi simüle etmek
+  - Yalnız kelime işlem yapmak
+  - E-posta göndermek
+  - Disk bölümlemek
+  answer: 0
+  explanation: Tinkercad Circuits sanal devre tasarımı ve simülasyonu için kullanılır.
+- id: q2
+  question: Gerilimin temel ölçü birimi hangisidir?
+  options:
+  - Amper (A)
+  - Volt (V)
+  - Ohm (Ω)
+  - Hertz (Hz)
+  answer: 1
+  explanation: Elektriksel potansiyel farkı volt ile ölçülür.
+- id: q3
+  question: Elektrik akımının temel ölçü birimi hangisidir?
+  options:
+  - Volt (V)
+  - Ohm (Ω)
+  - Amper (A)
+  - Byte
+  answer: 2
+  explanation: Akımın SI birimi amperdir.
+- id: q4
+  question: Elektriksel direncin ölçü birimi hangisidir?
+  options:
+  - Volt (V)
+  - Amper (A)
+  - Watt-saat
+  - Ohm (Ω)
+  answer: 3
+  explanation: Direnç ohm ile ifade edilir.
+- id: q5
+  question: Ohm Kanunu hangi ilişkiyi verir?
+  options:
+  - V = I × R
+  - V = I + R
+  - R = V × I × I zorunludur
+  - I = V + R
+  answer: 0
+  explanation: Basit dirençli devrede gerilim, akım ve direnç V=I×R ilişkisiyle bağlıdır.
+- id: q6
+  question: Yaygın bacaklı bir LED’de uzun bacak genellikle hangi uçtur?
+  options:
+  - Katot
+  - Anot
+  - Topraklama rayı
+  - Direnç gövdesi
+  answer: 1
+  explanation: Yaygın LED’lerde uzun bacak genellikle anot; kısa bacak/flat side katot işaretidir. Fiziksel parçanın veri işaretleri de kontrol edilmelidir.
+- id: q7
+  question: LED ile seri direnç kullanmanın temel nedeni nedir?
+  options:
+  - LED’i USB belleğe dönüştürmek
+  - Pil gerilimini her zaman sıfırlamak
+  - LED’den geçen akımı sınırlamak
+  - Kablo rengini değiştirmek
+  answer: 2
+  explanation: LED aşırı akıma karşı seri akım sınırlama direnciyle kullanılır.
+- id: q8
+  question: Basit seri LED devresinde akım yolu için doğru düşünce hangisidir?
+  options:
+  - Bileşenlerin ekranda yakın durması yeterlidir
+  - Pil uçları doğrudan kısa devre edilmelidir
+  - LED’in iki ucu aynı noktaya bağlanmalıdır
+  - Kaynak + → direnç → LED → kaynak − şeklinde kapalı bir yol bulunmalıdır
+  answer: 3
+  explanation: Akım için devrenin kapalı elektriksel yol oluşturması gerekir.
+- id: q9
+  question: Bir kablo çıkarılıp elektriksel yol kesildiğinde bu durum ne olarak adlandırılır?
+  options:
+  - Açık devre
+  - Kısa devre
+  - Paralel yazılım
+  - Firmware
+  answer: 0
+  explanation: Açık devrede akım yolu tamamlanmaz.
+- id: q10
+  question: Bir güç kaynağının uçlarını çok düşük dirençli yolla doğrudan birleştirmek ne oluşturabilir?
+  options:
+  - Güvenli seri direnç
+  - Kısa devre ve tehlikeli yüksek akım
+  - Program döngüsü
+  - Dosya paylaşımı
+  answer: 1
+  explanation: Kısa devre yüksek akıma ve hasara yol açabilir.
+- id: q11
+  question: Breadboard için doğru ifade hangisidir?
+  options:
+  - Bütün delikler daima tek bir iletkendir
+  - Breadboard yalnız yazılım menüsüdür
+  - Deliklerin yalnız belirli grupları içten bağlıdır; tüm delikler ortak değildir
+  - Breadboard direnç değerini otomatik hesaplar
+  answer: 2
+  explanation: Breadboard iç bağlantı grupları vardır; düzen modeline göre kontrol edilmelidir.
+- id: q12
+  question: 1 kΩ kaç Ω’dur?
+  options:
+  - 10 Ω
+  - 100 Ω
+  - 1 000 000 Ω
+  - 1000 Ω
+  answer: 3
+  explanation: kilo öneki 1000 anlamına gelir; 1 kΩ = 1000 Ω.
+- id: q13
+  question: Tinkercad simülasyonuyla ilgili doğru ifade hangisidir?
+  options:
+  - Gerçek devreyi kurmadan önce yararlı bir ön testtir fakat fiziksel güvenlik garantisi değildir
+  - Gerçek veri sayfasına artık hiç gerek yoktur
+  - Simülatörde çalışan devre fiziksel dünyada daima aynı çalışır
+  - Kısa devre gerçek hayatta zararsız olur
+  answer: 0
+  explanation: Simülasyon modeli yararlıdır ancak gerçek bileşen sınırlarının yerini tutmaz.
+- id: q14
+  question: Tinkercad’de iki parçanın ekranda birbirine değmesi ne anlama gelir?
+  options:
+  - Kesinlikle elektriksel olarak bağlandıkları anlamına gelir
+  - Elektriksel bağlantı ancak terminaller/kablolar doğru bağlandıysa vardır
+  - Otomatik kısa devre oluşturur
+  - Direnç değerini sıfırlar
+  answer: 1
+  explanation: Görsel yakınlık tek başına elektriksel bağlantı değildir.
+- id: q15
+  question: Gerilim ve akım ölçümü için genel bağlantı ilkesi hangisidir?
+  options:
+  - İkisi de her zaman kaynağa kısa devre edilir
+  - Akım yalnız kablo rengiyle ölçülür
+  - Voltaj iki nokta arasına paralel, akım ölçümü akım yoluna seri yapılır
+  - Voltaj ölçer seri olmak zorundadır
+  answer: 2
+  explanation: Voltmetre iki nokta arasındaki potansiyel farkı, ampermetre akım yolundan geçen akımı ölçer.
+- id: q16
+  question: Devre üzerinde bağlantı değişikliği yaparken iyi bir simülasyon alışkanlığı hangisidir?
+  options:
+  - Uyarıları görmezden gelip kabloları rastgele çoğaltmak
+  - Kaynağı kısa devre etmek
+  - Dirençleri silmek
+  - Simülasyonu durdurup bağlantıyı kontrol ederek sonra yeniden başlatmak
+  answer: 3
+  explanation: Kontrollü değişiklik ve yeniden test hatanın kaynağını anlamayı kolaylaştırır.
+- id: q17
+  question: Autodesk başlangıç örneğinde basit LED seri devresi için hangi kombinasyon kullanılır?
+  options:
+  - 9 V pil + LED + 1 kΩ direnç
+  - 230 V şebeke + LED doğrudan
+  - USB portu + motorsuz kablo
+  - Yalnız LED, kaynak olmadan
+  answer: 0
+  explanation: Autodesk eğitim materyalinde 9 V pil, LED ve 1 kΩ dirençli seri devre örneği bulunur.
+- id: q18
+  question: LED ters bağlandığında başlangıç devresinde ne beklenir?
+  options:
+  - Her zaman iki kat parlak yanar
+  - Doğru yöndeki gibi ışık vermeyebilir; kutupluluk kontrol edilmelidir
+  - Direnç otomatik sıfırlanır
+  - Pil gerilimi artar
+  answer: 1
+  explanation: LED yönlü bir yarıiletken bileşendir; anot/katot yönü önemlidir.
+- id: q19
+  question: Kırmızı kabloyu +, siyah kabloyu GND için kullanmak hakkında hangi ifade doğrudur?
+  options:
+  - Kablo rengi fiziksel olarak gerilimi üretir
+  - Siyah kablo akımı tamamen keser
+  - Bu bir düzen standardıdır; elektriksel işlevi asıl belirleyen bağlandığı noktadır
+  - Renk yanlışsa simülasyon çalışamaz
+  answer: 2
+  explanation: Renk kodu okunabilirliği artırır ama elektriksel bağlantıyı terminal belirler.
+- id: q20
+  question: Simülatörde çalışan bir Arduino devresini fiziksel olarak kurmadan önce ne yapılmalıdır?
+  options:
+  - Her pin doğrudan motora bağlanmalıdır
+  - Dirençler kaldırılmalıdır
+  - Simülasyon sonucu tek başına güvenlik onayı sayılmalıdır
+  - Gerçek kart ve bileşenlerin veri sayfasındaki gerilim/akım sınırları kontrol edilmelidir
+  answer: 3
+  explanation: Fiziksel güvenlik için gerçek donanımın teknik sınırları esastır.

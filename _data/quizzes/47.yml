@@ -1,0 +1,183 @@
+title: Robotik Proje Geliştirme ve Hata Ayıklama — Uygulama
+description: Problem tanımı, başarı ölçütleri, giriş-işlem-çıkış, modüler test, hata sınıfları, veriyle hata ayıklama ve robotik güvenlik yaklaşımını ölçer
+questions:
+- id: q1
+  question: Robotik projeye başlarken ilk yapılması gereken en doğru iş hangisidir?
+  options:
+  - Çözülecek problemi, kullanıcıyı ve sınırları açıkça tanımlamak
+  - Rastgele motor satın almak
+  - Bütün pinleri birbirine bağlamak
+  - Önce en uzun kodu yazmak
+  answer: 0
+  explanation: Problem ve gereksinim tanımı hangi çözümün gerekli olduğunu belirler.
+- id: q2
+  question: Hangisi ölçülebilir başarı ölçütüne daha iyi örnektir?
+  options:
+  - “Robot güzel çalışacak”
+  - “10 denemenin en az 9’unda engelden önce duracak”
+  - “Kod çok iyi olacak”
+  - “Sensör hoş görünecek”
+  answer: 1
+  explanation: Ölçülebilir hedef test edilip başarılı/başarısız olarak değerlendirilebilir.
+- id: q3
+  question: Robotik sistemde sensör → koşul → motor sırası hangi modele örnektir?
+  options:
+  - Dosya → klasör → ZIP
+  - Kostüm → sahne → stüdyo
+  - Giriş → işlem → çıkış
+  - E-posta → ek → arşiv
+  answer: 2
+  explanation: Sensör giriş, koşul/algoritma işlem, motor aktüatör çıktıdır.
+- id: q4
+  question: Mesafe sensörü sistem modelinde hangi role sahiptir?
+  options:
+  - Çıkış
+  - Derleyici
+  - Dosya uzantısı
+  - Giriş
+  answer: 3
+  explanation: Sensör çevre hakkında veri sağlayan giriş bileşenidir.
+- id: q5
+  question: Motor veya servo sistem modelinde genellikle hangi role sahiptir?
+  options:
+  - Aktüatör/çıkış
+  - Yalnız veri dosyası
+  - Derleme hatası
+  - Web tarayıcısı
+  answer: 0
+  explanation: Aktüatör program kararını fiziksel harekete dönüştürür.
+- id: q6
+  question: Büyük bir robot projesinde hatayı kolay bulmak için en iyi yöntem hangisidir?
+  options:
+  - Bütün sistemi ilk kez en yüksek hızda çalıştırmak
+  - Kart, sensör, karar mantığı ve aktüatör gibi alt sistemleri ayrı ayrı test etmek
+  - Her kabloyu aynı anda değiştirmek
+  - Hata mesajlarını silmek
+  answer: 1
+  explanation: Modüler test arızalı kısmı diğerlerinden ayırır.
+- id: q7
+  question: Eksik parantez veya tanımsız değişken nedeniyle kodun derlenememesi hangi hata türüdür?
+  options:
+  - Yükleme bağlantı hatası
+  - Mekanik hata
+  - Derleme/sözdizimi hatası
+  - Kullanıcı arayüzü teması
+  answer: 2
+  explanation: Kod derleyici tarafından oluşturulamıyorsa derleme/sözdizimi sınıfıdır.
+- id: q8
+  question: Kod derleniyor fakat karta aktarılamıyorsa öncelikle hangi hata sınıfı düşünülmelidir?
+  options:
+  - Yalnız mantık hatası
+  - Kostüm hatası
+  - Grafik tasarım hatası
+  - Yükleme/bağlantı hatası
+  answer: 3
+  explanation: Kart, port, kablo veya sürücü gibi yükleme yolu sorunları bu sınıftadır.
+- id: q9
+  question: Program çalışıyor fakat `mesafe < 20` yerine yanlışlıkla `mesafe > 20` kullanıldığı için ters davranıyorsa hangi hata türüdür?
+  options:
+  - Mantık hatası
+  - Derleyici kurulumu
+  - USB fiziksel port adı
+  - Dosya sıkıştırma hatası
+  answer: 0
+  explanation: Kod sözdizimsel olarak doğru çalışsa da yanlış karar veriyorsa mantık hatasıdır.
+- id: q10
+  question: LED’in ters bağlanması veya kablonun yanlış pine takılması hangi hata türüne en iyi örnektir?
+  options:
+  - Yalnız sözdizimi hatası
+  - Donanım/bağlantı hatası
+  - Dosya uzantısı hatası
+  - Web arama hatası
+  answer: 1
+  explanation: Fiziksel bağlantı sorunları donanım hata sınıfındadır.
+- id: q11
+  question: Hata ayıklamada “tek değişken ilkesi” ne anlama gelir?
+  options:
+  - Bütün değerleri aynı anda değiştirmek
+  - Yalnız tek değişken isimli program yazmak
+  - Bir testte mümkün olduğunca tek şeyi değiştirip etkisini gözlemek
+  - Her testte farklı robot kullanmak
+  answer: 2
+  explanation: Tek değişiklik neden-sonuç ilişkisini görmeyi kolaylaştırır.
+- id: q12
+  question: Sensör eşiğini ayarlamadan önce hangi işlem en yararlıdır?
+  options:
+  - Eşiği rastgele seçmek
+  - Sensörü koddan kaldırmak
+  - Motoru en hızlı çalıştırmak
+  - Gerçek sensör değerlerini farklı koşullarda gözleyip kaydetmek
+  answer: 3
+  explanation: Eşik, gerçek ölçümlerin dağılımına göre belirlenirse daha güvenilir olur.
+- id: q13
+  question: “Beklenen — gerçekleşen — sonraki adım” tablosunun amacı nedir?
+  options:
+  - Test kanıtını düzenleyip hata ayıklama kararını izlenebilir yapmak
+  - Proje dosyasını sıkıştırmak
+  - USB portunu yeniden adlandırmak
+  - Koda otomatik motor eklemek
+  answer: 0
+  explanation: Kayıtlı gözlem, hangi testin ne gösterdiğini ve sonraki hipotezi açık tutar.
+- id: q14
+  question: Bir kartın izin verilen pin gerilimi/akımı nereden doğrulanmalıdır?
+  options:
+  - Başka kart için yazılmış rastgele forum yorumundan
+  - Kullanılan gerçek kartın üretici veri sayfası/resmî teknik dokümanından
+  - Kablo renginden
+  - Proje adından
+  answer: 1
+  explanation: Donanım sınırları modelden modele değiştiği için üreticinin teknik belgesi esastır.
+- id: q15
+  question: DC motoru mikrodenetleyiciyle kontrol ederken neden motor sürücü/H-köprü gerekebilir?
+  options:
+  - Motoru JPEG’e çevirmek için
+  - Sensörü internete bağlamak için
+  - Motorun akım/güç gereksinimini ve yön kontrolünü GPIO’dan güvenli biçimde ayırmak için
+  - Kodun Türkçe görünmesi için
+  answer: 2
+  explanation: Motorlar doğrudan GPIO’nun sürme sınırlarını aşabilir; uygun sürücü arayüzü gerekir.
+- id: q16
+  question: Tinkercad veya başka bir simülatörde projenin çalışması neyi göstermez?
+  options:
+  - Algoritmanın sanal modelde denenebildiğini
+  - Bazı bağlantı hatalarının önceden görülebileceğini
+  - Simülasyonun eğitim için yararlı olabileceğini
+  - Fiziksel devrenin gerçek koşullarda kesinlikle güvenli ve kusursuz çalışacağını
+  answer: 3
+  explanation: Simülasyon fiziksel tolerans, ısınma, temas ve tüm riskleri birebir garanti etmez.
+- id: q17
+  question: Mesafe sensörü için eşik belirlemenin en iyi yöntemi hangisidir?
+  options:
+  - Çeşitli gerçek mesafelerde ölçüm toplayıp birim ve davranışı anlayarak eşik seçmek
+  - Her sensörde 20 değerini evrensel kabul etmek
+  - Motor hızını eşik sanmak
+  - Kablo uzunluğunu eşik yapmak
+  answer: 0
+  explanation: Sensörlerin birimi/aralığı ve ortam etkisi farklıdır; ölçüme dayalı eşik gerekir.
+- id: q18
+  question: Bir test başarı ölçütünü karşılamadıysa raporda ne yapılmalıdır?
+  options:
+  - Veriyi silip başarılı yazmak
+  - Başarısız sonucu dürüstçe kaydedip nedenini incelemek
+  - Başarı ölçütünü testten sonra gizlice kaldırmak
+  - Robotu daha hızlı çalıştırıp sonucu değiştirmek
+  answer: 1
+  explanation: Mühendislikte başarısız test de değerli veridir ve iyileştirmeye yön verir.
+- id: q19
+  question: Tekerlekli robotun ilk hareket testinde hangi önlem uygundur?
+  options:
+  - Masa kenarında maksimum hızla başlatmak
+  - Robotu insanların ayağına doğru yöneltmek
+  - Masa kenarından uzakta, kabloların takılmayacağı kontrollü alanda test etmek
+  - Pervaneli sistemi korumasız elde tutmak
+  answer: 2
+  explanation: Yazılım hatası beklenmedik hareket yaratabileceği için mekanik test alanı güvenli olmalıdır.
+- id: q20
+  question: Robotik proje geliştirme döngüsünü en iyi hangi sıra özetler?
+  options:
+  - Motoru bağla → rastgele kodla → sonucu kaydetme
+  - Dosyayı sil → yeniden adlandır → projeyi bitmiş say
+  - Yalnız simülatörde çalıştır → fiziksel sınırları görmezden gel
+  - Problemi tanımla → tasarla → küçük parçaları test et → hata ayıkla → iyileştir
+  answer: 3
+  explanation: İteratif geliştirme, test kanıtlarına göre sistemi adım adım iyileştirir.

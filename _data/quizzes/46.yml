@@ -1,0 +1,183 @@
+title: Arduino IDE ve Arduino Programlama — Uygulama
+description: Arduino IDE 2 Türkçe arayüzü, kart/port, Doğrula/Yükle, setup-loop, dijital çıkış, seri haberleşme ve donanım güvenliğini ölçer
+questions:
+- id: q1
+  question: Güncel Arduino IDE 2 için Türkçe dil desteği konusunda doğru ifade hangisidir?
+  options:
+  - Arduino IDE kaynaklarında Türkçe dil paketi ve Türkçe çeviri dosyası bulunur
+  - IDE 2 yalnız İngilizce çalışır
+  - Türkçe yalnız Arduino 1.0’da vardır
+  - Türkçe destek kartın USB portunu kapatır
+  answer: 0
+  explanation: Arduino IDE deposunda vscode-language-pack-tr ve i18n/tr.json bulunması Türkçe arayüz desteğini doğrular.
+- id: q2
+  question: Arduino’da program dosyasına/çalışmasına yaygın olarak ne ad verilir?
+  options:
+  - Stüdyo
+  - Eskiz (sketch)
+  - Kostüm
+  - Çalışma kitabı
+  answer: 1
+  explanation: Arduino terminolojisinde kullanıcı programı sketch/eskiz olarak adlandırılır.
+- id: q3
+  question: Arduino IDE’de “Doğrula” komutunun temel görevi nedir?
+  options:
+  - Kodu kesinlikle fiziksel karta yüklemek
+  - USB kablosunu tamir etmek
+  - Kodu seçilen kart için derleyerek derleme hatalarını kontrol etmek
+  - Motoru doğrudan çalıştırmak
+  answer: 2
+  explanation: Verify/Doğrula kodu derlemeye çalışır; yükleme ayrı işlemdir.
+- id: q4
+  question: “Yükle” komutu ne yapar?
+  options:
+  - Yalnız dosya adını değiştirir
+  - Kartı fiziksel olarak şarj eder
+  - Seri Port Ekranı PDF’e çevirir
+  - Kodu derleyip uygun bağlantıyla seçilen karta aktarır
+  answer: 3
+  explanation: Upload/Yükle programı hedef karta aktarır.
+- id: q5
+  question: Kart (board) seçimi ile port seçimi arasındaki fark nedir?
+  options:
+  - Kart derleme/yükleme yapılandırmasını; port bağlı gerçek cihazın iletişim yolunu belirler
+  - İkisi tamamen aynı ayardır
+  - Port yalnız tema rengidir
+  - Kart seçimi yalnız dosya adıdır
+  answer: 0
+  explanation: Arduino yardım merkezi board ve port seçimlerinin farklı rollerini açıklar.
+- id: q6
+  question: Arduino kartı güç alıyor ama yükleme olmuyorsa hangi kablo sorunu mümkündür?
+  options:
+  - Kablo çok fazla Türkçe karakter içeriyor olabilir
+  - USB kablosu yalnız şarj ediyor ve veri taşımıyor olabilir
+  - Kablo ekran çözünürlüğünü düşürüyor olabilir
+  - USB kablosu kodu otomatik siler
+  answer: 1
+  explanation: Arduino yükleme yardımında data USB cable gerektiği belirtilir.
+- id: q7
+  question: '`setup()` fonksiyonunun temel görevi nedir?'
+  options:
+  - Sonsuza kadar zorunlu döngü olmak
+  - Yalnız dosya kaydetmek
+  - Kart başlarken/sıfırlanırken bir kez yapılacak başlangıç ayarlarını çalıştırmak
+  - Web sayfası açmak
+  answer: 2
+  explanation: setup başlangıç yapılandırmaları için çalışır.
+- id: q8
+  question: '`loop()` fonksiyonu ne yapar?'
+  options:
+  - Yalnız bir kez dosya adını okur
+  - Port numarasını fiziksel olarak değiştirir
+  - IDE dilini seçer
+  - setup tamamlandıktan sonra ana kodu tekrar tekrar çalıştırır
+  answer: 3
+  explanation: Arduino çalışma modelinde loop sürekli yinelenen program akışıdır.
+- id: q9
+  question: '`pinMode(LED_BUILTIN, OUTPUT)` satırının amacı nedir?'
+  options:
+  - Yerleşik LED’e karşılık gelen pini dijital çıkış olarak ayarlamak
+  - LED’i sensöre dönüştürmek
+  - USB portunu giriş yapmak
+  - Kodu ZIP’e çevirmek
+  answer: 0
+  explanation: pinMode ile pinin INPUT/OUTPUT gibi çalışma yönü belirlenir.
+- id: q10
+  question: '`digitalWrite(pin, HIGH)` genel olarak ne yapar?'
+  options:
+  - Pinin dosya adını değiştirir
+  - Dijital çıkış pinini yüksek lojik seviyeye ayarlar
+  - Programı durdurur
+  - Kart modelini otomatik seçer
+  answer: 1
+  explanation: digitalWrite dijital çıkışa HIGH veya LOW seviyesi yazar.
+- id: q11
+  question: '`delay(1000)` içindeki 1000 hangi zaman birimindedir?'
+  options:
+  - Saniye
+  - Dakika
+  - Milisaniye
+  - Mikrosaniye zorunlu olarak
+  answer: 2
+  explanation: Arduino delay() parametresi milisaniyedir; 1000 ms = 1 saniye.
+- id: q12
+  question: Blink örneğinde `LED_BUILTIN` kullanmanın yararı nedir?
+  options:
+  - Her karta harici motor ekler
+  - Seri portu kapatır
+  - Kodun C++ olmasını engeller
+  - Kartın tanımlı yerleşik LED pinini sembolik adla kullanarak sabit pin numarası varsayımını azaltır
+  answer: 3
+  explanation: LED_BUILTIN kart tanımlarında yerleşik LED pinini temsil eden sabittir.
+- id: q13
+  question: '`Serial.begin(9600)` neyi başlatır?'
+  options:
+  - Seri haberleşmeyi 9600 baud ayarıyla
+  - LED’i 9600 voltla
+  - Kart yöneticisini
+  - Dosya indirmeyi
+  answer: 0
+  explanation: Serial.begin belirtilen baud hızıyla seri iletişimi başlatır.
+- id: q14
+  question: Seri Port Ekranı'nda anlamsız karakterler görülüyorsa ilk kontrollerden biri nedir?
+  options:
+  - LED renginin kırmızı olması
+  - Seri Port Ekranı baud hızının `Serial.begin(...)` değeriyle eşleşmesi
+  - Eskiz adının uzunluğu
+  - Masaüstü duvar kâğıdı
+  answer: 1
+  explanation: Seri iletişim hızları uyuşmazsa veri yanlış yorumlanabilir.
+- id: q15
+  question: “Missing FQBN” derleme hatası genellikle neyi gösterir?
+  options:
+  - USB kablosunun renginin yanlış olduğunu
+  - LED’in ters bağlandığını
+  - Derleme için kartın seçilmediğini
+  - Seri Port Ekranı'nın kapalı olduğunu
+  answer: 2
+  explanation: Arduino yardımına göre Missing FQBN hatası kart seçilmediğinde oluşur.
+- id: q16
+  question: Yeni bir kart platformu/paketi kurmak için Arduino IDE 2’de hangi araç kullanılır?
+  options:
+  - Kostüm Düzenleyici
+  - Stüdyo
+  - Görev Yöneticisi
+  - Kart Yöneticisi
+  answer: 3
+  explanation: Board Manager/Kart Yöneticisi kart paketlerini kurma ve yönetme aracıdır.
+- id: q17
+  question: Kodun başarıyla derlenmesi neyi kesin olarak kanıtlamaz?
+  options:
+  - Fiziksel devrenin doğru ve elektriksel olarak güvenli olduğunu
+  - Kodun seçilen kart için derlenebildiğini
+  - Sözdiziminin derleyici tarafından kabul edildiğini
+  - Derleme aşamasının tamamlandığını
+  answer: 0
+  explanation: Derleme yazılım aşamasıdır; yanlış kablo/power gibi fiziksel sorunları kanıtlamaz.
+- id: q18
+  question: Motoru sıradan bir mikrodenetleyici GPIO pinine doğrudan bağlamak neden sakıncalı olabilir?
+  options:
+  - Motorlar hiç akım çekmez
+  - Motor pinin güvenli sağlayabileceğinden fazla akım isteyebilir; uygun sürücü/güç düzeni gerekebilir
+  - GPIO pinleri her kartta sınırsız akım verir
+  - Motor yalnız yazılımsal nesnedir
+  answer: 1
+  explanation: Motor yükleri için kart veri sayfası ve uygun motor sürücü/H-köprü kullanılmalıdır.
+- id: q19
+  question: IDE arayüzü Türkçe olduğunda Arduino kodundaki `void`, `if`, `HIGH` gibi sözcükler için doğru ifade hangisidir?
+  options:
+  - Hepsi Türkçe yazılmak zorundadır
+  - Kod artık yalnız bloklarla yazılır
+  - Programlama dilinin/sabitlerin sözdizimi değişmez; kod terimleri Türkçeye çevrilmez
+  - C++ desteği kapanır
+  answer: 2
+  explanation: Arayüz yerelleştirmesi programlama dilinin sözdizimini değiştirmez.
+- id: q20
+  question: Yükleme başarısız olduğunda en iyi sistematik kontrol sıralarından biri hangisidir?
+  options:
+  - Her şeyi aynı anda değiştir
+  - Önce motoru daha yüksek gerilime bağla
+  - Hata mesajını okumadan IDE’yi sil
+  - Kod/derleme → kart → port → veri kablosu → yükleme mesajı → donanım bağlantısı
+  answer: 3
+  explanation: Adım adım kontrol sorunun kaynağını daraltır.

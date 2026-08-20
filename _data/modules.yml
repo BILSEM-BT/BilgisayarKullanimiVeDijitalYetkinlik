@@ -453,62 +453,68 @@
   section: 7
   title: Scratch ile Programlamaya Giriş
   slug: 7-1-scratch-ile-programlamaya-giris
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-21'
   review_cycle: 6 ay
-  path: ''
+  path: /dersler/7-1-scratch-ile-programlamaya-giris/
   code: 7-1
   order_in_section: 1
+  quiz_path: /uygulamalar/7-1-scratch-ile-programlamaya-giris/
 - id: 43
   section: 7
   title: mBlock ile Robotik Kodlama
   slug: 7-2-mblock-ile-robotik-kodlama
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-21'
   review_cycle: 6 ay
-  path: ''
+  path: /dersler/7-2-mblock-ile-robotik-kodlama/
   code: 7-2
   order_in_section: 2
+  quiz_path: /uygulamalar/7-2-mblock-ile-robotik-kodlama/
 - id: 44
   section: 7
   title: Microsoft MakeCode ve micro:bit
   slug: 7-3-microsoft-makecode-ve-microbit
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-21'
   review_cycle: 6 ay
-  path: ''
+  path: /dersler/7-3-microsoft-makecode-ve-microbit/
   code: 7-3
   order_in_section: 3
+  quiz_path: /uygulamalar/7-3-microsoft-makecode-ve-microbit/
 - id: 45
   section: 7
   title: Tinkercad Circuits ile Temel Elektronik
   slug: 7-4-tinkercad-circuits-ile-temel-elektronik
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-21'
   review_cycle: 6 ay
-  path: ''
+  path: /dersler/7-4-tinkercad-circuits-ile-temel-elektronik/
   code: 7-4
   order_in_section: 4
+  quiz_path: /uygulamalar/7-4-tinkercad-circuits-ile-temel-elektronik/
 - id: 46
   section: 7
   title: Arduino IDE ve Arduino Programlama
   slug: 7-5-arduino-ide-ve-arduino-programlama
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-21'
   review_cycle: 6 ay
-  path: ''
+  path: /dersler/7-5-arduino-ide-ve-arduino-programlama/
   code: 7-5
   order_in_section: 5
+  quiz_path: /uygulamalar/7-5-arduino-ide-ve-arduino-programlama/
 - id: 47
   section: 7
   title: Robotik Proje Geliştirme ve Hata Ayıklama
   slug: 7-6-robotik-proje-gelistirme-ve-hata-ayiklama
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-21'
   review_cycle: 6 ay
-  path: ''
+  path: /dersler/7-6-robotik-proje-gelistirme-ve-hata-ayiklama/
   code: 7-6
   order_in_section: 6
+  quiz_path: /uygulamalar/7-6-robotik-proje-gelistirme-ve-hata-ayiklama/
 - id: 48
   section: 8
   title: Tinkercad ile 3D Tasarım

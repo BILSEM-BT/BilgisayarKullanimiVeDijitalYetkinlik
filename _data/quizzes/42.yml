@@ -1,0 +1,183 @@
+title: Scratch ile Programlamaya Giriş — Uygulama
+description: Scratch web ve masaüstü kullanımı; kukla, sahne, olay, döngü, koşul, değişken, haber salma ve güvenli paylaşım kavramlarını ölçer
+questions:
+- id: q1
+  question: Scratch en temelde hangi amaçla kullanılan bir ortamdır?
+  options:
+  - Bloklarla etkileşimli hikâye, oyun ve animasyon programlamak
+  - Yalnız PDF sıkıştırmak
+  - Sadece bilgisayar donanımını test etmek
+  - Yalnız video düzenlemek
+  answer: 0
+  explanation: Scratch blok tabanlı programlama yoluyla etkileşimli proje üretmeye yarar.
+- id: q2
+  question: Verilen scratch.mit.edu/studios/1611338 adresindeki “stüdyo” için en doğru açıklama hangisidir?
+  options:
+  - Bilgisayara sürücü yükleyen aygıt yöneticisidir
+  - Bir araya getirilmiş Scratch projelerinin bulunduğu koleksiyon alanıdır
+  - Scratch masaüstü uygulamasının kurulum dosyasıdır
+  - Yalnız ses kaydı yapılan bir bölümdür
+  answer: 1
+  explanation: Scratch stüdyosu projeleri toplar; düzenleyicinin kendisi değildir.
+- id: q3
+  question: Scratch’te “kukla (sprite)” nedir?
+  options:
+  - Sahnenin dosya uzantısıdır
+  - Yalnız arka plan rengidir
+  - Kod verilebilen karakter veya nesnedir
+  - Projenin parolasıdır
+  answer: 2
+  explanation: Kuklalar sahne üzerinde davranış verdiğimiz programlanabilir nesnelerdir.
+- id: q4
+  question: Scratch’te “sahne” neyi ifade eder?
+  options:
+  - Yalnız değişken listesini
+  - Bilgisayardaki İndirilenler klasörünü
+  - Bir USB bağlantı noktasını
+  - Kuklaların göründüğü ve hareket ettiği ana görüntü alanını
+  answer: 3
+  explanation: Sahne projenin görsel çalışma alanıdır; dekorları olabilir ve kendi kodları da bulunabilir.
+- id: q5
+  question: Bir blok yığınının yeşil bayrağa basılınca başlaması için hangi tür blok gerekir?
+  options:
+  - “yeşil bayrak tıklandığında” gibi bir Olaylar bloğu
+  - Yalnız bir Hareket bloğu
+  - Yalnız bir İşlemler bloğu
+  - Bir Kostüm bloğu
+  answer: 0
+  explanation: Olay bloğu programın ne zaman başlayacağını belirler.
+- id: q6
+  question: Aynı komutları belirli sayıda yeniden çalıştırmak için en uygun yapı hangisidir?
+  options:
+  - Her komutu ayrı kuklaya taşımak
+  - “... defa tekrarla” gibi bir döngü
+  - Proje adını değiştirmek
+  - Sahneyi silmek
+  answer: 1
+  explanation: Döngüler tekrarlanan işlemleri gereksiz kopyalamadan ifade eder.
+- id: q7
+  question: “Eğer puan 10’dan büyükse kazanma mesajı göster” davranışında hangi yapı temel olarak gereklidir?
+  options:
+  - Yalnız kostüm düzenleme
+  - Ses dosyasını sıkıştırma
+  - Koşul/karar yapısı
+  - Proje paylaşma
+  answer: 2
+  explanation: Bir karşılaştırmanın sonucuna göre davranış seçmek için koşul kullanılır.
+- id: q8
+  question: Scratch’te “puan” bilgisini program çalışırken saklamak için en uygun araç hangisidir?
+  options:
+  - Dekor
+  - Kostüm
+  - Stüdyo
+  - Değişken
+  answer: 3
+  explanation: Değişkenler programın değişebilen verilerini isimle saklar.
+- id: q9
+  question: Standart Scratch sahnesinde x değeri arttıkça kukla genel olarak hangi yöne gider?
+  options:
+  - Sağa
+  - Sola
+  - Yukarı
+  - Aşağı
+  answer: 0
+  explanation: Scratch koordinat sisteminde pozitif x yönü sağadır.
+- id: q10
+  question: Scratch sahnesinin merkezinin koordinatı hangisidir?
+  options:
+  - x = 240, y = 180
+  - x = 0, y = 0
+  - x = -240, y = -180
+  - x = 100, y = 100
+  answer: 1
+  explanation: Standart Scratch sahnesinin merkezi (0,0) noktasıdır.
+- id: q11
+  question: Bir kuklanın diğer kuklalara “oyun bitti” olayını bildirmesi için hangi yöntem uygundur?
+  options:
+  - Kostümü PNG yapma
+  - Dosyayı ZIP’e sıkıştırma
+  - Haber salma (broadcast)
+  - Sahnenin x değerini değiştirme
+  answer: 2
+  explanation: Haber salma farklı kuklaların olay tabanlı iletişim kurmasını sağlar.
+- id: q12
+  question: Web Scratch ile masaüstü Scratch uygulaması arasındaki önemli farklardan biri hangisidir?
+  options:
+  - Masaüstünde hiç blok yoktur
+  - Web sürümünde kukla kullanılamaz
+  - Masaüstü yalnız PDF açar
+  - Masaüstü uygulaması çevrim dışı proje üretiminde kullanılabilir; web sürümü tarayıcı üzerinden çalışır
+  answer: 3
+  explanation: Scratch uygulaması internet olmadan proje oluşturmayı destekler; web sürümü tarayıcı ortamıdır.
+- id: q13
+  question: Scratch 3 projelerinin yaygın dosya uzantısı hangisidir?
+  options:
+  - .sb3
+  - .exe
+  - .xlsx
+  - .mp3
+  answer: 0
+  explanation: Scratch 3 proje dosyaları .sb3 biçiminde kaydedilebilir.
+- id: q14
+  question: Kod eklerken beklenmedik biçimde başka karakter hareket ediyorsa ilk ne kontrol edilmelidir?
+  options:
+  - Monitör parlaklığı
+  - Kod eklenirken hangi kuklanın seçili olduğu
+  - Dosya uzantısının .pdf olup olmadığı
+  - Tarayıcı yakınlaştırması
+  answer: 1
+  explanation: Scratch kodu seçili kuklaya aittir; yanlış kukla sık görülen bir hatadır.
+- id: q15
+  question: Kostüm ile kukla arasındaki ilişki nedir?
+  options:
+  - Kostüm programın USB sürücüsüdür
+  - Kukla yalnız ses dosyasıdır
+  - Kostüm, bir kuklanın görünümlerinden biridir
+  - Kostüm sahne koordinat sistemini değiştirir
+  answer: 2
+  explanation: Bir kuklanın bir veya daha fazla kostümü olabilir.
+- id: q16
+  question: Fareye değiyor mu, tuşa basılı mı gibi bilgileri veren bloklar hangi kavrama örnektir?
+  options:
+  - Sıkıştırma
+  - Yazdırma
+  - Derleme
+  - Algılama
+  answer: 3
+  explanation: Algılama blokları kullanıcı/çevre durumlarını programa taşır.
+- id: q17
+  question: Toplama, karşılaştırma ve mantıksal “ve/veya” gibi bloklar hangi amaçla kullanılır?
+  options:
+  - Hesaplama ve mantıksal ifadeler oluşturmak
+  - Kukla dosyasını kurmak
+  - Projeyi stüdyoya taşımadan silmek
+  - İşletim sistemi güncellemek
+  answer: 0
+  explanation: İşlemler blokları matematik ve mantık ifadeleri üretir.
+- id: q18
+  question: Paylaşılacak bir Scratch projesinde hangisini yapmamak gerekir?
+  options:
+  - Kuklaya anlamlı ad vermek
+  - Parola, telefon veya özel kişisel bilgileri projeye yazmak
+  - Kod bloklarını açıklamak
+  - Proje davranışını test etmek
+  answer: 1
+  explanation: Çevrim içi paylaşılan projelerde kişisel/gizli bilgiler korunmalıdır.
+- id: q19
+  question: Bir Scratch projesi yanlış davranıyorsa en iyi hata ayıklama yaklaşımı hangisidir?
+  options:
+  - Bütün blokları rastgele değiştirmek
+  - Sorunu görmeden projeyi silmek
+  - Olaydan başlayıp blokları küçük adımlarla ve sırayla kontrol etmek
+  - Her değişkeni aynı anda değiştirmek
+  answer: 2
+  explanation: Sistematik olarak olay, sıra, koşul ve değişkenleri tek tek kontrol etmek sorunun kaynağını bulmayı kolaylaştırır.
+- id: q20
+  question: Scratch’in dil desteği için doğru ifade hangisidir?
+  options:
+  - Scratch yalnız İngilizce çalışır
+  - Türkçe yalnız PDF belgelerinde vardır
+  - Dil seçimi yalnız işletim sistemi kurulurken yapılabilir
+  - Scratch çok sayıda dili destekler ve Türkçe arayüz seçilebilir
+  answer: 3
+  explanation: Scratch resmî yardımında 40’tan fazla dilde kullanılabildiği belirtilir; Türkçe bunlardan biridir.

@@ -10,3 +10,6 @@
 8. Güncel program davranışları üretici/resmî kaynaklarla kontrol edilir.
 9. Ders sayfasının sol bilgi kartında genel kaydırma çubuğu kullanılmaz; gerekirse yalnızca “Ders İçeriği” listesinin kendi alanı kaydırılır.
 10. Dijital medya derslerinde proje/ana kaynak dosyası ile son kullanıcıya verilecek dışa aktarılmış çıktı özellikle ayırt edilir.
+
+11. Program/arayüz dili kullanıcı isteğine göre hazırlanır; dil desteği güncel resmî kaynakta doğrulanmadan varsayılmaz.
+12. Elektronik/robotik derslerinde simülasyon gerçek donanım güvenliğinin yerine konmaz; kart ve bileşen sınırları model bazında resmî teknik kaynaktan kontrol edilir.

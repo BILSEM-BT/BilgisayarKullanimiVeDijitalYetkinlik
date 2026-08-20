@@ -23,7 +23,7 @@ Derslerin yeni içerik standardı:
 ## İki öğrenme yolu
 
 - **Genel Yeterlik:** Bölümler 1–5
-- **Programlama Yeterlik:** Bölümler 6–8 (Bölüm 6 yayımdadır)
+- **Programlama Yeterlik:** Bölümler 6–8 (Bölüm 6–7 yayımdadır; Bölüm 8 planlıdır)
 
 ## Bölümler
 
@@ -50,7 +50,7 @@ Bu paket Bölüm 1'i tam olarak içerir:
 - **1-6 — Windows Ayarları, Uygulamalar ve Güncellemeler**
 - **1-7 — Görev Yöneticisi ve Temel Sorun Giderme**
 
-Bölüm 1–6 dersleri yayımdadır. Bölüm 7–8 dersleri `_data/modules.yml` içinde planlanmıştır; içerik paketleri bölüm bölüm eklenecektir.
+Bölüm 1–7 dersleri yayımdadır. Bölüm 8 dersleri `_data/modules.yml` içinde planlanmıştır; içerik paketi sonraki sürümde eklenecektir.
 
 ## Dosya yapısı
 
@@ -143,3 +143,27 @@ Her derste 20 soruluk etkileşimli uygulama bulunur. Bölüm 4 güvenlik ve AI i
 - Mobil görünümde sol kart normal sayfa akışında kalır; uzun Ders İçeriği listesi kendi alanında kaydırılabilir.
 - **Bölüm 5 — Dijital Medya ve İçerik Üretimi** içindeki 6 ders ve 120 soruluk uygulama seti yayıma alındı.
 - Toplam 54 dersin **35'i yayında** durumundadır.
+
+
+## Revize v7 — Bölüm 6
+
+- **Bölüm 6 — Yazılım Geliştirme ve Proje Araçları** içindeki 6 ders ve 120 soruluk uygulama seti yayıma alındı.
+- 6-1, 6-2, 6-3 ve 6-6 Türkçe program/arayüz; 6-4 ve 6-5 İngilizce program/arayüz etiketleriyle hazırlandı.
+- Ana sayfa ders kartlarındaki **Gözden geçirme** alanı kaldırıldı; yerine **Son Güncelleme Tarihi** gösterimi kullanıldı.
+- v7 sonunda 54 dersin 41'i yayımdadır.
+
+
+## Revize v8 — Bölüm 7
+
+Bu paketle **Bölüm 7 — Blok Programlama, Robotik ve Elektronik** tamamlanmıştır.
+
+- 7-1 — Scratch ile Programlamaya Giriş — Türkçe web + Türkçe masaüstü uygulaması; Programlamaya Giriş Scratch stüdyosu inceleme kaynağı
+- 7-2 — mBlock ile Robotik Kodlama — Türkçe web + Türkçe masaüstü mBlock 5
+- 7-3 — Microsoft MakeCode ve micro:bit — Türkçe web arayüzü
+- 7-4 — Tinkercad Circuits ile Temel Elektronik — Türkçe kullanım akışı
+- 7-5 — Arduino IDE ve Arduino Programlama — Arduino IDE 2 Türkçe dil desteği doğrulanarak Türkçe arayüz
+- 7-6 — Robotik Proje Geliştirme ve Hata Ayıklama — Türkçe
+
+Her derste 20 soruluk etkileşimli uygulama bulunur. Bölüm 7 ile 6 yeni ders ve 120 yeni soru yayıma alınmıştır. Toplam 54 dersin **47'si yayında**, yayımdaki toplam uygulama sorusu **940** durumundadır.
+
+Bölüm 7 içerikleri Scratch, Makeblock, Microsoft MakeCode/micro:bit, Autodesk Tinkercad ve Arduino'nun resmî/güncel kaynaklarıyla karşılaştırılmış; fiziksel elektronik ve robotik konularında simülasyonun gerçek donanım güvenlik sınırlarının yerine geçmediği özellikle vurgulanmıştır.

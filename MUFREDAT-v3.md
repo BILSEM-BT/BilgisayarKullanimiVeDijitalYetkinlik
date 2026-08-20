@@ -55,9 +55,17 @@ Bu sürümde içerik yapısı tahtada anlatıma uygun hâle getirildi. Derslerde
 - **6-5 — GitHub Desktop ve GitHub Pages** — İngilizce program/arayüz etiketleri
 - **6-6 — Google Colab Kullanımı** — Türkçe program/arayüz
 
-## Sonraki bölümler
+## Bölüm 7 — Blok Programlama, Robotik ve Elektronik
+- **7-1 — Scratch ile Programlamaya Giriş** — Türkçe web + Türkçe masaüstü Scratch uygulaması; Scratch Programlamaya Giriş stüdyosu incelemesi
+- **7-2 — mBlock ile Robotik Kodlama** — Türkçe web + Türkçe masaüstü mBlock 5
+- **7-3 — Microsoft MakeCode ve micro:bit** — Türkçe web arayüzü
+- **7-4 — Tinkercad Circuits ile Temel Elektronik** — Türkçe kullanım
+- **7-5 — Arduino IDE ve Arduino Programlama** — Türkçe Arduino IDE 2 (dil desteği doğrulandı)
+- **7-6 — Robotik Proje Geliştirme ve Hata Ayıklama** — Türkçe
 
-Bölüm 7–8 başlıkları `_data/modules.yml` içinde planlandı durumunda yer alır.
+## Sonraki bölüm
+
+Bölüm 8 başlıkları `_data/modules.yml` içinde planlandı durumunda yer alır.
 
 ## İçerik standardı
 
