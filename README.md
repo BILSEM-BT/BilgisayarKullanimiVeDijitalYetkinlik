@@ -1,189 +1,262 @@
 # Bilgisayar Kullanımı ve Dijital Yetkinlik
 
-Niyazi Sayın Bilim ve Sanat Merkezi — Bilişim Teknolojileri Dersi
+**Niyazi Sayın Bilim ve Sanat Merkezi — Bilişim Teknolojileri Dersi**  
+**Öğretmen:** Ersin ŞANLI
 
-Öğretmen: Ersin ŞANLI
+Bilgisayar kullanımından dijital okuryazarlığa; yazılım geliştirme, robotik, elektronik, 3D tasarım ve dijital üretime kadar uzanan konularda öğrencilerin derslere başlamadan önce gerekli temel bilgi ve kullanım hazırbulunuşluğunu desteklemek amacıyla hazırlanmış web tabanlı eğitim portalıdır.
 
-Bu repository, **Bilgisayar Kullanımı ve Dijital Yetkinlik** ders portalının Jekyll/GitHub Pages kaynaklarını içerir.
+## 🌐 Yayınlanan Ders Portalı
 
-## Revize v2 yaklaşımı
+**Canlı yayın adresi:**  
+[https://bilsem-bt.github.io/BilgisayarKullanimiVeDijitalYetkinlik/](https://bilsem-bt.github.io/BilgisayarKullanimiVeDijitalYetkinlik/)
 
-Müfredat, önceki 73 derslik çok parçalı yapıdan **8 bölüm ve 53 derse** yeniden düzenlenmiştir. Amaç daha az ders ve daha az ana başlıkla, tahtada açılıp doğrudan anlatılabilecek daha güçlü ders içerikleri oluşturmaktır.
+Bu bağlantı, repository içindeki Jekyll dosyalarının **GitHub Pages** üzerinden yayımlanan güncel öğrenci/öğretmen arayüzüdür. Dersler, uygulamalar, ilerleme takibi ve bölüm gezinmesi doğrudan bu adres üzerinden kullanılabilir.
 
-Derslerin yeni içerik standardı:
+**GitHub repository:**  
+`BILSEM-BT/BilgisayarKullanimiVeDijitalYetkinlik`
 
-- Konu, günlük kullanım problemi üzerinden başlatılır.
-- Gereksiz teknik ayrıntı azaltılır; öğrencinin kullanacağı kavramlar derinleştirilir.
-- Her derste az sayıda ana `##` başlık bulunur.
-- Ekran ve işlem mantığını anlatan şematik görseller/arayüz örnekleri kullanılabilir.
-- “Birlikte Uygulayalım” etkinlikleri öğretmenle adım adım yapılabilecek biçimde hazırlanır.
-- Sık yapılan hatalar ve kavram yanılgıları özellikle gösterilir.
-- Uygulama sayfasında 20 çoktan seçmeli soru, tek doğru cevap ve açıklama bulunur.
+---
 
-## İki öğrenme yolu
+## Projenin Güncel Durumu
 
-- **Genel Yeterlik:** Bölümler 1–5
-- **Programlama Yeterlik:** Bölümler 6–8 (Bölüm 6–7 tam yayımdadır; Bölüm 8 kısmen yayımdadır)
+| Alan | Durum |
+|---|---:|
+| Bölüm sayısı | **8** |
+| Toplam ders | **53** |
+| Yayımdaki ders | **53 / 53** |
+| Uygulama sayfası | **53** |
+| Ders başına uygulama sorusu | **20** |
+| Toplam uygulama sorusu | **1060** |
+| Yayın altyapısı | **Jekyll + GitHub Pages** |
+| Dil | **Türkçe (`tr-TR`)** |
+| Son kapsamlı içerik güncellemesi | **21 Ağustos 2026** |
 
-## Bölümler
+Portalın mevcut müfredatı tamamen yayımdadır. Her dersin kendi anlatım sayfası ve 20 soruluk etkileşimli uygulaması bulunur.
 
-1. **Bilgisayar ve Windows Kullanımı** — 7 ders
-2. **İnternet, Web, E-Posta ve Bulut** — 8 ders
-3. **Office ve Belge Üretimi** — 8 ders
-4. **Güvenlik, Dijital Vatandaşlık ve Yapay Zekâ** — 6 ders
-5. **Dijital Medya ve İçerik Üretimi** — 6 ders
-6. **Yazılım Geliştirme ve Proje Araçları** — 6 ders
-7. **Blok Programlama, Robotik ve Elektronik** — 6 ders
-8. **3D Tasarım ve Dijital Üretim** — 6 ders
+## Eğitim Yaklaşımı
 
-Toplam: **53 ders**
+Portal doğrudan bir uzmanlık eğitimi yerine, öğrencinin derse veya uygulamaya başlamadan önce ihtiyaç duyacağı temel kavramları, arayüzleri ve işlem basamaklarını tanımasını hedefler.
 
-## İlk yayın paketi
+Derslerin genel akışı şu anlayışla hazırlanır:
 
-Bu paket Bölüm 1'i tam olarak içerir:
+**Tanı → Ekranda Gör → Birlikte Uygula → Gerçek Örnek Yap → Hataları Fark Et → Pekiştir**
 
-- **1-1 — Bilgisayarı Tanı: Donanım, Yazılım ve Temel Kavramlar**
-- **1-2 — Windows Masaüstü, Başlat Menüsü ve Görev Çubuğu**
-- **1-3 — Klavye Tuşları ve Klavye Kısayolları**
-- **1-4 — Fare, Touchpad, Seçim, Kopyalama, Kesme ve Yapıştırma**
-- **1-5 — Windows Dosya Gezgini: Dosya ve Klasörlerle Çalışma**
-- **1-6 — Windows Ayarları, Uygulamalar ve Güncellemeler**
-- **1-7 — Görev Yöneticisi ve Temel Sorun Giderme**
+İçeriklerde:
 
-Bölüm 1–8 içindeki 53 dersin tamamı yayımdadır. Bölüm 8; 8-1–8-6 olmak üzere 6 canlı dersten oluşur. 8-7 müfredattan çıkarılmıştır.
+- kavramlar günlük kullanım örnekleriyle açıklanır,
+- program ve araçların gerçek kullanım akışları gösterilir,
+- gerekli yerlerde Türkçe veya İngilizce arayüz terimleri gerçek programdaki biçimiyle verilir,
+- “Birlikte Uygulayalım” etkinlikleriyle işlem basamakları pekiştirilir,
+- sık yapılan hatalar ve kavram yanılgıları ayrıca ele alınır,
+- her dersin sonunda 20 soruluk uygulama yer alır,
+- sürüme bağlı veya değişebilen teknik bilgiler mümkün olduğunca resmî ve güncel kaynaklarla doğrulanır.
 
-## Dosya yapısı
+## İki Öğrenme Yolu
+
+### 1. Genel Yeterlik — Bölümler 1–5
+
+Bilgisayar ve Windows kullanımı, internet, web, e-posta, bulut, Office, belge üretimi, güvenlik, dijital vatandaşlık, yapay zekâ ve dijital medya araçlarına yönelik temel hazırbulunuşluğu kapsar.
+
+### 2. Programlama Yeterlik — Bölümler 6–8
+
+Yazılım geliştirme ortamları, Git/GitHub, algoritma, blok programlama, robotik, elektronik, Arduino, CAD, 3D baskı ve 3D görselleştirme araçlarına yönelik temel hazırbulunuşluğu kapsar.
+
+## Müfredat
+
+### Bölüm 1 — Bilgisayar ve Windows Kullanımı
+**7 ders**
+
+Bilgisayarın gelişimi, donanım ve yazılım, Windows masaüstü, klavye ve fare kullanımı, dosya-klasör yönetimi, temel ayarlar ve sorun giderme.
+
+### Bölüm 2 — İnternet, Web, E-Posta ve Bulut
+**8 ders**
+
+İnternet bağlantısı, tarayıcı kullanımı, etkili arama, bilgi doğrulama, güvenli dosya kullanımı, Gmail, Google Drive ve çevrim içi çalışma.
+
+### Bölüm 3 — Office ve Belge Üretimi
+**8 ders**
+
+Microsoft Word, Excel, PowerPoint ve PDF araçlarıyla okul ve proje çalışmalarının düzenli ve etkili biçimde hazırlanması.
+
+### Bölüm 4 — Güvenlik, Dijital Vatandaşlık ve Yapay Zekâ
+**6 ders**
+
+Parolalar ve passkey, iki aşamalı doğrulama, zararlı yazılım ve phishing, gizlilik, dijital ayak izi, telif, dijital etik ve üretken yapay zekâyı doğru kullanma.
+
+### Bölüm 5 — Dijital Medya ve İçerik Üretimi
+**6 ders**
+
+WinRAR/7-Zip, VLC Media Player, ekran görüntüsü ve ekran kaydı, GIMP, Inkscape ve Audacity.
+
+### Bölüm 6 — Yazılım Geliştirme ve Proje Araçları
+**6 ders**
+
+Visual Studio 2026 Community Insiders, Visual Studio Code Insiders, algoritma ve diagrams.net, Git/GitHub, GitHub Desktop/GitHub Pages ve Google Colab.
+
+### Bölüm 7 — Blok Programlama, Robotik ve Elektronik
+**6 ders**
+
+Scratch, mBlock, Microsoft MakeCode ve micro:bit, Tinkercad Circuits, Arduino IDE ve robotik proje geliştirme/hata ayıklama.
+
+### Bölüm 8 — 3D Tasarım ve Dijital Üretim
+**6 ders**
+
+Tinkercad 3D Design, Tinkercad Codeblocks, Onshape, SOLIDWORKS, 3D yazıcı ve slicer kullanımı, Blender ile 3D görselleştirme.
+
+## Ders ve Uygulama Yapısı
+
+Her yayımdaki ders iki temel sayfadan oluşur:
 
 ```text
+/dersler/...       → konu anlatımı
+/uygulamalar/...   → 20 soruluk etkileşimli uygulama
+```
+
+Ders sayfalarında:
+
+- önceki ve sonraki ders bağlantıları,
+- “Dersi tamamlandı olarak işaretle” işlemi,
+- uygulamaya geçiş bağlantısı,
+- yalnızca gerektiğinde kendi içinde kaydırılan **Ders İçeriği** menüsü,
+- ana anlatım bölümleri,
+- uygulama örnekleri,
+- sık yapılan hatalar,
+- kaynak ve doğrulama notları
+
+bulunur.
+
+## Uygulama ve Soru Sistemi
+
+Portalda **53 uygulama sayfası ve toplam 1060 soru** bulunur.
+
+Her uygulamada:
+
+- 20 çoktan seçmeli soru,
+- her soruda 4 benzersiz seçenek,
+- tek doğru cevap,
+- cevap sonrası açıklama,
+- ders içeriğiyle doğrudan ilişki,
+- dengeli doğru cevap konumu
+
+kullanılır.
+
+Her 20 soruluk uygulamada doğru cevapların A/B/C/D konumlarına dağılımı **5 / 5 / 5 / 5** olacak şekilde düzenlenmiştir.
+
+## Arayüz ve İlerleme Takibi
+
+Portalın arayüzünde:
+
+- mavi arka plan ve beyaz içerik kartları,
+- bölüm akordeonları,
+- ders kartları,
+- derslerin **Son Güncelleme Tarihi**,
+- tamamlanan derslerin görsel olarak işaretlenmesi,
+- masaüstü ve mobil uyumlu tasarım,
+- ders sayfasında sabit bilgi alanı ve gerektiğinde yalnızca “Ders İçeriği” bölümünde kaydırma
+
+kullanılır.
+
+Öğrencinin tamamladığı dersler tarayıcının `localStorage` alanında saklanır:
+
+```text
+bilsem-dijital-yetkinlik-progress-v2
+```
+
+Bu kayıt yalnızca kullanılan tarayıcı ve cihaz için geçerlidir.
+
+## Repository Dosya Yapısı
+
+```text
+.github/
+  workflows/
+    pages.yml
+
 _config.yml
 _data/
   navigation.yml
   sections.yml
   modules.yml
   quizzes/
+
 _includes/
 _layouts/
+
 assets/
-  css/style.css
-  js/site.js
-  js/quiz.js
+  css/
+    style.css
+  js/
+    site.js
+    quiz.js
   images/
+
 dersler/
 uygulamalar/
+
 index.md
 tum-dersler.md
 hakkinda.md
 guncelleme-rehberi.md
+README.md
 ```
 
-## Görsel tasarım
+### Önemli dosyalar
 
-Portalın mevcut mavi arka planı, beyaz kartları, bölüm akordeonları, tamamlanan derslerin yeşil görünümü, sol “Ders İçeriği” menüsü ve uygulama geri bildirim sistemi korunmuştur.
+- **`_config.yml`** — Jekyll site ayarları, başlık, yayın adresi ve temel yapılandırma.
+- **`_data/sections.yml`** — 8 bölümün adları ve açıklamaları.
+- **`_data/modules.yml`** — 53 dersin kodu, başlığı, durumu, son güncelleme tarihi ve bağlantıları.
+- **`_data/quizzes/`** — derslere ait uygulama soru verileri.
+- **`dersler/`** — ders anlatım sayfaları.
+- **`uygulamalar/`** — uygulama/quiz sayfaları.
+- **`assets/css/style.css`** — portalın görsel tasarımı ve responsive davranışları.
+- **`assets/js/site.js`** — ders ilerleme ve genel sayfa davranışları.
+- **`assets/js/quiz.js`** — uygulama soru sistemi.
+- **`.github/workflows/pages.yml`** — GitHub Pages yayın iş akışı.
 
-v2 ile yalnızca ders anlatımını güçlendirmek için yeni görsel sınıflar eklenmiştir:
+## GitHub Pages ile Yayın
 
-- Windows masaüstü şeması
-- pencere şeması
-- klavye tuş/kısayol görselleri
-- kopyala-kes-yapıştır akış şeması
-- Dosya Gezgini şeması
-- Ayarlar şeması
-- Görev Yöneticisi şeması
-- uygulama, uyarı ve öğretmen notu kutuları
+Site Jekyll ile hazırlanmıştır ve GitHub Pages üzerinden yayımlanır.
 
-## İlerleme sistemi
+Yayın yapılandırmasının temel değerleri:
 
-Ders yapısı değiştiği için eski 73 derslik ilerleme kimliklerinin yeni derslerle karışmaması amacıyla localStorage anahtarı v2 olarak değiştirilmiştir:
-
-```text
-bilsem-dijital-yetkinlik-progress-v2
+```yaml
+url: https://bilsem-bt.github.io
+baseurl: /BilgisayarKullanimiVeDijitalYetkinlik
+lang: tr-TR
+timezone: Europe/Istanbul
 ```
 
-Tamamlanan dersler kart ve “Derse Gir” düğmesinde yeşil görünür.
+Repository'ye yapılan güncellemeler `.github/workflows/pages.yml` içindeki GitHub Actions iş akışı üzerinden siteye aktarılır.
 
-## GitHub Pages
+Canlı portal:
 
-Repository:
+[https://bilsem-bt.github.io/BilgisayarKullanimiVeDijitalYetkinlik/](https://bilsem-bt.github.io/BilgisayarKullanimiVeDijitalYetkinlik/)
 
-```text
-BILSEM-BT/BilgisayarKullanimiVeDijitalYetkinlik
-```
+## İçerik Güncelliği
 
-Yayın adresi:
+Yazılım arayüzleri, çevrim içi hizmetler, güvenlik yöntemleri ve yapay zekâ araçları zaman içinde değişebilir. Bu nedenle:
 
-```text
-https://bilsem-bt.github.io/BilgisayarKullanimiVeDijitalYetkinlik/
-```
+- derslerde kullanılan sürüme bağlı bilgiler düzenli olarak gözden geçirilmelidir,
+- program adları ve arayüz etiketleri güncel sürümle karşılaştırılmalıdır,
+- güvenlik, hesap yönetimi ve çevrim içi hizmetlerle ilgili bilgiler mümkün olduğunca resmî kaynaklardan doğrulanmalıdır,
+- değişiklik yapılan dersin `updated` değeri `_data/modules.yml` içinde güncellenmelidir.
 
-GitHub Actions workflow dosyası `.github/workflows/pages.yml` altında bulunur.
+Ayrıntılı bakım adımları için [`guncelleme-rehberi.md`](guncelleme-rehberi.md) dosyasına bakılabilir.
 
+## Güncel Sürüm Özeti
 
-## Revize v3
+Bu repository'nin mevcut sürümünde:
 
-Bölüm 1 ve Bölüm 2, daha az ana başlık ve daha ayrıntılı sınıf anlatımı standardına göre yayımlandı. Ders sayfalarında önceki/sonraki ders gezinmesi ve kod tabanlı tamamlanma takibi bulunur.
+- **8 bölümün tamamı yayımdadır.**
+- **53 dersin tamamı aktiftir.**
+- **53 uygulama ve 1060 soru** bulunmaktadır.
+- Bölüm 8, **8-1–8-6** olmak üzere 6 ders olarak tamamlanmıştır; eski 8-7 planı müfredattan çıkarılmıştır.
+- 6-1 dersi **Visual Studio 2026 Community Insiders**, 6-2 dersi **Visual Studio Code Insiders** temel alınarak hazırlanmıştır.
+- Ana sayfa açıklaması **“Bilgisayar Temellerinden Dijital Okuryazarlık”** olarak kullanılmaktadır.
+- Ders kartlarında **Son Güncelleme Tarihi** gösterilir.
+- Ders sayfasındaki sol panelin tamamında kaydırma çubuğu kullanılmaz; gerektiğinde yalnızca **Ders İçeriği** listesi kaydırılır.
 
-## Revize v5 — Bölüm 4
+---
 
-Bu paketle **Bölüm 4 — Güvenlik, Dijital Vatandaşlık ve Yapay Zekâ** tamamlanmıştır.
-
-- 4-1 — Parolalar, Passkey ve İki Aşamalı Doğrulama
-- 4-2 — Zararlı Yazılım, Phishing ve Dolandırıcılıktan Korunma
-- 4-3 — Gizlilik, Site İzinleri ve Dijital Ayak İzi
-- 4-4 — Telif Hakkı, Kaynak Gösterme ve Dijital Etik
-- 4-5 — Yapay Zekâ ve Üretken Yapay Zekâ Temelleri
-- 4-6 — Yapay Zekâyı Etkili, Güvenli ve Doğru Kullanma
-
-Her derste 20 soruluk etkileşimli uygulama bulunur. Bölüm 4 güvenlik ve AI içerikleri NIST, CISA, FIDO Alliance, Creative Commons, T.C. Kültür ve Turizm Bakanlığı, UNESCO ve ilgili güncel üretici rehberleriyle karşılaştırılmıştır.
-
-
-## Revize v6 — Bölüm 5 ve sol ders menüsü düzeltmesi
-
-- Bölüm 4 dahil tüm ders sayfalarında sol kartın kendi kaydırma çubuğu kaldırıldı.
-- Masaüstünde sol kart görünür alana sığmadığında kaydırma yalnızca **Ders İçeriği** listesinin içinde yapılır.
-- Mobil görünümde sol kart normal sayfa akışında kalır; uzun Ders İçeriği listesi kendi alanında kaydırılabilir.
-- **Bölüm 5 — Dijital Medya ve İçerik Üretimi** içindeki 6 ders ve 120 soruluk uygulama seti yayıma alındı.
-- Toplam 54 dersin **35'i yayında** durumundadır.
-
-
-## Revize v7 — Bölüm 6
-
-- **Bölüm 6 — Yazılım Geliştirme ve Proje Araçları** içindeki 6 ders ve 120 soruluk uygulama seti yayıma alındı.
-- 6-1, 6-2, 6-3 ve 6-6 Türkçe program/arayüz; 6-4 ve 6-5 İngilizce program/arayüz etiketleriyle hazırlandı.
-- Ana sayfa ders kartlarındaki **Gözden geçirme** alanı kaldırıldı; yerine **Son Güncelleme Tarihi** gösterimi kullanıldı.
-- v7 sonunda 54 dersin 41'i yayımdadır.
-
-
-## Revize v8 — Bölüm 7
-
-Bu paketle **Bölüm 7 — Blok Programlama, Robotik ve Elektronik** tamamlanmıştır.
-
-- 7-1 — Scratch ile Programlamaya Giriş — Türkçe web + Türkçe masaüstü uygulaması; Programlamaya Giriş Scratch stüdyosu inceleme kaynağı
-- 7-2 — mBlock ile Robotik Kodlama — Türkçe web + Türkçe masaüstü mBlock 5
-- 7-3 — Microsoft MakeCode ve micro:bit — Türkçe web arayüzü
-- 7-4 — Tinkercad Circuits ile Temel Elektronik — Türkçe kullanım akışı
-- 7-5 — Arduino IDE ve Arduino Programlama — Arduino IDE 2 Türkçe dil desteği doğrulanarak Türkçe arayüz
-- 7-6 — Robotik Proje Geliştirme ve Hata Ayıklama — Türkçe
-
-Her derste 20 soruluk etkileşimli uygulama bulunur. Bölüm 7 ile 6 yeni ders ve 120 yeni soru yayıma alınmıştır. Toplam 54 dersin **47'si yayında**, yayımdaki toplam uygulama sorusu **940** durumundadır.
-
-Bölüm 7 içerikleri Scratch, Makeblock, Microsoft MakeCode/micro:bit, Autodesk Tinkercad ve Arduino'nun resmî/güncel kaynaklarıyla karşılaştırılmış; fiziksel elektronik ve robotik konularında simülasyonun gerçek donanım güvenlik sınırlarının yerine geçmediği özellikle vurgulanmıştır.
-
-
-## Revize v9 — Visual Studio/VS Code Insiders ve Bölüm 8
-
-- 6-1 dersi **Visual Studio 2026 Community Insiders** için yeniden yazıldı; resmî indirme/kurulum, Python development iş yükü, ayrı Python yorumlayıcısı, diğer temel diller/iş yükleri, örnek Python projesi, çalıştırma ve terminal çıktısı işlendi.
-- 6-2 dersi **Visual Studio Code Insiders** için yeniden yazıldı; kurulum, arayüz panelleri, çok dilli geliştirme, Python eklentisi/yorumlayıcısı, terminal, çalıştırma-durdurma, debug ve temel kısayollar işlendi.
-- 8-1 **Tinkercad ile 3D Tasarım** ve 8-2 **Tinkercad Codeblocks ile Algoritmik 3D Tasarım** Türkçe kullanım akışıyla yayımlandı.
-- 8-3 **Onshape ile Parametrik CAD** ve 8-4 **SOLIDWORKS ile 3D Modelleme** İngilizce ders/quiz içeriğiyle yayımlandı.
-- 8-7 kaldırıldı. v9 sonunda müfredat **53 ders**, bunun **51'i yayında** ve **2'si planlı** durumdadır.
-- v9 sonunda yayımdaki uygulama soru sayısı **1020**'dir.
-- Ana sayfa açıklaması **“Bilgisayar Temellerinden Dijital Okuryazarlık”** olarak güncellendi.
-
-
-## Revize v10 — Bölüm 8 tamamlandı ve terminal görselleri düzenlendi
-
-- 6-1 ve 6-2 derslerindeki terminal çalışma ekranı görselleri, içerik sütununu gereksiz büyütmeyecek şekilde **maksimum 760 px** genişlikte ve mobilde %100 duyarlı gösterilecek biçimde düzenlendi. Kaynak PNG dosyaları da 1000 px genişliğe optimize edildi.
-- 8-5 **3D Yazıcı, Slicer ve Baskıya Hazırlık** Türkçe ders içeriği ve 20 soruluk uygulamasıyla yayımlandı. Model dosyası/G-code farkı, PrusaSlicer, yazıcı-filament-baskı profilleri, yönlendirme, katman yüksekliği, perimeter, infill, support, brim, Preview ve güvenlik işlendi.
-- 8-6 **Blender ile 3D Görselleştirme** Türkçe ders içeriği ve 20 soruluk uygulamasıyla yayımlandı. Blender 5.2 LTS, 3D Viewport, Outliner, Object/Edit Mode, G-R-S, Extrude, Inset, Bevel, material, ışık, kamera, EEVEE/Cycles ve render akışı işlendi.
-- Bölüm 8 artık 8-1–8-6 olmak üzere **6/6 yayında**; portalın tamamı **53/53 ders yayında** durumundadır.
-- Toplam uygulama soru sayısı **1060**'tır. Tüm quizlerde 20 soru, dört benzersiz seçenek, tek doğru cevap, açıklama ve A/B/C/D doğru cevap konumu dengesi korunur.
+**Niyazi Sayın Bilim ve Sanat Merkezi**  
+**Bilişim Teknolojileri Dersi**  
+**Bilgisayar Kullanımı ve Dijital Yetkinlik Portalı**
