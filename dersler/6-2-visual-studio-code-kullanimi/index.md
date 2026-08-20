@@ -135,7 +135,7 @@ Python uzantısı kurulu ve yorumlayıcı seçili olduğunda editörün sağ üs
 python program.py
 ```
 
-<figure class="lesson-figure">
+<figure class="lesson-figure terminal-figure">
   <img src="{{ '/assets/images/dersler/vscode-insiders-python-terminal.png' | relative_url }}" alt="Visual Studio Code Insiders içinde Python programı ve terminalde Merhaba çıktısı örneği">
   <figcaption>Örnek çalışma görünümü: VS Code Insiders editöründe <code>program.py</code> açıkken terminal programın giriş ve çıktılarını gösterir.</figcaption>
 </figure>

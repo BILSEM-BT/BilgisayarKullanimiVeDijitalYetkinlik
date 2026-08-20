@@ -133,7 +133,7 @@ python program.py
 
 Aşağıdaki görsel, yukarıdaki örnek programın terminal çıktısını ders için şematik olarak gösterir:
 
-<figure class="lesson-figure">
+<figure class="lesson-figure terminal-figure">
   <img src="{{ '/assets/images/dersler/visual-studio-2026-community-insiders-python-terminal.png' | relative_url }}" alt="Visual Studio 2026 Community Insiders içinde Python programı ve terminalde Vize notu, Final notu, Ortalama çıktısı örneği">
   <figcaption>Örnek terminal görünümü: <code>python program.py</code> komutu çalıştırıldıktan sonra program kullanıcıdan iki değer alır ve hesaplanan ortalamayı gösterir.</figcaption>
 </figure>
