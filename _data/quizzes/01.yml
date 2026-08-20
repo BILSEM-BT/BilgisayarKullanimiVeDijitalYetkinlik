@@ -1,183 +1,183 @@
-title: 'Bilgisayarı Tanı: Donanım, Yazılım ve Temel Kavramlar'
-description: Donanım, yazılım, işletim sistemi, RAM, depolama ve giriş/çıkış kavramlarını günlük örnekler üzerinden kontrol et.
+title: Bilgisayarın Tarihçesi
+description: Bilgisayar tarihindeki ana dönüşümleri, “ilk bilgisayar” tartışmasını ve teknolojilerin birbirine nasıl bağlandığını değerlendir.
 questions:
 - id: q1
-  question: Bir bilgisayarın en temel çalışma modelinde doğru sıra hangisidir?
+  question: Bu derse göre 'ilk bilgisayar hangisidir?' sorusunun tek bir cevabı olmamasının temel nedeni nedir?
   options:
-  - Giriş → İşlem → Çıkış; gerektiğinde depolama kullanılır
-  - Depolama → Yazıcı → İnternet → Klavye
-  - Ekran → Fare → Kasa → USB
-  - Yalnız giriş ve çıkış vardır
+  - İlk olmayı belirlemek için elektronik, programlanabilirlik, genel amaçlılık ve saklı program gibi farklı ölçütler kullanılabilmesi
+  - Bilgisayarların tarihinin bilinmemesi
+  - Bütün erken bilgisayarların aynı yıl yapılması
+  - Hiçbir erken bilgisayarın çalışmamış olması
   answer: 0
-  explanation: Bilgisayar veriyi girişten alır, işler, sonuç üretir ve gerektiğinde kalıcı depolamaya yazar.
+  explanation: Hangi özelliğin 'ilk' sayıldığına göre Z3, Colossus, ENIAC, Manchester Baby gibi farklı sistemler öne çıkabilir.
 - id: q2
-  question: RAM için en doğru açıklama hangisidir?
+  question: Abaküsün bilgisayar tarihindeki önemini en doğru hangi ifade açıklar?
   options:
-  - Belgelerin kalıcı olarak saklandığı ana arşivdir
-  - Çalışan programların ve verilerin geçici çalışma alanıdır
-  - Yalnız görüntüleri ekrana gönderir
-  - İnternet bağlantısını sağlayan parçadır
+  - Bellekte program saklayan ilk elektronik bilgisayardır
+  - Hesaplamayı fiziksel bir araçla destekleme fikrinin erken örneklerinden biridir
+  - İlk web sunucusudur
+  - İlk mikroişlemciyi kullanmıştır
   answer: 1
-  explanation: RAM çalışma sırasında hızlı geçici bellek görevi görür; normal kullanım verileri bilgisayar kapandığında RAM'de kalmaz.
+  explanation: Abaküs modern bilgisayar değildir; hesaplama işlemini fiziksel bir araçla destekleyen çok eski örneklerden biridir.
 - id: q3
-  question: SSD'nin temel görevi nedir?
+  question: Jacquard tezgâhındaki delikli kartların bilgisayar tarihi açısından önemli fikri nedir?
   options:
-  - Klavye tuşlarını algılamak
-  - İşlemciyi soğutmak
-  - Windows, programlar ve dosyaları kalıcı olarak saklamak
-  - Sesi hoparlöre çevirmek
+  - İlk internet bağlantısını kurması
+  - Elektronik transistör kullanması
+  - Makinenin davranışının dışarıdan verilen bilgi düzeniyle kontrol edilebilmesi
+  - Programı RAM'de saklaması
   answer: 2
-  explanation: SSD bir depolama birimidir; dosyalar ve yazılımlar burada kalıcı olarak tutulabilir.
+  explanation: Delikli kartların düzeni tezgâhın davranışını belirliyordu; bu fikir programlanabilirlik tarihinin önemli öncüllerindendir.
 - id: q4
-  question: Aşağıdakilerden hangisi yazılımdır?
+  question: Babbage'ın Analytical Engine tasarımındaki 'store' ve 'mill' neye benzetilebilir?
   options:
-  - Klavye
-  - Monitör
-  - SSD
-  - Microsoft Word
+  - Klavye ve fare
+  - Web ve internet
+  - SSD ve USB bellek
+  - Bellek ve işlem birimi
   answer: 3
-  explanation: Word belirli bir işi yapmak için kullanılan uygulama yazılımıdır.
+  explanation: Store verileri/ara sonuçları, mill ise aritmetik işlemleri tutacak şekilde tasarlanmıştı.
 - id: q5
-  question: Windows 11 hangi tür yazılımdır?
+  question: Ada Lovelace'ın Analytical Engine hakkındaki en önemli kavramsal görüşlerinden biri neydi?
   options:
-  - Fiziksel depolama birimi
-  - İşletim sistemi
-  - Giriş aygıtı
-  - Yazıcı sürücüsünün donanımı
+  - İnterneti icat etmesi
+  - Uygun temsil kullanılırsa makinenin yalnızca sayısal niceliklerin ötesinde sembolleri de işleyebileceğini görmesi
+  - Transistörü üretmesi
+  - ENIAC'ı programlaması
   answer: 1
-  explanation: Windows 11 programları, dosyaları ve donanım kaynaklarını yöneten bir işletim sistemidir.
+  explanation: Lovelace, sayısal temsillerin başka sembolik içerikleri de temsil edebileceğini fark ederek genel amaçlı hesaplamanın gücünü öngördü.
 - id: q6
-  question: Aşağıdakilerden hangisi bir giriş birimidir?
+  question: Z3 için hangisi doğrudur?
   options:
-  - Monitör
-  - Hoparlör
-  - Mikrofon
-  - Projektör
+  - İlk World Wide Web sunucusudur
+  - Mikroişlemci tabanlı bir kişisel bilgisayardır
+  - Program kontrollü elektromekanik dijital bilgisayarların önemli erken örneklerindendir
+  - Vakum tüplü genel amaçlı bir web sunucusudur
   answer: 2
-  explanation: Mikrofon sesi bilgisayara veri olarak gönderir; bu nedenle giriş birimidir.
+  explanation: Konrad Zuse'nin 1941'de tamamladığı Z3 röle tabanlı, program kontrollü erken dijital bilgisayarlardandır.
 - id: q7
-  question: Dokunmatik ekran neden hem giriş hem çıkış birimi sayılabilir?
+  question: Colossus'u modern genel amaçlı bilgisayardan ayıran önemli özellik hangisidir?
   options:
-  - Yalnız elektrik tükettiği için
-  - İçinde SSD bulunduğu için
-  - Her zaman yazıcı olarak çalıştığı için
-  - Görüntü verir ve dokunma bilgisini bilgisayara gönderir
+  - Elektronik bileşen kullanmaması
+  - Hiç programlanabilir davranış göstermemesi
+  - Mikroişlemci tabanlı kişisel bilgisayar olması
+  - Belirli şifre çözme görevleri için tasarlanmış özel amaçlı bir sistem olması
   answer: 3
-  explanation: Ekran görüntü çıkışı verir; dokunma algılama ise kullanıcıdan bilgisayara giriş sağlar.
+  explanation: Colossus elektronik ve programlanabilir özellikler taşıyordu; ancak genel amaçlı değil, özellikle Lorenz şifre trafiğinin analizine yönelik özel amaçlıydı.
 - id: q8
-  question: CPU için en doğru ifade hangisidir?
+  question: ENIAC'ın ilk programlama yönteminde program değişikliği nasıl yapılıyordu?
   options:
-  - Program komutlarının yürütülmesi ve hesaplamalarda temel rol oynar
-  - Dosyaları yıllarca saklayan tek parçadır
-  - Yalnız ses kaydı yapar
-  - Klavye ile monitör arasındaki kablodur
+  - Kablolar, bağlantı panelleri ve anahtarlar yeniden düzenlenerek
+  - GitHub'dan program indirilerek
+  - SSD'deki Python dosyası çalıştırılarak
+  - Web tarayıcısından kod yüklenerek
   answer: 0
-  explanation: CPU komutları işler ve hesaplamaları yürütür; ancak bilgisayarın çalışması diğer bileşenlerle birlikte gerçekleşir.
+  explanation: ENIAC'ın ilk kullanımında programlama fiziksel bağlantıların ve anahtarların yeniden yapılandırılmasını gerektiriyordu.
 - id: q9
-  question: Anakartın temel görevi nedir?
+  question: Manchester Baby'nin 1948'deki tarihsel önemi nedir?
   options:
-  - Dosyaları buluta yüklemek
-  - Yalnız ekran parlaklığını ayarlamak
-  - Temel bileşenlerin birbirine bağlanıp iletişim kurduğu ana devre kartı olmaktır
-  - Belgeleri PDF'ye çevirmek
+  - İlk kişisel bilgisayar olması
+  - İlk grafik kullanıcı arayüzüne sahip olması
+  - Bellekte saklanan bir programı elektronik dijital bilgisayarda çalıştıran temel dönüm noktalarından biri olması
+  - İlk akıllı telefon olması
   answer: 2
-  explanation: Anakart işlemci, RAM, depolama ve bağlantıların bir arada çalıştığı ana donanım platformudur.
+  explanation: Manchester Baby, saklı program yaklaşımının fiilen çalıştırıldığı önemli erken elektronik bilgisayardır.
 - id: q10
-  question: Aşağıdakilerden hangisi uygulama yazılımına örnektir?
+  question: EDSAC'ın programlama tarihi açısından önemli katkılarından biri hangisidir?
   options:
-  - RAM
-  - Anakart
-  - USB bağlantı noktası
-  - VLC Media Player
+  - İlk web tarayıcısını geliştirmesi
+  - İlk GPU'yu kullanması
+  - İlk dokunmatik ekranı kullanması
+  - Tekrar kullanılabilir subroutine/kısa program parçalarının kullanımını geliştirmesi
   answer: 3
-  explanation: VLC belirli bir kullanıcı görevini, medya oynatmayı, gerçekleştiren uygulamadır.
+  explanation: Maurice Wilkes'in EDSAC çalışmaları, ortak işlemler için tekrar kullanılabilir subroutine kütüphanelerinin gelişimine katkı sağladı.
 - id: q11
-  question: Bir yazıcı sürücüsünün görevi en iyi nasıl açıklanır?
+  question: Transistörün vakum tüplerine göre bilgisayar teknolojisine getirdiği temel avantaj hangisidir?
   options:
-  - İşletim sistemi ile yazıcı arasında uygun iletişime yardımcı olmak
-  - Yazıcı kâğıdını fiziksel olarak üretmek
-  - Belgeyi internette yayınlamak
-  - RAM'i kalıcı depolamaya çevirmek
+  - Daha küçük, daha güvenilir ve daha düşük güç tüketen elektronik devreler oluşturmayı kolaylaştırması
+  - Bilgisayarların artık yazılıma ihtiyaç duymamasını sağlaması
+  - İnternet bağlantısını icat etmesi
+  - Tüm depolama ihtiyacını ortadan kaldırması
   answer: 0
-  explanation: Sürücü, işletim sisteminin donanımın özelliklerini doğru biçimde kullanabilmesine yardımcı olan yazılımdır.
+  explanation: Transistör, büyük ve enerji tüketen vakum tüplerinin yerine daha küçük ve güvenilir yarı iletken anahtarlama elemanlarının kullanılmasını sağladı.
 - id: q12
-  question: Bir öğrenci çevrim içi toplantıda konuşuyor. Mikrofona göre veri akışı hangisidir?
+  question: Entegre devre yaklaşımının temel etkisi neydi?
   options:
-  - Mikrofon yalnız çıkış görevi yapar
-  - Mikrofon bilgisayara ses verisi gönderdiği için giriş görevi yapar
-  - Mikrofon depolama birimidir
-  - Mikrofon işletim sistemidir
+  - Bütün bilgisayarların mekanik hale gelmesi
+  - Birçok elektronik bileşenin aynı yarı iletken yapı üzerinde birleştirilmesini mümkün kılması
+  - Yazılım ihtiyacının ortadan kalkması
+  - Bilgisayarların yalnızca hesap makinesi olarak kullanılmaya başlanması
   answer: 1
-  explanation: Mikrofon kullanıcının sesini bilgisayara ilettiği için giriş aygıtıdır.
+  explanation: Entegre devreler çok sayıda elektronik bileşenin daha küçük ve güvenilir yapılar içinde birleştirilmesini sağladı.
 - id: q13
-  question: Aşağıdakilerden hangisi RAM ile SSD arasındaki doğru farktır?
+  question: Intel 4004'ün bilgisayar tarihi açısından önemi en doğru nasıl açıklanır?
   options:
-  - RAM kalıcı, SSD geçicidir
-  - İkisi de yalnız görüntü üretir
-  - İkisinin görevi tamamen aynıdır
-  - RAM geçici çalışma alanıdır; SSD kalıcı depolamadır
+  - İlk web tarayıcısını çalıştırması
+  - İlk vakum tüpü olması
+  - İlk kişisel bilgisayarın adı olması
+  - Programlanabilir işlemci işlevlerini tek bir ticari mikroişlemci çipinde bütünleştiren önemli erken ürünlerden biri olması
   answer: 3
-  explanation: 'RAM ve SSD farklı amaçlara sahiptir: aktif çalışma ve kalıcı depolama.'
+  explanation: 1971'de tanıtılan Intel 4004, programlanabilir işlemci işlevlerinin tek çipte bütünleşmesini temsil eden önemli erken ticari mikroişlemcilerden biridir.
 - id: q14
-  question: Bir dosyanın ekranda görünmesini sağlayan cihaz hangisidir?
+  question: IBM PC'nin 1981'deki en önemli etkilerinden biri hangisidir?
   options:
-  - Monitör
-  - Klavye
-  - Mikrofon
-  - Tarayıcı cihazı
+  - Geniş bir uyumlu donanım, yazılım ve çevre birimi ekosisteminin büyümesini hızlandırması
+  - Kişisel bilgisayarı tarihte ilk kez icat etmesi
+  - İnterneti başlatması
+  - İlk transistörü içermesi
   answer: 0
-  explanation: Monitör bilgisayarın görsel çıktısını kullanıcıya sunan çıkış birimidir.
+  explanation: IBM PC'den önce kişisel bilgisayarlar vardı; IBM PC'nin güçlü tarihsel etkilerinden biri PC uyumluluğu etrafında büyük bir ekosistem oluşmasıdır.
 - id: q15
-  question: Aşağıdakilerden hangisi donanım-yazılım eşleşmesine doğru örnektir?
+  question: İnternet ve World Wide Web arasındaki doğru ilişki hangisidir?
   options:
-  - Windows donanımdır; SSD yazılımdır
-  - Kamera fiziksel donanımdır; Kamera uygulaması yazılımdır
-  - Word donanımdır; klavye yazılımdır
-  - RAM uygulamadır; tarayıcı işletim sistemidir
+  - İnternet Web'in içinde çalışan küçük bir uygulamadır
+  - Web, internet altyapısı üzerinde çalışan hizmetlerden biridir
+  - İkisi tamamen aynı kavramdır
+  - Web internetten daha eski bir donanımdır
   answer: 1
-  explanation: Fiziksel kamera donanımdır; görüntüyü kullanan uygulama ise yazılımdır.
+  explanation: İnternet ağ altyapısıdır; Web bu altyapı üzerinde çalışan bilgi paylaşım sistemlerinden biridir.
 - id: q16
-  question: Bir masaüstü bilgisayar ile dizüstü bilgisayar arasındaki ortak nokta hangisidir?
+  question: Tim Berners-Lee World Wide Web için ilk önerisini hangi yıl CERN'de hazırladı?
   options:
-  - Dizüstünde işletim sistemi bulunmaz
-  - Masaüstünde RAM olmaz
-  - İkisi de temel olarak işlemci, bellek, depolama ve işletim sistemi gibi bileşenlerle çalışır
-  - Yalnız dizüstü dosya saklayabilir
+  - '1971'
+  - '1946'
+  - '1989'
+  - '2005'
   answer: 2
-  explanation: Fiziksel düzenleri farklı olsa da temel bilgisayar çalışma modeli aynıdır.
+  explanation: CERN kaynaklarına göre Berners-Lee ilk Web önerisini Mart 1989'da hazırladı.
 - id: q17
-  question: Aşağıdakilerden hangisi depolama birimine örnektir?
+  question: CERN'in 1993'te Web yazılımını açık biçimde kullanıma sunmasının önemi neydi?
   options:
-  - SSD
-  - Hoparlör
-  - Fare
-  - Web tarayıcısı
+  - Web teknolojisinin daha geniş biçimde benimsenmesini ve geliştirilmesini kolaylaştırması
+  - İnternetin o yıl ilk kez icat edilmesi
+  - Bilgisayarlarda CPU kullanımının sona ermesi
+  - Web'in yalnızca CERN içinde kalmasını sağlaması
   answer: 0
-  explanation: SSD dosyaların ve programların kalıcı biçimde saklandığı depolama aygıtıdır.
+  explanation: CERN'in açık erişim kararı Web'in dünya çapında yayılmasını kolaylaştıran önemli etkenlerden biriydi.
 - id: q18
-  question: “Kasa” ile “CPU” için doğru ifade hangisidir?
+  question: Bulut bilişim bilgisayar kullanımını hangi açıdan değiştirdi?
   options:
-  - Kasa ve CPU her zaman aynı parçanın iki adıdır
-  - CPU monitörün diğer adıdır
-  - Kasa birçok bileşeni barındırır; CPU kasanın içindeki işlemcidir
-  - Kasa yalnız RAM'in yazılım adıdır
+  - Bilgisayarların ağ bağlantısına ihtiyaç duymasını tamamen ortadan kaldırdı
+  - Yerel cihazların tamamını yok etti
+  - Hesaplama ve depolamanın önemli bölümünün uzaktaki sunucularda yapılabilmesini yaygınlaştırdı
+  - Yazılım kullanımını bitirdi
   answer: 2
-  explanation: Günlük dilde karıştırılsa da CPU işlemcidir, kasa ise sistem bileşenlerinin bulunduğu fiziksel gövdedir.
+  explanation: Bulut hizmetlerinde kullanıcı cihazı çoğu zaman internet üzerinden uzak sunuculardaki hesaplama ve depolama kaynaklarını kullanır.
 - id: q19
-  question: Bir uygulamayı kapattığında Windows çalışmaya devam ediyorsa bu neyi gösterir?
+  question: Bilgisayar nesilleri sınıflandırması hakkında hangisi daha doğru bir yaklaşımdır?
   options:
-  - Windows'un donanım olduğunu
-  - İşletim sistemi ile uygulamanın farklı yazılım katmanları olduğunu
-  - Uygulamaların RAM olmadığını değil
-  - SSD'nin ekran kartı olduğunu
+  - Her nesil tam olarak aynı gün başlamıştır
+  - Öğretici bir yaklaşık sınıflandırmadır; gerçek teknoloji geçişleri keskin sınırlarla gerçekleşmez
+  - Beşinci nesil diğerlerinden daha kesin bir donanım tanımıdır
+  - Eski teknoloji yeni nesil başladığı anda tamamen ortadan kalkar
   answer: 1
-  explanation: İşletim sistemi sistemi yönetmeye devam eder; uygulama belirli bir kullanıcı görevini yürütür.
+  explanation: Teknolojiler birbirinin üzerine biner; nesil kavramı tarihsel süreci anlamayı kolaylaştıran yaklaşık bir öğretim modelidir.
 - id: q20
-  question: Bilgisayar sistemini en doğru nasıl tanımlarsın?
+  question: Bu dersin bilgisayar tarihine yaklaşımını en iyi hangi ifade özetler?
   options:
-  - Yalnızca monitörden oluşan cihaz
-  - Sadece internete bağlanınca çalışan yazıcı
-  - Yalnız işlemciden oluşan makine
-  - Donanım ve yazılımın birlikte veriyi alıp işleyen, sonuç üreten ve saklayabilen dijital sistem
+  - Yalnızca bilgisayar markalarını ezberlemek
+  - Sadece 1980 sonrası bilgisayarları incelemek
+  - Bilgisayar tarihini yalnızca işlemci hızlarıyla açıklamak
+  - Tek tek cihazları ezberlemekten çok, problemlerin yeni fikir ve teknolojilerle nasıl dönüştürüldüğünü anlamak
   answer: 3
-  explanation: Bilgisayar tek bir parçadan değil, donanım ve yazılım bileşenlerinin birlikte çalışmasından oluşur.
+  explanation: Ders tarihsel gelişimi problem → fikir → teknoloji → yeni kullanım biçimi zinciri üzerinden ele alır.

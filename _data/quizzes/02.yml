@@ -1,183 +1,183 @@
-title: Windows Masaüstü, Başlat Menüsü ve Görev Çubuğu
-description: Masaüstü, Başlat, görev çubuğu, pencereler, Alt+Tab ve Tutturma özelliklerini senaryolarla kontrol et.
+title: 'Bilgisayarı Tanı: Donanım, Yazılım ve Temel Kavramlar'
+description: Donanım, yazılım, işletim sistemi, RAM, depolama ve giriş/çıkış kavramlarını günlük örnekler üzerinden kontrol et.
 questions:
 - id: q1
-  question: Windows'ta Başlat menüsünü klavyeden açmanın en temel yolu hangisidir?
+  question: Bir bilgisayarın en temel çalışma modelinde doğru sıra hangisidir?
   options:
-  - Windows tuşuna basmak
-  - Ctrl + P
-  - F2
-  - Alt + Enter
+  - Giriş → İşlem → Çıkış; gerektiğinde depolama kullanılır
+  - Depolama → Yazıcı → İnternet → Klavye
+  - Ekran → Fare → Kasa → USB
+  - Yalnız giriş ve çıkış vardır
   answer: 0
-  explanation: Windows tuşu Başlat menüsünü açıp kapatmak için kullanılır.
+  explanation: Bilgisayar veriyi girişten alır, işler, sonuç üretir ve gerektiğinde kalıcı depolamaya yazar.
 - id: q2
-  question: Bir uygulamayı Başlat menüsünde uzun uzun aramak yerine hızlıca bulmanın iyi yolu hangisidir?
+  question: RAM için en doğru açıklama hangisidir?
   options:
-  - Masaüstü arka planını değiştirmek
-  - Başlat'ı açıp uygulama adını yazmak
-  - Bilgisayarı kapatmak
-  - Dosyanın uzantısını değiştirmek
+  - Belgelerin kalıcı olarak saklandığı ana arşivdir
+  - Çalışan programların ve verilerin geçici çalışma alanıdır
+  - Yalnız görüntüleri ekrana gönderir
+  - İnternet bağlantısını sağlayan parçadır
   answer: 1
-  explanation: Windows araması uygulama, ayar ve dosyalara hızlı erişim sağlar.
+  explanation: RAM çalışma sırasında hızlı geçici bellek görevi görür; normal kullanım verileri bilgisayar kapandığında RAM'de kalmaz.
 - id: q3
-  question: Görev çubuğundaki bir uygulama simgesinin sabitlenmiş olması ne anlama gelir?
+  question: SSD'nin temel görevi nedir?
   options:
-  - Uygulamanın mutlaka o anda çalıştığı
-  - Uygulamanın iki kez kurulduğu
-  - Uygulamaya hızlı erişim için simgenin görev çubuğunda tutulması
-  - Uygulamanın silinemeyeceği
+  - Klavye tuşlarını algılamak
+  - İşlemciyi soğutmak
+  - Windows, programlar ve dosyaları kalıcı olarak saklamak
+  - Sesi hoparlöre çevirmek
   answer: 2
-  explanation: Sabitlenmiş uygulama kapalı da olabilir; sabitleme hızlı erişim sağlar.
+  explanation: SSD bir depolama birimidir; dosyalar ve yazılımlar burada kalıcı olarak tutulabilir.
 - id: q4
-  question: Bir pencereyi simge durumuna küçülttüğünde ne olur?
+  question: Aşağıdakilerden hangisi yazılımdır?
   options:
-  - Uygulama bilgisayardan kaldırılır
-  - Dosyalar otomatik silinir
-  - Windows kapanır
-  - Pencere ekrandan çekilir ama uygulama genellikle çalışmaya devam eder
+  - Klavye
+  - Monitör
+  - SSD
+  - Microsoft Word
   answer: 3
-  explanation: Simge durumuna küçültme ile kapatma farklı işlemlerdir.
+  explanation: Word belirli bir işi yapmak için kullanılan uygulama yazılımıdır.
 - id: q5
-  question: Bir pencerenin sağ üstündeki X düğmesi genel olarak ne yapar?
+  question: Windows 11 hangi tür yazılımdır?
   options:
-  - Pencereyi görev çubuğuna sabitler
-  - Pencereyi veya uygulamayı kapatır
-  - Dosyayı kopyalar
-  - Ayarlar'ı açar
+  - Fiziksel depolama birimi
+  - İşletim sistemi
+  - Giriş aygıtı
+  - Yazıcı sürücüsünün donanımı
   answer: 1
-  explanation: X düğmesi etkin pencereyi kapatmak için kullanılır.
+  explanation: Windows 11 programları, dosyaları ve donanım kaynaklarını yöneten bir işletim sistemidir.
 - id: q6
-  question: Alt + Tab kısayolu ne için kullanılır?
+  question: Aşağıdakilerden hangisi bir giriş birimidir?
   options:
-  - Bilgisayarı kilitlemek
-  - Dosya Gezgini'ni açmak
-  - Açık uygulamalar arasında geçiş yapmak
-  - Metni kopyalamak
+  - Monitör
+  - Hoparlör
+  - Mikrofon
+  - Projektör
   answer: 2
-  explanation: Alt+Tab, açık uygulama pencereleri arasında geçiş yapar.
+  explanation: Mikrofon sesi bilgisayara veri olarak gönderir; bu nedenle giriş birimidir.
 - id: q7
-  question: Windows + D kısayolunun işlevi nedir?
+  question: Dokunmatik ekran neden hem giriş hem çıkış birimi sayılabilir?
   options:
-  - Ayarlar'ı açmak
-  - Dosya silmek
-  - Görev Yöneticisi'ni açmak
-  - Masaüstünü görüntülemek veya gizlemek
+  - Yalnız elektrik tükettiği için
+  - İçinde SSD bulunduğu için
+  - Her zaman yazıcı olarak çalıştığı için
+  - Görüntü verir ve dokunma bilgisini bilgisayara gönderir
   answer: 3
-  explanation: Windows+D açık pencereleri geçici olarak geri plana alıp masaüstünü gösterir veya geri getirir.
+  explanation: Ekran görüntü çıkışı verir; dokunma algılama ise kullanıcıdan bilgisayara giriş sağlar.
 - id: q8
-  question: Windows + L kısayolu hangi amaçla kullanılır?
+  question: CPU için en doğru ifade hangisidir?
   options:
-  - Bilgisayarı kilitlemek
-  - Dosya Gezgini'ni açmak
-  - Yeni klasör oluşturmak
-  - Pencereyi sola yaslamak
+  - Program komutlarının yürütülmesi ve hesaplamalarda temel rol oynar
+  - Dosyaları yıllarca saklayan tek parçadır
+  - Yalnız ses kaydı yapar
+  - Klavye ile monitör arasındaki kablodur
   answer: 0
-  explanation: Bilgisayarı kısa süre bırakırken oturumu kilitlemek güvenli bir alışkanlıktır.
+  explanation: CPU komutları işler ve hesaplamaları yürütür; ancak bilgisayarın çalışması diğer bileşenlerle birlikte gerçekleşir.
 - id: q9
-  question: Windows 11'de Tutturma (Snap) özelliğinin amacı nedir?
+  question: Anakartın temel görevi nedir?
   options:
-  - Dosyaları ZIP yapmak
-  - Klavye dilini değiştirmek
-  - Birden fazla pencereyi ekranda düzenli yerleştirmeyi kolaylaştırmak
-  - Windows'u güncellemek
+  - Dosyaları buluta yüklemek
+  - Yalnız ekran parlaklığını ayarlamak
+  - Temel bileşenlerin birbirine bağlanıp iletişim kurduğu ana devre kartı olmaktır
+  - Belgeleri PDF'ye çevirmek
   answer: 2
-  explanation: Snap, pencereleri ekran kenarlarına veya hazır düzenlere yerleştirerek çoklu çalışmayı kolaylaştırır.
+  explanation: Anakart işlemci, RAM, depolama ve bağlantıların bir arada çalıştığı ana donanım platformudur.
 - id: q10
-  question: Windows + Z kısayolu desteklenen Windows 11 düzenlerinde ne açabilir?
+  question: Aşağıdakilerden hangisi uygulama yazılımına örnektir?
   options:
-  - Geri Dönüşüm Kutusu'nu
-  - Pano geçmişini
-  - Yazdırma penceresini
-  - Tutturma düzenlerini
+  - RAM
+  - Anakart
+  - USB bağlantı noktası
+  - VLC Media Player
   answer: 3
-  explanation: Microsoft belgelerine göre Windows+Z, Snap Layouts/Tutturma düzenlerini açabilir.
+  explanation: VLC belirli bir kullanıcı görevini, medya oynatmayı, gerçekleştiren uygulamadır.
 - id: q11
-  question: Bir pencereyi ekranın sol kenarına sürüklemek genellikle ne sağlar?
+  question: Bir yazıcı sürücüsünün görevi en iyi nasıl açıklanır?
   options:
-  - Pencereyi ekranın sol tarafına tutturmayı
-  - Uygulamayı kaldırmayı
-  - Dosyayı Masaüstü'ne kopyalamayı
-  - Bilgisayarı yeniden başlatmayı
+  - İşletim sistemi ile yazıcı arasında uygun iletişime yardımcı olmak
+  - Yazıcı kâğıdını fiziksel olarak üretmek
+  - Belgeyi internette yayınlamak
+  - RAM'i kalıcı depolamaya çevirmek
   answer: 0
-  explanation: Snap özelliği pencereyi kenara sürükleyerek ekranın bir bölümüne yerleştirebilir.
+  explanation: Sürücü, işletim sisteminin donanımın özelliklerini doğru biçimde kullanabilmesine yardımcı olan yazılımdır.
 - id: q12
-  question: Başlat menüsüne bir uygulamayı sabitlemek ne yapmaz?
+  question: Bir öğrenci çevrim içi toplantıda konuşuyor. Mikrofona göre veri akışı hangisidir?
   options:
-  - Uygulamaya daha hızlı erişim sağlayabilir
-  - Uygulamayı ikinci kez kurmaz
-  - Başlat menüsünde görünmesini kolaylaştırabilir
-  - Sık kullanılan uygulamayı erişilebilir tutabilir
+  - Mikrofon yalnız çıkış görevi yapar
+  - Mikrofon bilgisayara ses verisi gönderdiği için giriş görevi yapar
+  - Mikrofon depolama birimidir
+  - Mikrofon işletim sistemidir
   answer: 1
-  explanation: Sabitlemek yalnız erişim düzenidir; kurulum işlemi değildir.
+  explanation: Mikrofon kullanıcının sesini bilgisayara ilettiği için giriş aygıtıdır.
 - id: q13
-  question: Görev çubuğunun sağ tarafındaki ağ, ses ve pil gibi simgeler ne sağlar?
+  question: Aşağıdakilerden hangisi RAM ile SSD arasındaki doğru farktır?
   options:
-  - Word belgesini otomatik kaydetme
-  - CPU'yu fiziksel olarak değiştirme
-  - Dosyaları PDF'ye çevirme
-  - Sistem durumunu görme ve bazı hızlı ayarlara erişme
+  - RAM kalıcı, SSD geçicidir
+  - İkisi de yalnız görüntü üretir
+  - İkisinin görevi tamamen aynıdır
+  - RAM geçici çalışma alanıdır; SSD kalıcı depolamadır
   answer: 3
-  explanation: Bu alan ağ, ses, pil ve hızlı ayarlar gibi günlük sistem durumlarına erişim sunar.
+  explanation: 'RAM ve SSD farklı amaçlara sahiptir: aktif çalışma ve kalıcı depolama.'
 - id: q14
-  question: Simge durumuna küçültülen bir uygulamayı tekrar nasıl getirebilirsin?
+  question: Bir dosyanın ekranda görünmesini sağlayan cihaz hangisidir?
   options:
-  - Görev çubuğundaki ilgili uygulama simgesine tıklayarak
-  - Bilgisayarın fişini çekerek
-  - Dosya uzantısını değiştirerek
-  - Klavye dilini değiştirerek
+  - Monitör
+  - Klavye
+  - Mikrofon
+  - Tarayıcı cihazı
   answer: 0
-  explanation: Minimize edilen pencere görev çubuğu üzerinden yeniden görünür hâle getirilebilir.
+  explanation: Monitör bilgisayarın görsel çıktısını kullanıcıya sunan çıkış birimidir.
 - id: q15
-  question: Bir Word belgesini kapatırken 'Kaydedilsin mi?' uyarısı çıkarsa en doğru davranış nedir?
+  question: Aşağıdakilerden hangisi donanım-yazılım eşleşmesine doğru örnektir?
   options:
-  - Her zaman Kaydetme'yi seçmek
-  - Uyarıyı okuyup çalışmanın kaydedilip kaydedilmediğine göre bilinçli seçim yapmak
-  - Uyarıyı okumadan bilgisayarı kapatmak
-  - Dosya uzantısını silmek
+  - Windows donanımdır; SSD yazılımdır
+  - Kamera fiziksel donanımdır; Kamera uygulaması yazılımdır
+  - Word donanımdır; klavye yazılımdır
+  - RAM uygulamadır; tarayıcı işletim sistemidir
   answer: 1
-  explanation: Kaydedilmemiş çalışma veri kaybına yol açabileceği için uyarı dikkatle okunmalıdır.
+  explanation: Fiziksel kamera donanımdır; görüntüyü kullanan uygulama ise yazılımdır.
 - id: q16
-  question: İki pencereyi yan yana kullanmanın yararlı olduğu bir durum hangisidir?
+  question: Bir masaüstü bilgisayar ile dizüstü bilgisayar arasındaki ortak nokta hangisidir?
   options:
-  - Bilgisayarı fiziksel olarak soğutmak
-  - USB belleği formatlamak
-  - Bir kaynağı tarayıcıda okuyup Word'e not almak
-  - Klavye sürücüsünü silmek
+  - Dizüstünde işletim sistemi bulunmaz
+  - Masaüstünde RAM olmaz
+  - İkisi de temel olarak işlemci, bellek, depolama ve işletim sistemi gibi bileşenlerle çalışır
+  - Yalnız dizüstü dosya saklayabilir
   answer: 2
-  explanation: Yan yana pencereler aynı anda iki içeriği görmeyi kolaylaştırır.
+  explanation: Fiziksel düzenleri farklı olsa da temel bilgisayar çalışma modeli aynıdır.
 - id: q17
-  question: Başlat menüsü temel olarak neye hızlı erişim sağlar?
+  question: Aşağıdakilerden hangisi depolama birimine örnektir?
   options:
-  - Uygulama, ayar ve dosyalara
-  - Yalnız BIOS ayarlarına
-  - Sadece internet kablosuna
-  - Yalnız yazıcı kâğıdına
+  - SSD
+  - Hoparlör
+  - Fare
+  - Web tarayıcısı
   answer: 0
-  explanation: Başlat menüsü Windows'ta uygulama, ayar ve dosya bulmanın ana yollarındandır.
+  explanation: SSD dosyaların ve programların kalıcı biçimde saklandığı depolama aygıtıdır.
 - id: q18
-  question: Masaüstündeki bir uygulama kısayolunu silmek çoğu durumda ne anlama gelir?
+  question: “Kasa” ile “CPU” için doğru ifade hangisidir?
   options:
-  - Uygulamanın kesin olarak kaldırılması
-  - Windows'un silinmesi
-  - Yalnız kısayolun kaldırılması; uygulama bilgisayarda kalabilir
-  - SSD'nin biçimlendirilmesi
+  - Kasa ve CPU her zaman aynı parçanın iki adıdır
+  - CPU monitörün diğer adıdır
+  - Kasa birçok bileşeni barındırır; CPU kasanın içindeki işlemcidir
+  - Kasa yalnız RAM'in yazılım adıdır
   answer: 2
-  explanation: Kısayol, asıl uygulamaya erişim bağlantısıdır.
+  explanation: Günlük dilde karıştırılsa da CPU işlemcidir, kasa ise sistem bileşenlerinin bulunduğu fiziksel gövdedir.
 - id: q19
-  question: Pencereyi 'ekranı kapla' yaptığında ne olur?
+  question: Bir uygulamayı kapattığında Windows çalışmaya devam ediyorsa bu neyi gösterir?
   options:
-  - Uygulama kapanır
-  - Pencere kullanılabilir ekran alanını büyük ölçüde doldurur
-  - Bilgisayar kilitlenir
-  - Dosya otomatik paylaşılır
+  - Windows'un donanım olduğunu
+  - İşletim sistemi ile uygulamanın farklı yazılım katmanları olduğunu
+  - Uygulamaların RAM olmadığını değil
+  - SSD'nin ekran kartı olduğunu
   answer: 1
-  explanation: Maximize/ekranı kapla pencereyi büyütür; kapatma işlemi değildir.
+  explanation: İşletim sistemi sistemi yönetmeye devam eder; uygulama belirli bir kullanıcı görevini yürütür.
 - id: q20
-  question: Windows çalışma alanını verimli kullanmak için en doğru yaklaşım hangisidir?
+  question: Bilgisayar sistemini en doğru nasıl tanımlarsın?
   options:
-  - Bütün uygulamaları masaüstüne kopyalamak
-  - Her işlemde bilgisayarı yeniden başlatmak
-  - Aynı anda yalnız tek uygulama kurmak
-  - Başlat aramasını, görev çubuğunu, pencere düzenlemeyi ve klavye geçişlerini amaca göre kullanmak
+  - Yalnızca monitörden oluşan cihaz
+  - Sadece internete bağlanınca çalışan yazıcı
+  - Yalnız işlemciden oluşan makine
+  - Donanım ve yazılımın birlikte veriyi alıp işleyen, sonuç üreten ve saklayabilen dijital sistem
   answer: 3
-  explanation: Windows araçlarını amaca göre kullanmak hızlı ve düzenli çalışma sağlar.
+  explanation: Bilgisayar tek bir parçadan değil, donanım ve yazılım bileşenlerinin birlikte çalışmasından oluşur.

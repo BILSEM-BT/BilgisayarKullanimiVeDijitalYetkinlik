@@ -1,0 +1,183 @@
+title: Dijital Bilgiyi Değerlendirme ve Doğrulama
+description: Kaynak, kanıt, bağlam, grafik ve görsel doğrulama becerilerini değerlendir.
+questions:
+- id: q1
+  question: Bir bilgiye ulaştığında ilk kontrol sorularından biri hangisidir?
+  options:
+  - Kaynağın kim olduğunu ve konu hakkında hangi uzmanlığa sahip olduğunu araştırmak
+  - Sayfanın rengini kontrol etmek
+  - Metnin uzunluğuna bakmak
+  - İlk cümlenin kalın olup olmadığına bakmak
+  answer: 0
+  explanation: Kaynak kimliği ve uzmanlığı temel bağlamdır.
+- id: q2
+  question: Birincil kaynak örneği hangisidir?
+  options:
+  - Kaynağı vermeyen sosyal medya özeti
+  - Araştırmanın yayımlanmış özgün makalesi veya standart metni
+  - Başka haberi kopyalayan blog
+  - Reklam metni
+  answer: 1
+  explanation: Birincil kaynak iddianın özgün veri veya standardına en yakındır.
+- id: q3
+  question: Korelasyon neyi tek başına kanıtlamaz?
+  options:
+  - İki değişkenin birlikte değişebildiğini
+  - Veri toplanmış olabileceğini
+  - Nedenselliği
+  - İlişkinin araştırılabileceğini
+  answer: 2
+  explanation: Birlikte değişim neden-sonuç kanıtı değildir.
+- id: q4
+  question: Grafiğin Y ekseninin 95’ten başlaması neye yol açabilir?
+  options:
+  - Verinin otomatik yanlış olmasına
+  - Grafiğin yüklenmemesine
+  - Alan adının değişmesine
+  - Küçük farkların görsel olarak çok büyük görünmesine
+  answer: 3
+  explanation: Kesilmiş eksen görsel algıyı büyütebilir.
+- id: q5
+  question: Aynı haberi 20 sitenin paylaşması neyi garanti etmez?
+  options:
+  - Haberin yaygınlaştığını
+  - 20 bağımsız kaynağın doğrulama yaptığını
+  - Aynı ilk kaynağın kopyalanmış olabileceğini
+  - Çapraz doğrulama gerektiğini
+  answer: 1
+  explanation: Siteler birbirinden veya aynı ajans kaynağından kopyalayabilir.
+- id: q6
+  question: Lateral reading ne demektir?
+  options:
+  - Yalnızca sayfanın altına kaydırmak
+  - Metni soldan sağa okumak
+  - Kaynak hakkında başka sekmelerde bağımsız bilgi ve doğrulama aramak
+  - Tarayıcıyı kapatmak
+  answer: 2
+  explanation: Kaynağın kendi anlatısının dışına çıkılır.
+- id: q7
+  question: Clickbait başlık için en iyi davranış hangisidir?
+  options:
+  - Başlığı doğru kabul etmek
+  - Sadece yorum sayısına bakmak
+  - Ekran görüntüsünü paylaşmak
+  - Başlığı paylaşmadan içeriği ve dayandığı kanıtı okumak
+  answer: 3
+  explanation: Başlık içerikten daha iddialı olabilir.
+- id: q8
+  question: Bir screenshot neden tek başına güçlü kanıt değildir?
+  options:
+  - Kırpılabilir, düzenlenebilir ve bağlamdan koparılabilir
+  - PNG olduğu için
+  - Her screenshot virüslü olduğu için
+  - İnternette açılamadığı için
+  answer: 0
+  explanation: Orijinal kaynak ayrıca aranmalıdır.
+- id: q9
+  question: Yapay zekâ ile üretilmiş olabilecek içerik nasıl değerlendirilmelidir?
+  options:
+  - Sadece parmak sayısına bakarak
+  - Metin düzgünse gerçek sayarak
+  - Kaynak, kanıt ve bağımsız doğrulama üzerinden
+  - AI dedektörünü kesin sonuç kabul ederek
+  answer: 2
+  explanation: Tek bir görsel işaret veya dedektör kesin doğrulama sağlamaz.
+- id: q10
+  question: 12 kişilik örneklemi milyonlara genellemek neden sorunlu olabilir?
+  options:
+  - 12 sayısı asal olmadığı için
+  - PDF uzun olduğu için
+  - Araştırma çevrim içi olduğu için
+  - Örneklem temsil gücü yetersiz olabilir
+  answer: 3
+  explanation: Örneklem büyüklüğü ve seçimi genellenebilirliği etkiler.
+- id: q11
+  question: Yüzde artışı neden mutlak değerle birlikte incelenmelidir?
+  options:
+  - Küçük başlangıç değerlerinde büyük yüzde küçük mutlak farkı gizleyebilir
+  - Yüzde hiçbir zaman kullanılmaz
+  - Mutlak sayı daima yanlıştır
+  - Yüzde yalnızca matematikte geçerlidir
+  answer: 0
+  explanation: Göreli ve mutlak değer birlikte bağlam sağlar.
+- id: q12
+  question: Kaynağın amacı neden önemlidir?
+  options:
+  - URL’yi değiştirir
+  - Satış, ikna veya bilgilendirme amacı içeriğin sunumunu etkileyebilir
+  - CPU hızını belirler
+  - Tarayıcı geçmişini siler
+  answer: 1
+  explanation: İçerik amacı olası çıkar ve çerçevelemeyi etkiler.
+- id: q13
+  question: Google’ın kaynak değerlendirme önerilerinden biri hangisidir?
+  options:
+  - Sadece kaynağın kendi reklamını okumak
+  - İlk sonucu kesin doğru kabul etmek
+  - Tarihi görmezden gelmek
+  - Kaynak hakkında başkalarının ne söylediğini araştırmak
+  answer: 3
+  explanation: Google dış bağlam araştırmayı önerir.
+- id: q14
+  question: Deepfake şüphesinde en doğru yaklaşım hangisidir?
+  options:
+  - Orijinal kaynak ve bağımsız kayıt/açıklamalarla çapraz doğrulama yapmak
+  - Sadece video çözünürlüğüne bakmak
+  - Beğeni sayısına güvenmek
+  - Videoyu tekrar paylaşmak
+  answer: 0
+  explanation: Sentetik medya kaynağı bağımsız kanıtla doğrulanmalıdır.
+- id: q15
+  question: Cherry-picking ne demektir?
+  options:
+  - Bütün veri setini açıklamak
+  - Yalnızca iddiayı destekleyen veriyi seçip ters kanıtları dışlamak
+  - Kaynakları alfabetik sıralamak
+  - Grafiği renklendirmek
+  answer: 1
+  explanation: Seçici veri kullanımı yanıltıcı sonuç yaratabilir.
+- id: q16
+  question: Bir kaynak belirsizliği açıkça belirtiyorsa ne düşünülmelidir?
+  options:
+  - Kaynak otomatik yanlış sayılır
+  - Kaynak kesin sahtedir
+  - Bu bilimsel dürüstlük göstergesi olabilir; kanıt ve sınırlar yine değerlendirilir
+  - Belirsizlik bilimde bulunmaz
+  answer: 2
+  explanation: Güvenilir bilimsel iletişim sınırları açıklar.
+- id: q17
+  question: Eski fotoğrafın yeni olay diye paylaşılmasını nasıl kontrol edebilirsin?
+  options:
+  - Tersine görsel aramayla önceki kullanımlarını araştırarak
+  - Dosya adını değiştirerek
+  - Zoom’u artırarak
+  - Ekran parlaklığını azaltarak
+  answer: 0
+  explanation: Tersine görsel arama önceki bağlamları bulabilir.
+- id: q18
+  question: Resmî kaynakta eski bilgi bulunabilir mi?
+  options:
+  - Hayır, resmî sayfalar eskimez
+  - Sadece PDF’ler eskir
+  - Evet; resmî olması güncellik kontrolünü gereksiz yapmaz
+  - Yalnızca sosyal medya eskir
+  answer: 2
+  explanation: Özellikler ve kurallar zamanla değişebilir.
+- id: q19
+  question: Fact-check sonucu için ne yapılmalıdır?
+  options:
+  - Başlığı tek başına yeterli görmek
+  - Kullandığı yöntem ve birincil kaynakları da incelemek
+  - Her fact-check’i kusursuz kabul etmek
+  - Kaynak listesini önemsememek
+  answer: 1
+  explanation: Doğrulama çalışmasının kanıt zinciri de değerlendirilir.
+- id: q20
+  question: Paylaşmadan önce en iyi genel kontrol hangisidir?
+  options:
+  - Yalnızca beğeni sayısına bakmak
+  - Metin uzunsa paylaşmak
+  - İlk sonucu kopyalamak
+  - Kaynak, tarih, kanıt, bağlam ve bağımsız doğrulamayı birlikte değerlendirmek
+  answer: 3
+  explanation: Bilgi değerlendirme çoklu sinyale dayanır.

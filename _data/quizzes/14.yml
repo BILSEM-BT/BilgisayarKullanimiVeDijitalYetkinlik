@@ -1,0 +1,183 @@
+title: Google Docs, Sheets ve Slides ile Ortak Çalışma
+description: Ortak dosya, yorum/öneri, E-Tablolar formülleri, Slaytlar ve sürüm geçmişini değerlendir.
+questions:
+- id: q1
+  question: Google Dokümanlar’da ortak çalışmanın temel avantajı nedir?
+  options:
+  - Birden fazla kişinin tek güncel dosya üzerinde çalışabilmesi
+  - Her kullanıcının zorunlu ayrı kopya oluşturması
+  - İnternet olmadan her özelliğin sınırsız çalışması
+  - Dosyanın otomatik herkese açılması
+  answer: 0
+  explanation: Tek ortak dosya sürüm karmaşasını azaltır ve değişikliklerin birlikte izlenmesini sağlar.
+- id: q2
+  question: Yorumcu rolündeki kullanıcı ne yapabilir?
+  options:
+  - Dosyanın sahibini değiştirebilir
+  - Yorum ve desteklenen durumlarda öneri bırakabilir
+  - Her paylaşım iznini kaldırabilir
+  - Dosyayı mutlaka kalıcı silebilir
+  answer: 1
+  explanation: Yorumcu içeriği doğrudan değiştirmeden geri bildirim verebilir.
+- id: q3
+  question: Google Dokümanlar’daki Önerme modu ne işe yarar?
+  options:
+  - Belgeyi otomatik PDF yapmaya
+  - Dosyayı gizli klasöre taşımaya
+  - Değişiklikleri kabul veya reddedilebilen öneriler olarak göstermeye
+  - İnternet bağlantısını hızlandırmaya
+  answer: 2
+  explanation: Önerme modu özellikle birlikte metin düzenlerken değişikliğin önce incelenmesini sağlar.
+- id: q4
+  question: Sürüm geçmişinin temel amacı nedir?
+  options:
+  - Tarayıcı geçmişini silmek
+  - Dosyayı sıkıştırmak
+  - Kullanıcının parolasını değiştirmek
+  - Önceki değişiklikleri ve düzenleyen kişileri inceleyebilmek
+  answer: 3
+  explanation: Sürüm geçmişi belge üzerinde zaman içinde yapılan düzenlemeleri takip eder.
+- id: q5
+  question: Bir sürüme “Teslim Sürümü” gibi ad vermenin yararı nedir?
+  options:
+  - Dosyayı otomatik herkese açmak
+  - Önemli dönüm noktasını daha kolay bulmayı sağlamak
+  - Formülleri silmek
+  - Belgeyi salt okunur yapmak
+  answer: 1
+  explanation: Adlandırılmış sürümler proje kilometre taşlarını anlamlı biçimde işaretler.
+- id: q6
+  question: Başlık 1 / Başlık 2 gibi stilleri kullanmak neden yararlıdır?
+  options:
+  - Yalnız yazı rengini değiştirir
+  - Dosya boyutunu her zaman yarıya indirir
+  - Belge yapısı, gezinme ve erişilebilirlik açısından düzen sağlar
+  - Tüm yorumları siler
+  answer: 2
+  explanation: Başlık stilleri semantik belge yapısı oluşturur.
+- id: q7
+  question: E-Tablolar’da `=B2*C2` formülü aşağı kopyalandığında başvuruların değişmesi hangi kavramdır?
+  options:
+  - Mutlak başvuru
+  - Klasör paylaşımı
+  - Sürüm geçmişi
+  - Göreli başvuru
+  answer: 3
+  explanation: Göreli başvurular formül yeni konuma kopyalandığında satır/sütuna göre değişir.
+- id: q8
+  question: '`=$A$1` biçimindeki başvurunun amacı nedir?'
+  options:
+  - Formül kopyalanırken aynı hücreyi sabit tutmak
+  - Dosyayı yalnız A1 hücresine kaydetmek
+  - Filtreyi kaldırmak
+  - Belgeyi PDF’ye dönüştürmek
+  answer: 0
+  explanation: Dolar işaretleri sütun ve satırı sabitleyen mutlak başvuruyu gösterir.
+- id: q9
+  question: Filtre görünümü neden ortak E-Tabloda yararlıdır?
+  options:
+  - Bütün satırları kalıcı siler
+  - Dosyanın sahibini değiştirir
+  - Başka kullanıcıların görünümünü bozmadan kişisel filtreleme yapmaya yardım eder
+  - Her formülü metne çevirir
+  answer: 2
+  explanation: Filtre görünümü kişiye özel filtre/sıralama bağlamı sağlar.
+- id: q10
+  question: Veri doğrulama ne işe yarar?
+  options:
+  - Slayt temasını değiştirmeye
+  - E-posta göndermeye
+  - Tarayıcı önbelleğini silmeye
+  - Hücre girişini liste, sayı veya tarih gibi kurallarla sınırlandırmaya
+  answer: 3
+  explanation: Veri doğrulama ortak veri girişinde tutarlılığı artırır.
+- id: q11
+  question: Google Slaytlar’da tema ve düzen kullanmanın yararı nedir?
+  options:
+  - Sunum boyunca görsel tutarlılık sağlamaya
+  - Her slaytı bilinçli olarak farklılaştırmaya
+  - Formül hesaplamaya
+  - E-postayı şifrelemeye
+  answer: 0
+  explanation: Tema/düzen, başlık ve içerik yerleşimini tutarlı tutar.
+- id: q12
+  question: Konuşmacı notları ne için uygundur?
+  options:
+  - Dosyanın paylaşım yetkisini değiştirmek için
+  - Slayta sığdırılmaması gereken konuşma ayrıntılarını tutmak için
+  - Grafiğin veri aralığını seçmek için
+  - Tarayıcı dilini değiştirmek için
+  answer: 1
+  explanation: Konuşmacı notları sunucunun anlatım ayrıntılarını saklar.
+- id: q13
+  question: Çevrim dışı değişikliklerden sonra hangi kontrol önemlidir?
+  options:
+  - Dosyayı hemen silmek
+  - Tüm paylaşım izinlerini açmak
+  - Başlık stillerini kaldırmak
+  - Bağlantı geri geldiğinde senkronizasyonun tamamlandığını doğrulamak
+  answer: 3
+  explanation: Çevrim dışı düzenlemelerin buluta ulaştığı doğrulanmalıdır.
+- id: q14
+  question: DOCX/XLSX/PPTX dosyalarını Google araçlarında açarken hangi yaklaşım doğrudur?
+  options:
+  - Karmaşık biçim ve özelliklerde uyumluluğu sonradan kontrol etmek
+  - Bütün özelliklerin kesin bire bir kalacağını varsaymak
+  - Uzantıyı elle değiştirmenin yeterli olduğunu düşünmek
+  - Dosyayı kontrol etmeden teslim etmek
+  answer: 0
+  explanation: Farklı ofis uygulamaları arasında karmaşık özelliklerde uyumluluk farkları olabilir.
+- id: q15
+  question: Sürüm geçmişi neden bağımsız yedeklemenin tamamen yerine geçmez?
+  options:
+  - Sürüm geçmişi hiç veri tutmadığı için
+  - Aynı hizmet içindeki geçmiş ile bağımsız kurtarma kopyası farklı güvence sağlar
+  - Yedekleme yalnız kâğıda yapılabildiği için
+  - Sürüm geçmişi yalnız resimlerde çalıştığı için
+  answer: 1
+  explanation: Kritik veri için farklı hata senaryolarına karşı bağımsız yedekleme ayrıca düşünülmelidir.
+- id: q16
+  question: Bir API anahtarı yanlışlıkla ortak belgeye yazılıp sonra silindiyse en doğru davranış nedir?
+  options:
+  - Yalnız metinden silmeyi yeterli saymak
+  - Dosyayı yeniden adlandırmak
+  - Anahtarı iptal/değiştirip eski sürümlerde kalmış olabileceğini düşünmek
+  - Yorumları kapatmak
+  answer: 2
+  explanation: Hassas sırlar sürüm geçmişinde kalabilir; ifşa olmuş kimlik bilgisi değiştirilmelidir.
+- id: q17
+  question: Ekip çalışmasında en iyi rol dağılımı yaklaşımı hangisidir?
+  options:
+  - İçerik, veri ve son kontrol sorumluluklarını önceden belirlemek
+  - Herkesin aynı bölümü aynı anda değiştirmesi
+  - Son kontrol sorumlusu belirlememek
+  - Her değişiklikte yeni dosya oluşturmak
+  answer: 0
+  explanation: Net rol ve sorumluluklar ortak düzenlemenin teknik avantajını tamamlar.
+- id: q18
+  question: İyi bir yorum örneği hangisidir?
+  options:
+  - “Yanlış.”
+  - “Beğenmedim.”
+  - “Bu grafiğin veri kaynağını ve yılını ekleyelim mi?”
+  - “Her şeyi değiştir.”
+  answer: 2
+  explanation: Belirli, gerekçeli ve eyleme dönük yorum ekip çalışmasını iyileştirir.
+- id: q19
+  question: “Kopyasını oluştur” komutu ne üretir?
+  options:
+  - Aynı dosyada yalnızca yeni bir başlık
+  - Ayrı bir dosya ve ayrı değişiklik geçmişi
+  - Dosyanın bütün yorumlarını zorunlu silen tek sürüm
+  - Yeni bir tarayıcı profili
+  answer: 1
+  explanation: Kopya ayrı bir dosyadır; eski dosyanın sürüm geçmişinin devamı değildir.
+- id: q20
+  question: İyi ortak çalışma düzeninin en doğru özeti hangisidir?
+  options:
+  - Her kişiye ayrı final dosyası göndermek
+  - Herkese sahiplik vermek
+  - Sürüm geçmişini hiç kullanmamak
+  - Tek ortak dosya, doğru roller, yorum/öneri, sürüm geçmişi ve son kontrol kullanmak
+  answer: 3
+  explanation: Ortak çalışma teknik özelliklerle net ekip sürecinin birlikte kullanılmasını gerektirir.

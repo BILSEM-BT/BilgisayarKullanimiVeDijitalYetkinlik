@@ -1,0 +1,183 @@
+title: İnternette Etkili Arama
+description: Arama motoru, sorgu tasarımı ve gelişmiş Google arama yöntemlerini değerlendir.
+questions:
+- id: q1
+  question: Google Search’in temel aşamalarından biri hangisidir?
+  options:
+  - Crawling, indexing ve sonuçların sunulması
+  - Dosya formatlama ve BIOS güncelleme
+  - Yalnızca reklam gösterme
+  - USB sürücü harfi atama
+  answer: 0
+  explanation: Google Search Central crawling, indexing ve serving aşamalarını açıklar.
+- id: q2
+  question: '`site:meb.gov.tr BİLSEM` ne yapar?'
+  options:
+  - MEB sitesini siler
+  - Aramayı meb.gov.tr alanındaki sonuçlarla sınırlar
+  - Sadece PDF arar
+  - BİLSEM kelimesini hariç tutar
+  answer: 1
+  explanation: 'site: operatörü belirli site/domain kapsamına daraltır.'
+- id: q3
+  question: '`"bilgi okuryazarlığı"` ne amaçlar?'
+  options:
+  - Kelimeyi hariç tutar
+  - Sadece görsel arar
+  - Tam ifade eşleşmesine odaklanır
+  - Tarih filtresi koyar
+  answer: 2
+  explanation: Çift tırnak exact phrase aramasıdır.
+- id: q4
+  question: '`python -snake` sorgusundaki `-snake` ne yapar?'
+  options:
+  - Python’u siler
+  - Aramayı yalnızca PDF yapar
+  - Site filtresi ekler
+  - snake kelimesini içeren sonuçları hariç tutmaya çalışır
+  answer: 3
+  explanation: Eksi operatörü istenmeyen terimi dışlamaya yardım eder.
+- id: q5
+  question: '`filetype:pdf` ne işe yarar?'
+  options:
+  - PDF’yi otomatik doğrular
+  - PDF türündeki sonuçlara odaklanmaya yardım eder
+  - Sadece hakemli makale getirir
+  - Dosyayı indirir
+  answer: 1
+  explanation: Dosya türünü daraltır; güvenilirlik garanti etmez.
+- id: q6
+  question: '`after:2026-01-01` ne ifade eder?'
+  options:
+  - Saat dilimini değiştirir
+  - URL’yi şifreler
+  - Belirtilen tarihten sonraki sonuçlara odaklanmaya yardım eder
+  - Yalnızca video gösterir
+  answer: 2
+  explanation: Google tarih operatörlerinden biridir.
+- id: q7
+  question: Snippet için hangisi doğrudur?
+  options:
+  - Her zaman yazarın bire bir özetidir
+  - Kesin doğruluk garantisidir
+  - Sayfayı açmaya gerek bırakır
+  - Kısa ön izleme olabilir; sayfanın bağlamı yerine geçmez
+  answer: 3
+  explanation: Snippet sınırlı bağlam taşır.
+- id: q8
+  question: Arama sonuçlarının kullanıcılar arasında farklı olmasının nedenlerinden biri hangisidir?
+  options:
+  - Konum, dil ve cihaz gibi bağlam sinyalleri
+  - Her bilgisayarın farklı DNS harfi olması
+  - Dosya uzantısının .html olması
+  - RAM kapasitesinin daima sıralamayı belirlemesi
+  answer: 0
+  explanation: Google sonuçlarda konum, dil ve cihaz gibi sinyalleri kullanabilir.
+- id: q9
+  question: Teknik hata aramasında iyi yöntem hangisidir?
+  options:
+  - Yalnızca “bozuk” yazmak
+  - Rastgele forum komutunu çalıştırmak
+  - Tam hata mesajını tırnak içine alıp ürün/sürüm bilgisi eklemek
+  - Antivirüsü kapatmak
+  answer: 2
+  explanation: Tam hata metni sorguyu keskinleştirir.
+- id: q10
+  question: Birincil kaynak örneği hangisidir?
+  options:
+  - Kaynağı belirtmeyen sosyal medya yorumu
+  - Reklam banner’ı
+  - Başka haberi kopyalayan blog
+  - Teknoloji standardının yayımlandığı resmî RFC
+  answer: 3
+  explanation: Standart metnin kendisi birincil teknik kaynaktır.
+- id: q11
+  question: Googlebot ne yapar?
+  options:
+  - Web sayfalarını keşfedip taramaya çalışan crawler’dır
+  - Kullanıcının SSD’sini biçimlendirir
+  - Gmail gönderir
+  - Wi‑Fi şifresi üretir
+  answer: 0
+  explanation: Googlebot crawler’dır.
+- id: q12
+  question: Bir sayfanın crawl edilmesi neyi garanti etmez?
+  options:
+  - Sayfanın keşfedilmiş olabileceğini
+  - Mutlaka index’e girip üst sırada çıkmasını
+  - Crawler’ın istek yapabildiğini
+  - İçeriğin analiz edilebileceğini
+  answer: 1
+  explanation: Crawl, index ve sıralama ayrı aşamalardır.
+- id: q13
+  question: İteratif arama ne demektir?
+  options:
+  - Her seferinde aynı sorguyu kopyalamak
+  - Tarayıcı geçmişini silmek
+  - DNS değiştirmek
+  - Sonuçlardan yeni terimler öğrenip sorguyu adım adım daha kesin hale getirmek
+  answer: 3
+  explanation: Araştırma terminolojisi geliştikçe sorgu da gelişir.
+- id: q14
+  question: Tersine görsel arama neye yardımcı olabilir?
+  options:
+  - Görselin önceki kullanımlarını ve kaynak bağlamını araştırmaya
+  - Telif hakkını otomatik vermeye
+  - Görseli virüssüz ilan etmeye
+  - Ekran çözünürlüğünü değiştirmeye
+  answer: 0
+  explanation: Benzer/önceki kullanımlar bağlam doğrulamaya yardım eder.
+- id: q15
+  question: Reklam sonucu için hangisi doğrudur?
+  options:
+  - Kesin yanlış bilgidir
+  - Ücretli görünürlük olabilir; güvenilirlik ayrıca değerlendirilmelidir
+  - Kesin en doğru sonuçtur
+  - Organik sonuçla aynı etikettedir
+  answer: 1
+  explanation: Sponsorlu olma kaynak değerlendirmesinin yerine geçmez.
+- id: q16
+  question: Kaynağı dışarıdan değerlendirmek için hangi sorgu yararlı olabilir?
+  options:
+  - Sadece Ctrl+F
+  - 'Kaynağın kendi sitesinde site: araması yapmak'
+  - KaynakAdı -site:kaynagin-domaini.com
+  - Yalnızca URL’yi yenilemek
+  answer: 2
+  explanation: -site kaynağın kendi sayfalarını hariç tutup dış değerlendirmeleri bulmaya yardım eder.
+- id: q17
+  question: AI arama özetleri için doğru yaklaşım hangisidir?
+  options:
+  - Önemli iddialarda verilen kaynakları açıp doğrulamak
+  - Özeti her durumda nihai kaynak saymak
+  - Kaynakları görmezden gelmek
+  - Tarih kontrolünü bırakmak
+  answer: 0
+  explanation: AI özeti doğrulama gerektirir.
+- id: q18
+  question: Arama niyeti neden önemlidir?
+  options:
+  - İnternet hızını artırır
+  - Dosya sistemini değiştirir
+  - İstenen sonuç türünü belirleyip anahtar kelime ve filtre seçimini yönlendirir
+  - USB’yi şifreler
+  answer: 2
+  explanation: Bilgi, navigasyon ve akademik arama farklı sorgu tasarımı gerektirir.
+- id: q19
+  question: PDF sonucu için hangisi doğrudur?
+  options:
+  - Her PDF hakemli makaledir
+  - PDF olması güvenilirlik veya akademik kalite garantisi değildir
+  - PDF asla yanlış bilgi içermez
+  - PDF yalnızca üniversitelerce üretilir
+  answer: 1
+  explanation: Format kaynak kalitesini kanıtlamaz.
+- id: q20
+  question: İyi arama becerisinin en doğru özeti hangisidir?
+  options:
+  - İlk sonuca tıklayıp bitirmek
+  - Yalnızca uzun sorgu yazmak
+  - Her sonucu indirmek
+  - Niyeti belirlemek, sorguyu daraltmak, kaynakları açıp karşılaştırmak ve sorguyu gerektiğinde yeniden kurmak
+  answer: 3
+  explanation: Etkili arama iteratif ve doğrulamalı süreçtir.

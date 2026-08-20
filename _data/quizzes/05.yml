@@ -1,183 +1,183 @@
-title: 'Windows Dosya Gezgini: Dosya ve Klasörlerle Çalışma'
-description: Dosya-klasör farkı, Dosya Gezgini, klasör yapısı, kopyalama-taşıma, silme ve arama bilgisini senaryolarla değerlendir.
+title: Fare, Touchpad, Seçim, Kopyalama, Kesme ve Yapıştırma
+description: Seçim, çoklu seçim, pano ve kopyala-kes-yapıştır mantığını günlük Windows senaryolarıyla değerlendir.
 questions:
 - id: q1
-  question: Dosya ile klasör arasındaki temel fark nedir?
+  question: Bir dosyaya tek tıklamak Windows Dosya Gezgini'nde çoğu zaman ne yapar?
   options:
-  - Dosya içeriği saklar; klasör dosya ve alt klasörleri düzenler
-  - Klasör yalnız resimdir, dosya yalnız metindir
-  - Dosya fiziksel, klasör yazılımdır
-  - İkisi tamamen aynı şeydir
+  - Dosyayı seçer
+  - Dosyayı mutlaka siler
+  - Dosyayı otomatik yazdırır
+  - Windows'u kapatır
   answer: 0
-  explanation: Dosya belirli içeriğin dijital kaydıdır; klasör bu dosyaları ve alt klasörleri organize eder.
+  explanation: Tek tıklama çoğu Dosya Gezgini görünümünde öğeyi seçer.
 - id: q2
-  question: Aşağıdakilerden hangisi dosyadır?
+  question: Ctrl tuşunu basılı tutarak farklı dosyalara tıklamak ne sağlar?
   options:
-  - Belgeler
-  - rapor.docx
-  - Fotograflar klasörü
-  - Bu Bilgisayar
+  - Tüm dosyaları silmeyi
+  - Bitişik olmayan birden fazla öğeyi seçmeyi
+  - Dosyaları ZIP yapmayı
+  - Yalnız bir dosya seçmeyi
   answer: 1
-  explanation: '`.docx` uzantılı rapor belirli bir Word dosyasıdır.'
+  explanation: Ctrl ile ayrı ayrı öğeler çoklu seçime eklenebilir.
 - id: q3
-  question: Aşağıdakilerden hangisi klasör yapısına örnektir?
+  question: Shift ile ilk ve son dosyayı seçmek çoğu listede ne sağlar?
   options:
-  - Ctrl + C
-  - Windows + E
-  - BILSEM-Proje > 01-Rapor > proje-raporu.docx
-  - CPU %25
+  - Yalnız son dosyayı seçer
+  - Dosya adlarını değiştirir
+  - Aradaki öğeleri de kapsayan bir aralık seçimi
+  - Pano geçmişini temizler
   answer: 2
-  explanation: Bu ifade klasör ve alt klasörler içinde bir dosyanın konumunu gösterir.
+  explanation: Shift seçimi ardışık bir öğe aralığını seçmek için kullanılır.
 - id: q4
-  question: Windows + E ne açar?
+  question: Ctrl + C'nin temel görevi nedir?
   options:
-  - Ayarlar'ı
-  - Görev Yöneticisi'ni
-  - Pano geçmişini
-  - Dosya Gezgini'ni
+  - Taşımak için kesmek
+  - Dosyayı silmek
+  - Pencereyi kapatmak
+  - Seçili içeriği kopyalamak
   answer: 3
-  explanation: Windows+E Dosya Gezgini'ni açan standart kısayoldur.
+  explanation: Ctrl+C seçili içeriği panoya kopyalar.
 - id: q5
-  question: Dosya uzantısı ne hakkında ipucu verir?
+  question: Ctrl + X ile Ctrl + C arasındaki temel fark nedir?
   options:
-  - Bilgisayarın pil yüzdesi hakkında
-  - Dosyanın türü ve hangi programlarla ilişkili olabileceği hakkında
-  - Monitör boyutu hakkında
-  - Wi-Fi parolası hakkında
+  - Ctrl+X yazdırır, Ctrl+C kapatır
+  - Ctrl+X taşımaya hazırlarken Ctrl+C kaynak öğeyi yerinde bırakır
+  - İkisi tamamen aynıdır
+  - Ctrl+C yalnız internette çalışır
   answer: 1
-  explanation: '`.pdf`, `.docx`, `.jpg` gibi uzantılar dosya türünü belirtir.'
+  explanation: Kesme ve kopyalama farklı amaçlara sahiptir.
 - id: q6
-  question: Bir `.jpg` dosyasının adını yalnızca `.pdf` yaparsan ne olur?
+  question: Ctrl + V ne yapar?
   options:
-  - Gerçek PDF'ye kesin dönüşür
-  - Windows silinir
-  - Dosyanın gerçek içeriği otomatik olarak PDF'ye dönüşmez
-  - Dosya mutlaka bozulmadan Word belgesi olur
+  - Panoyu temizler
+  - Uygulamayı kaldırır
+  - Panodaki öğeyi hedef konuma yapıştırır
+  - Dosyayı yeniden adlandırır
   answer: 2
-  explanation: Uzantıyı yeniden adlandırmak dosya formatını dönüştürme işlemi değildir.
+  explanation: Yapıştır komutu panodaki kopyalanmış/kesilmiş içeriği hedefe yerleştirir.
 - id: q7
-  question: F2 Dosya Gezgini'nde ne için kullanılabilir?
+  question: Pano (clipboard) nedir?
   options:
-  - Dosyayı yazdırmak
-  - Windows Update'i açmak
-  - Tüm dosyaları seçmek
-  - Seçili dosya veya klasörü yeniden adlandırmak
+  - Bilgisayarın fiziksel anakartı
+  - Yalnız fotoğraf klasörü
+  - Windows güncelleme sunucusu
+  - Kopyalanan veya kesilen içeriğin yapıştırılmayı beklediği geçici alan
   answer: 3
-  explanation: F2 seçili öğede yeniden adlandırmayı başlatır.
+  explanation: Pano, kopyala-kes-yapıştır akışındaki geçici yazılım alanıdır.
 - id: q8
-  question: Kopyalama işleminin doğru akışı hangisidir?
+  question: Windows + V ne için kullanılabilir?
   options:
-  - Dosyayı seç → Ctrl+C → hedef klasörü aç → Ctrl+V
-  - Dosyayı seç → Delete → Alt+F4
-  - Windows+I → Ctrl+P
-  - F2 → Windows+L
+  - Pano geçmişini açmak için
+  - Dosya Gezgini'ni açmak için
+  - Ayarlar'ı açmak için
+  - Bilgisayarı kilitlemek için
   answer: 0
-  explanation: Kopyala-yapıştır kaynak dosyayı koruyup hedefte yeni kopya oluşturur.
+  explanation: Windows+V pano geçmişini açar; ilk kullanımda etkinleştirme gerekebilir.
 - id: q9
-  question: Bir dosyayı başka klasöre taşımak için hangi akış uygundur?
+  question: Kopyala + Yapıştır sonucunda kaynak dosyaya ne olur?
   options:
-  - Ctrl+C → aynı yerde Ctrl+V
-  - Delete → Geri Dönüşüm Kutusu'nu boşalt
-  - Dosyayı seç → Ctrl+X → hedef klasörü aç → Ctrl+V
-  - F5 → Ctrl+P
+  - Kaynak kesin silinir
+  - Windows kapanır
+  - Kaynak dosya yerinde kalır ve hedefte bir kopya oluşur
+  - Dosya uzantısı değişir
   answer: 2
-  explanation: Kes-yapıştır dosyanın konumunu değiştirir.
+  explanation: Kopyalama asıl öğeyi korur.
 - id: q10
-  question: Geri Dönüşüm Kutusu için en doğru ifade hangisidir?
+  question: Kes + Yapıştır işleminin amacı nedir?
   options:
-  - Her silinen dosyayı sonsuza kadar saklar
-  - Yalnız internet dosyalarını tutar
-  - Windows güncellemelerini depolar
-  - Bazı normal yerel silme işlemlerinde dosyayı geçici olarak tutabilir fakat yedekleme sistemi değildir
+  - Aynı konumda ikinci kopya oluşturmak
+  - Dosyayı sıkıştırmak
+  - Dosyanın türünü değiştirmek
+  - Öğeyi başka bir konuma taşımak
   answer: 3
-  explanation: Geri Dönüşüm Kutusu yardımcı bir geri alma alanıdır; kalıcı yedek değildir.
+  explanation: Kes-yapıştır dosyanın konumunu değiştirmek için kullanılır.
 - id: q11
-  question: İyi dosya adı hangisidir?
+  question: Sürükle-bırak yerine başlangıçta Ctrl+C/X ve Ctrl+V öğretmek neden daha kontrollü olabilir?
   options:
-  - robotik-proje-raporu-v02.docx
-  - sonson2gercekfinal.docx
-  - aaa.docx
-  - yeni belge (17).docx
+  - Kullanıcı kopyalamak mı taşımak mı istediğini açıkça seçtiği için
+  - Sürükle-bırak hiçbir zaman çalışmadığı için
+  - Klavye her zaman daha hızlı olduğu için
+  - Dosyalar yalnız klavyeyle taşınabildiği için
   answer: 0
-  explanation: Açıklayıcı ve sürümü anlaşılır dosya adları düzeni kolaylaştırır.
+  explanation: Sürükle-bırak davranışı bağlama göre değişebilir; kopyala/kes seçimi niyeti açıklaştırır.
 - id: q12
-  question: Dosya Gezgini adres çubuğu neyi anlamaya yardım eder?
+  question: Sağ tıklama menüsünün amacı nedir?
   options:
-  - CPU sıcaklığını
-  - Şu anda hangi klasör konumunda bulunduğunu
-  - Klavyenin dilini
-  - Wi-Fi hızını
+  - Windows'u yeniden kurmak
+  - Seçili öğeyle ilgili bağlamsal komutlara erişmek
+  - Monitör çözünürlüğünü otomatik değiştirmek
+  - Her dosyayı açmak
   answer: 1
-  explanation: Adres çubuğu mevcut klasör yolunu/konumunu gösterir.
+  explanation: Sağ tıklama seçili öğe için Kopyala, Kes, Özellikler gibi seçenekler sunabilir.
 - id: q13
-  question: Aynı isimli `sonuc.xlsx` dosyaları iki farklı klasörde bulunuyorsa ne doğrudur?
+  question: Ctrl + A'nın çoklu seçimde görevi nedir?
   options:
-  - Windows bunları zorunlu olarak tek dosya yapar
-  - Birinin mutlaka kısayol olması gerekir
-  - İki dosya aynı anda bulunamaz
-  - Konumları farklı olduğu için iki ayrı dosyadır
+  - Yalnız ilk öğeyi seçmek
+  - Panoyu açmak
+  - Dosyaları taşımak
+  - Geçerli alandaki tüm öğeleri seçmek
   answer: 3
-  explanation: Dosyanın kimliğinde adı kadar konumu da önemlidir.
+  explanation: Ctrl+A mevcut alanın tamamını seçmeye yarar.
 - id: q14
-  question: Bir dosyayı kaydederken en önemli kontrollerden biri hangisidir?
+  question: Bir dosyayı yanlışlıkla kestikten sonra henüz yapıştırmadıysan en doğru yaklaşım nedir?
   options:
-  - Dosyanın hangi klasöre kaydedildiğini kontrol etmek
-  - Monitörü kapatmak
-  - Klavye dilini değiştirmek
-  - Görev Yöneticisi'ni kapatmak
+  - Panik yapmadan hedefi kontrol etmek; kesme dosyayı anında yok etmez
+  - Bilgisayarın fişini çekmek
+  - SSD'yi formatlamak
+  - Windows'u yeniden kurmak
   answer: 0
-  explanation: Kaydetme konumu bilinmezse dosyayı daha sonra bulmak zorlaşır.
+  explanation: Kes komutu öğeyi taşımaya hazırlar; yapıştırma/işlem tamamlanana kadar kullanıcı kontrollü ilerleyebilir.
 - id: q15
-  question: Dosya Gezgini'nde Ayrıntılar görünümü ne zaman faydalıdır?
+  question: Ortak bilgisayarda hassas veriyi pano geçmişinde bırakmamak neden önemlidir?
   options:
-  - Yalnız oyun oynarken
-  - Dosya türü, tarih veya boyut gibi bilgileri karşılaştırırken
-  - Windows'u kapatırken
-  - Klavye tuşlarını öğrenirken
+  - RAM hızını artırmak için
+  - Sonraki kullanıcıların panodaki içeriği görebilme riskini azaltmak için
+  - Dosya boyutunu küçültmek için
+  - Monitörü korumak için
   answer: 1
-  explanation: Ayrıntılar görünümü dosyalar hakkında ek sütun bilgileri sunabilir.
+  explanation: Pano geçmişi gizli bilgilerin istemeden erişilebilir kalmasına neden olabilir.
 - id: q16
-  question: Bir klasörün içine başka klasör koymaya ne denebilir?
+  question: Bir metni başka yere taşımak için en uygun kısayol dizisi hangisidir?
   options:
-  - CPU çekirdeği ekleme
-  - Pano oluşturma
-  - Alt klasör oluşturma
-  - Uygulama sabitleme
+  - Ctrl+C → Ctrl+C → Alt+F4
+  - Windows+I → F2 → Delete
+  - Metni seç → Ctrl+X → hedefe git → Ctrl+V
+  - Ctrl+A → Windows+L → F5
   answer: 2
-  explanation: Klasörler hiyerarşik biçimde başka klasörler içerebilir.
+  explanation: Kes ve yapıştır metni başka konuma taşır.
 - id: q17
-  question: Masaüstünü tüm dosyaların tek depolama yeri yapmak neden iyi değildir?
+  question: Aynı dosyanın ikinci bir kopyasını başka klasörde oluşturmak için hangi işlem uygundur?
   options:
-  - Dosyalar karışır, bulma ve düzenleme zorlaşır
-  - Windows masaüstünde dosya saklayamaz
-  - Masaüstü yalnız internete bağlıyken çalışır
-  - Dosya uzantıları görünmez olur
+  - Ctrl+C ardından hedefte Ctrl+V
+  - Ctrl+X ardından hedefte Ctrl+V
+  - Delete ardından Enter
+  - F2 ardından Alt+F4
   answer: 0
-  explanation: Amaçlı klasör yapısı dosya yönetimini kolaylaştırır.
+  explanation: Kopyala-yapıştır kaynak dosyayı koruyarak hedefte ikinci kopya oluşturur.
 - id: q18
-  question: Bir dosyayı sildikten sonra Geri Dönüşüm Kutusu'ndan 'Geri Yükle' seçersen ne olur?
+  question: Çoklu seçim sırasında Ctrl tuşunu bırakıp yanlış öğeye tek tıklarsan ne olabilir?
   options:
-  - Dosya otomatik PDF olur
-  - Windows yeniden başlar
-  - Uygun durumda dosya önceki konumuna geri döner
-  - Dosya adı mutlaka değişir
+  - Windows mutlaka kapanır
+  - Dosyalar otomatik silinir
+  - Önceki çoklu seçim iptal olup yalnız yeni öğe seçilebilir
+  - Klavye dili değişir
   answer: 2
-  explanation: Geri yükleme, öğeyi eski konumuna döndürmek için kullanılır.
+  explanation: Tek tıklama yeni seçim oluşturabileceği için çoklu seçim dikkat ister.
 - id: q19
-  question: Dosya aramasında `proje` yazmanın amacı nedir?
+  question: Bir dosyanın taşındı mı kopyalandı mı olduğunu nasıl doğrularsın?
   options:
-  - Bütün dosyaları silmek
-  - Adında veya uygun arama bilgilerinde proje geçen öğeleri bulmayı kolaylaştırmak
-  - İnterneti kapatmak
-  - RAM'i boşaltmak
+  - Yalnız dosya renginden
+  - Kaynak ve hedef konumları Dosya Gezgini'nde kontrol ederek
+  - Monitör parlaklığından
+  - Klavye ışığından
   answer: 1
-  explanation: Arama, bilinen ad parçalarıyla dosya ve klasör bulmaya yardımcı olur.
+  explanation: İşlem sonucunu kaynak ve hedefte doğrulamak güvenilir yöntemdir.
 - id: q20
-  question: Düzenli dosya yönetiminin en iyi özeti hangisidir?
+  question: Kopyala-kes-yapıştır mantığını en doğru özetleyen ifade hangisidir?
   options:
-  - Her şeyi Masaüstü'ne koy
-  - Dosya türünü uzantıyı değiştirerek dönüştür
-  - Kopyalama ile taşımayı ayırma
-  - Anlamlı klasör yapısı kur, açıklayıcı ad kullan, doğru konuma kaydet ve işlem sonucunu doğrula
+  - Rastgele sürükle → bilgisayarı kapat
+  - Dosyayı aç → uzantıyı değiştir
+  - Her zaman yalnız Ctrl+X kullan
+  - Seç → işlemi belirle → hedefe git → yapıştır → sonucu doğrula
   answer: 3
-  explanation: Düzenli klasör, adlandırma ve konum kontrolü dosya yönetiminin temelidir.
+  explanation: Kontrollü işlem niyet, hedef ve sonuç doğrulamasını içerir.

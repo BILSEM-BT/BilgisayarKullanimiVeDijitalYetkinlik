@@ -1,183 +1,183 @@
-title: Klavye Tuşları ve Klavye Kısayolları
-description: Klavye tuşlarını, metin gezinmesini ve Windows'ta en yararlı kısayolları uygulama senaryolarıyla değerlendir.
+title: Windows Masaüstü, Başlat Menüsü ve Görev Çubuğu
+description: Masaüstü, Başlat, görev çubuğu, pencereler, Alt+Tab ve Tutturma özelliklerini senaryolarla kontrol et.
 questions:
 - id: q1
-  question: Backspace tuşunun metindeki yaygın görevi nedir?
+  question: Windows'ta Başlat menüsünü klavyeden açmanın en temel yolu hangisidir?
   options:
-  - İmlecin solundaki karakteri silmek
-  - İmlecin sağındaki karakteri silmek
-  - Tüm belgeyi seçmek
-  - Ayarlar'ı açmak
+  - Windows tuşuna basmak
+  - Ctrl + P
+  - F2
+  - Alt + Enter
   answer: 0
-  explanation: Backspace genellikle imlecin sol tarafındaki karakteri siler.
+  explanation: Windows tuşu Başlat menüsünü açıp kapatmak için kullanılır.
 - id: q2
-  question: Delete tuşu metinde genellikle ne yapar?
+  question: Bir uygulamayı Başlat menüsünde uzun uzun aramak yerine hızlıca bulmanın iyi yolu hangisidir?
   options:
-  - Yalnız büyük harf açar
-  - İmlecin sağındaki karakteri veya seçili içeriği siler
-  - Belgeyi kaydeder
-  - Windows'u kilitler
+  - Masaüstü arka planını değiştirmek
+  - Başlat'ı açıp uygulama adını yazmak
+  - Bilgisayarı kapatmak
+  - Dosyanın uzantısını değiştirmek
   answer: 1
-  explanation: Delete ile Backspace yön bakımından farklı davranır.
+  explanation: Windows araması uygulama, ayar ve dosyalara hızlı erişim sağlar.
 - id: q3
-  question: Shift tuşunun temel kullanım örneği hangisidir?
+  question: Görev çubuğundaki bir uygulama simgesinin sabitlenmiş olması ne anlama gelir?
   options:
-  - Bilgisayarı kapatmak
-  - Dosyayı kalıcı silmek
-  - Bir harfi geçici olarak büyük yazmak veya ikinci karaktere erişmek
-  - Wi-Fi'yi açmak
+  - Uygulamanın mutlaka o anda çalıştığı
+  - Uygulamanın iki kez kurulduğu
+  - Uygulamaya hızlı erişim için simgenin görev çubuğunda tutulması
+  - Uygulamanın silinemeyeceği
   answer: 2
-  explanation: Shift başka tuşlarla birlikte geçici değiştirici olarak kullanılır.
+  explanation: Sabitlenmiş uygulama kapalı da olabilir; sabitleme hızlı erişim sağlar.
 - id: q4
-  question: Caps Lock ne yapar?
+  question: Bir pencereyi simge durumuna küçülttüğünde ne olur?
   options:
-  - Pano geçmişini açar
-  - Dosyayı yeniden adlandırır
-  - Görev Yöneticisi'ni açar
-  - Büyük harf yazma modunu açıp kapatır
+  - Uygulama bilgisayardan kaldırılır
+  - Dosyalar otomatik silinir
+  - Windows kapanır
+  - Pencere ekrandan çekilir ama uygulama genellikle çalışmaya devam eder
   answer: 3
-  explanation: Caps Lock sürekli büyük harf durumunu değiştirir.
+  explanation: Simge durumuna küçültme ile kapatma farklı işlemlerdir.
 - id: q5
-  question: Tab tuşu formlarda yaygın olarak ne işe yarar?
+  question: Bir pencerenin sağ üstündeki X düğmesi genel olarak ne yapar?
   options:
-  - Belgeyi kapatmak
-  - Bir sonraki alana veya odaklanabilir öğeye geçmek
-  - Ekran görüntüsü almak
-  - Dosyayı kopyalamak
-  answer: 1
-  explanation: Tab, arayüzde odak geçişi ve bazı metinlerde girinti için kullanılır.
-- id: q6
-  question: Shift + Tab kombinasyonu çoğu arayüzde ne yapar?
-  options:
-  - Bilgisayarı kilitler
-  - Tüm metni siler
-  - Odakta geriye doğru ilerler
-  - Tarayıcıyı yeniler
-  answer: 2
-  explanation: Shift+Tab, Tab ile yapılan ileri odak geçişinin tersidir.
-- id: q7
-  question: Home tuşunun metinde yaygın görevi hangisidir?
-  options:
-  - İmleci belgenin sonuna götürmek
-  - Windows ana ekranına dönmek
-  - Dosyayı açmak
-  - İmleci satırın başına götürmek
-  answer: 3
-  explanation: Home çoğu metin düzenleyicide satırın başına hareket eder.
-- id: q8
-  question: End tuşu çoğu metin düzenleyicide ne yapar?
-  options:
-  - İmleci satırın sonuna götürür
-  - Bilgisayarı kapatır
-  - Metni kalın yapar
-  - Geri Dönüşüm Kutusu'nu açar
-  answer: 0
-  explanation: End tuşu satırın sonuna hızlı geçiş sağlar.
-- id: q9
-  question: Ctrl + C kısayolu ne yapar?
-  options:
-  - Seçili içeriği keser
-  - Belgeyi kapatır
-  - Seçili içeriği kopyalar
-  - Ayarlar'ı açar
-  answer: 2
-  explanation: Ctrl+C yaygın kopyalama kısayoludur.
-- id: q10
-  question: Ctrl + X ne için kullanılır?
-  options:
-  - Yapıştırmak için
-  - Tümünü seçmek için
-  - Masaüstünü göstermek için
-  - Seçili içeriği kesmek için
-  answer: 3
-  explanation: Ctrl+X seçili içeriği taşımaya hazırlamak üzere keser.
-- id: q11
-  question: Ctrl + V ne yapar?
-  options:
-  - Panodaki içeriği yapıştırır
-  - Son işlemi geri alır
-  - Dosya Gezgini'ni açar
-  - Yardımı açar
-  answer: 0
-  explanation: Ctrl+V kopyalanan veya kesilen içeriği hedefe yapıştırır.
-- id: q12
-  question: Ctrl + Z'nin yaygın görevi nedir?
-  options:
-  - Tüm metni seçmek
-  - Son işlemi geri almak
-  - Bilgisayarı kilitlemek
-  - Görev Yöneticisi'ni açmak
-  answer: 1
-  explanation: Ctrl+Z birçok uygulamada son işlemi geri alır.
-- id: q13
-  question: Ctrl + A ne anlama gelir?
-  options:
-  - Yeni belge açmak
-  - Yazdırmak
-  - Bilgisayarı kapatmak
-  - Geçerli alandaki tüm öğeleri veya metni seçmek
-  answer: 3
-  explanation: Ctrl+A odağın bulunduğu alandaki tüm içeriği seçer.
-- id: q14
-  question: Windows + E kısayolu ne açar?
-  options:
-  - Dosya Gezgini'ni
-  - Ayarlar'ı
-  - Pano geçmişini
-  - Görev Yöneticisi'ni
-  answer: 0
-  explanation: Windows+E Windows Dosya Gezgini'ni açar.
-- id: q15
-  question: Windows + I ne açar?
-  options:
-  - Dosya Gezgini'ni
-  - Ayarlar uygulamasını
-  - Başlat menüsünü kapatır
-  - Yazıcı kuyruğunu
-  answer: 1
-  explanation: Windows+I doğrudan Windows Ayarları'nı açar.
-- id: q16
-  question: Ctrl + Shift + Esc ne açar?
-  options:
-  - Dosya Gezgini'ni
-  - Pano geçmişini
-  - Görev Yöneticisi'ni
-  - Word'ü
-  answer: 2
-  explanation: Bu kısayol Görev Yöneticisi'ni doğrudan açar.
-- id: q17
-  question: F2 Windows Dosya Gezgini'nde seçili öğe üzerinde yaygın olarak ne yapar?
-  options:
-  - Yeniden adlandırmayı başlatır
+  - Pencereyi görev çubuğuna sabitler
+  - Pencereyi veya uygulamayı kapatır
   - Dosyayı kopyalar
-  - Ekranı kapatır
-  - Yeni klasör açar
-  answer: 0
-  explanation: F2 seçili dosya/klasörü yeniden adlandırmak için yaygın Windows kısayoludur.
-- id: q18
-  question: Fn tuşu için en doğru açıklama hangisidir?
-  options:
-  - Her bilgisayarda F5'i zorunlu olarak ses açar
-  - Dosya kopyalamanın standart Windows kısayoludur
-  - Dizüstü klavyelerde bazı tuşların ikinci işlevlerine erişebilir ve davranışı üreticiye göre değişebilir
-  - Windows'u yeniden başlatır
-  answer: 2
-  explanation: Fn tuşu donanım üreticisine bağlı özel işlevlerle kullanılabilir.
-- id: q19
-  question: AltGr ile hangi karakterlerin yazılacağı neye bağlı olabilir?
-  options:
-  - SSD kapasitesine
-  - Seçili klavye dili ve düzenine
-  - Monitör boyutuna
-  - RAM miktarına
+  - Ayarlar'ı açar
   answer: 1
-  explanation: AltGr kombinasyonları klavye düzenine göre değişebilir.
-- id: q20
-  question: İyi klavye kullanımı için en doğru yaklaşım hangisidir?
+  explanation: X düğmesi etkin pencereyi kapatmak için kullanılır.
+- id: q6
+  question: Alt + Tab kısayolu ne için kullanılır?
   options:
-  - Bütün kısayolları ezberleyip anlamını bilmemek
-  - Fareyi hiçbir zaman kullanmamak
-  - Her tuşa aynı anda basmak
-  - Tuşların görevini ve bağlamını anlayıp uygun kısayolları bilinçli kullanmak
+  - Bilgisayarı kilitlemek
+  - Dosya Gezgini'ni açmak
+  - Açık uygulamalar arasında geçiş yapmak
+  - Metni kopyalamak
+  answer: 2
+  explanation: Alt+Tab, açık uygulama pencereleri arasında geçiş yapar.
+- id: q7
+  question: Windows + D kısayolunun işlevi nedir?
+  options:
+  - Ayarlar'ı açmak
+  - Dosya silmek
+  - Görev Yöneticisi'ni açmak
+  - Masaüstünü görüntülemek veya gizlemek
   answer: 3
-  explanation: Klavye hâkimiyeti amaçlı ve kontrollü kullanım demektir.
+  explanation: Windows+D açık pencereleri geçici olarak geri plana alıp masaüstünü gösterir veya geri getirir.
+- id: q8
+  question: Windows + L kısayolu hangi amaçla kullanılır?
+  options:
+  - Bilgisayarı kilitlemek
+  - Dosya Gezgini'ni açmak
+  - Yeni klasör oluşturmak
+  - Pencereyi sola yaslamak
+  answer: 0
+  explanation: Bilgisayarı kısa süre bırakırken oturumu kilitlemek güvenli bir alışkanlıktır.
+- id: q9
+  question: Windows 11'de Tutturma (Snap) özelliğinin amacı nedir?
+  options:
+  - Dosyaları ZIP yapmak
+  - Klavye dilini değiştirmek
+  - Birden fazla pencereyi ekranda düzenli yerleştirmeyi kolaylaştırmak
+  - Windows'u güncellemek
+  answer: 2
+  explanation: Snap, pencereleri ekran kenarlarına veya hazır düzenlere yerleştirerek çoklu çalışmayı kolaylaştırır.
+- id: q10
+  question: Windows + Z kısayolu desteklenen Windows 11 düzenlerinde ne açabilir?
+  options:
+  - Geri Dönüşüm Kutusu'nu
+  - Pano geçmişini
+  - Yazdırma penceresini
+  - Tutturma düzenlerini
+  answer: 3
+  explanation: Microsoft belgelerine göre Windows+Z, Snap Layouts/Tutturma düzenlerini açabilir.
+- id: q11
+  question: Bir pencereyi ekranın sol kenarına sürüklemek genellikle ne sağlar?
+  options:
+  - Pencereyi ekranın sol tarafına tutturmayı
+  - Uygulamayı kaldırmayı
+  - Dosyayı Masaüstü'ne kopyalamayı
+  - Bilgisayarı yeniden başlatmayı
+  answer: 0
+  explanation: Snap özelliği pencereyi kenara sürükleyerek ekranın bir bölümüne yerleştirebilir.
+- id: q12
+  question: Başlat menüsüne bir uygulamayı sabitlemek ne yapmaz?
+  options:
+  - Uygulamaya daha hızlı erişim sağlayabilir
+  - Uygulamayı ikinci kez kurmaz
+  - Başlat menüsünde görünmesini kolaylaştırabilir
+  - Sık kullanılan uygulamayı erişilebilir tutabilir
+  answer: 1
+  explanation: Sabitlemek yalnız erişim düzenidir; kurulum işlemi değildir.
+- id: q13
+  question: Görev çubuğunun sağ tarafındaki ağ, ses ve pil gibi simgeler ne sağlar?
+  options:
+  - Word belgesini otomatik kaydetme
+  - CPU'yu fiziksel olarak değiştirme
+  - Dosyaları PDF'ye çevirme
+  - Sistem durumunu görme ve bazı hızlı ayarlara erişme
+  answer: 3
+  explanation: Bu alan ağ, ses, pil ve hızlı ayarlar gibi günlük sistem durumlarına erişim sunar.
+- id: q14
+  question: Simge durumuna küçültülen bir uygulamayı tekrar nasıl getirebilirsin?
+  options:
+  - Görev çubuğundaki ilgili uygulama simgesine tıklayarak
+  - Bilgisayarın fişini çekerek
+  - Dosya uzantısını değiştirerek
+  - Klavye dilini değiştirerek
+  answer: 0
+  explanation: Minimize edilen pencere görev çubuğu üzerinden yeniden görünür hâle getirilebilir.
+- id: q15
+  question: Bir Word belgesini kapatırken 'Kaydedilsin mi?' uyarısı çıkarsa en doğru davranış nedir?
+  options:
+  - Her zaman Kaydetme'yi seçmek
+  - Uyarıyı okuyup çalışmanın kaydedilip kaydedilmediğine göre bilinçli seçim yapmak
+  - Uyarıyı okumadan bilgisayarı kapatmak
+  - Dosya uzantısını silmek
+  answer: 1
+  explanation: Kaydedilmemiş çalışma veri kaybına yol açabileceği için uyarı dikkatle okunmalıdır.
+- id: q16
+  question: İki pencereyi yan yana kullanmanın yararlı olduğu bir durum hangisidir?
+  options:
+  - Bilgisayarı fiziksel olarak soğutmak
+  - USB belleği formatlamak
+  - Bir kaynağı tarayıcıda okuyup Word'e not almak
+  - Klavye sürücüsünü silmek
+  answer: 2
+  explanation: Yan yana pencereler aynı anda iki içeriği görmeyi kolaylaştırır.
+- id: q17
+  question: Başlat menüsü temel olarak neye hızlı erişim sağlar?
+  options:
+  - Uygulama, ayar ve dosyalara
+  - Yalnız BIOS ayarlarına
+  - Sadece internet kablosuna
+  - Yalnız yazıcı kâğıdına
+  answer: 0
+  explanation: Başlat menüsü Windows'ta uygulama, ayar ve dosya bulmanın ana yollarındandır.
+- id: q18
+  question: Masaüstündeki bir uygulama kısayolunu silmek çoğu durumda ne anlama gelir?
+  options:
+  - Uygulamanın kesin olarak kaldırılması
+  - Windows'un silinmesi
+  - Yalnız kısayolun kaldırılması; uygulama bilgisayarda kalabilir
+  - SSD'nin biçimlendirilmesi
+  answer: 2
+  explanation: Kısayol, asıl uygulamaya erişim bağlantısıdır.
+- id: q19
+  question: Pencereyi 'ekranı kapla' yaptığında ne olur?
+  options:
+  - Uygulama kapanır
+  - Pencere kullanılabilir ekran alanını büyük ölçüde doldurur
+  - Bilgisayar kilitlenir
+  - Dosya otomatik paylaşılır
+  answer: 1
+  explanation: Maximize/ekranı kapla pencereyi büyütür; kapatma işlemi değildir.
+- id: q20
+  question: Windows çalışma alanını verimli kullanmak için en doğru yaklaşım hangisidir?
+  options:
+  - Bütün uygulamaları masaüstüne kopyalamak
+  - Her işlemde bilgisayarı yeniden başlatmak
+  - Aynı anda yalnız tek uygulama kurmak
+  - Başlat aramasını, görev çubuğunu, pencere düzenlemeyi ve klavye geçişlerini amaca göre kullanmak
+  answer: 3
+  explanation: Windows araçlarını amaca göre kullanmak hızlı ve düzenli çalışma sağlar.

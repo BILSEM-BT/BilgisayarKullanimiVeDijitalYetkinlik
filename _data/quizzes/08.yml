@@ -1,0 +1,183 @@
+title: İnternet ve Web Tarayıcısı Kullanımı
+description: İnternet, Wi-Fi, tarayıcı, URL, site izinleri ve güvenli gezinme bilgisini değerlendir.
+questions:
+- id: q1
+  question: Wi‑Fi ile internet arasındaki doğru ilişki hangisidir?
+  options:
+  - Wi‑Fi yerel kablosuz ağ bağlantısıdır; internet erişimi ayrıca çalışmalıdır
+  - Wi‑Fi internetin başka adıdır
+  - İnternet olmadan Wi‑Fi bağlantısı kurulamaz
+  - Wi‑Fi yalnızca mobil veri demektir
+  answer: 0
+  explanation: Wi‑Fi yerel ağa erişim teknolojisidir; router-ISP internet bağlantısı ayrı katmandır.
+- id: q2
+  question: Router’ın temel görevi hangisidir?
+  options:
+  - Yalnızca dosya sıkıştırmak
+  - Farklı IP ağları arasında paketleri yönlendirmek
+  - Monitör görüntüsü üretmek
+  - RAM kapasitesini artırmak
+  answer: 1
+  explanation: Router IP ağları arasında paket yönlendirmesi yapar.
+- id: q3
+  question: IPv6 adres uzunluğu kaç bittir?
+  options:
+  - 32 bit
+  - 64 bit
+  - 128 bit
+  - 256 bit
+  answer: 2
+  explanation: RFC 8200 IPv6 adres boyutunu 128 bit olarak tanımlar.
+- id: q4
+  question: DHCP genellikle ne sağlar?
+  options:
+  - Web sayfası tasarlar
+  - Dosya uzantısını değiştirir
+  - Şifreli ZIP açar
+  - IP adresi ve gateway/DNS gibi ağ yapılandırmasını otomatik dağıtır
+  answer: 3
+  explanation: DHCP istemcilere otomatik IP yapılandırması dağıtabilir.
+- id: q5
+  question: DNS’in temel görevi nedir?
+  options:
+  - CPU sıcaklığını ölçmek
+  - Alan adlarını IP adresleri ve başka DNS kayıtlarıyla ilişkilendirmek
+  - Dosya sistemini formatlamak
+  - Ekran çözünürlüğünü seçmek
+  answer: 1
+  explanation: DNS insan tarafından okunabilir adları ağ kayıtlarıyla eşleştirir.
+- id: q6
+  question: TCP’nin önemli özelliklerinden biri hangisidir?
+  options:
+  - Teslim ve sıralama garantisi vermemesi
+  - Yalnızca Wi‑Fi’de çalışması
+  - Güvenilir ve sıralı byte akışı sağlamaya çalışması
+  - IP adresi dağıtması
+  answer: 2
+  explanation: TCP sıra ve yeniden iletim gibi mekanizmalarla güvenilir akış sunar.
+- id: q7
+  question: UDP için hangisi doğrudur?
+  options:
+  - Her paketi kesin yeniden yollar
+  - DNS adı üretir
+  - Sadece dosya sisteminde çalışır
+  - Bağlantısızdır ve teslim/sıra garantisi vermez
+  answer: 3
+  explanation: UDP daha basit bağlantısız taşıma sağlar.
+- id: q8
+  question: Default gateway ne için kullanılır?
+  options:
+  - Yerel ağ dışındaki hedeflere giden trafiğin yönlendirileceği ağ geçidi olarak
+  - Klavye dilini değiştirmek için
+  - Dosya uzantısını göstermek için
+  - GPU sürücüsü kurmak için
+  answer: 0
+  explanation: Subnet dışı trafik varsayılan gateway’e gönderilir.
+- id: q9
+  question: 100 Mbps bağlantının teorik ham karşılığı yaklaşık kaç MB/s’dir?
+  options:
+  - 100 MB/s
+  - 800 MB/s
+  - 12.5 MB/s
+  - 1.25 MB/s
+  answer: 2
+  explanation: 100/8 yaklaşık 12.5 MB/s eder; gerçek hız ek yüklerle daha düşük olabilir.
+- id: q10
+  question: Latency hangi kavramı anlatır?
+  options:
+  - Depolama kapasitesini
+  - Dosya uzantısını
+  - RAM türünü
+  - İletişimde gecikme süresini
+  answer: 3
+  explanation: Latency ağ iletişim gecikmesidir.
+- id: q11
+  question: '`Ctrl + L` ne yapar?'
+  options:
+  - Adres çubuğuna odaklanır
+  - Yeni sekme açar
+  - İndirmeleri açar
+  - Sayfayı yazdırır
+  answer: 0
+  explanation: Ctrl+L adres/arama çubuğuna odaklanır.
+- id: q12
+  question: Bookmark ne saklar?
+  options:
+  - Web sunucusunun tüm diskini
+  - Genellikle sayfanın URL’sini
+  - Sayfanın her zaman çevrim dışı kopyasını
+  - Tarayıcı şifresini
+  answer: 1
+  explanation: Yer imi URL’yi saklar; içerik sonradan değişebilir.
+- id: q13
+  question: Incognito mod için hangisi doğrudur?
+  options:
+  - İnternette tamamen görünmez yapar
+  - IP adresini her zaman gizler
+  - Her siteyi HTTPS yapar
+  - Yerel geçmişi azaltır ama ISP/site/kurum açısından anonimlik sağlamaz
+  answer: 3
+  explanation: Gizli mod yerel izleri azaltır; ağ tarafındaki görünürlüğü kaldırmaz.
+- id: q14
+  question: Cookie ne için kullanılabilir?
+  options:
+  - Oturum ve site tercihleri gibi küçük verileri tarayıcıda saklamak için
+  - CPU sıcaklığını ölçmek için
+  - SSD’yi biçimlendirmek için
+  - DNS sunucusu kurmak için
+  answer: 0
+  explanation: Cookie site durumunu taşıyabilir.
+- id: q15
+  question: Cache’in temel amacı nedir?
+  options:
+  - Parola üretmek
+  - Web kaynaklarının yerel kopyalarını tutarak tekrar yüklemeyi hızlandırmak
+  - Alan adı kaydetmek
+  - USB sürücü harfi atamak
+  answer: 1
+  explanation: Cache performans için tekrar kullanılabilir kaynak tutar.
+- id: q16
+  question: HTTPS göstergesi neyi garanti etmez?
+  options:
+  - Aktarımın TLS ile korunabilmesini
+  - Sertifika tabanlı kimlik kontrolünü
+  - Sitedeki bilgilerin doğru ve işletmenin güvenilir olmasını
+  - Veri bütünlüğünü korumaya yardım etmeyi
+  answer: 2
+  explanation: HTTPS güvenli kanal sağlar; içerik doğruluğu ayrı konudur.
+- id: q17
+  question: Tarayıcı uzantısı kurarken en önemli kontrollerden biri nedir?
+  options:
+  - İstediği izinlerin işlev için gerekli olup olmadığını değerlendirmek
+  - İkonunun renkli olması
+  - Adının kısa olması
+  - Yorum sayısına tek başına güvenmek
+  answer: 0
+  explanation: Uzantılar geniş site izinleri isteyebilir.
+- id: q18
+  question: '`Ctrl + Shift + T` ne yapar?'
+  options:
+  - Tüm geçmişi siler
+  - Yeni pencere açar
+  - Son kapatılan sekmeyi geri açabilir
+  - Tarayıcıyı kaldırır
+  answer: 2
+  explanation: Yaygın tarayıcı sekme kısayoludur.
+- id: q19
+  question: '`Ctrl + F` ile yapılan arama neyi kapsar?'
+  options:
+  - Tüm interneti
+  - Açık web sayfasındaki metni
+  - Tüm bilgisayar diskini
+  - DNS kayıtlarını
+  answer: 1
+  explanation: Find on page mevcut sayfayı arar.
+- id: q20
+  question: Site mikrofon izni istiyorsa en doğru davranış hangisidir?
+  options:
+  - Her siteye otomatik izin vermek
+  - Tarayıcı güvenliğini kapatmak
+  - Mikrofon sürücüsünü silmek
+  - İşlev için gerekli ve site güvenilir ise izin vermek
+  answer: 3
+  explanation: Hassas izinler yalnızca gerekli olduğunda verilmelidir.

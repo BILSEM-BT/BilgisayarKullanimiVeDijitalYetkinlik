@@ -2,34 +2,52 @@
 layout: default
 ---
 {% assign current = site.data.modules | where: "id", page.module_id | first %}
+{% assign live_modules = site.data.modules | where: "status", "yayında" %}
+{% assign current_index = 0 %}
+{% for item in live_modules %}
+  {% if item.id == current.id %}{% assign current_index = forloop.index0 %}{% endif %}
+{% endfor %}
+{% assign previous_index = current_index | minus: 1 %}
+{% assign next_index = current_index | plus: 1 %}
+{% assign previous_module = nil %}
+{% assign next_module = nil %}
+{% if current_index > 0 %}{% assign previous_module = live_modules[previous_index] %}{% endif %}
+{% if next_index < live_modules.size %}{% assign next_module = live_modules[next_index] %}{% endif %}
+{% assign quiz_href = page.quiz | default: current.quiz_path %}
 <div class="wrap lesson-shell">
   <aside class="lesson-side">
     <a class="back-link" href="{{ '/tum-dersler/' | relative_url }}">Tüm Dersler</a>
     <p class="eyebrow">Ders {{ current.code }}</p>
-    <h2>{{ page.title }}</h2>
+    <h2>{{ current.title }}</h2>
     <dl class="lesson-info lesson-info-compact">
-      <div><dt>Son güncelleme</dt><dd>{{ page.updated }}</dd></div>
+      <div><dt>Son güncelleme</dt><dd>{{ page.updated | default: current.updated }}</dd></div>
     </dl>
-    <button class="progress-button" data-complete-lesson="{{ page.module_id }}">Dersi tamamlandı olarak işaretle</button>
-    {% if page.quiz %}
-      <a class="quiz-link" href="{{ page.quiz | relative_url }}">Uygulamaya Geç</a>
-    {% endif %}
+    <button class="progress-button" data-complete-code="{{ current.code }}">Dersi tamamlandı olarak işaretle</button>
+    {% if quiz_href %}<a class="quiz-link" href="{{ quiz_href | relative_url }}">Uygulamaya Geç</a>{% endif %}
+
+    <div class="lesson-navigation" aria-label="Dersler arası gezinme">
+      {% if previous_module %}
+        <a class="lesson-nav-button previous" href="{{ previous_module.path | relative_url }}">
+          <small>Önceki ders</small><strong>{{ previous_module.code }}</strong><span>{{ previous_module.title }}</span>
+        </a>
+      {% endif %}
+      {% if next_module %}
+        <a class="lesson-nav-button next" href="{{ next_module.path | relative_url }}">
+          <small>Sonraki ders</small><strong>{{ next_module.code }}</strong><span>{{ next_module.title }}</span>
+        </a>
+      {% endif %}
+    </div>
 
     <nav class="lesson-toc" aria-label="Ders içeriği">
-      <div class="lesson-toc-header">
-        <h3>Ders İçeriği</h3>
-        <button type="button" class="lesson-toc-toggle" data-toc-toggle aria-expanded="true">Gizle</button>
-      </div>
-      <div class="lesson-toc-list" data-lesson-toc>
-        <p class="lesson-toc-empty">Başlıklar hazırlanıyor...</p>
-      </div>
+      <div class="lesson-toc-header"><h3>Ders İçeriği</h3><button type="button" class="lesson-toc-toggle" data-toc-toggle aria-expanded="true">Gizle</button></div>
+      <div class="lesson-toc-list" data-lesson-toc><p class="lesson-toc-empty">Başlıklar hazırlanıyor...</p></div>
     </nav>
   </aside>
 
   <article class="lesson-content markdown-body" data-lesson-content>
     <header class="lesson-hero">
       <p class="eyebrow">{{ site.title }}</p>
-      <h1>{{ page.title }}</h1>
+      <h1>{{ current.title }}</h1>
       {% if page.summary %}<p class="lead">{{ page.summary }}</p>{% endif %}
     </header>
     {{ content }}

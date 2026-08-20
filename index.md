@@ -10,8 +10,7 @@ title:
       <h1>{{ site.title }}</h1>
       <p class="lead">{{ site.description }}</p>
       <p class="hero-intro">
-        Bilgisayarı sıfırdan tanımaktan günlük dijital araçları bilinçli kullanmaya;
-        yazılım geliştirme, robotik, 3D tasarım ve yapay zekâya kadar uzanan kapsamlı öğrenme portalı.
+        Bilgisayarı sıfırdan tanımaktan günlük dijital araçları bilinçli kullanmaya, yazılım, robotik, 3D tasarım ve yapay zekâ gibi alanlarda eğitime başlamadan önce gerekli hazırbulunuşluk düzeyini kazandıran dijital hazırlık portalı.
       </p>
     </div>
   </div>

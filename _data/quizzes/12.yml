@@ -1,0 +1,183 @@
+title: E-Posta ve Gmail Kullanımı
+description: E-posta, Gmail, ekler, phishing, etiketler ve arama operatörlerini değerlendir.
+questions:
+- id: q1
+  question: E-posta adresindeki `@` işareti neyi ayırır?
+  options:
+  - Yerel kullanıcı bölümünü domain bölümünden
+  - IP adresini porttan
+  - Dosya adını uzantıdan
+  - URL path’ini query’den
+  answer: 0
+  explanation: E-posta local-part@domain biçimindedir.
+- id: q2
+  question: SMTP’nin temel görevi nedir?
+  options:
+  - Web sayfası stilini belirlemek
+  - E-posta gönderme ve sunucular arasında aktarma
+  - Disk biçimlendirmek
+  - USB harfi dağıtmak
+  answer: 1
+  explanation: SMTP mail transfer protokolüdür.
+- id: q3
+  question: IMAP neye yardım eder?
+  options:
+  - Domain kaydetmeye
+  - Dosya sıkıştırmaya
+  - Sunucudaki posta kutusunu birden çok istemciyle senkron kullanmaya
+  - GPU sürücüsü kurmaya
+  answer: 2
+  explanation: IMAP sunucu merkezli mailbox senkronizasyonudur.
+- id: q4
+  question: Bcc ne sağlar?
+  options:
+  - Mesajı şifrelemeyi
+  - Maili otomatik silmeyi
+  - Ek boyutunu artırmayı
+  - Alıcının adresini diğer alıcılardan gizleyerek kopya göndermeyi
+  answer: 3
+  explanation: Bcc görünür alıcı listesinden adresi gizler.
+- id: q5
+  question: Reply All kullanırken neden dikkat gerekir?
+  options:
+  - Mesaj hiç gönderilmez
+  - Gereksiz veya hassas bilgi tüm görünür alıcılara gidebilir
+  - DNS kaydı değişir
+  - Gmail kapanır
+  answer: 1
+  explanation: Yanıt kapsamı gönderimden önce kontrol edilir.
+- id: q6
+  question: Kişisel Gmail hesabının toplam ek gönderme sınırı nedir?
+  options:
+  - 2 MB
+  - 100 MB
+  - 25 MB
+  - 1 TB
+  answer: 2
+  explanation: Google güncel yardımında kişisel hesap için 25 MB sınır vardır.
+- id: q7
+  question: 25 MB’tan büyük Gmail eki için ne olabilir?
+  options:
+  - SMS’e dönüşür
+  - Dosya JPG olur
+  - Hesap kapanır
+  - Google Drive bağlantısı olarak gönderilebilir
+  answer: 3
+  explanation: Gmail büyük dosyayı Drive linki olarak ekleyebilir.
+- id: q8
+  question: Archive ne yapar?
+  options:
+  - Mesajı silmeden Inbox’tan çıkarıp hesapta tutar
+  - Mesajı kalıcı siler
+  - Eki virüssüz yapar
+  - Göndereni engeller
+  answer: 0
+  explanation: Archive message’ı All Mail’de tutar.
+- id: q9
+  question: '`from:teacher@example.com` ne yapar?'
+  options:
+  - Sadece ekleri siler
+  - Domain’i bloklar
+  - Belirli gönderenden gelen mesajları arar
+  - Maili forward eder
+  answer: 2
+  explanation: 'from: Gmail arama operatörüdür.'
+- id: q10
+  question: '`has:attachment` neyi bulur?'
+  options:
+  - Yalnızca spam’i
+  - Sadece okunmamış maili
+  - Yalnızca Bcc mailini
+  - Ek içeren e-postaları
+  answer: 3
+  explanation: Gmail has:attachment operatörüdür.
+- id: q11
+  question: Confidential Mode için hangisi doğrudur?
+  options:
+  - Forward/copy/print/download’u kısıtlayabilir ama screenshot’ı kesin engellemez
+  - Kopyalanamaz DRM sağlar
+  - Her alıcıda read receipt verir
+  - Eki virüssüz yapar
+  answer: 0
+  explanation: Kısıtlamalar mutlak kopyalama engeli değildir.
+- id: q12
+  question: Gönderen adı “Google Security” görünüyorsa en iyi kontrol nedir?
+  options:
+  - Logoya güvenmek
+  - Gerçek e-posta adresi ve domain’i incelemek
+  - Konu satırına güvenmek
+  - İlk linke tıklamak
+  answer: 1
+  explanation: Display name kolay taklit edilir.
+- id: q13
+  question: Phishing’de aciliyet neden kullanılır?
+  options:
+  - E-posta hızını artırmak için
+  - Dosyayı küçültmek için
+  - DNS’i güncellemek için
+  - Kullanıcının düşünmeden parola veya MFA kodu vermesini sağlamak için
+  answer: 3
+  explanation: Sosyal mühendislik psikolojik baskı kullanır.
+- id: q14
+  question: MFA kodu isteyen e-postaya ne yapılmalıdır?
+  options:
+  - Kod paylaşılmamalı ve istek resmî kanaldan doğrulanmalıdır
+  - Kod hemen gönderilmelidir
+  - Kod konuya yazılmalıdır
+  - MFA kapatılmalıdır
+  answer: 0
+  explanation: MFA kodu hesap güvenlik anahtarıdır.
+- id: q15
+  question: Spam ve meşru bülten için doğru yaklaşım hangisidir?
+  options:
+  - Her unsubscribe linkine güvenmek
+  - Meşru bültende unsubscribe; şüpheli mesajda spam/phishing bildirimi düşünülebilir
+  - Bütün mailleri spam yapmak
+  - Spam filtresini kapatmak
+  answer: 1
+  explanation: Şüpheli spam linkleri zararlı olabilir.
+- id: q16
+  question: Read receipt hakkında hangisi doğrudur?
+  options:
+  - Her Gmail mesajında zorunludur
+  - Gizli kamera kaydı alır
+  - Bazı Workspace hesaplarında/yönetici ayarında bulunabilir; kişisel Gmail için evrensel değildir
+  - Mesajı şifreler
+  answer: 2
+  explanation: Özellik hesap/kurum politikasına bağlıdır.
+- id: q17
+  question: Undo Send gerçekte nasıl çalışır?
+  options:
+  - Kısa iptal süresi boyunca gönderimi geciktirerek geri alma fırsatı verir
+  - Saatler önce teslim edilen maili siler
+  - Alıcının screenshot’ını siler
+  - Eki şifreler
+  answer: 0
+  explanation: Undo Send teslim sonrası evrensel recall değildir.
+- id: q18
+  question: SPF/DKIM/DMARC için hangisi doğrudur?
+  options:
+  - Web CSS teknolojileridir
+  - Disk şifreleme sistemidir
+  - Domain tabanlı mail kimlik doğrulamasına yardım eder ama phishing’i tamamen ortadan kaldırmaz
+  - USB protokolüdür
+  answer: 2
+  explanation: Kimlik doğrulama sinyalleri domain sahteciliğine karşı yardımcıdır.
+- id: q19
+  question: Gerçek e-posta zincirine beklenmedik banka hesabı değişikliği gelirse ne yapılmalıdır?
+  options:
+  - Zincir eski diye otomatik güvenmek
+  - Başka güvenilir kanaldan gönderenle doğrulamak
+  - Hemen ödeme yapmak
+  - MFA’yı kapatmak
+  answer: 1
+  explanation: Ele geçirilmiş hesap thread hijacking yapabilir.
+- id: q20
+  question: Güvenli e-posta kullanımının özeti hangisidir?
+  options:
+  - Yalnızca gönderici adına bakmak
+  - Her eki açmak
+  - Bcc’yi hiç kullanmamak
+  - Alıcıları, domain’i, linkleri, ekleri ve talebin bağlamını kontrol etmek
+  answer: 3
+  explanation: E-posta güvenliği çoklu kontrol gerektirir.

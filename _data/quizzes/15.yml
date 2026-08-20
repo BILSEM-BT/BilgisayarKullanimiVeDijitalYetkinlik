@@ -1,0 +1,183 @@
+title: Çevrim İçi Toplantı ve Ekran Paylaşımı
+description: Toplantı hazırlığı, ekran paylaşımı, gizlilik, bağlantı ve Meet kontrollerini değerlendir.
+questions:
+- id: q1
+  question: Çevrim içi toplantıya girmeden önce en iyi hazırlık hangisidir?
+  options:
+  - Mikrofon, hoparlör, kamera, internet ve doğru hesabı test etmek
+  - Yalnız ekran parlaklığını artırmak
+  - Tarayıcı güvenliğini kapatmak
+  - Bütün bildirimleri açık bırakmak
+  answer: 0
+  explanation: Ön test teknik kesinti ve yanlış cihaz seçimi riskini azaltır.
+- id: q2
+  question: Aynı odadaki iki cihazın mikrofon ve hoparlörleri açık kalırsa ne olabilir?
+  options:
+  - Dosya uzantıları değişir
+  - Yankı veya güçlü geri besleme oluşabilir
+  - Google Drive kapanır
+  - Kamera çözünürlüğü artar
+  answer: 1
+  explanation: Bir cihazın hoparlör sesi diğer cihazın mikrofonuna geri girebilir.
+- id: q3
+  question: Yalnız tarayıcıdaki bir sunu sekmesini göstermek için hangi paylaşım türü en dar kapsamlıdır?
+  options:
+  - Tüm ekran paylaşımı
+  - Bütün masaüstünü kaydetme
+  - Sekme paylaşımı
+  - Tüm uygulamaları paylaşma
+  answer: 2
+  explanation: Sekme paylaşımı yalnız seçilen tarayıcı sekmesini gösterir.
+- id: q4
+  question: Tüm ekran paylaşımının temel gizlilik riski nedir?
+  options:
+  - Mikrofonun otomatik bozulması
+  - Dosyaların ZIP olması
+  - İnternetin kapanması
+  - Bildirimler ve başka pencerelerdeki özel içeriklerin de görünebilmesi
+  answer: 3
+  explanation: Tüm ekran seçildiğinde sunum dışındaki içerikler de izleyicilere yansıyabilir.
+- id: q5
+  question: Toplantıyı düzenleyen kişi başka bir katılımcının mikrofonunu onun adına doğrudan açabilir mi?
+  options:
+  - Evet, her zaman ve habersizce
+  - Hayır; katılımcının kendi mikrofonunu açması gerekir
+  - Yalnız dosya paylaşırken
+  - Sadece kamera kapalıyken
+  answer: 1
+  explanation: Gizlilik nedeniyle başka kişinin mikrofonu uzaktan doğrudan açılamaz.
+- id: q6
+  question: Pencere paylaşımı ne sağlar?
+  options:
+  - Bütün masaüstünü göstermeyi
+  - Her tarayıcı sekmesini aynı anda göstermeyi
+  - Yalnız seçilen uygulama penceresini göstermeyi
+  - Toplantıyı kapatmayı
+  answer: 2
+  explanation: Belirli pencere paylaşımı, sunum dışındaki masaüstü içeriğini gizlemeye yardım eder.
+- id: q7
+  question: Sekmedeki video sesini paylaşmak için hangi yöntem genellikle uygundur?
+  options:
+  - Yalnız kamera paylaşımı
+  - Mikrofonu bilgisayar hoparlörüne tutmak
+  - Dosyayı yeniden adlandırmak
+  - Sekme paylaşımı ve sekme sesini paylaşma seçeneği
+  answer: 3
+  explanation: Google Meet, sekme paylaşımında Chrome sekmesindeki sesi paylaşmayı destekler.
+- id: q8
+  question: Bağlantı kötüleştiğinde uygulanabilecek ilk basit adımlardan biri hangisidir?
+  options:
+  - Kamerayı kapatıp gereksiz büyük veri aktarımlarını durdurmak
+  - BIOS’u güncellemek
+  - Windows’u biçimlendirmek
+  - Bütün hesaplardan çıkış yapmak
+  answer: 0
+  explanation: Video bant genişliği tüketir; kamerayı kapatmak sesi korumaya yardım edebilir.
+- id: q9
+  question: Zayıf yükleme hızı en çok hangi davranışı etkileyebilir?
+  options:
+  - Yerel klavye tuşlarının çalışmasını
+  - Dosya adının görünmesini
+  - Sizin ses ve görüntünüzün diğer katılımcılara gönderilmesini
+  - Ekran parlaklığını
+  answer: 2
+  explanation: Yükleme hızı cihazdan internete giden medya için önemlidir.
+- id: q10
+  question: Canlı altyazının temel yararı nedir?
+  options:
+  - Dosyaları sıkıştırmak
+  - Wi-Fi parolasını değiştirmek
+  - Kamerayı büyütmek
+  - Konuşmayı metin olarak göstererek anlaşılabilirlik ve erişilebilirliği artırmak
+  answer: 3
+  explanation: Canlı altyazı konuşulan sesi metne dönüştürmeye yardımcı olur.
+- id: q11
+  question: Çevrilmiş altyazılar için hangi yaklaşım doğrudur?
+  options:
+  - Kullanılabilirliğin hesap, sürüm ve desteklenen dillere göre değişebileceğini kabul etmek
+  - Her hesapta kesin bulunduğunu varsaymak
+  - İnternetsiz her dilde çalıştığını düşünmek
+  - Yalnız PDF dosyalarında kullanıldığını düşünmek
+  answer: 0
+  explanation: Gelişmiş Meet özellikleri hesap/Workspace ayarlarına göre farklılık gösterebilir.
+- id: q12
+  question: Gürültü giderme hangi durumda istenmeyen sonuç verebilir?
+  options:
+  - Klavye hiç yokken
+  - Müzik gibi konuşma dışı sesi özellikle paylaşmak istediğinizde
+  - Ekran paylaşımı kapalıyken her zaman
+  - Dosya adı kısa olduğunda
+  answer: 1
+  explanation: Gürültü giderme konuşma dışı sesleri de azaltabilir.
+- id: q13
+  question: Ekran paylaşmadan önce hangi davranış en güvenlidir?
+  options:
+  - E-posta ve not ekranlarını açık bırakmak
+  - Parolayı sohbete yazmak
+  - Toplantı linkini herkese açık paylaşmak
+  - Bildirimleri kapatıp yalnız gerekli sekme veya pencereyi paylaşmak
+  answer: 3
+  explanation: En dar paylaşım kapsamı istemeden veri göstermeyi azaltır.
+- id: q14
+  question: Toplantı bağlantısını sosyal medyada herkese açık paylaşmak neden risklidir?
+  options:
+  - İstenmeyen kişilerin toplantıya erişmesini kolaylaştırabilir
+  - İnternet hızını artırır
+  - Kamerayı kapatır
+  - Dosyaları otomatik siler
+  answer: 0
+  explanation: Toplantı linki davet bilgisi olarak kontrollü paylaşılmalıdır.
+- id: q15
+  question: Toplantı sohbetinde parola veya MFA kodu neden paylaşılmamalıdır?
+  options:
+  - Parola çok uzun olur
+  - Hassas kimlik bilgisinin toplantı katılımcılarına veya kayıtlara açılma riski vardır
+  - Kamera çözünürlüğü düşer
+  - Dosya uzantısı değişir
+  answer: 1
+  explanation: Kimlik doğrulama bilgileri sohbet kanallarında paylaşılmamalıdır.
+- id: q16
+  question: Toplantıyı kaydetmek neden gizlilik açısından önemlidir?
+  options:
+  - Yalnız CPU yüzdesini kaydeder
+  - Hiç veri saklamaz
+  - Ses, görüntü ve sunum gibi kişisel veriyi kalıcı hâle getirebilir
+  - İnternet olmadan herkesi anonim yapar
+  answer: 2
+  explanation: Kayıt için kurum politikası, bilgilendirme ve gerekli izinler dikkate alınmalıdır.
+- id: q17
+  question: Toplantı penceresinin kendisini ekran paylaşımında göstermek ne oluşturabilir?
+  options:
+  - Ayna içinde ayna benzeri tekrar görüntüsü
+  - DNS kaydı
+  - Dosya sıkıştırması
+  - Klavye kilidi
+  answer: 0
+  explanation: Kendi paylaşım görüntüsünü tekrar paylaşmak iç içe görüntüler oluşturabilir.
+- id: q18
+  question: Tarayıcı kamera izni kapalıysa ne olabilir?
+  options:
+  - Kamera otomatik daha yüksek çözünürlüğe geçer
+  - Mikrofon zorunlu açılır
+  - Kamera donanımı sağlam olsa bile Meet kameraya erişemez
+  - Dosyalar silinir
+  answer: 2
+  explanation: Tarayıcı site izni donanım erişiminin ayrı bir katmanıdır.
+- id: q19
+  question: Toplantı sırasında söz sırasını düzenlemek için hangi özellik yararlıdır?
+  options:
+  - Tüm ekran paylaşımı
+  - El kaldır
+  - Dosya yükleme
+  - Tarayıcı geçmişi
+  answer: 1
+  explanation: El kaldırma büyük toplantılarda konuşma sırasının yönetilmesine yardımcı olur.
+- id: q20
+  question: İyi çevrim içi toplantı davranışının en doğru özeti hangisidir?
+  options:
+  - Her zaman tüm ekranı paylaşmak
+  - Toplantı linkini public yayımlamak
+  - Bütün bildirimleri açık tutmak
+  - Cihazları önceden test etmek, gereksizken mikrofonu kapatmak, en dar ekranı paylaşmak ve gizliliğe dikkat etmek
+  answer: 3
+  explanation: Teknik hazırlık, iletişim disiplini ve gizlilik birlikte yönetilmelidir.

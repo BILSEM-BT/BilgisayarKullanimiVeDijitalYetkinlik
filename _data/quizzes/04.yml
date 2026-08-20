@@ -1,183 +1,183 @@
-title: Fare, Touchpad, Seçim, Kopyalama, Kesme ve Yapıştırma
-description: Seçim, çoklu seçim, pano ve kopyala-kes-yapıştır mantığını günlük Windows senaryolarıyla değerlendir.
+title: Klavye Tuşları ve Klavye Kısayolları
+description: Klavye tuşlarını, metin gezinmesini ve Windows'ta en yararlı kısayolları uygulama senaryolarıyla değerlendir.
 questions:
 - id: q1
-  question: Bir dosyaya tek tıklamak Windows Dosya Gezgini'nde çoğu zaman ne yapar?
+  question: Backspace tuşunun metindeki yaygın görevi nedir?
   options:
-  - Dosyayı seçer
-  - Dosyayı mutlaka siler
-  - Dosyayı otomatik yazdırır
-  - Windows'u kapatır
+  - İmlecin solundaki karakteri silmek
+  - İmlecin sağındaki karakteri silmek
+  - Tüm belgeyi seçmek
+  - Ayarlar'ı açmak
   answer: 0
-  explanation: Tek tıklama çoğu Dosya Gezgini görünümünde öğeyi seçer.
+  explanation: Backspace genellikle imlecin sol tarafındaki karakteri siler.
 - id: q2
-  question: Ctrl tuşunu basılı tutarak farklı dosyalara tıklamak ne sağlar?
+  question: Delete tuşu metinde genellikle ne yapar?
   options:
-  - Tüm dosyaları silmeyi
-  - Bitişik olmayan birden fazla öğeyi seçmeyi
-  - Dosyaları ZIP yapmayı
-  - Yalnız bir dosya seçmeyi
+  - Yalnız büyük harf açar
+  - İmlecin sağındaki karakteri veya seçili içeriği siler
+  - Belgeyi kaydeder
+  - Windows'u kilitler
   answer: 1
-  explanation: Ctrl ile ayrı ayrı öğeler çoklu seçime eklenebilir.
+  explanation: Delete ile Backspace yön bakımından farklı davranır.
 - id: q3
-  question: Shift ile ilk ve son dosyayı seçmek çoğu listede ne sağlar?
+  question: Shift tuşunun temel kullanım örneği hangisidir?
   options:
-  - Yalnız son dosyayı seçer
-  - Dosya adlarını değiştirir
-  - Aradaki öğeleri de kapsayan bir aralık seçimi
-  - Pano geçmişini temizler
+  - Bilgisayarı kapatmak
+  - Dosyayı kalıcı silmek
+  - Bir harfi geçici olarak büyük yazmak veya ikinci karaktere erişmek
+  - Wi-Fi'yi açmak
   answer: 2
-  explanation: Shift seçimi ardışık bir öğe aralığını seçmek için kullanılır.
+  explanation: Shift başka tuşlarla birlikte geçici değiştirici olarak kullanılır.
 - id: q4
-  question: Ctrl + C'nin temel görevi nedir?
+  question: Caps Lock ne yapar?
   options:
-  - Taşımak için kesmek
-  - Dosyayı silmek
-  - Pencereyi kapatmak
-  - Seçili içeriği kopyalamak
+  - Pano geçmişini açar
+  - Dosyayı yeniden adlandırır
+  - Görev Yöneticisi'ni açar
+  - Büyük harf yazma modunu açıp kapatır
   answer: 3
-  explanation: Ctrl+C seçili içeriği panoya kopyalar.
+  explanation: Caps Lock sürekli büyük harf durumunu değiştirir.
 - id: q5
-  question: Ctrl + X ile Ctrl + C arasındaki temel fark nedir?
+  question: Tab tuşu formlarda yaygın olarak ne işe yarar?
   options:
-  - Ctrl+X yazdırır, Ctrl+C kapatır
-  - Ctrl+X taşımaya hazırlarken Ctrl+C kaynak öğeyi yerinde bırakır
-  - İkisi tamamen aynıdır
-  - Ctrl+C yalnız internette çalışır
+  - Belgeyi kapatmak
+  - Bir sonraki alana veya odaklanabilir öğeye geçmek
+  - Ekran görüntüsü almak
+  - Dosyayı kopyalamak
   answer: 1
-  explanation: Kesme ve kopyalama farklı amaçlara sahiptir.
+  explanation: Tab, arayüzde odak geçişi ve bazı metinlerde girinti için kullanılır.
 - id: q6
+  question: Shift + Tab kombinasyonu çoğu arayüzde ne yapar?
+  options:
+  - Bilgisayarı kilitler
+  - Tüm metni siler
+  - Odakta geriye doğru ilerler
+  - Tarayıcıyı yeniler
+  answer: 2
+  explanation: Shift+Tab, Tab ile yapılan ileri odak geçişinin tersidir.
+- id: q7
+  question: Home tuşunun metinde yaygın görevi hangisidir?
+  options:
+  - İmleci belgenin sonuna götürmek
+  - Windows ana ekranına dönmek
+  - Dosyayı açmak
+  - İmleci satırın başına götürmek
+  answer: 3
+  explanation: Home çoğu metin düzenleyicide satırın başına hareket eder.
+- id: q8
+  question: End tuşu çoğu metin düzenleyicide ne yapar?
+  options:
+  - İmleci satırın sonuna götürür
+  - Bilgisayarı kapatır
+  - Metni kalın yapar
+  - Geri Dönüşüm Kutusu'nu açar
+  answer: 0
+  explanation: End tuşu satırın sonuna hızlı geçiş sağlar.
+- id: q9
+  question: Ctrl + C kısayolu ne yapar?
+  options:
+  - Seçili içeriği keser
+  - Belgeyi kapatır
+  - Seçili içeriği kopyalar
+  - Ayarlar'ı açar
+  answer: 2
+  explanation: Ctrl+C yaygın kopyalama kısayoludur.
+- id: q10
+  question: Ctrl + X ne için kullanılır?
+  options:
+  - Yapıştırmak için
+  - Tümünü seçmek için
+  - Masaüstünü göstermek için
+  - Seçili içeriği kesmek için
+  answer: 3
+  explanation: Ctrl+X seçili içeriği taşımaya hazırlamak üzere keser.
+- id: q11
   question: Ctrl + V ne yapar?
   options:
-  - Panoyu temizler
-  - Uygulamayı kaldırır
-  - Panodaki öğeyi hedef konuma yapıştırır
-  - Dosyayı yeniden adlandırır
-  answer: 2
-  explanation: Yapıştır komutu panodaki kopyalanmış/kesilmiş içeriği hedefe yerleştirir.
-- id: q7
-  question: Pano (clipboard) nedir?
-  options:
-  - Bilgisayarın fiziksel anakartı
-  - Yalnız fotoğraf klasörü
-  - Windows güncelleme sunucusu
-  - Kopyalanan veya kesilen içeriğin yapıştırılmayı beklediği geçici alan
-  answer: 3
-  explanation: Pano, kopyala-kes-yapıştır akışındaki geçici yazılım alanıdır.
-- id: q8
-  question: Windows + V ne için kullanılabilir?
-  options:
-  - Pano geçmişini açmak için
-  - Dosya Gezgini'ni açmak için
-  - Ayarlar'ı açmak için
-  - Bilgisayarı kilitlemek için
+  - Panodaki içeriği yapıştırır
+  - Son işlemi geri alır
+  - Dosya Gezgini'ni açar
+  - Yardımı açar
   answer: 0
-  explanation: Windows+V pano geçmişini açar; ilk kullanımda etkinleştirme gerekebilir.
-- id: q9
-  question: Kopyala + Yapıştır sonucunda kaynak dosyaya ne olur?
-  options:
-  - Kaynak kesin silinir
-  - Windows kapanır
-  - Kaynak dosya yerinde kalır ve hedefte bir kopya oluşur
-  - Dosya uzantısı değişir
-  answer: 2
-  explanation: Kopyalama asıl öğeyi korur.
-- id: q10
-  question: Kes + Yapıştır işleminin amacı nedir?
-  options:
-  - Aynı konumda ikinci kopya oluşturmak
-  - Dosyayı sıkıştırmak
-  - Dosyanın türünü değiştirmek
-  - Öğeyi başka bir konuma taşımak
-  answer: 3
-  explanation: Kes-yapıştır dosyanın konumunu değiştirmek için kullanılır.
-- id: q11
-  question: Sürükle-bırak yerine başlangıçta Ctrl+C/X ve Ctrl+V öğretmek neden daha kontrollü olabilir?
-  options:
-  - Kullanıcı kopyalamak mı taşımak mı istediğini açıkça seçtiği için
-  - Sürükle-bırak hiçbir zaman çalışmadığı için
-  - Klavye her zaman daha hızlı olduğu için
-  - Dosyalar yalnız klavyeyle taşınabildiği için
-  answer: 0
-  explanation: Sürükle-bırak davranışı bağlama göre değişebilir; kopyala/kes seçimi niyeti açıklaştırır.
+  explanation: Ctrl+V kopyalanan veya kesilen içeriği hedefe yapıştırır.
 - id: q12
-  question: Sağ tıklama menüsünün amacı nedir?
+  question: Ctrl + Z'nin yaygın görevi nedir?
   options:
-  - Windows'u yeniden kurmak
-  - Seçili öğeyle ilgili bağlamsal komutlara erişmek
-  - Monitör çözünürlüğünü otomatik değiştirmek
-  - Her dosyayı açmak
+  - Tüm metni seçmek
+  - Son işlemi geri almak
+  - Bilgisayarı kilitlemek
+  - Görev Yöneticisi'ni açmak
   answer: 1
-  explanation: Sağ tıklama seçili öğe için Kopyala, Kes, Özellikler gibi seçenekler sunabilir.
+  explanation: Ctrl+Z birçok uygulamada son işlemi geri alır.
 - id: q13
-  question: Ctrl + A'nın çoklu seçimde görevi nedir?
+  question: Ctrl + A ne anlama gelir?
   options:
-  - Yalnız ilk öğeyi seçmek
-  - Panoyu açmak
-  - Dosyaları taşımak
-  - Geçerli alandaki tüm öğeleri seçmek
+  - Yeni belge açmak
+  - Yazdırmak
+  - Bilgisayarı kapatmak
+  - Geçerli alandaki tüm öğeleri veya metni seçmek
   answer: 3
-  explanation: Ctrl+A mevcut alanın tamamını seçmeye yarar.
+  explanation: Ctrl+A odağın bulunduğu alandaki tüm içeriği seçer.
 - id: q14
-  question: Bir dosyayı yanlışlıkla kestikten sonra henüz yapıştırmadıysan en doğru yaklaşım nedir?
+  question: Windows + E kısayolu ne açar?
   options:
-  - Panik yapmadan hedefi kontrol etmek; kesme dosyayı anında yok etmez
-  - Bilgisayarın fişini çekmek
-  - SSD'yi formatlamak
-  - Windows'u yeniden kurmak
+  - Dosya Gezgini'ni
+  - Ayarlar'ı
+  - Pano geçmişini
+  - Görev Yöneticisi'ni
   answer: 0
-  explanation: Kes komutu öğeyi taşımaya hazırlar; yapıştırma/işlem tamamlanana kadar kullanıcı kontrollü ilerleyebilir.
+  explanation: Windows+E Windows Dosya Gezgini'ni açar.
 - id: q15
-  question: Ortak bilgisayarda hassas veriyi pano geçmişinde bırakmamak neden önemlidir?
+  question: Windows + I ne açar?
   options:
-  - RAM hızını artırmak için
-  - Sonraki kullanıcıların panodaki içeriği görebilme riskini azaltmak için
-  - Dosya boyutunu küçültmek için
-  - Monitörü korumak için
+  - Dosya Gezgini'ni
+  - Ayarlar uygulamasını
+  - Başlat menüsünü kapatır
+  - Yazıcı kuyruğunu
   answer: 1
-  explanation: Pano geçmişi gizli bilgilerin istemeden erişilebilir kalmasına neden olabilir.
+  explanation: Windows+I doğrudan Windows Ayarları'nı açar.
 - id: q16
-  question: Bir metni başka yere taşımak için en uygun kısayol dizisi hangisidir?
+  question: Ctrl + Shift + Esc ne açar?
   options:
-  - Ctrl+C → Ctrl+C → Alt+F4
-  - Windows+I → F2 → Delete
-  - Metni seç → Ctrl+X → hedefe git → Ctrl+V
-  - Ctrl+A → Windows+L → F5
+  - Dosya Gezgini'ni
+  - Pano geçmişini
+  - Görev Yöneticisi'ni
+  - Word'ü
   answer: 2
-  explanation: Kes ve yapıştır metni başka konuma taşır.
+  explanation: Bu kısayol Görev Yöneticisi'ni doğrudan açar.
 - id: q17
-  question: Aynı dosyanın ikinci bir kopyasını başka klasörde oluşturmak için hangi işlem uygundur?
+  question: F2 Windows Dosya Gezgini'nde seçili öğe üzerinde yaygın olarak ne yapar?
   options:
-  - Ctrl+C ardından hedefte Ctrl+V
-  - Ctrl+X ardından hedefte Ctrl+V
-  - Delete ardından Enter
-  - F2 ardından Alt+F4
+  - Yeniden adlandırmayı başlatır
+  - Dosyayı kopyalar
+  - Ekranı kapatır
+  - Yeni klasör açar
   answer: 0
-  explanation: Kopyala-yapıştır kaynak dosyayı koruyarak hedefte ikinci kopya oluşturur.
+  explanation: F2 seçili dosya/klasörü yeniden adlandırmak için yaygın Windows kısayoludur.
 - id: q18
-  question: Çoklu seçim sırasında Ctrl tuşunu bırakıp yanlış öğeye tek tıklarsan ne olabilir?
+  question: Fn tuşu için en doğru açıklama hangisidir?
   options:
-  - Windows mutlaka kapanır
-  - Dosyalar otomatik silinir
-  - Önceki çoklu seçim iptal olup yalnız yeni öğe seçilebilir
-  - Klavye dili değişir
+  - Her bilgisayarda F5'i zorunlu olarak ses açar
+  - Dosya kopyalamanın standart Windows kısayoludur
+  - Dizüstü klavyelerde bazı tuşların ikinci işlevlerine erişebilir ve davranışı üreticiye göre değişebilir
+  - Windows'u yeniden başlatır
   answer: 2
-  explanation: Tek tıklama yeni seçim oluşturabileceği için çoklu seçim dikkat ister.
+  explanation: Fn tuşu donanım üreticisine bağlı özel işlevlerle kullanılabilir.
 - id: q19
-  question: Bir dosyanın taşındı mı kopyalandı mı olduğunu nasıl doğrularsın?
+  question: AltGr ile hangi karakterlerin yazılacağı neye bağlı olabilir?
   options:
-  - Yalnız dosya renginden
-  - Kaynak ve hedef konumları Dosya Gezgini'nde kontrol ederek
-  - Monitör parlaklığından
-  - Klavye ışığından
+  - SSD kapasitesine
+  - Seçili klavye dili ve düzenine
+  - Monitör boyutuna
+  - RAM miktarına
   answer: 1
-  explanation: İşlem sonucunu kaynak ve hedefte doğrulamak güvenilir yöntemdir.
+  explanation: AltGr kombinasyonları klavye düzenine göre değişebilir.
 - id: q20
-  question: Kopyala-kes-yapıştır mantığını en doğru özetleyen ifade hangisidir?
+  question: İyi klavye kullanımı için en doğru yaklaşım hangisidir?
   options:
-  - Rastgele sürükle → bilgisayarı kapat
-  - Dosyayı aç → uzantıyı değiştir
-  - Her zaman yalnız Ctrl+X kullan
-  - Seç → işlemi belirle → hedefe git → yapıştır → sonucu doğrula
+  - Bütün kısayolları ezberleyip anlamını bilmemek
+  - Fareyi hiçbir zaman kullanmamak
+  - Her tuşa aynı anda basmak
+  - Tuşların görevini ve bağlamını anlayıp uygun kısayolları bilinçli kullanmak
   answer: 3
-  explanation: Kontrollü işlem niyet, hedef ve sonuç doğrulamasını içerir.
+  explanation: Klavye hâkimiyeti amaçlı ve kontrollü kullanım demektir.

@@ -1,9 +1,9 @@
 - id: 1
   title: Bilgisayar ve Windows Kullanımı
-  description: Bilgisayarı tanı, Windows masaüstünü kullan, klavye-fare hâkimiyeti kazan, dosya-klasörlerle çalış ve temel sorunları çöz.
+  description: Bilgisayarın gelişimini kavra; bilgisayarı tanı, Windows masaüstünü, klavye-fareyi, dosya-klasör yönetimini ve temel ayarları güvenle kullan.
 - id: 2
   title: İnternet, Web, E-Posta ve Bulut
-  description: Tarayıcı, etkili arama, bilgi doğrulama, güvenli indirme, Gmail, Drive ve çevrim içi çalışma becerileri.
+  description: İnternete bağlanma ve tarayıcı kullanımı, etkili arama, bilgi doğrulama, güvenli dosya kullanımı, Gmail, Drive ve çevrim içi çalışma.
 - id: 3
   title: Office ve Belge Üretimi
   description: Word, Excel, PowerPoint ve PDF ile günlük okul ve proje çalışmalarını düzenli, anlaşılır ve etkili biçimde üret.
@@ -12,7 +12,7 @@
   description: Hesap güvenliği, phishing, gizlilik, telif, dijital etik ve yapay zekâyı doğru kullanma becerileri.
 - id: 5
   title: Dijital Medya ve İçerik Üretimi
-  description: WinRAR/7-Zip, VLC, ekran kaydı, GIMP, Inkscape ve Audacity ile günlük dijital içerik işlemleri.
+  description: WinRAR/7-Zip ile sıkıştırma, VLC, ekran kaydı, GIMP, Inkscape ve Audacity ile günlük dijital içerik işlemleri.
 - id: 6
   title: Yazılım Geliştirme ve Proje Araçları
   description: Visual Studio, VS Code, akış şemaları, Git/GitHub, GitHub Pages ve Google Colab.

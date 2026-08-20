@@ -1,183 +1,183 @@
-title: Windows Ayarları, Uygulamalar ve Güncellemeler
-description: Windows Ayarlar, ses, Bluetooth, uygulama kaldırma, varsayılan uygulamalar, izinler ve güncelleme bilgisini değerlendir.
+title: 'Windows Dosya Gezgini: Dosya ve Klasörlerle Çalışma'
+description: Dosya-klasör farkı, Dosya Gezgini, klasör yapısı, kopyalama-taşıma, silme ve arama bilgisini senaryolarla değerlendir.
 questions:
 - id: q1
-  question: Windows Ayarlar uygulamasını hızlı açan kısayol hangisidir?
+  question: Dosya ile klasör arasındaki temel fark nedir?
   options:
-  - Windows + I
-  - Windows + E
-  - Ctrl + C
-  - Alt + F4
+  - Dosya içeriği saklar; klasör dosya ve alt klasörleri düzenler
+  - Klasör yalnız resimdir, dosya yalnız metindir
+  - Dosya fiziksel, klasör yazılımdır
+  - İkisi tamamen aynı şeydir
   answer: 0
-  explanation: Windows+I Windows Ayarlar uygulamasını açar.
+  explanation: Dosya belirli içeriğin dijital kaydıdır; klasör bu dosyaları ve alt klasörleri organize eder.
 - id: q2
-  question: Bir Windows ayarının nerede olduğunu bilmiyorsan ilk iyi yöntem hangisidir?
+  question: Aşağıdakilerden hangisi dosyadır?
   options:
-  - Rastgele bütün seçenekleri değiştirmek
-  - Ayarlar içindeki arama kutusunda ilgili kavramı aramak
-  - Bilgisayarı formatlamak
-  - Dosya uzantısını değiştirmek
+  - Belgeler
+  - rapor.docx
+  - Fotograflar klasörü
+  - Bu Bilgisayar
   answer: 1
-  explanation: Ayarlar araması belirli ayara hızlı ulaşmayı sağlar.
+  explanation: '`.docx` uzantılı rapor belirli bir Word dosyasıdır.'
 - id: q3
-  question: Kulaklık bağlı ama ses hoparlörden geliyor. İlk kontrollerden biri hangisidir?
+  question: Aşağıdakilerden hangisi klasör yapısına örnektir?
   options:
-  - Windows'u silmek
-  - RAM'i çıkarmak
-  - Doğru ses çıkış aygıtının seçili olup olmadığını kontrol etmek
-  - Tüm uygulamaları kaldırmak
+  - Ctrl + C
+  - Windows + E
+  - BILSEM-Proje > 01-Rapor > proje-raporu.docx
+  - CPU %25
   answer: 2
-  explanation: Ses sorununun yaygın nedenlerinden biri yanlış çıkış aygıtıdır.
+  explanation: Bu ifade klasör ve alt klasörler içinde bir dosyanın konumunu gösterir.
 - id: q4
-  question: Windows'ta Bluetooth ayarları genellikle hangi bölümde bulunur?
+  question: Windows + E ne açar?
   options:
-  - Dosya Gezgini > Belgeler
-  - Görev Yöneticisi > Performans
-  - Word > Giriş
-  - Ayarlar > Bluetooth ve cihazlar
-  answer: 3
-  explanation: Windows 11'de Bluetooth cihaz yönetimi Ayarlar içindeki Bluetooth ve cihazlar bölümündedir.
-- id: q5
-  question: Masaüstündeki bir uygulama kısayolunu silmek ne anlama gelmez?
-  options:
-  - Kısayolun masaüstünden gidebileceği
-  - Uygulamanın kesin olarak bilgisayardan kaldırıldığı
-  - Uygulamaya başka yollardan erişilebileceği
-  - Asıl programın sistemde kalabileceği
-  answer: 1
-  explanation: Kısayol ile program kurulumunun kendisi farklıdır.
-- id: q6
-  question: Windows 11'de bir uygulamayı kaldırmanın yaygın yollarından biri hangisidir?
-  options:
-  - Dosyanın uzantısını .zip yapmak
-  - Görev çubuğu simgesini gizlemek
-  - Ayarlar > Uygulamalar > Yüklü uygulamalar üzerinden Kaldır
-  - Masaüstü duvar kâğıdını değiştirmek
-  answer: 2
-  explanation: Microsoft uygulamaları Ayarlar üzerinden kaldırma yolunu belgeler.
-- id: q7
-  question: Varsayılan uygulama neyi belirleyebilir?
-  options:
-  - CPU'nun fiziksel hızını
-  - Wi-Fi parolasını
-  - Monitörün marka adını
-  - Belirli dosya türü veya bağlantının hangi uygulamayla açılacağını
-  answer: 3
-  explanation: Varsayılan uygulama ilişkilendirmeleri dosya ve protokollerin hangi programla açılacağını yönetir.
-- id: q8
-  question: Bir `.pdf` dosyasının hangi programla açıldığını değiştirmek için en uygun alan hangisidir?
-  options:
-  - Ayarlar > Uygulamalar > Varsayılan uygulamalar
-  - Görev Yöneticisi > Kullanıcılar
-  - Geri Dönüşüm Kutusu
-  - BIOS menüsü
-  answer: 0
-  explanation: Dosya türü ilişkilendirmeleri Windows varsayılan uygulama ayarlarında yönetilir.
-- id: q9
-  question: Program indirirken en güvenli öncelik hangisidir?
-  options:
-  - Rastgele crack/full indirme sitesi
-  - Kaynağı bilinmeyen dosya paylaşım bağlantısı
-  - Programın resmî web sitesi veya güvenilir uygulama mağazası
-  - Reklam açılır penceresi
-  answer: 2
-  explanation: Resmî ve güvenilir kaynaklar değiştirilmiş/zararlı kurulum riskini azaltır.
-- id: q10
-  question: Windows Update'in amaçlarından biri hangisidir?
-  options:
-  - RAM'i fiziksel olarak artırmak
-  - Monitörü temizlemek
-  - Dosyaları otomatik Word'e çevirmek
-  - Güvenlik ve hata düzeltmeleriyle sistemi güncel tutmak
-  answer: 3
-  explanation: Windows Update güvenlik, hata düzeltmesi ve bazı özellik güncellemelerini dağıtır.
-- id: q11
-  question: Güncelleme sırasında 'Bilgisayarınızı kapatmayın' benzeri uyarı varsa ne yapmalısın?
-  options:
-  - Gücü zorla kesmemeli ve işlemin tamamlanmasını beklemelisin
-  - Fişi hemen çekmelisin
-  - SSD'yi çıkarmalısın
-  - Ctrl+X yapmalısın
-  answer: 0
-  explanation: Güncellemenin yarıda kesilmesi sistem sorunlarına neden olabilir.
-- id: q12
-  question: Windows Update ile uygulama güncellemesi için en doğru ifade hangisidir?
-  options:
-  - Her uygulama yalnız Windows Update ile güncellenir
-  - İşletim sistemi güncellemesi ile tek tek uygulama güncellemesi farklı mekanizmalar olabilir
-  - İkisi tamamen aynıdır
-  - Uygulamalar hiç güncellenmez
-  answer: 1
-  explanation: Uygulamalar mağaza veya kendi güncelleme sistemi üzerinden de güncellenebilir.
-- id: q13
-  question: Bildirimleri yönetmenin yararı nedir?
-  options:
-  - SSD kapasitesini iki katına çıkarmak
-  - Klavyeyi hızlandırmak
-  - İnternet parolasını değiştirmek
-  - Gereksiz dikkat dağıtıcı uyarıları azaltıp önemli bildirimleri korumak
-  answer: 3
-  explanation: Bildirim ayarları çalışma sırasında dikkat yönetimine yardımcı olabilir.
-- id: q14
-  question: Bir uygulama mikrofon istemiyorsa ne yapmak daha doğrudur?
-  options:
-  - Gereksiz mikrofon izni vermemek
-  - Her uygulamaya otomatik izin vermek
-  - Windows Update'i kapatmak
-  - Klasörü silmek
-  answer: 0
-  explanation: En az gerekli izin ilkesi gizlilik açısından daha güvenlidir.
-- id: q15
-  question: Wi-Fi bağlı görünmesi neyi garanti etmez?
-  options:
-  - Ağ simgesinin görünebileceğini
-  - Bağlanılan ağın güvenilir olduğunu
-  - İnternet erişimi olabileceğini
-  - Kablosuz bağlantının açık olabileceğini
-  answer: 1
-  explanation: Bağlı olmak ile ağın güvenilir olması farklı kavramlardır.
-- id: q16
-  question: Ekrandaki yazılar çok küçükse hangi ayarı incelemek genellikle daha anlamlı ilk adımdır?
-  options:
-  - Dosya uzantısını
-  - Görev Yöneticisi ağ sütununu
-  - Ekran ölçeklendirme ayarını
+  - Ayarlar'ı
+  - Görev Yöneticisi'ni
   - Pano geçmişini
-  answer: 2
-  explanation: Ölçek, arayüz ve metinlerin ekrandaki görünür büyüklüğünü etkiler.
-- id: q17
-  question: Bluetooth seçeneğinin bir bilgisayarda görünmemesinin olası nedeni nedir?
-  options:
-  - Cihazda Bluetooth bağdaştırıcısı bulunmaması veya sürücüsünün hazır olmaması
-  - Word belgesinin açık olması
-  - Masaüstünde klasör bulunması
-  - Ctrl+C kullanılmış olması
-  answer: 0
-  explanation: Microsoft, donanım veya sürücü yokluğunda Bluetooth seçeneklerinin bulunmayabileceğini belirtir.
-- id: q18
-  question: Ortak sınıf bilgisayarında başka öğrencinin hesabındaki dosyalara izinsiz girmek neden yanlıştır?
-  options:
-  - CPU kullanımını artırdığı için yalnız teknik olarak
-  - Yalnız dosya adı uzunsa
-  - Gizlilik ve dijital etik kurallarını ihlal eder
-  - Klavye dili değiştiği için
-  answer: 2
-  explanation: Kullanıcı hesabı ve kişisel dosya alanına saygı dijital etik gereğidir.
-- id: q19
-  question: Bir ayarın anlamını bilmiyorsan en doğru davranış hangisidir?
-  options:
-  - Rastgele açıp kapatmak
-  - Değiştirmeden önce açıklamasını araştırmak veya öğretmene sormak
-  - Bütün ayarları varsayılan dışına almak
-  - Uygulamaları silmek
-  answer: 1
-  explanation: Bilinçli ayar değişikliği, neyin değiştiğini ve etkisini anlamayı gerektirir.
-- id: q20
-  question: Windows Ayarlar dersinin en iyi özeti hangisidir?
-  options:
-  - Tüm ayarları ezberle ve her gün değiştir
-  - Güncellemeleri daima kapat
-  - Her programı rastgele sitelerden indir
-  - Günlük ayarları arayarak bul, yalnız gerekli değişikliği yap, uygulama ve güncellemeleri güvenilir kaynaklarla yönet
+  - Dosya Gezgini'ni
   answer: 3
-  explanation: Amaç kontrollü, güvenli ve bilinçli Windows yönetimidir.
+  explanation: Windows+E Dosya Gezgini'ni açan standart kısayoldur.
+- id: q5
+  question: Dosya uzantısı ne hakkında ipucu verir?
+  options:
+  - Bilgisayarın pil yüzdesi hakkında
+  - Dosyanın türü ve hangi programlarla ilişkili olabileceği hakkında
+  - Monitör boyutu hakkında
+  - Wi-Fi parolası hakkında
+  answer: 1
+  explanation: '`.pdf`, `.docx`, `.jpg` gibi uzantılar dosya türünü belirtir.'
+- id: q6
+  question: Bir `.jpg` dosyasının adını yalnızca `.pdf` yaparsan ne olur?
+  options:
+  - Gerçek PDF'ye kesin dönüşür
+  - Windows silinir
+  - Dosyanın gerçek içeriği otomatik olarak PDF'ye dönüşmez
+  - Dosya mutlaka bozulmadan Word belgesi olur
+  answer: 2
+  explanation: Uzantıyı yeniden adlandırmak dosya formatını dönüştürme işlemi değildir.
+- id: q7
+  question: F2 Dosya Gezgini'nde ne için kullanılabilir?
+  options:
+  - Dosyayı yazdırmak
+  - Windows Update'i açmak
+  - Tüm dosyaları seçmek
+  - Seçili dosya veya klasörü yeniden adlandırmak
+  answer: 3
+  explanation: F2 seçili öğede yeniden adlandırmayı başlatır.
+- id: q8
+  question: Kopyalama işleminin doğru akışı hangisidir?
+  options:
+  - Dosyayı seç → Ctrl+C → hedef klasörü aç → Ctrl+V
+  - Dosyayı seç → Delete → Alt+F4
+  - Windows+I → Ctrl+P
+  - F2 → Windows+L
+  answer: 0
+  explanation: Kopyala-yapıştır kaynak dosyayı koruyup hedefte yeni kopya oluşturur.
+- id: q9
+  question: Bir dosyayı başka klasöre taşımak için hangi akış uygundur?
+  options:
+  - Ctrl+C → aynı yerde Ctrl+V
+  - Delete → Geri Dönüşüm Kutusu'nu boşalt
+  - Dosyayı seç → Ctrl+X → hedef klasörü aç → Ctrl+V
+  - F5 → Ctrl+P
+  answer: 2
+  explanation: Kes-yapıştır dosyanın konumunu değiştirir.
+- id: q10
+  question: Geri Dönüşüm Kutusu için en doğru ifade hangisidir?
+  options:
+  - Her silinen dosyayı sonsuza kadar saklar
+  - Yalnız internet dosyalarını tutar
+  - Windows güncellemelerini depolar
+  - Bazı normal yerel silme işlemlerinde dosyayı geçici olarak tutabilir fakat yedekleme sistemi değildir
+  answer: 3
+  explanation: Geri Dönüşüm Kutusu yardımcı bir geri alma alanıdır; kalıcı yedek değildir.
+- id: q11
+  question: İyi dosya adı hangisidir?
+  options:
+  - robotik-proje-raporu-v02.docx
+  - sonson2gercekfinal.docx
+  - aaa.docx
+  - yeni belge (17).docx
+  answer: 0
+  explanation: Açıklayıcı ve sürümü anlaşılır dosya adları düzeni kolaylaştırır.
+- id: q12
+  question: Dosya Gezgini adres çubuğu neyi anlamaya yardım eder?
+  options:
+  - CPU sıcaklığını
+  - Şu anda hangi klasör konumunda bulunduğunu
+  - Klavyenin dilini
+  - Wi-Fi hızını
+  answer: 1
+  explanation: Adres çubuğu mevcut klasör yolunu/konumunu gösterir.
+- id: q13
+  question: Aynı isimli `sonuc.xlsx` dosyaları iki farklı klasörde bulunuyorsa ne doğrudur?
+  options:
+  - Windows bunları zorunlu olarak tek dosya yapar
+  - Birinin mutlaka kısayol olması gerekir
+  - İki dosya aynı anda bulunamaz
+  - Konumları farklı olduğu için iki ayrı dosyadır
+  answer: 3
+  explanation: Dosyanın kimliğinde adı kadar konumu da önemlidir.
+- id: q14
+  question: Bir dosyayı kaydederken en önemli kontrollerden biri hangisidir?
+  options:
+  - Dosyanın hangi klasöre kaydedildiğini kontrol etmek
+  - Monitörü kapatmak
+  - Klavye dilini değiştirmek
+  - Görev Yöneticisi'ni kapatmak
+  answer: 0
+  explanation: Kaydetme konumu bilinmezse dosyayı daha sonra bulmak zorlaşır.
+- id: q15
+  question: Dosya Gezgini'nde Ayrıntılar görünümü ne zaman faydalıdır?
+  options:
+  - Yalnız oyun oynarken
+  - Dosya türü, tarih veya boyut gibi bilgileri karşılaştırırken
+  - Windows'u kapatırken
+  - Klavye tuşlarını öğrenirken
+  answer: 1
+  explanation: Ayrıntılar görünümü dosyalar hakkında ek sütun bilgileri sunabilir.
+- id: q16
+  question: Bir klasörün içine başka klasör koymaya ne denebilir?
+  options:
+  - CPU çekirdeği ekleme
+  - Pano oluşturma
+  - Alt klasör oluşturma
+  - Uygulama sabitleme
+  answer: 2
+  explanation: Klasörler hiyerarşik biçimde başka klasörler içerebilir.
+- id: q17
+  question: Masaüstünü tüm dosyaların tek depolama yeri yapmak neden iyi değildir?
+  options:
+  - Dosyalar karışır, bulma ve düzenleme zorlaşır
+  - Windows masaüstünde dosya saklayamaz
+  - Masaüstü yalnız internete bağlıyken çalışır
+  - Dosya uzantıları görünmez olur
+  answer: 0
+  explanation: Amaçlı klasör yapısı dosya yönetimini kolaylaştırır.
+- id: q18
+  question: Bir dosyayı sildikten sonra Geri Dönüşüm Kutusu'ndan 'Geri Yükle' seçersen ne olur?
+  options:
+  - Dosya otomatik PDF olur
+  - Windows yeniden başlar
+  - Uygun durumda dosya önceki konumuna geri döner
+  - Dosya adı mutlaka değişir
+  answer: 2
+  explanation: Geri yükleme, öğeyi eski konumuna döndürmek için kullanılır.
+- id: q19
+  question: Dosya aramasında `proje` yazmanın amacı nedir?
+  options:
+  - Bütün dosyaları silmek
+  - Adında veya uygun arama bilgilerinde proje geçen öğeleri bulmayı kolaylaştırmak
+  - İnterneti kapatmak
+  - RAM'i boşaltmak
+  answer: 1
+  explanation: Arama, bilinen ad parçalarıyla dosya ve klasör bulmaya yardımcı olur.
+- id: q20
+  question: Düzenli dosya yönetiminin en iyi özeti hangisidir?
+  options:
+  - Her şeyi Masaüstü'ne koy
+  - Dosya türünü uzantıyı değiştirerek dönüştür
+  - Kopyalama ile taşımayı ayırma
+  - Anlamlı klasör yapısı kur, açıklayıcı ad kullan, doğru konuma kaydet ve işlem sonucunu doğrula
+  answer: 3
+  explanation: Düzenli klasör, adlandırma ve konum kontrolü dosya yönetiminin temelidir.

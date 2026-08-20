@@ -1,0 +1,183 @@
+title: İndirme, Yükleme ve Güvenli Dosya Kullanımı
+description: Güvenli indirme, upload, hash, imza ve dosya paylaşım davranışlarını değerlendir.
+questions:
+- id: q1
+  question: Download ne demektir?
+  options:
+  - Verinin uzak sistemden yerel cihaza alınması
+  - Yerel dosyanın sunucuya gönderilmesi
+  - Dosya adını değiştirmek
+  - DNS kaydı oluşturmak
+  answer: 0
+  explanation: Download veri akışının sunucudan cihaza yönüdür.
+- id: q2
+  question: Program indirmek için en güvenli kaynak genellikle hangisidir?
+  options:
+  - Rastgele free-download sitesi
+  - Üreticinin resmî sitesi veya resmî uygulama mağazası
+  - Anonim mesaj eki
+  - Kaynağı bilinmeyen torrent
+  answer: 1
+  explanation: Resmî dağıtım kanalı sahte paket riskini azaltır.
+- id: q3
+  question: Chrome indirme uyarısı gösterdiğinde ne yapılmalıdır?
+  options:
+  - Safe Browsing’i kapatmak
+  - Dosyayı yönetici olarak çalıştırmak
+  - Kaynağı doğrulamadan korumayı aşmamak
+  - Uzantıyı değiştirmek
+  answer: 2
+  explanation: Google uyarıların ciddiye alınmasını önerir.
+- id: q4
+  question: SHA-256 hash karşılaştırması neye yardımcı olur?
+  options:
+  - Güvenilir yayıncıyı tek başına kanıtlamaya
+  - Dosyayı şifrelemeye
+  - Dosyayı sıkıştırmaya
+  - İndirilen dosyanın beklenen içerikle bütünlüğünü doğrulamaya
+  answer: 3
+  explanation: Hash bütünlük kontrolüdür; kaynağın güvenilirliği ayrıca gerekir.
+- id: q5
+  question: Dijital imza ne sağlayabilir?
+  options:
+  - Dosyanın kesin iyi amaçlı olmasını
+  - İmzalayan yayıncı ve imza sonrası bütünlük hakkında bilgi
+  - Her virüsü temizlemeyi
+  - İnternet hızını artırmayı
+  answer: 1
+  explanation: Kod imzası yayıncı/bütünlük sinyalidir.
+- id: q6
+  question: '`fatura.pdf.exe` dosyasının gerçek son uzantısı hangisidir?'
+  options:
+  - .pdf
+  - .fatura
+  - .exe
+  - .pdf.exe belgesidir
+  answer: 2
+  explanation: Son uzantı dosya türünü belirlemede kritik ipucudur.
+- id: q7
+  question: Arşiv içindeki `.ps1` dosyası için hangisi doğrudur?
+  options:
+  - ZIP içindeyse kesin güvenlidir
+  - Uzantıyı txt yapınca güvenlidir
+  - Gmail her arşivi onaylar
+  - Arşivde olması script’in güvenlik riskini ortadan kaldırmaz
+  answer: 3
+  explanation: Arşiv çıkarıldıktan sonra script komut çalıştırabilir.
+- id: q8
+  question: Kişisel Gmail hesaplarında güncel toplam ek gönderme sınırı nedir?
+  options:
+  - 25 MB
+  - 5 MB
+  - 100 MB
+  - 1 GB
+  answer: 0
+  explanation: Google Gmail Help kişisel hesaplar için 25 MB sınır belirtir.
+- id: q9
+  question: Gmail ek sınırı aşılırsa ne olabilir?
+  options:
+  - E-posta SMS olur
+  - Dosya otomatik JPG olur
+  - Dosya Google Drive bağlantısı olarak eklenebilir
+  - Gmail hesabı silinir
+  answer: 2
+  explanation: Gmail büyük dosyaları Drive linkiyle paylaşabilir.
+- id: q10
+  question: Çevrim içi malware tarama hizmetine gizli dosya yüklemek neden riskli olabilir?
+  options:
+  - Dosya boyutu mutlaka küçülür
+  - Hash değişmez
+  - HTTPS çalışmaz
+  - Dosya üçüncü taraf sistemlere aktarılabilir ve gizlilik bozulabilir
+  answer: 3
+  explanation: Gizli veri üçüncü taraf hizmete gönderilmiş olur.
+- id: q11
+  question: UAC yönetici izni isteyen bilinmeyen installer için ne yapılmalıdır?
+  options:
+  - Kaynağı doğrulamadan izin verilmemelidir
+  - Her zaman Evet denmelidir
+  - Antivirüs kapatılmalıdır
+  - Uzantı gizlenmelidir
+  answer: 0
+  explanation: Admin yetkisi geniş sistem değişiklikleri yapabilir.
+- id: q12
+  question: Upload tamamlandığını nasıl doğrularız?
+  options:
+  - Tarayıcıyı hemen kapatarak
+  - İlerleme/başarı mesajı ve sunucudaki dosya listesini kontrol ederek
+  - Yerel dosyayı silerek
+  - Wi‑Fi’yi kapatarak
+  answer: 1
+  explanation: Hizmet tarafında dosyanın hazır olduğu doğrulanmalıdır.
+- id: q13
+  question: Metadata neden paylaşım öncesi önemlidir?
+  options:
+  - Dosyayı otomatik virüslü yapar
+  - İnternet hızını belirler
+  - DNS’i değiştirir
+  - Belge/fotoğraf yazar, tarih veya konum gibi hassas bilgi taşıyabilir
+  answer: 3
+  explanation: Metadata istemeden kişisel bilgi açığa çıkarabilir.
+- id: q14
+  question: Kısaltılmış URL indirme bağlantısında ne yapılmalıdır?
+  options:
+  - Hedef alan adı mümkünse önizlenip doğrulanmalıdır
+  - Kısa olduğu için otomatik güvenilmelidir
+  - Her zaman yönetici olarak açılmalıdır
+  - HTTPS kontrolü yapılmamalıdır
+  answer: 0
+  explanation: Short URL gerçek hedefi gizleyebilir.
+- id: q15
+  question: QR kod için hangisi doğrudur?
+  options:
+  - QR virüs taramasıdır
+  - Bir URL taşıyabilir ama hedefin güvenilir olduğunu garanti etmez
+  - Her QR resmî siteye gider
+  - QR yalnızca Wi‑Fi parolası taşır
+  answer: 1
+  explanation: QR veri taşıma biçimidir; hedef ayrıca doğrulanır.
+- id: q16
+  question: Installer bundle teklifleri için en iyi yaklaşım hangisidir?
+  options:
+  - Her şeyi varsayılan kurmak
+  - Uyarıları kapatmak
+  - Kurulum adımlarını okuyup gereksiz ek yazılımları reddetmek
+  - Antivirüsü kaldırmak
+  answer: 2
+  explanation: Ek yazılımlar kurulum ekranlarında teklif edilebilir.
+- id: q17
+  question: HTTPS üzerinden indirilen dosya için hangisi doğrudur?
+  options:
+  - Aktarım korunabilir ancak dosyanın iyi amaçlı olduğu garanti edilmez
+  - Kesin güvenlidir
+  - Hash kontrolüne gerek yoktur
+  - Her zaman Microsoft onaylıdır
+  answer: 0
+  explanation: HTTPS kanal güvenliği sağlar.
+- id: q18
+  question: Upload edilen ödevde yanlış dosya riskini azaltan davranış hangisidir?
+  options:
+  - İlk bulduğunu seçmek
+  - Uzantıları gizlemek
+  - Yüklemeden önce dosyayı açıp adını, sürümünü ve içeriğini kontrol etmek
+  - Dosya adını rastgele vermek
+  answer: 2
+  explanation: Benzer isimler teslim hatası yaratabilir.
+- id: q19
+  question: SmartScreen uyarısını anlamadan “Run anyway” seçmek neden risklidir?
+  options:
+  - Windows sürümünü yükseltir
+  - Bilinmeyen veya zararlı olabilecek uygulamayı çalıştırabilir
+  - Dosyayı PDF yapar
+  - USB’yi formatlar
+  answer: 1
+  explanation: SmartScreen uygulama güvenlik sinyali sağlar.
+- id: q20
+  question: Güvenli dosya kullanımının en iyi özeti hangisidir?
+  options:
+  - Yalnızca dosya adına bakmak
+  - Her dosyayı açmak
+  - Uzantıları gizlemek
+  - Kaynak, uzantı, uyarı, imza/hash, gizlilik ve çalıştırma gerekliliğini birlikte değerlendirmek
+  answer: 3
+  explanation: Katmanlı kontrol gerekir.

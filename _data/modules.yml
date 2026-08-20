@@ -1,153 +1,168 @@
 - id: 1
   section: 1
-  title: 'Bilgisayarı Tanı: Donanım, Yazılım ve Temel Kavramlar'
-  slug: 1-1-bilgisayari-tani-donanim-yazilim-ve-temel-kavramlar
+  title: Bilgisayarın Tarihçesi
+  slug: 1-1-bilgisayarin-tarihcesi
   status: yayında
   updated: '2026-08-20'
   review_cycle: 12 ay
-  path: /dersler/1-1-bilgisayari-tani-donanim-yazilim-ve-temel-kavramlar/
+  path: /dersler/1-1-bilgisayarin-tarihcesi/
   code: 1-1
   order_in_section: 1
+  quiz_path: /uygulamalar/1-1-bilgisayarin-tarihcesi/
 - id: 2
   section: 1
-  title: Windows Masaüstü, Başlat Menüsü ve Görev Çubuğu
-  slug: 1-2-windows-masaustu-baslat-menusu-ve-gorev-cubugu
+  title: 'Bilgisayarı Tanı: Donanım, Yazılım ve Temel Kavramlar'
+  slug: 1-2-bilgisayari-tani-donanim-yazilim-ve-temel-kavramlar
   status: yayında
   updated: '2026-08-20'
-  review_cycle: 6-12 ay
-  path: /dersler/1-2-windows-masaustu-baslat-menusu-ve-gorev-cubugu/
+  review_cycle: 12 ay
+  path: /dersler/1-2-bilgisayari-tani-donanim-yazilim-ve-temel-kavramlar/
   code: 1-2
   order_in_section: 2
+  quiz_path: /uygulamalar/1-2-bilgisayari-tani-donanim-yazilim-ve-temel-kavramlar/
 - id: 3
   section: 1
-  title: Klavye Tuşları ve Klavye Kısayolları
-  slug: 1-3-klavye-tuslari-ve-klavye-kisayollari
-  status: yayında
-  updated: '2026-08-20'
-  review_cycle: 12 ay
-  path: /dersler/1-3-klavye-tuslari-ve-klavye-kisayollari/
-  code: 1-3
-  order_in_section: 3
-- id: 4
-  section: 1
-  title: Fare, Touchpad, Seçim, Kopyalama, Kesme ve Yapıştırma
-  slug: 1-4-fare-touchpad-secim-kopyalama-kesme-ve-yapistirma
-  status: yayında
-  updated: '2026-08-20'
-  review_cycle: 12 ay
-  path: /dersler/1-4-fare-touchpad-secim-kopyalama-kesme-ve-yapistirma/
-  code: 1-4
-  order_in_section: 4
-- id: 5
-  section: 1
-  title: 'Windows Dosya Gezgini: Dosya ve Klasörlerle Çalışma'
-  slug: 1-5-windows-dosya-gezgini-dosya-ve-klasorlerle-calisma
+  title: Windows Masaüstü, Başlat Menüsü ve Görev Çubuğu
+  slug: 1-3-windows-masaustu-baslat-menusu-ve-gorev-cubugu
   status: yayında
   updated: '2026-08-20'
   review_cycle: 6-12 ay
-  path: /dersler/1-5-windows-dosya-gezgini-dosya-ve-klasorlerle-calisma/
+  path: /dersler/1-3-windows-masaustu-baslat-menusu-ve-gorev-cubugu/
+  code: 1-3
+  order_in_section: 3
+  quiz_path: /uygulamalar/1-3-windows-masaustu-baslat-menusu-ve-gorev-cubugu/
+- id: 4
+  section: 1
+  title: Klavye Tuşları ve Klavye Kısayolları
+  slug: 1-4-klavye-tuslari-ve-klavye-kisayollari
+  status: yayında
+  updated: '2026-08-20'
+  review_cycle: 12 ay
+  path: /dersler/1-4-klavye-tuslari-ve-klavye-kisayollari/
+  code: 1-4
+  order_in_section: 4
+  quiz_path: /uygulamalar/1-4-klavye-tuslari-ve-klavye-kisayollari/
+- id: 5
+  section: 1
+  title: Fare, Touchpad, Seçim, Kopyalama, Kesme ve Yapıştırma
+  slug: 1-5-fare-touchpad-secim-kopyalama-kesme-ve-yapistirma
+  status: yayında
+  updated: '2026-08-20'
+  review_cycle: 12 ay
+  path: /dersler/1-5-fare-touchpad-secim-kopyalama-kesme-ve-yapistirma/
   code: 1-5
   order_in_section: 5
+  quiz_path: /uygulamalar/1-5-fare-touchpad-secim-kopyalama-kesme-ve-yapistirma/
 - id: 6
   section: 1
+  title: 'Windows Dosya Gezgini: Dosya ve Klasörlerle Çalışma'
+  slug: 1-6-windows-dosya-gezgini-dosya-ve-klasorlerle-calisma
+  status: yayında
+  updated: '2026-08-20'
+  review_cycle: 6-12 ay
+  path: /dersler/1-6-windows-dosya-gezgini-dosya-ve-klasorlerle-calisma/
+  code: 1-6
+  order_in_section: 6
+  quiz_path: /uygulamalar/1-6-windows-dosya-gezgini-dosya-ve-klasorlerle-calisma/
+- id: 7
+  section: 1
   title: Windows Ayarları, Uygulamalar ve Güncellemeler
-  slug: 1-6-windows-ayarlari-uygulamalar-ve-guncellemeler
+  slug: 1-7-windows-ayarlari-uygulamalar-ve-guncellemeler
   status: yayında
   updated: '2026-08-20'
   review_cycle: 6 ay
-  path: /dersler/1-6-windows-ayarlari-uygulamalar-ve-guncellemeler/
-  code: 1-6
-  order_in_section: 6
-- id: 7
-  section: 1
-  title: Görev Yöneticisi ve Temel Sorun Giderme
-  slug: 1-7-gorev-yoneticisi-ve-temel-sorun-giderme
-  status: yayında
-  updated: '2026-08-20'
-  review_cycle: 6-12 ay
-  path: /dersler/1-7-gorev-yoneticisi-ve-temel-sorun-giderme/
+  path: /dersler/1-7-windows-ayarlari-uygulamalar-ve-guncellemeler/
   code: 1-7
   order_in_section: 7
+  quiz_path: /uygulamalar/1-7-windows-ayarlari-uygulamalar-ve-guncellemeler/
 - id: 8
   section: 2
   title: İnternet ve Web Tarayıcısı Kullanımı
   slug: 2-1-internet-ve-web-tarayicisi-kullanimi
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-20'
   review_cycle: 6 ay
-  path: ''
+  path: /dersler/2-1-internet-ve-web-tarayicisi-kullanimi/
   code: 2-1
   order_in_section: 1
+  quiz_path: /uygulamalar/2-1-internet-ve-web-tarayicisi-kullanimi/
 - id: 9
   section: 2
   title: İnternette Etkili Arama
   slug: 2-2-internette-etkili-arama
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-20'
   review_cycle: 6 ay
-  path: ''
+  path: /dersler/2-2-internette-etkili-arama/
   code: 2-2
   order_in_section: 2
+  quiz_path: /uygulamalar/2-2-internette-etkili-arama/
 - id: 10
   section: 2
   title: Dijital Bilgiyi Değerlendirme ve Doğrulama
   slug: 2-3-dijital-bilgiyi-degerlendirme-ve-dogrulama
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-20'
   review_cycle: 6 ay
-  path: ''
+  path: /dersler/2-3-dijital-bilgiyi-degerlendirme-ve-dogrulama/
   code: 2-3
   order_in_section: 3
+  quiz_path: /uygulamalar/2-3-dijital-bilgiyi-degerlendirme-ve-dogrulama/
 - id: 11
   section: 2
   title: İndirme, Yükleme ve Güvenli Dosya Kullanımı
   slug: 2-4-indirme-yukleme-ve-guvenli-dosya-kullanimi
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-20'
   review_cycle: 6 ay
-  path: ''
+  path: /dersler/2-4-indirme-yukleme-ve-guvenli-dosya-kullanimi/
   code: 2-4
   order_in_section: 4
+  quiz_path: /uygulamalar/2-4-indirme-yukleme-ve-guvenli-dosya-kullanimi/
 - id: 12
   section: 2
   title: E-Posta ve Gmail Kullanımı
   slug: 2-5-e-posta-ve-gmail-kullanimi
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-20'
   review_cycle: 6 ay
-  path: ''
+  path: /dersler/2-5-e-posta-ve-gmail-kullanimi/
   code: 2-5
   order_in_section: 5
+  quiz_path: /uygulamalar/2-5-e-posta-ve-gmail-kullanimi/
 - id: 13
   section: 2
   title: Google Drive ve Bulutta Dosya Yönetimi
   slug: 2-6-google-drive-ve-bulutta-dosya-yonetimi
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-20'
   review_cycle: 6 ay
-  path: ''
+  path: /dersler/2-6-google-drive-ve-bulutta-dosya-yonetimi/
   code: 2-6
   order_in_section: 6
+  quiz_path: /uygulamalar/2-6-google-drive-ve-bulutta-dosya-yonetimi/
 - id: 14
   section: 2
   title: Google Docs, Sheets ve Slides ile Ortak Çalışma
   slug: 2-7-google-docs-sheets-ve-slides-ile-ortak-calisma
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-20'
   review_cycle: 6 ay
-  path: ''
+  path: /dersler/2-7-google-docs-sheets-ve-slides-ile-ortak-calisma/
   code: 2-7
   order_in_section: 7
+  quiz_path: /uygulamalar/2-7-google-docs-sheets-ve-slides-ile-ortak-calisma/
 - id: 15
   section: 2
   title: Çevrim İçi Toplantı ve Ekran Paylaşımı
   slug: 2-8-cevrim-ici-toplanti-ve-ekran-paylasimi
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-20'
   review_cycle: 6 ay
-  path: ''
+  path: /dersler/2-8-cevrim-ici-toplanti-ve-ekran-paylasimi/
   code: 2-8
   order_in_section: 8
+  quiz_path: /uygulamalar/2-8-cevrim-ici-toplanti-ve-ekran-paylasimi/
 - id: 16
   section: 3
   title: Microsoft Word Temel Kullanımı

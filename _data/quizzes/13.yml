@@ -1,0 +1,183 @@
+title: Google Drive ve Bulutta Dosya Yönetimi
+description: Google Drive dosya düzeni, paylaşım rolleri, erişim, sürüm, senkronizasyon ve güvenliği değerlendir.
+questions:
+- id: q1
+  question: Google Drive’daki “Görüntüleyen” rolünün temel yetkisi nedir?
+  options:
+  - Dosyayı görüntülemek
+  - Dosyanın içeriğini değiştirmek
+  - Dosyanın sahibini değiştirmek
+  - Her kullanıcıya otomatik paylaşmak
+  answer: 0
+  explanation: Görüntüleyen temel olarak içeriği görür; düzenleme yetkisi yoktur.
+- id: q2
+  question: “Yorumcu” rolü Görüntüleyen’e göre hangi ek yetkiyi sağlar?
+  options:
+  - Dosyayı kalıcı silmek
+  - Desteklenen dosyalarda yorum ve öneri bırakabilmek
+  - Sahipliği zorunlu olarak devralmak
+  - Herkesin erişimini değiştirmek
+  answer: 1
+  explanation: Yorumcu içeriği doğrudan düzenlemeden yorum/öneri ile katkı sunabilir.
+- id: q3
+  question: Bir kişinin yalnızca raporu okuması gerekiyorsa en uygun rol hangisidir?
+  options:
+  - Düzenleyen
+  - Sahip
+  - Görüntüleyen
+  - Yönetici
+  answer: 2
+  explanation: Gereken en az yetki ilkesine göre yalnız okuma için Görüntüleyen yeterlidir.
+- id: q4
+  question: '“Genel erişim: Kısıtlanmış” ne anlama gelir?'
+  options:
+  - İnternetteki herkesin dosyayı açabilmesi
+  - Dosyanın bilgisayardan silinmesi
+  - Dosyanın çevrim dışı çalışmaması
+  - Yalnızca açıkça erişim verilen hesapların dosyayı açabilmesi
+  answer: 3
+  explanation: Kısıtlanmış erişim, dosyanın yalnız izin verilen kişilerce açılmasını sağlar.
+- id: q5
+  question: “Bağlantıya sahip olan herkes” seçeneğinin temel riski nedir?
+  options:
+  - Dosyanın otomatik virüs olması
+  - Bağlantının beklenmeyen kişilere iletilebilmesi
+  - Dosyanın uzantısının değişmesi
+  - İnternet hızının düşmesi
+  answer: 1
+  explanation: Bağlantı başka kişilere iletilebildiği için erişim kapsamı kontrolsüz genişleyebilir.
+- id: q6
+  question: “Bağlantıyı kopyala” komutu tek başına ne yapmaz?
+  options:
+  - Paylaşım URL’sini panoya alır
+  - Bağlantıyı başka yere yapıştırabilmenizi sağlar
+  - Dosyayı otomatik olarak herkese açık hâle getirmez
+  - Mevcut erişim ayarlarıyla kullanılacak linki kopyalar
+  answer: 2
+  explanation: Erişimi bağlantının kendisi değil paylaşım izinleri belirler.
+- id: q7
+  question: “Benimle paylaşılanlar” bölümündeki bir dosya için hangisi doğrudur?
+  options:
+  - Dosyanın sahibi her zaman sizsiniz
+  - Dosya mutlaka herkese açıktır
+  - Dosya otomatik olarak yerel diskinize indirilmiştir
+  - Dosyanın sahibi başka bir kullanıcı olabilir
+  answer: 3
+  explanation: Bu bölüm başkalarının size erişim verdiği öğeleri gösterir; sahiplik ayrı konudur.
+- id: q8
+  question: Bir klasörü paylaşırken neden içindeki dosyaları da kontrol etmek gerekir?
+  options:
+  - Klasör yetkileri altındaki öğelerin erişimini etkileyebilir
+  - Klasör adı otomatik değiştiği için
+  - Dosya uzantıları silindiği için
+  - Klasör mutlaka ZIP olduğu için
+  answer: 0
+  explanation: Üst klasör izinleri alt öğelere devredilebildiğinden kapsamı kontrol etmek gerekir.
+- id: q9
+  question: Google Dokümanlar gibi dosyalarda sürüm geçmişinin temel yararı nedir?
+  options:
+  - İnternet hızını artırmak
+  - Dosyayı otomatik herkese açmak
+  - Önceki değişiklikleri ve kimlerin düzenleme yaptığını incelemek
+  - Tarayıcı çerezlerini temizlemek
+  answer: 2
+  explanation: Sürüm geçmişi değişikliklerin geçmişini izlemeyi ve gerektiğinde eski sürümleri incelemeyi sağlar.
+- id: q10
+  question: Drive senkronizasyonu neden tek başına yedekleme değildir?
+  options:
+  - Drive hiç dosya saklamadığı için
+  - Senkronizasyon yalnız resimlerde çalıştığı için
+  - Yedekleme yalnız USB ile yapılabildiği için
+  - Silme veya istenmeyen değişiklikler de diğer konuma senkronize olabilir
+  answer: 3
+  explanation: Senkronizasyon güncel durumu eşitler; bağımsız geri dönüş kopyası garanti etmez.
+- id: q11
+  question: Masaüstü için Drive’da dosya akışı yaklaşımının genel amacı nedir?
+  options:
+  - Dosyaların çoğunu bulutta tutup yerel disk kullanımını azaltabilmek
+  - Her dosyanın iki yerel kopyasını oluşturmak
+  - Dosyaları herkese açık yapmak
+  - Dosyaları PDF’ye dönüştürmek
+  answer: 0
+  explanation: Akış yaklaşımı bulut merkezli çalışır ve yerel disk kullanımını azaltabilir.
+- id: q12
+  question: Yansıtma yaklaşımı genel olarak ne yapar?
+  options:
+  - Dosyaları yalnız tarayıcı geçmişinde tutar
+  - Dosyaların yerel kopyalarını da tutar ve bulutla senkronize eder
+  - Paylaşım izinlerini kaldırır
+  - Dosyanın uzantısını gizler
+  answer: 1
+  explanation: Yansıtma yerelde daha fazla alan kullanır çünkü dosya kopyaları cihazda da bulunur.
+- id: q13
+  question: Drive’da güvenli paylaşım için en iyi yaklaşım hangisidir?
+  options:
+  - Herkese Düzenleyen vermek
+  - Her dosyayı bağlantıya sahip olan herkese açmak
+  - Paylaşım ayarlarını hiç kontrol etmemek
+  - Kişiye yalnız ihtiyaç duyduğu rolü vermek
+  answer: 3
+  explanation: En az yetki, yanlış düzenleme ve veri paylaşım riskini azaltır.
+- id: q14
+  question: Bir Google Drive bağlantısının gerçek Google alanında olması neyi garanti etmez?
+  options:
+  - Belgenin içeriğinin güvenilir ve iyi niyetli olmasını
+  - Bağlantının Google hizmetinde barındığını
+  - Dosyanın bir Google hesabıyla paylaşılabildiğini
+  - Tarayıcı üzerinden açılabildiğini
+  answer: 0
+  explanation: Saldırganlar da Google Drive veya Dokümanlar üzerinde kötü niyetli içerik oluşturabilir.
+- id: q15
+  question: Yıldızlı bölümünden bir dosyanın yıldızını kaldırmak ne yapar?
+  options:
+  - Dosyayı Çöp Kutusu’na taşır
+  - Dosyayı silmeden Yıldızlı görünümünden çıkarır
+  - Dosyanın sahibini değiştirir
+  - Dosyayı herkese açar
+  answer: 1
+  explanation: Yıldız yalnız hızlı erişim işaretidir.
+- id: q16
+  question: Google dosyasını PDF veya Office biçiminde indirdikten sonra ne yapılmalıdır?
+  options:
+  - Dosyanın kesin aynı olacağı varsayılmalıdır
+  - Orijinal dosya mutlaka silinmelidir
+  - Hedef uygulamada görünüm ve içerik uyumluluğu kontrol edilmelidir
+  - Paylaşım izinleri otomatik kaldırılmalıdır
+  answer: 2
+  explanation: Biçim dönüşümünde karmaşık düzenler farklı görünebilir; çıktı kontrol edilmelidir.
+- id: q17
+  question: Bulut depolama kotası dolarsa ne olabilir?
+  options:
+  - Yeni dosya yükleme gibi işlemler etkilenebilir
+  - Bilgisayarın RAM’i artar
+  - Windows otomatik biçimlenir
+  - Dosyalar kendiliğinden ZIP olur
+  answer: 0
+  explanation: Depolama hizmetlerinde dolu kota yeni veri eklemeyi sınırlayabilir.
+- id: q18
+  question: Drive hesabının korunmasına hangi davranış katkı sağlar?
+  options:
+  - Tüm linkleri public yapmak
+  - Aynı parolayı her yerde kullanmak
+  - Güçlü kimlik doğrulama ve paylaşım izinlarını düzenli gözden geçirmek
+  - Şüpheli belgeleri doğrudan açmak
+  answer: 2
+  explanation: Hesap güvenliği ve erişim denetimi birlikte uygulanmalıdır.
+- id: q19
+  question: Bir dosyayı “Benimle paylaşılanlar”dan görmeniz hangi sonucu doğurmaz?
+  options:
+  - Dosyaya erişim verilmiş olabileceğini gösterir
+  - Dosyanın sahibi olduğunuz sonucunu doğurmaz
+  - Paylaşımın sonradan kaldırılabileceğini düşündürür
+  - Sahibin başka biri olabileceğini gösterir
+  answer: 1
+  explanation: Erişim ile sahiplik aynı şey değildir.
+- id: q20
+  question: Google Drive kullanımının en doğru özeti hangisidir?
+  options:
+  - Her dosyayı tek klasöre koymak
+  - Her kullanıcıya Düzenleyen vermek
+  - Bulutu yedeklemenin tek biçimi saymak
+  - Dosyaları düzenlemek, doğru yetkilerle paylaşmak, senkronizasyonu izlemek ve bağımsız yedeği ayrıca düşünmek
+  answer: 3
+  explanation: İyi Drive kullanımı düzen, erişim kontrolü, senkronizasyon ve yedekleme farkını birlikte yönetir.

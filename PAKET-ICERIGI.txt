@@ -1,23 +1,33 @@
-BİLGİSAYAR KULLANIMI VE DİJİTAL YETKİNLİK — REVİZE v2 / BÖLÜM 1
+BİLGİSAYAR KULLANIMI VE DİJİTAL YETKİNLİK — REVİZE v3
 
-Bu ZIP bir başlangıç/baseline paketidir.
+Bu paket TAM WEB PROJESİDİR.
+Genel Jekyll/GitHub Pages şablon dosyalarının tamamını içerir.
 
-İçerik:
-- Genel Jekyll/GitHub Pages şablon dosyaları
-- Mevcut portal tasarımı ve tamamlanma sistemi
-- Yeni 8 bölüm / 54 ders planı
-- Bölüm 1'in 7 ayrıntılı dersi
-- Bölüm 1'in 7 uygulama sayfası
-- 7 x 20 = 140 doğrulanmış uygulama sorusu
-- CSS tabanlı tahtada anlatım görselleri
-- GitHub Actions Pages workflow
-- Güncelleme rehberi ve müfredat v2 dosyası
+YAYINDA:
+- Bölüm 1: 7/7 ders
+- Bölüm 2: 8/8 ders
+- Toplam yayımdaki ders: 15
 
-Bölüm 1: 7/7 yayında
-Bölüm 2–8: planlandı
+BÖLÜM 1 YENİ SIRA:
+1-1 Bilgisayarın Tarihçesi
+1-2 Bilgisayarı Tanı: Donanım, Yazılım ve Temel Kavramlar
+1-3 Windows Masaüstü, Başlat Menüsü ve Görev Çubuğu
+1-4 Klavye Tuşları ve Klavye Kısayolları
+1-5 Fare, Touchpad, Seçim, Kopyalama, Kesme ve Yapıştırma
+1-6 Windows Dosya Gezgini: Dosya ve Klasörlerle Çalışma
+1-7 Windows Ayarları, Uygulamalar ve Güncellemeler
 
-Dijital Medya ve İçerik Üretimi bölümüne:
-5-1 — WinRAR, 7-Zip ve Sıkıştırılmış Dosyalar
-eklenmiştir.
+DÜZELTMELER:
+- Ders sayfası sol menüde ders adı ve uygulama bağlantısı güvenli şekilde gösterilir.
+- Tamamlanan ders kartı ve Derse Gir butonu yeşil olur.
+- İlerleme kod tabanlı v3 yapıya taşındı; eski Bölüm 1 ilerlemesi uygun derslere göç ettirilir.
+- Önceki Ders / Sonraki Ders düğmeleri sol menüye eklendi.
+- Dosya Gezgini dersinde dosya-klasör farkı, kopyala/kes/yapıştır, dosya uzantılarını gösterme ve gizli öğeleri gösterme ayrıntılıdır.
+- Ana sayfa tanıtım metni güncellendi.
+- Bölüm 5 planında WinRAR, 7-Zip ve Sıkıştırılmış Dosyalar dersi bulunur.
 
-GitHub'a ilk yüklemede ZIP içindeki `BilgisayarKullanimiVeDijitalYetkinlik` klasörünün İÇERİĞİNİ repository köküne yükleyin.
+UYGULAMALAR:
+- 15 ders x 20 soru = 300 soru
+- Her soruda 4 seçenek ve tek doğru cevap
+- Her quizde A/B/C/D = 5/5/5/5 doğru cevap dağılımı
+- Yanıttan sonra doğru seçenek ve açıklama gösterilir

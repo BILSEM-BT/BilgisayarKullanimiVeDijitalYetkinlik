@@ -28,8 +28,8 @@
       `;
 
       try{
-        const key = "bilsem-dijital-yetkinlik-progress-v2";
-        const global = JSON.parse(localStorage.getItem(key) || '{"completed":[],"quizScores":{}}');
+        const key = "bilsem-dijital-yetkinlik-progress-v3";
+        const global = JSON.parse(localStorage.getItem(key) || '{"completedCodes":[],"quizScores":{}}');
         if(!global.quizScores) global.quizScores = {};
         global.quizScores[title] = {
           score: state.correct,

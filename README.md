@@ -116,3 +116,8 @@ https://bilsem-bt.github.io/BilgisayarKullanimiVeDijitalYetkinlik/
 ```
 
 GitHub Actions workflow dosyası `.github/workflows/pages.yml` altında bulunur.
+
+
+## Revize v3
+
+Bölüm 1 ve Bölüm 2, daha az ana başlık ve daha ayrıntılı sınıf anlatımı standardına göre yayımlandı. Ders sayfalarında önceki/sonraki ders gezinmesi ve kod tabanlı tamamlanma takibi bulunur.
