@@ -1,0 +1,183 @@
+title: Google Colab Kullanımı — Uygulama
+description: Colab’ın Türkçe arayüzü, notebook, metin/kod hücresi, runtime, geçici dosyalar, Drive erişimi, paylaşım ve güvenli çalışma kavramlarını ölçer.
+questions:
+- id: q1
+  question: Google Colab için en doğru tanım hangisidir?
+  options:
+  - Kurulum gerektirmeden tarayıcıdan kullanılabilen barındırılmış Jupyter Notebook hizmetidir
+  - Yalnız masaüstü antivirüsüdür
+  - Git branch yöneticisidir
+  - Sadece ekran kaydedicidir
+  answer: 0
+  explanation: Google, Colab’ı hosted Jupyter Notebook service olarak tanımlar.
+- id: q2
+  question: Colab notebook dosyalarının yaygın uzantısı hangisidir?
+  options:
+  - .exe
+  - .ipynb
+  - .rar
+  - .psd
+  answer: 1
+  explanation: Colab not defterleri Jupyter notebook biçimi `.ipynb` olarak saklanır.
+- id: q3
+  question: Metin hücresinin temel amacı nedir?
+  options:
+  - GPU’yu zorunlu açmak
+  - Dosyayı şifrelemek
+  - Başlık, açıklama ve Markdown tabanlı metin eklemek
+  - Git push yapmak
+  answer: 2
+  explanation: Text hücreleri açıklama ve Markdown içeriği için kullanılır.
+- id: q4
+  question: Kod hücresi çalıştırıldığında sonuç genellikle nerede görülür?
+  options:
+  - Yalnız Drive çöp kutusunda
+  - Tarayıcı adres çubuğunda
+  - GitHub Issues’da
+  - Hücrenin altında çıktı alanında
+  answer: 3
+  explanation: Kod hücresinin output’u notebook içinde hücrenin altında gösterilir.
+- id: q5
+  question: Colab’da standart kod nerede çalışır?
+  options:
+  - Hesaba ayrılan bir çalışma zamanı/sanal makinede
+  - Yalnız Google Drive dosyasının içinde
+  - GitHub Pages’ta
+  - Klavye belleğinde
+  answer: 0
+  explanation: Colab kodu runtime olarak sağlanan sanal makine ortamında yürütür.
+- id: q6
+  question: Runtime dosya sistemine yüklenen geçici dosyalar için doğru ifade hangisidir?
+  options:
+  - Her zaman sonsuza kadar kalır
+  - Çalışma zamanı sonlandığında kaybolabilir
+  - Otomatik olarak GitHub’a commit olur
+  - Daima tüm sınıfla paylaşılır
+  answer: 1
+  explanation: Runtime geçicidir; kalıcı veri için ayrı depolama gerekir.
+- id: q7
+  question: GPU/TPU erişimi için doğru ifade hangisidir?
+  options:
+  - Her kullanıcıya aynı model sonsuza kadar garantilidir
+  - Yalnız ücretli hesaplarda vardır
+  - Tür ve kullanılabilirlik zamanla değişebilir ve garanti değildir
+  - Notebook adında GPU yazınca oluşur
+  answer: 2
+  explanation: Colab resmî FAQ GPU/TPU türleri ve kaynak erişiminin değişebildiğini belirtir.
+- id: q8
+  question: Google Drive’ı Colab’a mount etmek neden dikkat gerektirir?
+  options:
+  - Notebook dosyasını PNG yapar
+  - Git branch açar
+  - Ekran kaydı başlatır
+  - Notebook koduna Drive’daki dosyalara erişim izni verebilir
+  answer: 3
+  explanation: Drive mount güçlü bir erişim yetkisidir; güvenilmeyen notebook’ta verilmemelidir.
+- id: q9
+  question: Notebook ile runtime arasındaki ilişki için doğru ifade hangisidir?
+  options:
+  - Notebook kaydedilebilir belge; runtime kodu çalıştıran geçici ortamdır
+  - İkisi aynı dosyadır
+  - Runtime yalnız metin biçimidir
+  - Notebook sadece GPU adıdır
+  answer: 0
+  explanation: Notebook içerik belgesidir; runtime yürütme ortamıdır.
+- id: q10
+  question: Bir notebook paylaşılırken resmî Colab açıklamasına göre hangisi paylaşılabilir?
+  options:
+  - Yalnız dosya adı
+  - Metin, kod, çıktı ve yorumlar gibi notebook içeriği
+  - Kişinin bütün bilgisayarı
+  - Her zaman aktif sanal makinenin tamamı
+  answer: 1
+  explanation: Colab FAQ paylaşımın text, code, output ve comments gibi notebook içeriğini kapsayabildiğini açıklar.
+- id: q11
+  question: Paylaşılan notebook ile hangisi otomatik olarak paylaşılmaz?
+  options:
+  - Metin hücreleri
+  - Kod hücreleri
+  - Aktif sanal makine/runtime ve oraya sonradan kurulan özel durumun tamamı
+  - Kaydedilmiş çıktı
+  answer: 2
+  explanation: Runtime/VM notebook dosyasının bir parçası değildir.
+- id: q12
+  question: Hücreleri ekrandaki sıradan farklı sırada çalıştırmanın riski nedir?
+  options:
+  - Ekran parlaklığı değişir
+  - Dosya adı uzar
+  - GitHub hesabı kapanır
+  - Değişkenlerin eski/eksik durumuna bağlı beklenmeyen sonuç veya hata oluşabilir
+  answer: 3
+  explanation: Notebook durumu yürütme sırasına bağlıdır; düzenli sıra yeniden üretilebilirliği artırır.
+- id: q13
+  question: Aşağıdakilerden hangisi güvenli notebook alışkanlığıdır?
+  options:
+  - Kaynağı bilinmeyen notebook kodunu çalıştırmadan önce incelemek
+  - Her notebook’a Drive erişimi vermek
+  - Tokenı ilk hücreye yazmak
+  - Tüm hücreleri anlamadan Run all yapmak
+  answer: 0
+  explanation: Notebook kodu dosyalara ve verilere erişebilir; güvenilirlik ve içerik önce incelenmelidir.
+- id: q14
+  question: Colab’da kalıcı tutulması gereken sonuç için en iyi yaklaşım hangisidir?
+  options:
+  - Yalnız `/content` altında bırakmak
+  - Drive veya uygun kalıcı depolama alanına kaydetmek
+  - Runtime’ı hiç kapatmamak
+  - Dosya uzantısını .keep yapmak
+  answer: 1
+  explanation: Runtime depolaması geçici olduğundan kalıcı dosyalar ayrı depoya yazılmalıdır.
+- id: q15
+  question: '`.ipynb` dosyasının adını `.py` yapmak için doğru ifade hangisidir?'
+  options:
+  - Notebook’u otomatik kusursuz Python programına çevirir
+  - Notebook’u siler
+  - Sadece dosya adını/uzantısını değiştirir; biçimi doğru dönüştürmez
+  - GPU’yu açar
+  answer: 2
+  explanation: Dosya uzantısını değiştirmek notebook yapısını Python betiğine dönüştürmez.
+- id: q16
+  question: Notebook’a API anahtarı veya parola yazmak neden risklidir?
+  options:
+  - Kod daha yavaş olur
+  - GPU kapanır
+  - Markdown bozulur
+  - Notebook paylaşılırsa veya geçmişte kalırsa gizli bilgi açığa çıkabilir
+  answer: 3
+  explanation: Gizli bilgiler notebook kaynaklarında açıkça saklanmamalıdır.
+- id: q17
+  question: Bir Python hücresinde önce `x = 5` çalıştırılıp sonra `print(x)` çalıştırılırsa beklenen nedir?
+  options:
+  - 5 yazdırılması
+  - Notebook’un kapanması
+  - Git branch oluşması
+  - Dosyanın silinmesi
+  answer: 0
+  explanation: Aynı runtime’da önce x=5 yürütülmüşse sonraki hücre değişkeni kullanabilir.
+- id: q18
+  question: Runtime yeniden başlatılırsa önceki `x = 5` değişkeni için ne beklenmelidir?
+  options:
+  - Her zaman Drive’dan otomatik gelir
+  - Bellekteki değişken durumu sıfırlanır; tanımlayan hücre yeniden çalıştırılmalıdır
+  - GitHub’a push olur
+  - Dosya PDF’e döner
+  answer: 1
+  explanation: Runtime restart bellek durumunu temizler; hücreler yeniden yürütülmelidir.
+- id: q19
+  question: Colab notebook’unu daha yeniden üretilebilir yapmak için ne yapılabilir?
+  options:
+  - Gerekli adımları gizlemek
+  - Sadece sonucu ekran görüntüsü yapmak
+  - Gerekli kütüphane/dosya hazırlama adımlarını açıklayıp uygun hücrelerde belirtmek
+  - Hücreleri rastgele sıralamak
+  answer: 2
+  explanation: Kurulum ve veri hazırlama adımlarının notebook’ta açık olması başkasının tekrar çalıştırmasını kolaylaştırır.
+- id: q20
+  question: Dersin en iyi özeti hangisidir?
+  options:
+  - Runtime dosyalarını kalıcı san
+  - Her notebook’a bütün Drive erişimi ver
+  - Hücre sırasını önemseme
+  - Metin ve kod hücrelerini düzenli kullan, runtime’ın geçici olduğunu bil, çıktıyı kontrol et ve yalnız güvenilir kod/veriyle çalış
+  answer: 3
+  explanation: Colab’da düzen, yeniden üretilebilirlik, geçici runtime farkındalığı ve veri güvenliği birlikte önemlidir.

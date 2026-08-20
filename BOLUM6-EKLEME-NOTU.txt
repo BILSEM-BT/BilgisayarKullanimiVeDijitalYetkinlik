@@ -1,0 +1,10 @@
+BÖLÜM 6 EKLEME / REVİZYON NOTU — v7
+
+1) Bölüm 6 derslerinin tamamı yayıma hazırdır: 6-1 ... 6-6.
+2) 6-1, 6-2, 6-3 ve 6-6 Türkçe program/arayüz esaslıdır.
+3) 6-4 ve 6-5 İngilizce Git/GitHub program arayüz etiketleriyle hazırlanmıştır; anlatım dili Türkçedir.
+4) Her yeni derste 20 soru vardır; her soru dört seçenekli, tek doğru cevaplı ve açıklamalıdır.
+5) Ana sayfa ders kartlarındaki "Gözden geçirme" alanı kaldırılmış, yalnız "Son Güncelleme Tarihi" gösterilecek biçimde değiştirilmiştir.
+6) Bölüm 4'te yapılan sol menü düzeltmesi merkezî CSS'te korunmuştur: tüm sol kart yerine yalnız Ders İçeriği listesi gerektiğinde kayar.
+7) Paket tam repository kopyasıdır. Bu klasörün İÇERİĞİ repository köküne yüklenmelidir.
+8) Beklenen sayaç: 41 yayımdaki ders / 54 toplam plan.

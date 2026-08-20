@@ -8,6 +8,6 @@
          data-status="{{ m.status }}">
   <div class="module-top"><span class="module-no">{{ m.code }}</span><span class="status status-{{ m.status }}">{{ m.status | capitalize }}</span></div>
   <h3>{{ m.title }}</h3>
-  <div class="module-meta"><span>Gözden geçirme: {{ m.review_cycle }}</span>{% if m.updated != "" %}<span>Güncelleme: {{ m.updated }}</span>{% endif %}</div>
+  <div class="module-meta"><span>Son Güncelleme Tarihi: {% if m.updated != "" %}{{ m.updated }}{% else %}—{% endif %}</span></div>
   {% if m.status == 'yayında' %}<a class="card-link" href="{{ m.path | relative_url }}">Derse Gir</a>{% else %}<span class="card-link disabled">Hazırlanacak</span>{% endif %}
 </article>

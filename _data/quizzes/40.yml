@@ -1,0 +1,183 @@
+title: GitHub Desktop ve GitHub Pages — Uygulama
+description: GitHub Desktop’ın İngilizce arayüzünde repository/branch/Changes/History/commit/fetch-pull-push ve GitHub Pages yayın kaynağı kavramlarını ölçer.
+questions:
+- id: q1
+  question: GitHub Desktop’ın temel amacı nedir?
+  options:
+  - Git/GitHub iş akışlarını grafik arayüzle yönetmeyi kolaylaştırmak
+  - Sadece video oynatmak
+  - Kod derlemek için tek zorunlu araç olmak
+  - Akış şeması çizmek
+  answer: 0
+  explanation: GitHub Desktop birçok Git işlemini GUI üzerinden yapmayı kolaylaştırır.
+- id: q2
+  question: GitHub Desktop’taki “Changes” görünümü neyi gösterir?
+  options:
+  - Yalnız eski commit’leri
+  - Current branch üzerindeki henüz commit edilmemiş dosya değişikliklerini
+  - GitHub Pages ziyaretçilerini
+  - Bilgisayar donanımını
+  answer: 1
+  explanation: Changes, çalışma alanındaki commit edilmemiş değişiklikleri gösterir.
+- id: q3
+  question: “History” görünümünün temel görevi nedir?
+  options:
+  - Yeni repository oluşturmak
+  - Dosya sıkıştırmak
+  - Current branch’in önceki commit’lerini göstermek
+  - Parola saklamak
+  answer: 2
+  explanation: History, commit geçmişini ve commit değişikliklerini incelemeye yarar.
+- id: q4
+  question: “Push origin” ne yapar?
+  options:
+  - GitHub’dan yeni değişiklikleri yerel bilgisayara alır
+  - Repository’yi siler
+  - Sadece dosyayı kaydeder
+  - Yerel commit’leri remote repository’ye gönderir
+  answer: 3
+  explanation: Push origin, yerel commit’leri origin remote’una yollar.
+- id: q5
+  question: “Clone a Repository from the Internet...” ne yapar?
+  options:
+  - Uzak repository’nin yerel kopyasını geçmişiyle oluşturur
+  - Yerel klasörü PDF yapar
+  - Yeni boş repository oluşturur
+  - Yalnız branch adını değiştirir
+  answer: 0
+  explanation: Clone, mevcut remote repository’yi yerel bilgisayara getirir.
+- id: q6
+  question: “Add an Existing Repository from your Hard Drive...” hangi durumda kullanılır?
+  options:
+  - GitHub’da repo hiç yokken mutlaka
+  - Bilgisayarda zaten Git repository olan klasörü Desktop’a tanıtmak için
+  - Siteyi Pages’tan kaldırmak için
+  - Yalnız yeni branch açmak için
+  answer: 1
+  explanation: Add Existing Repository, mevcut yerel Git repo klasörünü GitHub Desktop’a ekler.
+- id: q7
+  question: İyi bir commit “Summary” örneği hangisidir?
+  options:
+  - update
+  - son
+  - Add lesson navigation
+  - asdf
+  answer: 2
+  explanation: Commit summary ne değiştiğini kısa ve anlamlı biçimde belirtmelidir.
+- id: q8
+  question: Remote’da yeni commit varsa push öncesinde ne yapmak genellikle doğru yaklaşımdır?
+  options:
+  - Remote değişikliklerini yok saymak
+  - Repository’yi silmek
+  - Force push kullanmak
+  - Fetch/Pull ile yeni değişiklikleri alıp durumunu incelemek
+  answer: 3
+  explanation: GitHub Desktop remote commits olduğunda fetch/pull ile güncellemeyi önerir; bu çatışma riskini yönetmeye yardım eder.
+- id: q9
+  question: “Current branch” neyi gösterir?
+  options:
+  - Şu anda üzerinde çalışılan branch’i
+  - Yalnız repository adını
+  - Pages domainini
+  - GitHub hesabı parolasını
+  answer: 0
+  explanation: Current branch, aktif çalışma dalını gösterir.
+- id: q10
+  question: Pull request’in temel amacı nedir?
+  options:
+  - Repository’yi sıkıştırmak
+  - Bir branch’teki değişiklikleri hedef branch’e önermek, incelemek ve tartışmak
+  - Bilgisayarı yeniden başlatmak
+  - Sadece siteyi kapatmak
+  answer: 1
+  explanation: Pull request, değişikliklerin review ve merge sürecini destekler.
+- id: q11
+  question: GitHub Pages için güncel iki temel publishing source yaklaşımı hangileridir?
+  options:
+  - VLC ve GIMP
+  - ZIP ve RAR
+  - Deploy from a branch veya GitHub Actions
+  - Word ve Excel
+  answer: 2
+  explanation: GitHub Docs Pages yayın kaynağı olarak branch veya GitHub Actions seçeneklerini açıklar.
+- id: q12
+  question: GitHub web arayüzünde Pages ayarının temel yolu hangisidir?
+  options:
+  - Code → Issues → Security
+  - Pull requests → Wiki
+  - Actions → Releases
+  - Settings → Pages
+  answer: 3
+  explanation: Pages yapılandırması repository Settings içindeki Pages bölümündedir.
+- id: q13
+  question: Deploy from a branch seçildiğinde ne belirlenir?
+  options:
+  - Yayınlanacak branch ve kaynak klasör
+  - Bilgisayarın ekran kartı
+  - GitHub Desktop teması
+  - C# derleyicisi
+  answer: 0
+  explanation: Branch publishing’de source branch ve `/` root veya `/docs` klasörü seçilebilir.
+- id: q14
+  question: GitHub Actions source seçeneği ne sağlar?
+  options:
+  - Her dosyayı otomatik olarak özel yapar
+  - Bir workflow ile siteyi build/deploy etme akışını kullanmayı
+  - Git geçmişini silmeyi
+  - GitHub Desktop’ı kaldırmayı
+  answer: 1
+  explanation: GitHub Actions, özel build/deploy workflow’u ile Pages dağıtımına olanak verir.
+- id: q15
+  question: GitHub Pages’a koyulmaması gereken içerik hangisidir?
+  options:
+  - Genel proje açıklaması
+  - Kamuya açık statik içerik
+  - Token, parola veya hassas kişisel veri
+  - index.html
+  answer: 2
+  explanation: Pages içeriği yayımlanabilir; gizli bilgi ve kişisel veri kaynağa konulmamalıdır.
+- id: q16
+  question: Kaydedilmiş fakat commit edilmemiş `index.html` için yalnız “Push origin” neyi garanti eder?
+  options:
+  - Dosyanın mutlaka gönderildiğini
+  - Yeni commit oluştuğunu
+  - Pages’ın otomatik düzeldiğini
+  - Hiçbir şeyi; push yalnız mevcut commit’leri gönderir
+  answer: 3
+  explanation: Commit edilmeyen değişiklik push paketine dahil değildir.
+- id: q17
+  question: Pages site güncellenmediyse ilk mantıklı kontrollerden biri hangisidir?
+  options:
+  - Pages source ayarı ve ilgili Actions/deployment durumunu kontrol etmek
+  - Tüm repository’yi hemen silmek
+  - Bilgisayar saatini değiştirmek
+  - GIMP açmak
+  answer: 0
+  explanation: Yanlış source veya başarısız workflow/deployment site güncellemesini engelleyebilir.
+- id: q18
+  question: Merge conflict ne zaman oluşabilir?
+  options:
+  - Hiç dosya değişmediğinde
+  - Aynı içeriğin uyumsuz biçimde farklı dallarda değiştirilmesi gibi durumlarda
+  - Yalnız PDF açıldığında
+  - Repository boş olduğunda
+  answer: 1
+  explanation: Çakışan değişiklikler otomatik birleştirilemediğinde conflict oluşur.
+- id: q19
+  question: GitHub Desktop “Publish repository” ne yapar?
+  options:
+  - Sadece yerel klasör adını değiştirir
+  - Pages’ı zorunlu etkinleştirir
+  - Yerel repository’yi GitHub’da bir remote repository olarak yayımlama sürecini başlatır
+  - Bütün commit’leri siler
+  answer: 2
+  explanation: Publish repository, yerel repo’yu GitHub’da yayımlayıp remote bağlantısı kurmaya yardım eder.
+- id: q20
+  question: Dersin en doğru özeti hangisidir?
+  options:
+  - Changes’i görmeden commit yap ve her şeyi push et
+  - Pages için her projede aynı dosyaları sil
+  - Current branch’i önemseme
+  - Değişiklikleri incele → anlamlı commit oluştur → remote’u güncelle → Pages source/deployment durumunu doğru yapılandır ve kontrol et
+  answer: 3
+  explanation: Doğru GitHub Desktop/Pages akışı değişiklik kontrolü, commit, senkronizasyon ve yayın yapılandırmasını birlikte içerir.

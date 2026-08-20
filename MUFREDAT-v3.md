@@ -47,9 +47,17 @@ Bu sürümde içerik yapısı tahtada anlatıma uygun hâle getirildi. Derslerde
 - **5-5 — Inkscape ile Vektörel Çizim**
 - **5-6 — Audacity ile Ses Kaydı ve Düzenleme**
 
+## Bölüm 6 — Yazılım Geliştirme ve Proje Araçları
+- **6-1 — Visual Studio Kullanımı** — Türkçe program/arayüz
+- **6-2 — Visual Studio Code Kullanımı** — Türkçe program/arayüz
+- **6-3 — Algoritma ve diagrams.net ile Akış Şemaları** — Türkçe program/arayüz
+- **6-4 — Git ve GitHub Temelleri** — İngilizce program/arayüz etiketleri
+- **6-5 — GitHub Desktop ve GitHub Pages** — İngilizce program/arayüz etiketleri
+- **6-6 — Google Colab Kullanımı** — Türkçe program/arayüz
+
 ## Sonraki bölümler
 
-Bölüm 6–8 başlıkları `_data/modules.yml` içinde planlandı durumunda yer alır.
+Bölüm 7–8 başlıkları `_data/modules.yml` içinde planlandı durumunda yer alır.
 
 ## İçerik standardı
 

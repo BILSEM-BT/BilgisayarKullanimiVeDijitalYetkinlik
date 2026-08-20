@@ -1,0 +1,183 @@
+title: Git ve GitHub Temelleri — Uygulama
+description: Git ve GitHub farkı, working tree/staging/commit, status/add/commit, remote, clone, fetch/pull/push ve branch kavramlarını İngilizce Git/GitHub terimleriyle ölçer.
+questions:
+- id: q1
+  question: Git için en doğru tanım hangisidir?
+  options:
+  - Dağıtık bir sürüm kontrol sistemidir
+  - Yalnız bulut depolama sitesidir
+  - Resim düzenleyicidir
+  - Web tarayıcısıdır
+  answer: 0
+  explanation: Git, dosya değişikliklerinin geçmişini izleyen dağıtık sürüm kontrol sistemidir.
+- id: q2
+  question: GitHub için en doğru açıklama hangisidir?
+  options:
+  - Git’in yerel staging alanıdır
+  - Git repository’lerini barındıran ve iş birliği araçları sunan çevrim içi hizmettir
+  - Sadece C# derleyicisidir
+  - Bir akış şeması programıdır
+  answer: 1
+  explanation: GitHub, Git depolarını barındırır ve ek iş birliği özellikleri sunar.
+- id: q3
+  question: '`git status` ne gösterir?'
+  options:
+  - GitHub Pages URL’sini
+  - Bilgisayar sıcaklığını
+  - Working tree ve staging durumundaki değişiklikleri
+  - Parolaları
+  answer: 2
+  explanation: '`git status`, untracked/modified/staged gibi durumları gösterir.'
+- id: q4
+  question: '`git add README.md` ne yapar?'
+  options:
+  - Dosyayı GitHub’a push eder
+  - Commit’i siler
+  - Repository’yi clone eder
+  - README.md değişikliğini bir sonraki commit için staging area’ya alır
+  answer: 3
+  explanation: '`git add` staging area/index’i günceller; push değildir.'
+- id: q5
+  question: '`git commit` ne yapar?'
+  options:
+  - Stage edilmiş değişiklikleri yerel repository geçmişine kaydeder
+  - Dosyayı otomatik internete yayımlar
+  - GitHub hesabı açar
+  - Çalışma klasörünü siler
+  answer: 0
+  explanation: Commit, staging area’daki seçili değişikliklerden yerel geçmişe snapshot kaydeder.
+- id: q6
+  question: '`git push` ne yönde çalışır?'
+  options:
+  - Remote’dan dosyaları yerel bilgisayara getirir
+  - Yerel commit’leri remote repository’ye gönderir
+  - Yalnız branch listesini siler
+  - Dosyayı ZIP yapar
+  answer: 1
+  explanation: Push, yerel branch commit’lerini remote’a gönderir.
+- id: q7
+  question: '`git clone` ne yapar?'
+  options:
+  - Yalnız tek dosyayı kopyalar
+  - Repository geçmişini siler
+  - Remote repository’nin yerel kopyasını oluşturur ve genellikle origin remote’unu ayarlar
+  - Commit mesajını değiştirir
+  answer: 2
+  explanation: Clone, repository dosyaları/geçmişiyle yerel kopya oluşturur ve origin’i tanımlar.
+- id: q8
+  question: '`git fetch` için doğru ifade hangisidir?'
+  options:
+  - Mevcut branch ile her şeyi zorla birleştirir
+  - Dosyaları otomatik siler
+  - Yalnız commit oluşturur
+  - Remote’daki yeni bilgi/commitleri getirir; mevcut yerel branch’e otomatik birleştirme yapmaz
+  answer: 3
+  explanation: Fetch remote tracking bilgisini günceller; merge/integrate ayrı adımdır.
+- id: q9
+  question: '`git pull` için temel açıklama hangisidir?'
+  options:
+  - Remote’daki değişiklikleri getirip yerel çalışma dalıyla bütünleştirmeyi amaçlar
+  - Yerel commit’i remote’a yollar
+  - Yeni boş repo oluşturur
+  - Parola üretir
+  answer: 0
+  explanation: Pull, fetch + integration yaklaşımıyla yerel branch’i remote karşılığıyla günceller.
+- id: q10
+  question: GitHub’da yaygın remote adı hangisidir?
+  options:
+  - main
+  - origin
+  - commit
+  - status
+  answer: 1
+  explanation: '`origin`, clone edilen veya elle eklenen temel remote için yaygın varsayılan addır.'
+- id: q11
+  question: '`git init -b main` ne yapar?'
+  options:
+  - GitHub Pages siteyi kapatır
+  - Remote’dan pull yapar
+  - Yeni Git repository başlatır ve ilk branch adını main olarak belirler
+  - GitHub hesabını siler
+  answer: 2
+  explanation: '`git init -b main`, yeni repo oluştururken initial branch’i açıkça main yapar.'
+- id: q12
+  question: Aşağıdakilerden hangisi repository’ye commit edilmemelidir?
+  options:
+  - README.md
+  - Kaynak kod
+  - Proje açıklaması
+  - Parola, token veya özel anahtar gibi gizli bilgiler
+  answer: 3
+  explanation: Gizli kimlik bilgileri Git geçmişine eklenmemelidir.
+- id: q13
+  question: Working tree nedir?
+  options:
+  - Dosyaları düzenlediğin yerel proje çalışma alanı
+  - Yalnız GitHub sunucusu
+  - Commit mesajlarının listesi
+  - Pages domain ayarı
+  answer: 0
+  explanation: Working tree, proje dosyalarının düzenlendiği yerel çalışma alanıdır.
+- id: q14
+  question: Staging area’nın amacı nedir?
+  options:
+  - Tüm geçmişi silmek
+  - Bir sonraki commit’e hangi değişikliklerin gireceğini seçmeye yardımcı olmak
+  - GitHub hesabını doğrulamak
+  - Video oynatmak
+  answer: 1
+  explanation: Staging/index, commit’e dahil edilecek içeriği hazırlamak içindir.
+- id: q15
+  question: Branch için doğru açıklama hangisidir?
+  options:
+  - Dosya sıkıştırma türüdür
+  - Parola biçimidir
+  - Ayrı bir geliştirme çizgisi üzerinde çalışma imkânı verir
+  - Sadece internet bağlantısıdır
+  answer: 2
+  explanation: Branch’ler değişiklikleri farklı geliştirme çizgilerinde tutar.
+- id: q16
+  question: '`git add .` kullanmadan önce neden `git status` kontrolü yararlıdır?'
+  options:
+  - Ekran rengini görmek için
+  - GitHub Pages açmak için
+  - İnterneti hızlandırmak için
+  - Stage edilecek gereksiz veya gizli dosyaları fark etmek için
+  answer: 3
+  explanation: '`git add .` geniş kapsamlıdır; önce status ile hangi dosyaların dahil olacağını görmek güvenlidir.'
+- id: q17
+  question: Git commit’i oluşturduktan sonra GitHub web sitesinde görünmüyorsa en olası eksik adım hangisidir?
+  options:
+  - Commit’i remote’a push etmek
+  - Dosyayı PNG yapmak
+  - Visual Studio dilini değiştirmek
+  - Diyagram çizmek
+  answer: 0
+  explanation: Yerel commit’in GitHub’da görünmesi için remote’a push edilmesi gerekir.
+- id: q18
+  question: GitHub HTTPS Git işlemlerinde normal hesap parolası için güncel durum hangisidir?
+  options:
+  - Her zaman tek desteklenen yöntemdir
+  - Normal hesap parolası Git işlemleri için kullanılmaz; güncel kimlik doğrulama yöntemi gerekir
+  - Parola repository’ye yazılmalıdır
+  - Parola branch adıdır
+  answer: 1
+  explanation: GitHub password-based Git authentication’ı kaldırmıştır; GCM/browser, token veya SSH gibi güncel yöntemler kullanılır.
+- id: q19
+  question: '`git log` temel olarak neyi incelemeye yarar?'
+  options:
+  - Monitör günlüklerini
+  - Tarayıcı çerezlerini
+  - Commit geçmişini
+  - Wi-Fi parolasını
+  answer: 2
+  explanation: '`git log`, commit geçmişini gösterir.'
+- id: q20
+  question: Dersin doğru iş akışı hangisidir?
+  options:
+  - git push → git add → dosyayı düzenle
+  - Dosyayı düzenle → git push → git commit olmadan bitir
+  - Gizli dosyayı ekle → force push
+  - Dosyayı düzenle → git status → git add → git commit → gerekirse git push
+  answer: 3
+  explanation: Temel Git akışı değişikliği inceleme, stage, commit ve remote gerekiyorsa push sırasını izler.

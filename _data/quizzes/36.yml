@@ -1,0 +1,183 @@
+title: Visual Studio Kullanımı — Uygulama
+description: Visual Studio’nun Türkçe arayüzü, iş yükleri, çözüm/proje yapısı, derleme, çalıştırma ve temel hata ayıklama kavramlarını ölçer.
+questions:
+- id: q1
+  question: Visual Studio için en doğru tanım hangisidir?
+  options:
+  - Kod düzenleme, proje yönetimi, derleme ve hata ayıklama araçlarını bir araya getiren bir IDE’dir
+  - Yalnızca web tarayıcısıdır
+  - Sadece dosya sıkıştırma programıdır
+  - GitHub’ın başka adıdır
+  answer: 0
+  explanation: Visual Studio, geliştirme araçlarını aynı ortamda birleştiren bir tümleşik geliştirme ortamıdır (IDE).
+- id: q2
+  question: Visual Studio’yu Türkçe arayüzle kullanmak için mevcut kuruluma hangi bileşen eklenebilir?
+  options:
+  - Yeni ekran kartı sürücüsü
+  - Visual Studio Yükleyicisi içinden Türkçe dil paketi
+  - GitHub repository’si
+  - Sadece bir PDF okuyucu
+  answer: 1
+  explanation: Microsoft, Visual Studio için Türkçe dil paketini destekler; dil paketleri Visual Studio Yükleyicisi’nden yönetilebilir.
+- id: q3
+  question: C# konsol projesi şablonu görünmüyorsa ilk kontrol edilmesi gerekenlerden biri hangisidir?
+  options:
+  - Monitör çözünürlüğü
+  - Dosya adının uzunluğu
+  - .NET ile ilgili gerekli iş yükünün kurulu olup olmadığı
+  - Tarayıcı geçmişi
+  answer: 2
+  explanation: Proje şablonları gerekli iş yükleriyle gelir; .NET konsol çalışmaları için uygun .NET iş yükü kurulmalıdır.
+- id: q4
+  question: Visual Studio’da “çözüm (solution)” neyi ifade eder?
+  options:
+  - Sadece derlenmiş .exe dosyasını
+  - Tek bir kod satırını
+  - Bir hata mesajının otomatik cevabını
+  - Bir veya daha fazla ilgili projeyi düzenleyen kapsayıcıyı
+  answer: 3
+  explanation: Çözüm, Visual Studio’da bir veya daha fazla ilgili projeyi birlikte düzenleyen kapsayıcıdır.
+- id: q5
+  question: Çözüm Gezgini’nin temel görevi nedir?
+  options:
+  - Çözümdeki proje ve dosyaları görüp yönetmeye yardımcı olmak
+  - İnternet hızını ölçmek
+  - Bilgisayarı antivirüsle taramak
+  - Sadece renk temasını değiştirmek
+  answer: 0
+  explanation: Çözüm Gezgini, proje ve dosya yapısını görmenin temel araçlarından biridir.
+- id: q6
+  question: '`Program.cs` başlangıç düzeyindeki bir C# konsol projesinde genellikle ne içerir?'
+  options:
+  - Yalnızca resim dosyalarını
+  - C# kaynak kodunu
+  - GitHub hesabı parolasını
+  - Derlenmiş video çıktısını
+  answer: 1
+  explanation: '`.cs` uzantılı dosyalar C# kaynak kod dosyalarıdır.'
+- id: q7
+  question: Derleme (build) için doğru açıklama hangisidir?
+  options:
+  - Dosyayı otomatik olarak GitHub’a yükler
+  - Sadece klasör adını değiştirir
+  - Kaynak kodu hedef çıktıya dönüştürür ve derleme hatalarını ortaya çıkarır
+  - Programın tüm mantığının kesin doğru olduğunu kanıtlar
+  answer: 2
+  explanation: Build, kaynak kodu derler; başarılı derleme mantıksal doğruluğu garanti etmez.
+- id: q8
+  question: Microsoft belgelerine göre F5’in Visual Studio’daki temel kullanımı nedir?
+  options:
+  - Projeyi silmek
+  - Çözümü sıkıştırmak
+  - Türkçe dil paketini kaldırmak
+  - Uygulamayı hata ayıklayıcı altında başlatmak
+  answer: 3
+  explanation: F5, uygulamayı debug/hata ayıklama modunda başlatmak için kullanılır.
+- id: q9
+  question: Ctrl+F5’in temel farkı nedir?
+  options:
+  - Uygulamayı hata ayıklama olmadan başlatır
+  - Bilgisayarı yeniden başlatır
+  - Git commit oluşturur
+  - Kodun yazı tipini büyütür
+  answer: 0
+  explanation: Ctrl+F5, Visual Studio’da Start Without Debugging / Hata Ayıklama Olmadan Başlat işlevine karşılık gelir.
+- id: q10
+  question: Breakpoint (kesme noktası) ne işe yarar?
+  options:
+  - Projeyi GitHub Pages’ta yayımlar
+  - Program belirli satıra geldiğinde yürütmeyi duraklatıp durumu incelemeye yardım eder
+  - Dosyayı şifreler
+  - İş yükünü kaldırır
+  answer: 1
+  explanation: Kesme noktası, hata ayıklamada yürütmeyi belirli satırda durdurmak için kullanılır.
+- id: q11
+  question: IntelliSense için doğru ifade hangisidir?
+  options:
+  - Her önerisi programın amacı açısından zorunlu olarak doğrudur
+  - Kodu internete yükler
+  - Kod tamamlama ve bilgi önerileriyle yazmayı kolaylaştırır; son kararı geliştirici verir
+  - Yalnızca resim düzenler
+  answer: 2
+  explanation: IntelliSense yardımcı öneriler sunar; önerinin mantıksal olarak uygunluğunu geliştirici değerlendirir.
+- id: q12
+  question: Aşağıdakilerden hangisi iyi bir hata ayıklama yaklaşımı değildir?
+  options:
+  - Hata mesajını okumak
+  - Hatanın dosya ve satırını kontrol etmek
+  - Değişkenleri incelemek
+  - Hata mesajını görmeden kodu rastgele değiştirmeye devam etmek
+  answer: 3
+  explanation: Sistematik hata ayıklama; mesajı, konumu ve program durumunu incelemeyi gerektirir.
+- id: q13
+  question: '`bin` ve `obj` klasörleri için başlangıç düzeyinde en doğru yaklaşım hangisidir?'
+  options:
+  - Bunların çoğunlukla derleme sırasında üretilen çıktılar/ara dosyalar olduğunu bilmek
+  - Kaynak kodun tamamını yalnız buraya yazmak
+  - Her çalıştırmadan önce elle yeniden adlandırmak
+  - GitHub parolasını burada saklamak
+  answer: 0
+  explanation: '`bin` ve `obj` genellikle derleme tarafından üretilir; asıl kaynak dosyalarla karıştırılmamalıdır.'
+- id: q14
+  question: Visual Studio ile Visual Studio Code arasındaki ilişki için doğru ifade hangisidir?
+  options:
+  - Aynı programın iki dosya adı
+  - Farklı ürünlerdir; Visual Studio kapsamlı IDE, VS Code daha hafif ve genişletilebilir editördür
+  - VS Code yalnız Visual Studio içinden açılır
+  - Visual Studio yalnız web tarayıcısıdır
+  answer: 1
+  explanation: İsimleri benzer olsa da Visual Studio ve VS Code ayrı ürünlerdir.
+- id: q15
+  question: Bir program başarıyla derleniyorsa hangisi yine de mümkün olabilir?
+  options:
+  - Kaynak dosyası artık yoktur
+  - Program zorunlu olarak GitHub’a yüklenmiştir
+  - Program mantıksal olarak yanlış sonuç üretebilir
+  - Breakpoint kullanılamaz
+  answer: 2
+  explanation: Derleme sözdizimi/tür gibi sorunları yakalayabilir; mantıksal hata yine bulunabilir.
+- id: q16
+  question: Bir Visual Studio projesini internetten indirdiğinde ilk güvenlik yaklaşımı hangisi olmalıdır?
+  options:
+  - Her dosyayı yönetici olarak çalıştırmak
+  - Antivirüsü kapatmak
+  - Kaynağı önemsememek
+  - Kaynağı ve kodun ne yaptığını değerlendirip güvenmeden çalıştırmamak
+  answer: 3
+  explanation: Kaynağı bilinmeyen kod yürütülebilir davranış içerir; çalıştırmadan önce değerlendirilmelidir.
+- id: q17
+  question: Proje adlandırmada en iyi örnek hangisidir?
+  options:
+  - IlkKonsolUygulamam
+  - YeniProjeSonSon2
+  - aaaa
+  - Adsız1
+  answer: 0
+  explanation: Anlamlı proje adı, çalışma amacını daha sonra kolay bulmayı sağlar.
+- id: q18
+  question: Kodda bir değişiklik yaptıktan sonra eski çıktı görüyorsan ilk basit kontrollerden biri hangisidir?
+  options:
+  - Monitörü kapatmak
+  - Dosyanın kaydedildiğini ve doğru projenin çalıştırıldığını kontrol etmek
+  - Projeyi rastgele silmek
+  - Dil paketini kaldırmak
+  answer: 1
+  explanation: Kaydedilmemiş değişiklik veya yanlış başlangıç projesi eski sonuç görmeye neden olabilir.
+- id: q19
+  question: Visual Studio Yükleyicisi’ndeki “iş yükü” neyi temsil eder?
+  options:
+  - Bir web sitesi parolası
+  - Sadece tema rengi
+  - Belirli geliştirme türü için gereken araç ve bileşen grubunu
+  - Bir Git branch’ini
+  answer: 2
+  explanation: Workload/iş yükü belirli geliştirme senaryosu için bileşenleri gruplayan kurulum seçeneğidir.
+- id: q20
+  question: Dersin temel iş akışını en iyi hangisi özetler?
+  options:
+  - Yalnız kod yaz, sonucu hiç çalıştırma
+  - Her hatada programı yeniden kur
+  - Kaynak kod yerine bin klasörünü düzenle
+  - Proje oluştur/aç → kodu düzenle ve kaydet → derle/çalıştır → sonucu ve hataları incele
+  answer: 3
+  explanation: Visual Studio’da güvenilir başlangıç akışı proje, düzenleme, derleme/çalıştırma ve kontrol adımlarından oluşur.

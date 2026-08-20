@@ -1,41 +1,43 @@
-KALİTE KONTROL RAPORU — REVİZE v6
+KALİTE KONTROL RAPORU — v7
 Tarih: 2026-08-21
 
-PAKET
-- Bölüm 1-5 tam repository paketi
+PORTAL
 - Toplam plan: 54 ders
-- Yayında: 35 ders
-- Bölüm 5: 6 / 6 yayında
+- Yayında: 41 ders
+- Bölüm 1–6: yayımdadır
+- Bölüm 7–8: planlıdır
 
-SOL MENÜ DÜZELTMESİ
-- .lesson-side üzerindeki overflow-y:auto kaldırıldı.
-- Sol kart flex kolon olarak düzenlendi ve dış scrollbar engellendi.
-- .lesson-toc-list tek kaydırılabilir alan olarak ayarlandı.
-- Mobil <=960 px görünümde sol kart statik ve overflow visible; Ders İçeriği gerektiğinde max 320 px alanda kaydırılır.
+BÖLÜM 6
+- 6 ders sayfası: TAMAM
+- 6 uygulama sayfası: TAMAM
+- 120 yeni soru: TAMAM
+- 6-1/6-2/6-3/6-6 Türkçe program/arayüz: TAMAM
+- 6-4/6-5 English program/arayüz etiketleri: TAMAM
+- Güncel resmî kaynak kontrolü: TAMAM
 
-BÖLÜM 5 İÇERİK KONTROLÜ
-- 5-1: 8 H2, ders+uygulama, 20 soru
-- 5-2: 8 H2, ders+uygulama, 20 soru
-- 5-3: 8 H2, ders+uygulama, 20 soru
-- 5-4: 8 H2, ders+uygulama, 20 soru
-- 5-5: 8 H2, ders+uygulama, 20 soru
-- 5-6: 8 H2, ders+uygulama, 20 soru
-- Toplam yeni soru: 120
-- Her quizde doğru cevap indeksleri: 0/1/2/3 = 5/5/5/5
+ANA SAYFA
+- Ders kartındaki Gözden geçirme alanı kaldırıldı: TAMAM
+- Son Güncelleme Tarihi gösterimi: TAMAM
 
-KAYNAK KONTROLÜ
-- 7-Zip resmî dokümantasyonu (7z formatı, desteklenen biçimler, AES-256)
-- RARLAB / WinRAR resmî belgeleri (RAR/ZIP oluşturma, çıkarma, çok parçalı arşiv)
-- VideoLAN VLC User Documentation (oynatma, ses/altyazı parçaları, altyazı gecikmesi)
-- Microsoft Support — Snipping Tool (Windows + Shift + S; Windows 11 video alıntısı / Windows + Shift + R)
-- GIMP 3 resmî dokümantasyonu (Crop, Scale Layer/Image, PNG Export)
-- Inkscape Basic Tutorial ve Beginners' Guide (shapes, paths/nodes, SVG, export)
-- Audacity Support (mikrofon kaydı, editing audio, saving/exporting projects)
+TÜM YAYIMDAKİ QUIZLER
+- 41 quiz x 20 soru = 820 soru: TAMAM
+- Her soruda 4 seçenek: TAMAM
+- Her soruda answer değeri 0–3: TAMAM
+- Her soruda açıklama: TAMAM
+- Her quizde cevap dağılımı 5/5/5/5: TAMAM
+- Soru kimlikleri benzersiz: TAMAM
+- Ders/quiz konu uyumu otomatik taraması: TAMAM
+- Düşük eşleşme veren 3 mevcut soru elle gözden geçirildi: TAMAM / yanlış eşleşme yok
+- Sürüme bağlı yüksek riskli bilgiler resmî kaynaklarla tekrar kontrol edildi: TAMAM
 
-STATİK DOĞRULAMALAR
-- YAML parse kontrolü yapıldı.
-- Modül -> ders yolu -> uygulama yolu -> quiz dosyası bağlantıları kontrol edildi.
-- Bölüm 5 derslerinde 8 ana H2 başlık kontrol edildi.
-- Bölüm 5 quizlerinde soru sayısı, 4 seçenek ve cevap aralığı kontrol edildi.
-- Doğru cevap dağılımı kontrol edildi.
-- Jekyll çalıştırıcısı bu ortamda kurulu olmadığından GitHub Pages'in gerçek Ruby/Jekyll build adımı yerelde çalıştırılmadı; mevcut workflow korunmuştur.
+YAPISAL KONTROLLER
+- Live module lesson yolu var: TAMAM
+- Live module quiz yolu var: TAMAM
+- Front matter module_id/quiz_id eşleşmesi: TAMAM
+- Markdown front matter parse testi: 86 dosya / 0 hata
+- 6-1...6-6 previous/next gezintisi modules.yml sırasıyla otomatik çalışır: TAMAM
+- Ders sol menüsünde yalnız Ders İçeriği listesinin kayması için merkezî CSS düzeltmesi korunmuştur: TAMAM
+- ZIP bütünlük testi: TAMAM
+
+NOT
+Gerçek GitHub Pages/Jekyll build sonucu repository'ye yüklendikten sonra Actions logundan ayrıca kontrol edilmelidir.

@@ -23,7 +23,7 @@ Derslerin yeni içerik standardı:
 ## İki öğrenme yolu
 
 - **Genel Yeterlik:** Bölümler 1–5
-- **Programlama Yeterlik:** Bölümler 6–8
+- **Programlama Yeterlik:** Bölümler 6–8 (Bölüm 6 yayımdadır)
 
 ## Bölümler
 
@@ -50,7 +50,7 @@ Bu paket Bölüm 1'i tam olarak içerir:
 - **1-6 — Windows Ayarları, Uygulamalar ve Güncellemeler**
 - **1-7 — Görev Yöneticisi ve Temel Sorun Giderme**
 
-Bölüm 1–5 dersleri yayımdadır. Bölüm 6–8 dersleri `_data/modules.yml` içinde planlanmıştır; içerik paketleri bölüm bölüm eklenecektir.
+Bölüm 1–6 dersleri yayımdadır. Bölüm 7–8 dersleri `_data/modules.yml` içinde planlanmıştır; içerik paketleri bölüm bölüm eklenecektir.
 
 ## Dosya yapısı
 

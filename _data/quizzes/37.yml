@@ -1,0 +1,183 @@
+title: Visual Studio Code Kullanımı — Uygulama
+description: VS Code’un Türkçe arayüzü, proje klasörü, temel görünümler, Language Pack, Komut Paleti, uzantı, terminal ve hata ayıklama kavramlarını ölçer.
+questions:
+- id: q1
+  question: Visual Studio Code için en doğru tanım hangisidir?
+  options:
+  - Eklentilerle genişletilebilen, çok platformlu bir kod düzenleyicisidir
+  - Yalnızca antivirüs programıdır
+  - GitHub Pages sunucusudur
+  - Sadece C# derleyicisidir
+  answer: 0
+  explanation: VS Code, çok platformlu ve uzantılarla genişletilebilen bir kod düzenleyicisidir.
+- id: q2
+  question: VS Code’un varsayılan görüntüleme dili nedir?
+  options:
+  - Türkçe
+  - İngilizce
+  - Yalnız Almanca
+  - Programlama diline göre otomatik olarak Python
+  answer: 1
+  explanation: Resmî VS Code belgeleri varsayılan görüntüleme dilinin İngilizce olduğunu belirtir.
+- id: q3
+  question: Türkçe VS Code arayüzü nasıl sağlanır?
+  options:
+  - Dosya uzantısını .tr yapmak
+  - Windows’u yeniden kurmak
+  - Türkçe Language Pack kullanmak
+  - GitHub repository adını turkce yapmak
+  answer: 2
+  explanation: Türkçe, VS Code’un desteklediği Language Pack tabanlı görüntüleme dillerindendir.
+- id: q4
+  question: Windows/Linux’ta Ctrl+Shift+P neyi açar?
+  options:
+  - Görev Yöneticisi’ni
+  - Tarayıcı geçmişini
+  - Yalnız dosya kaydetmeyi
+  - Komut Paleti’ni
+  answer: 3
+  explanation: Ctrl+Shift+P, VS Code Command Palette / Komut Paleti’ni açar.
+- id: q5
+  question: Gezgin (Explorer) görünümünün temel görevi nedir?
+  options:
+  - Açık klasördeki dosya ve klasör yapısını göstermek
+  - İnternet hızını artırmak
+  - Ses kaydetmek
+  - GitHub hesabını silmek
+  answer: 0
+  explanation: Explorer/Gezgin proje dosyaları ve klasör yapısını gösterir.
+- id: q6
+  question: Ara (Search) görünümü hangi durumda özellikle kullanışlıdır?
+  options:
+  - Yalnız ekran görüntüsü almak için
+  - Açık proje klasöründeki birçok dosyada metin aramak için
+  - Sadece uzantı kaldırmak için
+  - Bilgisayarı kapatmak için
+  answer: 1
+  explanation: Search, proje genelinde arama ve değiştirme yapmaya yardım eder.
+- id: q7
+  question: Source Control / Kaynak Denetimi görünümü hangi sistemle bütünleşik çalışabilir?
+  options:
+  - GIMP
+  - VLC
+  - Git
+  - 7-Zip
+  answer: 2
+  explanation: VS Code yerleşik Git source control desteği sunar.
+- id: q8
+  question: Bir üçüncü taraf eklentinin bazı menüleri İngilizce kalıyorsa en doğru açıklama hangisidir?
+  options:
+  - Türkçe dil paketi kesin bozuk
+  - Bilgisayarda internet yok
+  - Dosyalar silinmiştir
+  - Eklenti kendi Türkçe yerelleştirmesini sunmuyor olabilir
+  answer: 3
+  explanation: Dil paketi VS Code çekirdeğini yerelleştirir; üçüncü taraf uzantıların çeviri desteği ayrı olabilir.
+- id: q9
+  question: Bir proje üzerinde çalışırken neden kök klasörü açmak yararlıdır?
+  options:
+  - Gezgin, arama ve terminalin aynı proje bağlamında çalışmasını sağlar
+  - Dosyaları otomatik olarak şifreler
+  - Her dosyayı PDF yapar
+  - GitHub hesabı oluşturur
+  answer: 0
+  explanation: Klasör açmak araçların proje bağlamını görmesini sağlar.
+- id: q10
+  question: Dosya uzantısını `not.txt`den `not.py`ye değiştirmek için doğru ifade hangisidir?
+  options:
+  - İçeriği otomatik olarak doğru Python programına dönüştürür
+  - Yalnız ad/uzantı değişir; içerik kendi kendine başka dile dönüşmez
+  - Dosyayı GitHub’a yollar
+  - Dosyayı sıkıştırır
+  answer: 1
+  explanation: Uzantı dosya türü için ipucudur; içeriğin yapısını otomatik dönüştürmez.
+- id: q11
+  question: Uzantı (extension) kurarken en güvenli yaklaşım hangisidir?
+  options:
+  - Gördüğün her uzantıyı kurmak
+  - Yayıncıyı önemsememek
+  - Gerçek gereksinimi, yayıncıyı ve açıklamayı değerlendirip güvenilir uzantıyı seçmek
+  - Antivirüsü kapatmak
+  answer: 2
+  explanation: Uzantılar güçlü yeteneklere sahip olabilir; gereksiz ve kaynağı belirsiz uzantılardan kaçınılmalıdır.
+- id: q12
+  question: VS Code tümleşik Terminali için doğru ifade hangisidir?
+  options:
+  - Her programlama dilini kurulum olmadan kendisi icat eder
+  - Yalnız metin gösterir
+  - GitHub Pages’ı otomatik açar
+  - İşletim sistemindeki komut satırı araçlarını proje bağlamında kullanmaya yardım eder
+  answer: 3
+  explanation: Integrated Terminal, mevcut shell ve komut satırı araçlarını VS Code içinde kullanmayı sağlar.
+- id: q13
+  question: Çalıştır ve Hata Ayıkla görünümü ne için kullanılır?
+  options:
+  - Program çalışmasını, kesme noktalarını ve hata ayıklama bilgilerini incelemek için
+  - Yalnız renk teması seçmek için
+  - PDF birleştirmek için
+  - Drive bağlamak için
+  answer: 0
+  explanation: Run and Debug görünümü hata ayıklama araçlarını ve çalışma durumunu gösterir.
+- id: q14
+  question: Hata ayıklama desteği neden projeden projeye değişebilir?
+  options:
+  - Monitör rengine bağlıdır
+  - Kullanılan programlama dili ve kurulu uzantılara/araçlara bağlıdır
+  - Dosya adı kısa olduğu için
+  - VS Code yalnız tek dili desteklediği için
+  answer: 1
+  explanation: VS Code genişletilebilir olduğundan dil ve debugger desteği ilgili uzantı ve runtime’a bağlı olabilir.
+- id: q15
+  question: Terminale internetten alınmış bilinmeyen bir komutu yapıştırmadan önce ne yapılmalıdır?
+  options:
+  - Komutu yönetici olarak çalıştırmak
+  - Bütün dosyaları silmek
+  - Komutun ne yaptığını ve kaynağın güvenilirliğini anlamak
+  - Uzantısını .txt yapmak
+  answer: 2
+  explanation: Terminal komutları sisteme zarar verebilir; anlamadan ve güvenmeden çalıştırılmamalıdır.
+- id: q16
+  question: VS Code ile Visual Studio için doğru ifade hangisidir?
+  options:
+  - Aynı uygulamadır
+  - VS Code Visual Studio’nun yalnız tema adıdır
+  - Visual Studio sadece VS Code eklentisidir
+  - İkisi ayrı üründür ve kullanım yaklaşımları farklıdır
+  answer: 3
+  explanation: Visual Studio ve VS Code farklı ürünlerdir.
+- id: q17
+  question: Bir dosyanın güncel değişikliğini çalıştırmadan önce en temel kontrol hangisidir?
+  options:
+  - Dosyanın kaydedildiğini kontrol etmek
+  - Ekran çözünürlüğünü düşürmek
+  - GitHub hesabını kapatmak
+  - Bilgisayarı yeniden adlandırmak
+  answer: 0
+  explanation: Kaydedilmemiş dosya, çalıştırılan programın eski içeriği kullanmasına yol açabilir.
+- id: q18
+  question: VS Code’daki Extensions görünümünün görevi nedir?
+  options:
+  - Yalnız klasör silmek
+  - Uzantıları bulmak, kurmak ve yönetmek
+  - Çalışma zamanı GPU’su kiralamak
+  - PDF imzalamak
+  answer: 1
+  explanation: Extensions görünümü VS Code uzantılarını yönetmek içindir.
+- id: q19
+  question: Kaynak Denetimi görünümünde bir değişikliği görmek neyi tek başına garanti etmez?
+  options:
+  - Dosyanın projede olduğunu
+  - VS Code’un açıldığını
+  - Değişikliğin commit edilip GitHub’a push edildiğini
+  - Git’in bir sürüm kontrol sistemi olduğunu
+  answer: 2
+  explanation: Değişiklik görünmesi commit ve push işlemlerinin tamamlandığı anlamına gelmez.
+- id: q20
+  question: Dersin en iyi özeti hangisidir?
+  options:
+  - Tek dosya aç, hiçbir klasör kullanma
+  - Her uzantıyı kur
+  - Terminal komutlarını sorgulamadan çalıştır
+  - Doğru klasörü aç, temel görünümleri kullan, güvenilir uzantı seç, kaydet ve çalıştırma/terminal sonuçlarını kontrol et
+  answer: 3
+  explanation: Güvenli VS Code kullanımı proje bağlamı, doğru araç, güvenilir uzantı ve kontrollü çalıştırma alışkanlıklarına dayanır.

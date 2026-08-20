@@ -1,0 +1,20 @@
+{
+  "version": "v7",
+  "date": "2026-08-21",
+  "module_count": 54,
+  "live_module_count": 41,
+  "quiz_count": 41,
+  "question_count": 820,
+  "expected_question_count": 820,
+  "section_6_live_count": 6,
+  "homepage_update_label": "Son Güncelleme Tarihi",
+  "sidebar_scroll_scope": "lesson-toc-list",
+  "issues": [],
+  "passed": true,
+  "frontmatter_files_parsed": 86,
+  "frontmatter_parse_errors": 0,
+  "quiz_relevance_screened_questions": 820,
+  "quiz_relevance_manual_review_flags": 3,
+  "quiz_relevance_manual_review_resolved": 3,
+  "zip_integrity": "passed"
+}

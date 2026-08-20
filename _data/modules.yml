@@ -387,62 +387,68 @@
   section: 6
   title: Visual Studio Kullanımı
   slug: 6-1-visual-studio-kullanimi
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-21'
   review_cycle: 6 ay
-  path: ''
+  path: /dersler/6-1-visual-studio-kullanimi/
   code: 6-1
   order_in_section: 1
+  quiz_path: /uygulamalar/6-1-visual-studio-kullanimi/
 - id: 37
   section: 6
   title: Visual Studio Code Kullanımı
   slug: 6-2-visual-studio-code-kullanimi
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-21'
   review_cycle: 6 ay
-  path: ''
+  path: /dersler/6-2-visual-studio-code-kullanimi/
   code: 6-2
   order_in_section: 2
+  quiz_path: /uygulamalar/6-2-visual-studio-code-kullanimi/
 - id: 38
   section: 6
   title: Algoritma ve diagrams.net ile Akış Şemaları
   slug: 6-3-algoritma-ve-diagrams-net-ile-akis-semalari
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-21'
   review_cycle: 6-12 ay
-  path: ''
+  path: /dersler/6-3-algoritma-ve-diagrams-net-ile-akis-semalari/
   code: 6-3
   order_in_section: 3
+  quiz_path: /uygulamalar/6-3-algoritma-ve-diagrams-net-ile-akis-semalari/
 - id: 39
   section: 6
   title: Git ve GitHub Temelleri
   slug: 6-4-git-ve-github-temelleri
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-21'
   review_cycle: 6 ay
-  path: ''
+  path: /dersler/6-4-git-ve-github-temelleri/
   code: 6-4
   order_in_section: 4
+  quiz_path: /uygulamalar/6-4-git-ve-github-temelleri/
 - id: 40
   section: 6
   title: GitHub Desktop ve GitHub Pages
   slug: 6-5-github-desktop-ve-github-pages
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-21'
   review_cycle: 6 ay
-  path: ''
+  path: /dersler/6-5-github-desktop-ve-github-pages/
   code: 6-5
   order_in_section: 5
+  quiz_path: /uygulamalar/6-5-github-desktop-ve-github-pages/
 - id: 41
   section: 6
   title: Google Colab Kullanımı
   slug: 6-6-google-colab-kullanimi
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-21'
   review_cycle: 6 ay
-  path: ''
+  path: /dersler/6-6-google-colab-kullanimi/
   code: 6-6
   order_in_section: 6
+  quiz_path: /uygulamalar/6-6-google-colab-kullanimi/
 - id: 42
   section: 7
   title: Scratch ile Programlamaya Giriş

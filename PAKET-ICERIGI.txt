@@ -1,26 +1,26 @@
-Bilgisayar Kullanımı ve Dijital Yetkinlik — Revize v6
+PAKET İÇERİĞİ — v7
 
-Bu tam site paketi şunları içerir:
-- Mevcut web tasarımı, layout, CSS, JavaScript ve GitHub Pages şablonları.
-- Bölüm 1, 2, 3 ve 4'ün mevcut yayımlanmış dersleri ve uygulamaları.
-- Bölüm 4 dahil tüm ders sayfalarında düzeltilmiş sol menü kaydırma davranışı.
-  * Sol bilgi kartının tamamında scrollbar yoktur.
-  * Gerektiğinde yalnızca “Ders İçeriği” listesi kendi alanında kaydırılır.
-- Bölüm 5 — Dijital Medya ve İçerik Üretimi içindeki 6 dersin tamamı.
-- Bölüm 5'in 6 uygulaması ve toplam 120 yeni sorusu.
-- Bölüm 5 için arşiv, medya oynatıcı, ekran yakalama, raster, vektör ve ses düzenleme öğretim görsellerini destekleyen CSS sınıfları.
-- _data/modules.yml içinde Bölüm 5'in 6 dersinin “yayında” durumu, ders yolları ve uygulama yolları.
-- MUFREDAT-v3.md, README.md ve içerik standardı güncellemeleri.
-- Bölüm 6–8 planı korunmuştur.
+Tam repository: Bilgisayar Kullanımı ve Dijital Yetkinlik
 
-YAYIN DURUMU
-- Toplam plan: 54 ders
-- Yayında: 35 ders
-- Bölüm 4: 6 / 6 yayında
-- Bölüm 5: 6 / 6 yayında
+- Bölüm 1: 7 ders — yayında
+- Bölüm 2: 8 ders — yayında
+- Bölüm 3: 8 ders — yayında
+- Bölüm 4: 6 ders — yayında
+- Bölüm 5: 6 ders — yayında
+- Bölüm 6: 6 ders — yayında
+- Bölüm 7: 6 ders — planlandı
+- Bölüm 8: 7 ders — planlandı
 
-GÜNCEL KAYNAK KONTROLÜ
-Bölüm 5 hazırlanırken 7-Zip, RARLAB/WinRAR, VideoLAN VLC, Microsoft Support (Snipping Tool), GIMP 3 Documentation, Inkscape Documentation ve Audacity Support kaynakları kontrol edilmiştir.
+Toplam plan: 54 ders
+Yayında: 41 ders
+Toplam yayımdaki uygulama sorusu: 820
 
-GITHUB
-ZIP içindeki BilgisayarKullanimiVeDijitalYetkinlik-Bolum1-2-3-4-5-Revize-v6 klasörünün İÇERİĞİNİ repository köküne yükleyin ve aynı adlı dosyaları değiştirin.
+Bölüm 6 arayüz dili:
+- 6-1, 6-2, 6-3, 6-6: Türkçe
+- 6-4, 6-5: English UI labels (anlatım Türkçe)
+
+Ana sayfa değişikliği:
+- Ders kartlarında Gözden geçirme alanı kaldırıldı.
+- Son Güncelleme Tarihi gösteriliyor.
+
+Paket tam repository kopyasıdır; klasörün içeriği GitHub repository köküne yüklenmelidir.

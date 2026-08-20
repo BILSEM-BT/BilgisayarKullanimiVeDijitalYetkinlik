@@ -1,0 +1,183 @@
+title: Algoritma ve diagrams.net ile Akış Şemaları — Uygulama
+description: Algoritma, girdi-işlem-çıktı, karar, tekrar ve diagrams.net akış şeması şekilleri/bağlantıları hakkında doğru kavrayışı ölçer.
+questions:
+- id: q1
+  question: Algoritma için en doğru açıklama hangisidir?
+  options:
+  - Bir problemi çözmek veya görevi yapmak için düzenlenmiş açık adımlar dizisi
+  - Sadece C# programı
+  - Yalnız bir resim dosyası
+  - GitHub şifresi
+  answer: 0
+  explanation: Algoritma, çözüm mantığını adım adım tanımlar; belirli bir programlama diline bağlı değildir.
+- id: q2
+  question: Aşağıdakilerden hangisi algoritmadaki “girdi”ye örnektir?
+  options:
+  - Toplam sonucu
+  - Kullanıcıdan alınan iki sayı
+  - Programın bitiş şekli
+  - Git commit mesajı
+  answer: 1
+  explanation: Girdi, algoritmanın işlemek üzere aldığı bilgidir.
+- id: q3
+  question: Akış şemasında temel bir işlem adımı için yaygın şekil hangisidir?
+  options:
+  - Oval
+  - Baklava
+  - Dikdörtgen
+  - Paralelkenar
+  answer: 2
+  explanation: diagrams.net resmî temel flowchart rehberi dikdörtgeni basic process step için kullanır.
+- id: q4
+  question: Karar noktası için yaygın şekil hangisidir?
+  options:
+  - Dikdörtgen
+  - Paralelkenar
+  - Daire
+  - Baklava/eşkenar dörtgen
+  answer: 3
+  explanation: Diamond/rhombus kararları ve dallanmayı göstermek için kullanılır.
+- id: q5
+  question: Başlangıç ve bitiş için yaygın kullanım hangisidir?
+  options:
+  - Oval/yuvarlatılmış başlangıç-bitiş şekli
+  - Yalnız üçgen
+  - Sadece silindir
+  - Paralelkenar zorunludur
+  answer: 0
+  explanation: Flowchart rehberlerinde circle/oval başlangıç ve bitiş için yaygın olarak kullanılır.
+- id: q6
+  question: Girdi veya çıktı göstermek için yaygın şekil hangisidir?
+  options:
+  - Baklava
+  - Paralelkenar
+  - Silindir
+  - Dikdörtgen
+  answer: 1
+  explanation: Parallelogram, input/output göstermek için yaygın flowchart şeklidir.
+- id: q7
+  question: Bağlantı oklarının temel görevi nedir?
+  options:
+  - Şekilleri renklendirmek
+  - Dosyayı sıkıştırmak
+  - Akışın hangi yönde ilerlediğini ve şekiller arasındaki ilişkiyi göstermek
+  - Programı GitHub’a yüklemek
+  answer: 2
+  explanation: Connectors, şekiller arasındaki akışı/ilişkiyi gösterir.
+- id: q8
+  question: Bir karar şeklinin çıkan yollarında hangi uygulama belirsizliği azaltır?
+  options:
+  - Yolları etiketsiz bırakmak
+  - Okları silmek
+  - Her yolu aynı yere gizlice bağlamak
+  - Evet/Hayır veya Doğru/Yanlış gibi uygun etiketler yazmak
+  answer: 3
+  explanation: Karar kollarının etiketlenmesi hangi koşulda hangi yolun izlendiğini açıklar.
+- id: q9
+  question: Algoritma ile programlama dili arasındaki ilişki nedir?
+  options:
+  - Algoritma çözüm mantığıdır; aynı algoritma farklı dillerde uygulanabilir
+  - Algoritma yalnız Python demektir
+  - Programlama dili yalnız akış şemasıdır
+  - İkisi de dosya sıkıştırma yöntemidir
+  answer: 0
+  explanation: Algoritma dil bağımsız çözüm mantığıdır.
+- id: q10
+  question: diagrams.net arayüzünü Türkçe yapmak için resmî olarak desteklenen dil kodu hangisidir?
+  options:
+  - en-only
+  - tr
+  - zip
+  - cs-only
+  answer: 1
+  explanation: diagrams.net desteklenen arayüz dilleri arasında `tr` Türkçeyi listeler.
+- id: q11
+  question: Arayüz dilini Türkçeye geçirmek şekillerin içine daha önce yazılmış metne ne yapar?
+  options:
+  - Her metni kesin otomatik çevirir
+  - Diyagramı siler
+  - Arayüz dilini değiştirir; diyagram içi metin kendiliğinden değişmek zorunda değildir
+  - Dosyayı PDF’e kilitler
+  answer: 2
+  explanation: Editor language ile diagram text ayrı kavramlardır.
+- id: q12
+  question: PNG çıktısı aldıktan sonra düzenlenebilir kaynak dosyayı neden saklamak gerekir?
+  options:
+  - PNG her zaman bozulur
+  - PNG interneti kapatır
+  - Kaynak dosya antivirüstür
+  - Şekilleri ve bağlantıları daha sonra kolayca düzenleyebilmek için
+  answer: 3
+  explanation: Düzenlenebilir kaynak, görsel export’tan farklı olarak diyagram yapısını korur.
+- id: q13
+  question: Bir akış şemasını “trace” etmek ne demektir?
+  options:
+  - Örnek girdilerle okları izleyip adımların doğru çalışmasını kontrol etmek
+  - Dosyayı şifrelemek
+  - Git branch silmek
+  - Sadece renk değiştirmek
+  answer: 0
+  explanation: Trace/izleme, algoritmayı örnek değerlerle adım adım takip etmektir.
+- id: q14
+  question: “Sayı pozitif mi?” algoritmasını sınamak için en iyi test kümesi hangisidir?
+  options:
+  - Yalnız 5
+  - Pozitif, negatif ve sıfır örnekleri
+  - Yalnız iki pozitif sayı
+  - Hiç değer vermemek
+  answer: 1
+  explanation: Farklı karar dallarını görmek için pozitif, negatif ve sıfır gibi sınır durumları test edilmelidir.
+- id: q15
+  question: Tekrar/döngü için doğru ifade hangisidir?
+  options:
+  - Her zaman özel tek bir şekil zorunludur
+  - Akış şemasında tekrar gösterilemez
+  - Bağlantı okları önceki adıma dönebilir; tekrarın bitiş koşulu açık olmalıdır
+  - Döngü yalnız GitHub’da vardır
+  answer: 2
+  explanation: Flowchart’ta tekrar, kontrol akışının geri dönen bağlantısıyla gösterilebilir.
+- id: q16
+  question: Bir karar kolunun hiçbir yere bağlanmaması hangi sorunu oluşturur?
+  options:
+  - Daha hızlı algoritma
+  - Daha güvenli dosya
+  - Daha iyi tasarım
+  - Akışın o durumda nasıl devam edeceğinin belirsiz kalması
+  answer: 3
+  explanation: Her karar sonucunun anlamlı bir sonraki adımı olmalıdır.
+- id: q17
+  question: diagrams.net connector’ını şeklin bağlantı noktasına bağlamanın yararı nedir?
+  options:
+  - Şekil taşındığında bağlantının şekille ilişkisini korumasına yardım eder
+  - Dosyayı çalıştırılabilir yapar
+  - Şifre üretir
+  - Git commit oluşturur
+  answer: 0
+  explanation: Gerçek connector bağlantısı, şekiller taşındığında ilişkiyi korur.
+- id: q18
+  question: Bir flowchart’ta çok sayıda gereksiz çapraz çizgi varsa ne yapılmalıdır?
+  options:
+  - Daha fazla çapraz çizgi eklemek
+  - Şekilleri hizalayıp yerleşimi sadeleştirmek
+  - Ok başlarını kaldırmak
+  - Bütün etiketleri silmek
+  answer: 1
+  explanation: Okunabilir yerleşim, akışın anlaşılmasını kolaylaştırır.
+- id: q19
+  question: “İki sayıyı al → topla → sonucu göster” algoritmasında “topla” hangi tür adımdır?
+  options:
+  - Girdi
+  - Çıktı
+  - İşlem
+  - Bitiş
+  answer: 2
+  explanation: Toplama, girdiler üzerinde yapılan işlemdir.
+- id: q20
+  question: Dersin en iyi özeti hangisidir?
+  options:
+  - Önce şekilleri rastgele seç, sonra problemi düşün
+  - Tüm adımları dikdörtgen yap
+  - Yalnız güzel renk seçmek yeterlidir
+  - Problemi tanımla, girdi/çıktıyı belirle, doğru sembollerle akışı kur ve farklı örneklerle test et
+  answer: 3
+  explanation: Doğru flowchart hem mantığı hem akış yönünü açık gösterir ve örneklerle sınanır.
