@@ -1,0 +1,183 @@
+title: Parolalar, Passkey ve İki Aşamalı Doğrulama
+description: Parola, parola yöneticisi, MFA, passkey ve hesap kurtarma konularında güvenli karar verme becerini ölç.
+questions:
+- id: q1
+  question: Bir hesap için en doğru parola yaklaşımı hangisidir?
+  options:
+  - Uzun ve o hesaba özgü bir parola kullanmak
+  - Her hesapta aynı karmaşık parolayı kullanmak
+  - Doğum tarihi ile okul adını birleştirmek
+  - Parolayı arkadaşla paylaşarak yedeklemek
+  answer: 0
+  explanation: Uzun ve benzersiz parola, başka bir hizmetteki ihlalin diğer hesaplara taşınması riskini azaltır.
+- id: q2
+  question: Aynı parolanın birçok hesapta kullanılması hangi riski büyütür?
+  options:
+  - Yalnız klavye hatalarını
+  - Bir hizmette ele geçen parolanın diğer hesaplarda denenmesini
+  - Ekran parlaklığının değişmesini
+  - Tarayıcı geçmişinin silinmesini
+  answer: 1
+  explanation: Parola tekrar kullanımı credential stuffing gibi otomatik denemeleri kolaylaştırır.
+- id: q3
+  question: Parola yöneticisinin temel amacı nedir?
+  options:
+  - İnternet hızını ölçmek
+  - Dosyaları sıkıştırmak
+  - Hesaplar için benzersiz parolaları üretmeye ve güvenli saklamaya yardımcı olmak
+  - Bilgisayarı güncellemek
+  answer: 2
+  explanation: Parola yöneticileri çok sayıda benzersiz kimlik bilgisini yönetmeyi kolaylaştırır.
+- id: q4
+  question: Aşağıdakilerden hangisi güçlü parola için yanlış bir varsayımdır?
+  options:
+  - Benzersiz olması önemlidir
+  - Uzunluk önemlidir
+  - Tahmin edilebilir kişisel bilgilerden kaçınılmalıdır
+  - İçinde sembol varsa kısa ve tahmin edilebilir olması sorun değildir
+  answer: 3
+  explanation: Sembol kullanmak tek başına kısa veya tahmin edilebilir parolayı güçlü yapmaz.
+- id: q5
+  question: Bir parolanın ele geçirildiğinden şüpheleniyorsan ilk güvenli davranışlardan biri hangisidir?
+  options:
+  - Gerçek hizmetten parolayı değiştirmek ve aynı parola kullanılan diğer hesapları kontrol etmek
+  - Saldırgana mesaj atmak
+  - Parolayı sosyal medyada duyurmak
+  - Hiçbir şey yapmadan beklemek
+  answer: 0
+  explanation: Ele geçirilmiş kimlik bilgisi hızla değiştirilmelidir; tekrar kullanım varsa diğer hesaplar da kontrol edilir.
+- id: q6
+  question: MFA ne sağlar?
+  options:
+  - Parolayı herkesle paylaşmayı
+  - Birden fazla doğrulama kanıtı kullanarak ek koruma katmanı oluşturmayı
+  - Bilgisayarı otomatik kapatmayı
+  - Dosyaları PDF yapmayı
+  answer: 1
+  explanation: MFA, farklı doğrulama faktörlerini birleştirerek tek parolanın ele geçirilmesine karşı ek koruma sağlar.
+- id: q7
+  question: “Sahip olduğun şey” faktörüne örnek hangisidir?
+  options:
+  - Kullanıcı adı
+  - Doğum yılı
+  - Fiziksel güvenlik anahtarı
+  - Favori renk
+  answer: 2
+  explanation: Güvenlik anahtarı sahip olunan fiziksel bir doğrulayıcıdır.
+- id: q8
+  question: Kendin başlatmadığın bir giriş onay bildirimi gelirse ne yapmalısın?
+  options:
+  - Hemen onaylamalısın
+  - Arkadaşına göndermelisin
+  - Ekran görüntüsünü herkese açık paylaşmalısın
+  - Onaylamamalı ve hesabın güvenlik etkinliğini kontrol etmelisin
+  answer: 3
+  explanation: Beklenmeyen MFA isteği saldırı veya yanlış giriş işareti olabilir.
+- id: q9
+  question: Passkey için doğru ifade hangisidir?
+  options:
+  - FIDO standartlarına dayanan kriptografik giriş kimlik bilgisidir
+  - Her sitede aynı metin paroladır
+  - Sadece SMS ile gönderilen koddur
+  - Tarayıcı geçmişinin başka adıdır
+  answer: 0
+  explanation: Passkey, FIDO tabanlı kriptografik anahtarlarla çalışan bir kimlik doğrulama yöntemidir.
+- id: q10
+  question: Passkey kullanırken biyometrinin tipik görevi nedir?
+  options:
+  - Biyometrik veriyi web sitesine göndermek
+  - Cihazdaki kimlik bilgisinin kullanımını yerel olarak açmak/doğrulamak
+  - Parolayı e-postaya çevirmek
+  - Alan adını değiştirmek
+  answer: 1
+  explanation: FIDO yaklaşımında biyometrik kontrol cihazda kalır; siteye biyometrik şablon gönderilmez.
+- id: q11
+  question: Passkey neden klasik phishing saldırılarına karşı daha dayanıklıdır?
+  options:
+  - Her zaman 4 haneli olduğu için
+  - Kullanıcı adını gizlediği için
+  - Kimlik bilgisi belirli hizmet/alan adına kriptografik olarak bağlı olduğu için
+  - Ekran parlaklığını azalttığı için
+  answer: 2
+  explanation: Alan adına bağlı kriptografik doğrulama sahte sitenin gerçek hizmet adına kimlik bilgisini kullanmasını engeller.
+- id: q12
+  question: Aşağıdakilerden hangisi phishing-resistant sayılmayan bir MFA örneğidir?
+  options:
+  - FIDO güvenlik anahtarı
+  - Alan adına bağlı passkey
+  - Uygun FIDO doğrulaması
+  - Kullanıcının sahte siteye elle girebildiği SMS tek kullanımlık kodu
+  answer: 3
+  explanation: Elle girilen OTP kodları kullanıcı kandırılırsa sahte siteye aktarılabilir.
+- id: q13
+  question: Yedek kurtarma kodları nasıl ele alınmalıdır?
+  options:
+  - Hesap anahtarı gibi gizli ve güvenli tutulmalıdır
+  - Sınıf grubuna gönderilmelidir
+  - Sosyal medya biyografisine yazılmalıdır
+  - Her bilgisayarın masaüstüne açıkça konmalıdır
+  answer: 0
+  explanation: Yedek kodlar hesap erişimi sağlayabildiği için parola benzeri gizlilikte korunmalıdır.
+- id: q14
+  question: Hesap kurtarma e-postasının güvenliği neden önemlidir?
+  options:
+  - Sadece profil fotoğrafını değiştirir
+  - Ana hesabın sıfırlama/kurtarma zincirinin parçası olabilir
+  - İnternet hızını artırır
+  - Dosya boyutunu küçültür
+  answer: 1
+  explanation: Kurtarma kanalı ele geçirilirse saldırgan ana hesaba erişim yolu elde edebilir.
+- id: q15
+  question: Şüpheli bir cihaz/oturum gördüğünde uygun işlem hangisidir?
+  options:
+  - Cihazı favorilere eklemek
+  - Uyarıyı kapatıp unutmak
+  - Oturumu sonlandırıp giriş ve kurtarma ayarlarını kontrol etmek
+  - Parolayı mesajla göndermek
+  answer: 2
+  explanation: Tanınmayan oturum güvenlik olayı olarak ele alınmalı ve hesap ayarları kontrol edilmelidir.
+- id: q16
+  question: Parolayı düzenli aralıklarla sırf takvim gereği değiştirmek konusunda güncel yaklaşım hangisidir?
+  options:
+  - Her gün değiştirmek zorunludur
+  - Her saat değiştirmek gerekir
+  - Asla değiştirilemez
+  - Ele geçirilme şüphesi/ihlal gibi nedenler olduğunda değiştirmek; güçlü ve benzersiz kimlik bilgisini merkeze almak
+  answer: 3
+  explanation: Güncel rehberler zorunlu periyodik değişimden çok ele geçirilme durumuna ve güçlü benzersiz kimlik bilgisine odaklanır.
+- id: q17
+  question: Bir parola yöneticisinin ana parolası için en iyi seçenek hangisidir?
+  options:
+  - Uzun, benzersiz ve başka hesaplarda kullanılmayan parola
+  - Tüm hesaplarla aynı parola
+  - '12345678'
+  - Kullanıcı adıyla aynı parola
+  answer: 0
+  explanation: Ana parola kasanın kritik koruma noktasıdır ve benzersiz olmalıdır.
+- id: q18
+  question: “İki adımlı doğrulama” ile “iki farklı faktör” neden her zaman aynı olmayabilir?
+  options:
+  - Çünkü iki adım bazen aynı faktör türüne dayanabilir
+  - Çünkü MFA internetsiz çalışamaz
+  - Çünkü parola bir faktör değildir
+  - Çünkü her hesap passkey kullanır
+  answer: 1
+  explanation: İki adım olması, adımların mutlaka farklı faktör kategorilerinden geldiği anlamına gelmez.
+- id: q19
+  question: Cihazını kaybedersen passkey güvenliğinde hangi konu da önemlidir?
+  options:
+  - Ekran duvar kağıdı
+  - Dosya uzantısı
+  - Yedek/kurtarma yöntemi ve açık oturumları yönetmek
+  - Tarayıcı temasını değiştirmek
+  answer: 2
+  explanation: Cihaz kaybı senaryosunda passkey erişimi, hesap kurtarma ve aktif oturumlar birlikte düşünülmelidir.
+- id: q20
+  question: Hesap güvenliği için en iyi genel özet hangisidir?
+  options:
+  - Sadece güçlü parola yeterlidir
+  - MFA varsa kurtarma bilgileri önemsizdir
+  - Passkey varsa cihaz kilidine gerek yoktur
+  - Benzersiz giriş yöntemi + güçlü MFA/passkey + güvenli kurtarma + oturum/uyarı kontrolü birlikte kullanılmalıdır
+  answer: 3
+  explanation: Katmanlı yaklaşım tek bir önleme bağımlılığı azaltır.

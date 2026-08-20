@@ -1,0 +1,183 @@
+title: Yapay Zekâyı Etkili, Güvenli ve Doğru Kullanma
+description: İyi prompt yazma, iterasyon, kaynak doğrulama, gizlilik, güvenlik ve akademik dürüstlük konusunda güvenli AI kullanımını ölç.
+questions:
+- id: q1
+  question: AI kullanmadan önce sorulması gereken ilk sorulardan biri hangisidir?
+  options:
+  - Bu görev için AI gerçekten uygun araç mı?
+  - En uzun promptu nasıl yazarım?
+  - Kaç emoji kullanmalıyım?
+  - Her şeyi AI’a yaptırabilir miyim?
+  answer: 0
+  explanation: Araç seçimi görevin niteliği, risk ve doğrulama ihtiyacına göre yapılmalıdır.
+- id: q2
+  question: Daha etkili bir promptun temel özelliği hangisidir?
+  options:
+  - Mutlaka çok uzun olması
+  - Amaç ve gerekli bağlamı açıkça belirtmesi
+  - Yalnız büyük harfle yazılması
+  - Hiç sınır içermemesi
+  answer: 1
+  explanation: İyi prompt belirsizliği azaltır; uzunluk tek başına kalite ölçütü değildir.
+- id: q3
+  question: “Amaç + bağlam + sınır + çıktı biçimi” yaklaşımında çıktı biçimi neyi belirler?
+  options:
+  - Modelin eğitim tarihini
+  - İnternet hızını
+  - Cevabın tablo, madde, paragraf vb. nasıl sunulacağını
+  - Parola uzunluğunu
+  answer: 2
+  explanation: Çıktı formatı beklenen yapıyı netleştirir.
+- id: q4
+  question: AI ilk cevabı için en güvenli yaklaşım hangisidir?
+  options:
+  - Her zaman son teslim kabul etmek
+  - Kaynak istememek
+  - Kopyalayıp imzalamak
+  - Taslak olarak değerlendirip kontrol ve iyileştirme yapmak
+  answer: 3
+  explanation: Üretken AI çıktısı hatalı olabilir; iterasyon ve doğrulama gerekir.
+- id: q5
+  question: Bir AI cevabındaki teknik iddiayı doğrulamak için en iyi yöntem hangisidir?
+  options:
+  - Güvenilir ve mümkünse birincil kaynağı açıp iddiayı kontrol etmek
+  - AI’a “emin misin?” deyip bırakmak
+  - Cevabın uzunluğunu ölçmek
+  - Aynı cevabı sosyal medyada aramak
+  answer: 0
+  explanation: Bağımsız kaynak doğrulaması, modelin kendi güven ifadesinden daha güçlüdür.
+- id: q6
+  question: Model “kontrol ettim, kesin doğru” dediğinde neden yine doğrulama gerekir?
+  options:
+  - Model yazı tipi seçemez
+  - Kendi kendini değerlendirmesi bağımsız kanıt değildir
+  - AI sayı yazamaz
+  - İnternet her zaman kapalıdır
+  answer: 1
+  explanation: Aynı model kendi yanlışını tekrar onaylayabilir; dış kaynak gerekir.
+- id: q7
+  question: AI’ın verdiği bir makale için hangi kontrol yapılmalıdır?
+  options:
+  - Sadece başlık uzun mu?
+  - PDF rengi güzel mi?
+  - Makale gerçekten var mı ve iddiayı destekliyor mu?
+  - AI kaynak verdiği için kontrol gerekmez
+  answer: 2
+  explanation: Üretken modeller uydurma veya alakasız kaynak üretebilir.
+- id: q8
+  question: Aşağıdakilerden hangisi AI promptuna rastgele verilmemelidir?
+  options:
+  - Genel bir matematik sorusu
+  - Kurgusal örnek veri
+  - Kamuya açık bir ders başlığı
+  - Parola, OTP veya kurtarma kodu
+  answer: 3
+  explanation: Kimlik doğrulama sırları AI dahil hiçbir gereksiz hizmete verilmemelidir.
+- id: q9
+  question: Kişisel veriyi AI ile çalışırken azaltmanın yolu hangisidir?
+  options:
+  - Gerçek isim yerine anonim/örnek veri kullanmak
+  - Tüm öğrenci listesini yüklemek
+  - Parolayı örnek olarak yazmak
+  - Gizli dosyayı herkese açık yapmak
+  answer: 0
+  explanation: Anonimleştirme ve örnek veri gereksiz kişisel veri paylaşımını azaltabilir.
+- id: q10
+  question: AI’ın ürettiği kodu çalıştırmadan önce ne yapılmalıdır?
+  options:
+  - Dosyayı hemen yönetici olarak açmak
+  - Kodun ne yaptığını incelemek ve güvenli ortamda test etmek
+  - Antivirüsü kapatmak
+  - Tüm izinleri vermek
+  answer: 1
+  explanation: Kod güvenlik açığı veya zararlı komut içerebilir; anlaşılmadan çalıştırılmamalıdır.
+- id: q11
+  question: Prompt injection basitçe neyi ifade eder?
+  options:
+  - Ekrana yazı yapıştırmayı
+  - Klavye kısayolunu
+  - Dış içerikte modelin davranışını kötüye yönlendirmeye çalışan talimatları
+  - Dosya sıkıştırmayı
+  answer: 2
+  explanation: Web sayfası/belge içindeki kötü niyetli talimatlar AI aracını yanıltmaya çalışabilir.
+- id: q12
+  question: AI ile ödev yaparken akademik açıdan yanlış yaklaşım hangisidir?
+  options:
+  - Okulun AI politikasını kontrol etmek
+  - Takıldığın kavramı açıklatmak
+  - Kaynakları doğrulamak
+  - Öğrenme görevini tamamen AI’a yaptırıp anlamadan teslim etmek
+  answer: 3
+  explanation: AI kullanımı öğrenme hedefini ortadan kaldırmamalıdır.
+- id: q13
+  question: '“Kaynak: ChatGPT” yazmak neden çoğu araştırma iddiası için yeterli değildir?'
+  options:
+  - AI cevabı asıl birincil/bilimsel kaynağın kendisi olmayabilir
+  - ChatGPT’de metin yoktur
+  - Kaynakçada yazılım adı kullanılamaz
+  - AI hiçbir zaman araştırma yapamaz
+  answer: 0
+  explanation: İddianın dayandığı gerçek kaynak ayrıca bulunmalı ve doğrulanmalıdır.
+- id: q14
+  question: Bir promptu iyileştirmek için hangi istek yararlıdır?
+  options:
+  - “Daha emin konuş”
+  - “Varsayımlarını ve doğrulanması gereken noktaları listele”
+  - “Kaynakları uydur”
+  - “Belirsizlikleri gizle”
+  answer: 1
+  explanation: Varsayım ve belirsizlikleri görünür kılmak insan kontrolünü kolaylaştırır.
+- id: q15
+  question: Güncel bir yarışma kuralını AI’a sorarken en iyi ek istek hangisidir?
+  options:
+  - “Tahmin et”
+  - “Kaynak gerekmez”
+  - “Resmî güncel sayfayı bul ve tarihiyle birlikte göster; ben de kontrol edeceğim”
+  - “Eski bilgiyi kullan”
+  answer: 2
+  explanation: Zaman duyarlı kurallarda güncel resmi kaynak gereklidir.
+- id: q16
+  question: AI web araması kullanıyorsa hangi varsayım yanlıştır?
+  options:
+  - Kaynakları açıp kontrol etmek gerekir
+  - Yanlış sayfa seçebilir
+  - Kaynağı yanlış özetleyebilir
+  - Arama kullandığı için her cevap otomatik doğru olur
+  answer: 3
+  explanation: Arama kullanımı doğruluğu artırabilir ama hata olasılığını sıfırlamaz.
+- id: q17
+  question: AI kullanımını açıklamak ne zaman özellikle önemlidir?
+  options:
+  - Okul, yarışma veya yayın politikası bunu gerektiriyorsa
+  - Sadece oyun oynarken
+  - Hiçbir zaman
+  - Yalnız internetsiz çalışırken
+  answer: 0
+  explanation: Kurumsal/akademik kurallar AI katkısının açıklanmasını isteyebilir.
+- id: q18
+  question: “İyi AI kullanımı” için en uygun öğrenme döngüsü hangisidir?
+  options:
+  - AI yazsın → anlamadan teslim et
+  - Kendin dene → takıldığın yeri sor → açıklamayı değerlendir → kendi çözümünü kur ve test et
+  - Sadece cevap anahtarını iste
+  - Her cevabı kopyala
+  answer: 1
+  explanation: Bu döngü AI’ı düşünmenin yerine değil öğrenmenin desteği olarak kullanır.
+- id: q19
+  question: Önemli sayısal sonuçlarda ne yapılmalıdır?
+  options:
+  - Modelin üslubuna bakmak
+  - Sayıyı yuvarlamak
+  - Hesap makinesi, elektronik tablo veya kod gibi uygun araçla tekrar kontrol etmek
+  - Kaynakları silmek
+  answer: 2
+  explanation: Araçla yeniden hesaplama sayı ve birim hatalarını yakalamaya yardımcı olur.
+- id: q20
+  question: Güvenli ve doğru AI kullanımının en iyi özeti hangisidir?
+  options:
+  - Ne kadar çok veri verirsen o kadar iyi
+  - AI karar verirse sorumluluk biter
+  - Tek prompt yeterlidir
+  - Doğru araç seç → açık prompt ver → hassas veriyi koru → çıktıyı doğrula → kurala/etiğe uy → sonuca insan olarak sahip çık
+  answer: 3
+  explanation: Etkili AI kullanımı teknik beceri, güvenlik, doğrulama ve etik sorumluluğu birlikte gerektirir.

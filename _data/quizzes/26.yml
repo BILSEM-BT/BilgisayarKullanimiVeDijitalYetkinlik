@@ -1,0 +1,183 @@
+title: Gizlilik, Site İzinleri ve Dijital Ayak İzi
+description: Kişisel veri, tarayıcı/uygulama izinleri, gizli mod, çerezler ve dijital ayak izi hakkında bilinçli seçim yap.
+questions:
+- id: q1
+  question: Gizlilik ile güvenlik arasındaki farkı en iyi hangi ifade açıklar?
+  options:
+  - Gizlilik verinin kim tarafından hangi amaçla kullanılacağıyla; güvenlik izinsiz erişim ve zarara karşı korumayla ilgilidir
+  - İkisi tamamen aynı kavramdır
+  - Gizlilik yalnız ekran parlaklığıdır
+  - Güvenlik yalnız parola uzunluğudur
+  answer: 0
+  explanation: Gizlilik veri kullanım kontrolünü, güvenlik ise korunma mekanizmalarını vurgular.
+- id: q2
+  question: Bir haber sitesinin mikrofon izni istemesinde ilk soru ne olmalıdır?
+  options:
+  - Mikrofonun rengi ne?
+  - Bu izin sitenin işlevi için gerçekten gerekli mi?
+  - Tarayıcı kaç sekme açık?
+  - Dosya adı ne?
+  answer: 1
+  explanation: İzin ile hizmetin gerçek ihtiyacı arasında ilişki kurulmalıdır.
+- id: q3
+  question: “En az yetki” yaklaşımı neyi önerir?
+  options:
+  - Tüm uygulamalara tüm izinleri vermeyi
+  - Hiç uygulama yüklememeyi
+  - Bir uygulamaya yalnız işini yapmak için gereken erişimleri vermeyi
+  - Her izni kalıcı yapmayı
+  answer: 2
+  explanation: Least privilege gereksiz erişimi azaltmayı hedefler.
+- id: q4
+  question: Gizli/özel tarama modu hangisini garanti etmez?
+  options:
+  - Yerel geçmişin daha az tutulmasını
+  - Ayrı bir oturum açılmasını
+  - Bazı site verilerinin oturum sonunda temizlenmesini
+  - İnternette tam anonim ve görünmez olmayı
+  answer: 3
+  explanation: Gizli mod yerel izleri azaltabilir ama site, ağ veya hesap düzeyinde anonimlik garantisi vermez.
+- id: q5
+  question: Çerez (cookie) ne için kullanılabilir?
+  options:
+  - Oturum veya dil tercihi gibi küçük site bilgilerini tarayıcıda saklamak için
+  - Bilgisayar kasasını soğutmak için
+  - Klavye tuşlarını onarmak için
+  - Ekran çözünürlüğünü artırmak için
+  answer: 0
+  explanation: Çerezler web oturumu ve tercihleri gibi amaçlarla kullanılabilir.
+- id: q6
+  question: Tüm çerezleri silmek neyi garanti etmez?
+  options:
+  - Bazı yerel site verilerinin silinmesini
+  - İnternette takip edilemez olmayı
+  - Bazı sitelerde oturumun kapanmasını
+  - Tercihlerin sıfırlanabilmesini
+  answer: 1
+  explanation: Takip yalnız çerezlerle yapılmaz; hesap ve diğer teknik sinyaller de rol oynayabilir.
+- id: q7
+  question: Bir site kamera izni istediğinde uygun yaklaşım hangisidir?
+  options:
+  - Her zaman kalıcı izin vermek
+  - Site adını önemsememek
+  - Gerekliliği ve siteyi kontrol edip mümkünse yalnız gereken süre için izin vermek
+  - Tarayıcıyı silmek
+  answer: 2
+  explanation: İzin kapsamı ve süresi ihtiyaca göre sınırlanmalıdır.
+- id: q8
+  question: Bir gönderiyi sildikten sonra neden tamamen yok olmuş sayamayız?
+  options:
+  - Sosyal medya silmeye izin vermez
+  - Ekran asla değişmez
+  - İnternet dosya saklamaz
+  - Ekran görüntüsü, yeniden paylaşım veya yedek kopyalar bulunabilir
+  answer: 3
+  explanation: Dijital içerik başka kişilerce kopyalanmış veya farklı sistemlerde saklanmış olabilir.
+- id: q9
+  question: Aktif dijital ayak izine örnek hangisidir?
+  options:
+  - Kendi isteğinle yorum veya gönderi paylaşmak
+  - Tarayıcının otomatik cihaz sinyali üretmesi
+  - Ağın teknik günlük tutması
+  - Bir sunucunun bağlantı kaydı
+  answer: 0
+  explanation: Bilinçli gönderi ve yorumlar aktif ayak izinin tipik örnekleridir.
+- id: q10
+  question: Başkasının fotoğrafını paylaşmadan önce hangi etik soru önemlidir?
+  options:
+  - Dosya kaç KB?
+  - O kişinin paylaşım için rızası var mı?
+  - Ekran yatay mı?
+  - Fotoğraf PNG mi?
+  answer: 1
+  explanation: Başkalarının gizliliği ve rızası paylaşım kararının parçasıdır.
+- id: q11
+  question: Fotoğraf metadata’sı ne içerebilir?
+  options:
+  - Yalnız resmi büyüten pikseller
+  - Her zaman parola
+  - Tarih, cihaz ve bazı durumlarda konum gibi bilgiler
+  - Sadece müzik
+  answer: 2
+  explanation: EXIF gibi metadata alanlarında teknik çekim ve bazen konum bilgileri bulunabilir.
+- id: q12
+  question: Uygulama izni hakkında yanlış ifade hangisidir?
+  options:
+  - İzinler sonradan gözden geçirilebilir
+  - Kullanılmayan uygulamaların erişimleri kaldırılabilir
+  - İzinlerin amacı sorgulanmalıdır
+  - Bir kez izin verdiysen bir daha değiştiremezsin
+  answer: 3
+  explanation: Modern işletim sistemleri uygulama izinlerini sonradan değiştirmeye imkân verir.
+- id: q13
+  question: “Google/Microsoft ile giriş yap” gibi bağlantılarda ne kontrol edilmelidir?
+  options:
+  - Uygulamanın hangi hesap verilerine erişim istediği
+  - Klavyenin dili
+  - Monitörün markası
+  - Dosyanın uzantısı
+  answer: 0
+  explanation: Bağlı uygulama izinleri hesap verilerine erişim kapsamını belirleyebilir.
+- id: q14
+  question: HTTPS kullanan bir site için hangisi doğrudur?
+  options:
+  - Kesinlikle gizlilik dostudur
+  - Bağlantı şifreli olabilir ama sitenin veri toplama davranışı ayrıca değerlendirilmelidir
+  - Hiç veri toplayamaz
+  - Her izni otomatik reddeder
+  answer: 1
+  explanation: Bağlantı güvenliği ile veri minimizasyonu/gizlilik politikası farklı konulardır.
+- id: q15
+  question: Gizli modda indirilen bir dosya için ne beklenir?
+  options:
+  - Pencere kapanınca fiziksel olarak yok olur
+  - İnternet sağlayıcısı dosyayı siler
+  - Dosya indirme klasöründe kalabilir
+  - Otomatik şifrelenir
+  answer: 2
+  explanation: Gizli pencere yerel tarama geçmişini azaltır; indirilen dosyaları otomatik yok etmez.
+- id: q16
+  question: Dijital ayak izi için en doğru yaklaşım hangisidir?
+  options:
+  - İnternette hiçbir olumlu iz bırakmamak gerekir
+  - Sadece kötü paylaşımlar ayak izidir
+  - GitHub projeleri ayak izi değildir
+  - Amaç bilinçli, kontrollü ve etik bir dijital iz oluşturmaktır
+  answer: 3
+  explanation: Portföy ve üretim de dijital ayak izidir; mesele iz bırakmamak değil bilinçli yönetmektir.
+- id: q17
+  question: Kişisel veri minimizasyonuna örnek hangisidir?
+  options:
+  - Hizmet için gerekmeyen bilgiyi paylaşmamak
+  - Her forma tüm bilgileri yazmak
+  - Parolayı profil alanına koymak
+  - Konumu her uygulamaya sürekli vermek
+  answer: 0
+  explanation: Veri minimizasyonu yalnız gerekli veriyi ve erişimi sağlamayı amaçlar.
+- id: q18
+  question: Tarayıcı site izinleri neden düzenli kontrol edilmelidir?
+  options:
+  - Tarayıcı daha renkli olur
+  - Daha önce verilen ama artık gerekmeyen erişimler açık kalabilir
+  - Dosyalar otomatik yedeklenir
+  - İnternet hızı iki katına çıkar
+  answer: 1
+  explanation: Eski ve gereksiz izinler gizlilik yüzeyini büyütebilir.
+- id: q19
+  question: Pasif dijital ayak izine örnek hangisidir?
+  options:
+  - Kendi yazdığın blog yazısı
+  - Bilerek yüklediğin video
+  - Hizmet kullanımı sırasında oluşan teknik/etkinlik kayıtları
+  - Sınıfta sunduğun poster
+  answer: 2
+  explanation: Pasif iz, hizmet kullanımı sırasında otomatik oluşan teknik veya davranışsal kayıtlara örnektir.
+- id: q20
+  question: Paylaşmadan önce en iyi kontrol dizisi hangisidir?
+  options:
+  - Dosya boyutu → renk → yazı tipi
+  - Beğeni sayısı → emoji → tema
+  - Sadece “ben istiyor muyum?”
+  - Kim görebilir → hangi kişisel ipuçları var → başkası etkileniyor mu → kalıcı kopya oluşabilir mi
+  answer: 3
+  explanation: Paylaşım kararı görünürlük, veri, rıza ve kalıcılık boyutlarıyla değerlendirilmelidir.

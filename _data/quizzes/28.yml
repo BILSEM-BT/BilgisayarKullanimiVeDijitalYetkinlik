@@ -1,0 +1,183 @@
+title: Yapay Zekâ ve Üretken Yapay Zekâ Temelleri
+description: AI, makine öğrenmesi, üretken AI, model, eğitim/çıkarım, token, context, multimodal sistem ve halüsinasyon kavramlarını değerlendir.
+questions:
+- id: q1
+  question: Yapay zekâ için en doğru genel tanım hangisidir?
+  options:
+  - Algılama, sınıflandırma, tahmin, dil işleme veya üretim gibi görevleri gerçekleştiren geniş bilgisayar bilimi alanı
+  - Sadece sohbet botları
+  - Sadece robot kollar
+  - Her otomatik zamanlayıcı
+  answer: 0
+  explanation: AI; sohbet botlarından çok daha geniş bir teknik alanı kapsar.
+- id: q2
+  question: Her otomasyon neden yapay zekâ sayılmaz?
+  options:
+  - Otomasyon internet kullanmaz
+  - Sabit kurallı işlemler öğrenen model kullanmadan da çalışabilir
+  - AI yalnız telefonda çalışır
+  - Otomasyon dosya kaydedemez
+  answer: 1
+  explanation: Önceden belirlenmiş kurallar AI/ML olmadan otomasyon sağlayabilir.
+- id: q3
+  question: Makine öğrenmesinin temel fikri hangisidir?
+  options:
+  - Her kuralı kullanıcıya ezberletmek
+  - Bilgisayarı kapatmak
+  - Verilerdeki örüntülerden model geliştirmek
+  - Dosyaları ZIP yapmak
+  answer: 2
+  explanation: ML, örnek verilerden ilişkiler/örüntüler öğrenen modeller kullanır.
+- id: q4
+  question: “Inference/çıkarım” neyi ifade eder?
+  options:
+  - Modelin bütün interneti silmesini
+  - Eğitim verisini toplamasını
+  - Donanım kurulumunu
+  - Eğitilmiş modelin yeni girdiye çıktı üretmesini
+  answer: 3
+  explanation: Inference, hazır modelin yeni giriş üzerinde kullanılmasıdır.
+- id: q5
+  question: “Training/eğitim” neyi ifade eder?
+  options:
+  - Modelin verilerden örüntü ve parametreler öğrenme sürecini
+  - Her kullanıcı mesajının otomatik kaydedilmesini
+  - Tarayıcı geçmişini
+  - Yalnız metin üretimini
+  answer: 0
+  explanation: Training model parametrelerinin veriler üzerinden öğrenildiği aşamadır.
+- id: q6
+  question: Üretken yapay zekânın temel özelliği nedir?
+  options:
+  - Yalnız dosya araması
+  - Girdiye göre yeni metin, görsel, ses, kod vb. içerikler oluşturabilmesi
+  - Sadece virüs taraması
+  - Yalnız hesap makinesi olması
+  answer: 1
+  explanation: Generative AI yeni içerik üretmeye odaklanan sistemleri kapsar.
+- id: q7
+  question: LLM’lerde token nedir?
+  options:
+  - Her zaman tam bir cümle
+  - Yalnız sayı
+  - Modelin metni işlediği kelime/kelime parçası/noktalama gibi birimlerden biri
+  - Ekran kartı sürücüsü
+  answer: 2
+  explanation: Token, dil modelinin giriş ve çıkışı işlediği metin birimidir.
+- id: q8
+  question: Context/bağlam için yanlış ifade hangisidir?
+  options:
+  - Talimatları içerebilir
+  - Sohbet geçmişinin bir kısmını içerebilir
+  - Sağlanan belge/metni içerebilir
+  - Sınırsızdır ve model hiçbir ayrıntıyı asla unutmaz
+  answer: 3
+  explanation: Bağlam pencereleri sınırlıdır; çok uzun içerikte ayrıntılar gözden kaçabilir.
+- id: q9
+  question: Multimodal AI ne anlama gelir?
+  options:
+  - Metin, görsel, ses gibi birden fazla veri türüyle çalışabilen sistem
+  - Sadece siyah-beyaz ekran
+  - Yalnız matematik modeli
+  - İnternetsiz çalışan her yazılım
+  answer: 0
+  explanation: Multimodal sistemler birden fazla modaliteyi işleyebilir veya üretebilir.
+- id: q10
+  question: Halüsinasyon/confabulation nedir?
+  options:
+  - Modelin ekrana renk eklemesi
+  - Modelin yanlış içeriği akıcı ve güvenli biçimde sunabilmesi
+  - Bilgisayarın uyku moduna geçmesi
+  - Verinin sıkıştırılması
+  answer: 1
+  explanation: Üretken modeller hatalı gerçek, kaynak veya mantık üretebilir.
+- id: q11
+  question: AI cevabının akıcı ve kendinden emin olması neyi kanıtlar?
+  options:
+  - Her zaman güncel olduğunu
+  - Birincil kaynağa dayandığını
+  - Doğru olduğunu kanıtlamaz
+  - İnternete bağlı olduğunu
+  answer: 2
+  explanation: Üslup ve güven tonu doğruluk kanıtı değildir.
+- id: q12
+  question: AI güncelliği konusunda doğru yaklaşım hangisidir?
+  options:
+  - Her model her saniye internete bağlıdır
+  - Modelin tarihi yoktur
+  - Güncel bilgi asla gerekmez
+  - Güncel konularda arama/araç ve gerçek kaynak erişimi olup olmadığı kontrol edilmelidir
+  answer: 3
+  explanation: Modelin eğitim tarihi ve araç erişimi güncelliği etkiler.
+- id: q13
+  question: RAG/arama destekli basitleştirilmiş akış hangisidir?
+  options:
+  - Soru → ilgili kaynak getir → modele bağlam ver → cevap
+  - Soru → ekranı kapat → cevap
+  - Model → klavye → yazıcı
+  - Dosya → sıkıştır → sil
+  answer: 0
+  explanation: Retrieval tabanlı sistemler ilgili dış kaynakları bağlama ekleyebilir.
+- id: q14
+  question: Arama kullanan AI için neden yine kaynak kontrolü gerekir?
+  options:
+  - Arama her zaman yanlıştır
+  - Yanlış sayfa seçilebilir veya doğru kaynak yanlış yorumlanabilir
+  - Kaynaklar okunamaz
+  - Arama yalnız resim bulur
+  answer: 1
+  explanation: Araç kullanımı hatayı azaltabilir ama kaynak seçimi ve yorumlama hataları devam edebilir.
+- id: q15
+  question: Model yanlılığı hangi nedenle ortaya çıkabilir?
+  options:
+  - Monitörün eğik durması
+  - Klavye dili
+  - Eğitim verilerindeki temsil eksikleri veya toplumsal önyargılar
+  - Dosya adı
+  answer: 2
+  explanation: Verideki dengesizlik ve önyargılar model çıktısına yansıyabilir.
+- id: q16
+  question: AI ile üretilen bir görsel için yanlış varsayım hangisidir?
+  options:
+  - Sentetik olabilir
+  - Gerçek olayın kanıtı olmayabilir
+  - Kaynağı kontrol edilmelidir
+  - Fotoğraf gibi görünüyorsa kesin gerçek olayı gösterir
+  answer: 3
+  explanation: Gerçekçi görünüm, gerçek olay belgesi olduğu anlamına gelmez.
+- id: q17
+  question: İnsan merkezli AI kullanımında temel fikir hangisidir?
+  options:
+  - İnsan muhakemesi ve sorumluluğu merkezde kalmalıdır
+  - Tüm kararlar modele devredilmelidir
+  - Kaynak kontrolü gereksizdir
+  - Öğrenci hiçbir şey öğrenmemelidir
+  answer: 0
+  explanation: UNESCO yaklaşımı insan ajansı, etik ve sorumluluğu vurgular.
+- id: q18
+  question: Bir dil modeline soru sormak genellikle hangi süreçtir?
+  options:
+  - Modeli sıfırdan eğitmek
+  - Eğitilmiş model üzerinde inference yapmak
+  - İşletim sistemi kurmak
+  - Dosya sıkıştırmak
+  answer: 1
+  explanation: Günlük sohbet kullanımı çoğunlukla inference aşamasıdır.
+- id: q19
+  question: AI sisteminde araç kullanımı ne sağlayabilir?
+  options:
+  - Her hatayı imkânsız yapar
+  - Modeli insan yapar
+  - Hesaplama, web araması veya dosya erişimi gibi ek yeteneklerle belirli görevleri destekler
+  - Parolaları paylaşır
+  answer: 2
+  explanation: Araçlar modelin dış hesaplama/veriye erişimini destekleyebilir; yine de kontrol gerekir.
+- id: q20
+  question: Üretken AI hakkında en doğru genel özet hangisidir?
+  options:
+  - Dijital insan ve mutlak bilgi kaynağıdır
+  - Her cevabı bir kaynaktan aynen kopyalar
+  - Sadece metin üretir
+  - Örüntülerden içerik üreten güçlü bir araçtır; doğruluk, güncellik, yanlılık ve bağlam sınırlılıkları nedeniyle insan kontrolü gerekir
+  answer: 3
+  explanation: AI okuryazarlığı güçlü yönlerle sınırlılıkları birlikte anlamayı gerektirir.

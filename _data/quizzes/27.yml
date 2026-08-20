@@ -1,0 +1,183 @@
+title: Telif Hakkı, Kaynak Gösterme ve Dijital Etik
+description: Telif, lisans, Creative Commons, atıf, intihal ve AI destekli üretimde etik sorumluluk konularını değerlendir.
+questions:
+- id: q1
+  question: İnternette bulunan bir görsel için en doğru varsayım hangisidir?
+  options:
+  - İnternette olması otomatik olarak serbest kullanım anlamına gelmez
+  - Google’da görünüyorsa telifsizdir
+  - Kaynak yazmadan kullanılabilir
+  - Her eğitim sunumunda sınırsızdır
+  answer: 0
+  explanation: Çevrim içi erişilebilirlik, kullanım hakkı veya lisansın otomatik olarak serbest olduğu anlamına gelmez.
+- id: q2
+  question: Kaynak göstermek ile kullanım izni arasındaki ilişki nedir?
+  options:
+  - Aynı şeydir
+  - Kaynak göstermek önemli olsa da her telifli içeriği kullanma izni vermez
+  - Kaynak yalnız ticari işlerde gerekir
+  - İzin varsa kaynak asla gerekmez
+  answer: 1
+  explanation: Atıf ve kullanım hakkı ayrı konulardır; lisans koşulları ayrıca kontrol edilmelidir.
+- id: q3
+  question: Creative Commons lisanslarında “BY” neyi ifade eder?
+  options:
+  - Yalnız video
+  - Ticari yasak
+  - Atıf verme koşulu
+  - Değişiklik zorunluluğu
+  answer: 2
+  explanation: BY, eserin sahibine uygun kredi/atıf verilmesini ister.
+- id: q4
+  question: “ND” koşulu neyle ilgilidir?
+  options:
+  - Ticari olmayan kullanımla
+  - Aynı lisansla paylaşmayla
+  - Yazar adını silmeyle
+  - Türetilmiş/değiştirilmiş sürümlerin paylaşımını kısıtlamayla
+  answer: 3
+  explanation: ND “NoDerivatives” koşuludur.
+- id: q5
+  question: “NC” koşulu neyi belirtir?
+  options:
+  - Ticari olmayan kullanım koşulunu
+  - Mutlaka aynı lisansı
+  - Atıf gerekmediğini
+  - Eserin kamu malı olduğunu
+  answer: 0
+  explanation: NC “NonCommercial” koşulunu ifade eder.
+- id: q6
+  question: “SA” koşulu neyi ister?
+  options:
+  - Kaynak göstermemeyi
+  - Uyarlanan çalışmanın aynı lisans koşullarıyla paylaşılmasını
+  - Ticari kullanımı yasaklamayı
+  - Eseri değiştirmemeyi
+  answer: 1
+  explanation: ShareAlike, türetilmiş çalışmanın uyumlu/aynı lisans koşullarıyla paylaşılmasını gerektirir.
+- id: q7
+  question: CC0 için doğru ifade hangisidir?
+  options:
+  - Altı ana CC lisansından en kısıtlayıcısıdır
+  - Sadece müzik içindir
+  - Hak sahibinin mümkün olan ölçüde haklarından feragat ederek kamu malı kullanımına yaklaştırdığı araçtır
+  - Atıf zorunluluğunu artırır
+  answer: 2
+  explanation: CC0 bir lisans değil, kamu malı adama/feragat aracıdır.
+- id: q8
+  question: TASL yaklaşımında “L” neyi ifade eder?
+  options:
+  - Length
+  - Language
+  - Link count
+  - License
+  answer: 3
+  explanation: 'TASL: Title, Author, Source, License.'
+- id: q9
+  question: Bir görseli indirirken en iyi alışkanlık hangisidir?
+  options:
+  - Kaynak ve lisans bilgisini aynı anda kaydetmek
+  - Dosya adını “resim1” yapmak
+  - Kaynak sayfasını kapatıp unutmak
+  - Lisans simgesini silmek
+  answer: 0
+  explanation: Kaynak bilgisini kullanım anına bırakmak kaybolmasına yol açabilir.
+- id: q10
+  question: Paraphrase yaptıktan sonra kaynak vermek neden gerekebilir?
+  options:
+  - Paraphrase her zaman yasaktır
+  - Fikir veya bilgi başka kaynaktan gelmiş olabilir
+  - Kaynakça sadece aynen alıntıda kullanılır
+  - Paraphrase telifi kaldırır
+  answer: 1
+  explanation: Kendi cümlenle anlatmak, başkasından alınan fikir/kanıt için atıf ihtiyacını ortadan kaldırmaz.
+- id: q11
+  question: İntihale örnek hangisidir?
+  options:
+  - Kendi deney sonucunu raporlamak
+  - Açık lisans koşuluna uymak
+  - Başkasının metnini kendi çalışmanmış gibi sunmak
+  - Kaynak bağlantısı vermek
+  answer: 2
+  explanation: Başkasının emeğini/ifadesini kendine mal etmek akademik etik ihlalidir.
+- id: q12
+  question: “Eğitim amacıyla kullanıyorum” ifadesi için doğru yaklaşım hangisidir?
+  options:
+  - Her içeriği sınırsız kullanma iznidir
+  - Telif yalnız ticari kullanımı kapsar
+  - Kaynak göstermeye gerek bırakmaz
+  - Eğitim ve alıntı istisnalarının koşulları olabilir; otomatik sınırsız izin sayılmamalıdır
+  answer: 3
+  explanation: Hukuki istisnalar bağlama ve koşullara bağlıdır.
+- id: q13
+  question: GitHub’da açık görünen bir kod parçasını kullanmadan önce ne kontrol edilmelidir?
+  options:
+  - Repository lisansı ve koşulları
+  - Monitör boyutu
+  - Tarayıcı teması
+  - Dosya ikonunun rengi
+  answer: 0
+  explanation: Açık erişim ile açık lisans aynı değildir; yazılım lisansı kullanım koşullarını belirler.
+- id: q14
+  question: Bir akademik kaynakçada en önemli temel amaç nedir?
+  options:
+  - Sayfayı uzun göstermek
+  - Okuyucunun bilginin kaynağını izleyebilmesini sağlamak
+  - Her kaynağı aynı web sitesinden seçmek
+  - Yalnız URL sayısını artırmak
+  answer: 1
+  explanation: Kaynak gösterme, iddiaların kökenini izlenebilir kılar.
+- id: q15
+  question: AI’ın önerdiği bir makaleyi kaynakçaya eklemeden önce ne yapılmalıdır?
+  options:
+  - Başlığın uzunluğuna bakmak
+  - AI güvenle yazdıysa doğrudan eklemek
+  - Kaynağın gerçekten var olduğunu ve iddiayı desteklediğini doğrulamak
+  - Yazar adını kaldırmak
+  answer: 2
+  explanation: Üretken AI uydurma kaynak/citation üretebilir; bağımsız doğrulama gerekir.
+- id: q16
+  question: AI destekli okul çalışmasında sorumluluk kime aittir?
+  options:
+  - Sadece AI şirketine
+  - Hiç kimseye
+  - İnternet servis sağlayıcısına
+  - Teslim eden kişinin doğruluk, kaynak ve etik kontrolüne
+  answer: 3
+  explanation: AI yardımcı araç olsa da teslim edilen işin sorumluluğu kullanıcıdadır.
+- id: q17
+  question: Bir arkadaşının fotoğrafını projede kullanırken telif dışında hangi etik konu önemlidir?
+  options:
+  - Rıza ve gizlilik
+  - Dosyanın adı
+  - Ekran çözünürlüğü
+  - Sunum süresi
+  answer: 0
+  explanation: İnsanların görüntü ve mahremiyeti teliften ayrı etik/gizlilik boyutuna sahiptir.
+- id: q18
+  question: CC BY-SA lisanslı bir eseri uyarladığında temel ek koşullardan biri nedir?
+  options:
+  - Atıf gerekmez
+  - Uyarlamayı uygun aynı/uyumlu paylaşım lisansıyla yayımlamak
+  - Değişiklik yasaktır
+  - Yalnız çevrimdışı kullanmak
+  answer: 1
+  explanation: SA koşulu uyarlamaların aynı lisans yaklaşımıyla paylaşılmasını ister.
+- id: q19
+  question: Kaynakça ile metin içi atıf arasındaki ilişki için en doğru ifade hangisidir?
+  options:
+  - Kaynakça varsa hangi iddianın hangi kaynaktan geldiği önemli değildir
+  - Metin içi atıf varsa kaynakça asla gerekmez
+  - Metin içi atıf iddiayı kaynağa bağlar; kaynakça ayrıntılı kaynak bilgisini verir
+  - İkisi de sadece görseller içindir
+  answer: 2
+  explanation: Akademik sistemlerde iki öğe birlikte izlenebilirlik sağlar.
+- id: q20
+  question: Dijital etik için en iyi genel özet hangisidir?
+  options:
+  - İnternetteki her şeyi kopyalamak
+  - Sadece telif simgesine bakmak
+  - Kaynak vermeden AI kullanmak
+  - Hak/lisansı kontrol etmek, emeği belirtmek, rızaya saygı göstermek ve AI dahil kullandığın araçlarda şeffaf olmak
+  answer: 3
+  explanation: Dijital etik; telif, atıf, rıza, dürüstlük ve sorumluluğu birlikte ele alır.

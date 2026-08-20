@@ -1,0 +1,183 @@
+title: Zararlı Yazılım, Phishing ve Dolandırıcılıktan Korunma
+description: Phishing işaretlerini, güvenli indirme/güncelleme alışkanlıklarını ve şüpheli olaylarda doğru ilk adımları değerlendir.
+questions:
+- id: q1
+  question: Malware terimi neyi ifade eder?
+  options:
+  - Zararlı yazılımların genel adını
+  - Yalnız reklamları
+  - Bir dosya uzantısını
+  - Bir tarayıcı markasını
+  answer: 0
+  explanation: Malware; trojan, ransomware, spyware gibi birçok zararlı yazılım türünü kapsayan üst terimdir.
+- id: q2
+  question: Phishing saldırısının temel amacı çoğu zaman nedir?
+  options:
+  - Ekran çözünürlüğünü değiştirmek
+  - Kullanıcıyı kandırarak bağlantı, ek, parola, kod veya ödeme eylemine yöneltmek
+  - Dosyaları alfabetik sıralamak
+  - Bilgisayarı hızlandırmak
+  answer: 1
+  explanation: Phishing sosyal mühendislikle kullanıcıyı zararlı bir eyleme ikna etmeye çalışır.
+- id: q3
+  question: Smishing nedir?
+  options:
+  - Yalnız sesli arama dolandırıcılığı
+  - Sahte fiziksel mektup
+  - SMS/mesaj üzerinden phishing
+  - Dosya sıkıştırma yöntemi
+  answer: 2
+  explanation: Smishing, SMS veya mesajlaşma kanallarındaki phishing girişimlerini ifade eder.
+- id: q4
+  question: Bir e-postada “5 dakika içinde hesabın kapanacak” ifadesi hangi işarettir?
+  options:
+  - Dosya bütünlüğü
+  - Güvenilir sertifika
+  - Yedekleme
+  - Aciliyet baskısı
+  answer: 3
+  explanation: Acil karar baskısı sosyal mühendislikte sık kullanılan bir tekniktir.
+- id: q5
+  question: Şüpheli banka mesajında en güvenli doğrulama yöntemi hangisidir?
+  options:
+  - Mesajdaki link yerine bankanın resmi uygulamasını/adresini kendin açmak
+  - Mesajdaki numarayı hemen aramak
+  - OTP kodunu yanıtlamak
+  - Mesajı arkadaş grubuna yaymak
+  answer: 0
+  explanation: Bağımsız ve bilinen kanal kullanmak, saldırganın verdiği iletişim yoluna güvenme riskini azaltır.
+- id: q6
+  question: HTTPS kilidi neyi tek başına kanıtlamaz?
+  options:
+  - Bağlantının şifreli olabileceğini
+  - Sitenin iyi niyetli ve gerçek kurum olduğunu
+  - Tarayıcının sertifika kullandığını
+  - Veri aktarımında şifreli kanal bulunduğunu
+  answer: 1
+  explanation: Sahte siteler de HTTPS kullanabilir; alan adı ve bağlam ayrıca doğrulanmalıdır.
+- id: q7
+  question: '`odev.pdf.exe` adı neden şüpheli olabilir?'
+  options:
+  - PDF uzantısı her zaman zararlıdır
+  - Dosya adı çok kısadır
+  - Çift uzantı gerçek çalıştırılabilir dosya türünü gizlemeye çalışabilir
+  - Windows dosya adı desteklemez
+  answer: 2
+  explanation: Görünen ilk uzantı kullanıcıyı yanıltabilir; gerçek son uzantı çalıştırılabilir dosya olabilir.
+- id: q8
+  question: Tarayıcı veya Windows güvenlik uyarısı gösterirse ne yapılmalıdır?
+  options:
+  - Her zaman kapatılmalıdır
+  - Dosya hemen çalıştırılmalıdır
+  - Uyarı ekran görüntüsü silinmelidir
+  - Uyarının nedeni okunmalı, kaynak doğrulanmadan devam edilmemelidir
+  answer: 3
+  explanation: Güvenlik uyarısı bir karar noktasıdır; refleksle aşılmamalıdır.
+- id: q9
+  question: Ransomware ne yapabilir?
+  options:
+  - Dosyaları erişilemez hâle getirip fidye talep edebilir
+  - Klavyeyi Türkçeye çevirebilir
+  - Sunum temasını değiştirebilir
+  - Yalnız reklam engeller
+  answer: 0
+  explanation: Ransomware erişimi engelleme/şifreleme ve fidye isteme amacı taşıyabilir.
+- id: q10
+  question: Yedekleme ransomware riskinde neden önemlidir?
+  options:
+  - Saldırıyı internetten siler
+  - Önemli verinin tek kopyaya bağlı kalmamasını sağlar
+  - Parolayı otomatik değiştirir
+  - Phishing e-postasını engeller
+  answer: 1
+  explanation: Bağımsız yedekler veri kaybının etkisini azaltabilir.
+- id: q11
+  question: Trojan için doğru açıklama hangisidir?
+  options:
+  - Kendi kendine yayılan her yazılım
+  - Yalnız donanım arızası
+  - Yararlı/meşru program gibi görünerek kullanıcıyı çalıştırmaya kandırabilen zararlı yazılım
+  - Güvenli tarayıcı modu
+  answer: 2
+  explanation: Trojan, kullanıcıyı meşru yazılım görüntüsüyle kandırma yaklaşımıyla ilişkilidir.
+- id: q12
+  question: Phishing mesajını sadece yazım hatalarına bakarak değerlendirmek neden yetersizdir?
+  options:
+  - Yazım hataları yasaktır
+  - E-posta metin içermez
+  - Her gerçek mesaj hatalı yazılır
+  - Saldırganlar ve AI araçları düzgün dilde ikna edici mesajlar üretebilir
+  answer: 3
+  explanation: Modern phishing mesajları dilbilgisi açısından kusursuz görünebilir.
+- id: q13
+  question: Beklenmeyen bir ek dosyası öğretmenden gelmiş gibi görünüyorsa ne yapmalısın?
+  options:
+  - Ayrı bir kanaldan gerçekten gönderilip gönderilmediğini doğrulamak
+  - Hemen makroları etkinleştirmek
+  - Dosyayı herkese iletmek
+  - Antivirüsü kapatmak
+  answer: 0
+  explanation: Gönderen hesabı ele geçirilmiş olabilir; bağımsız doğrulama güvenli yaklaşımdır.
+- id: q14
+  question: Parolanı sahte siteye yazdığını fark edersen hangi adım uygundur?
+  options:
+  - Sahte siteyi tekrar açmak
+  - Gerçek hizmette parolayı değiştirip oturumları ve MFA ayarlarını kontrol etmek
+  - Aynı parolayı daha çok hesapta kullanmak
+  - Sadece tarayıcı temasını değiştirmek
+  answer: 1
+  explanation: Kimlik bilgisi ele geçirildiyse gerçek hizmette hızlı hesap güvenliği adımları gerekir.
+- id: q15
+  question: QR kod neden güvenlik açısından bağlantı gibi değerlendirilmelidir?
+  options:
+  - Her QR kod virüslüdür
+  - QR yalnız Wi-Fi içindir
+  - Hedef adres gözle görünmeden kullanıcıyı bir web sayfasına yönlendirebilir
+  - QR kod çevrimdışı çalışmaz
+  answer: 2
+  explanation: QR kod hedef URL’yi gizleyebilir; açılan alan adı ve istenen işlem kontrol edilmelidir.
+- id: q16
+  question: “Crack/keygen” paketleri neden risklidir?
+  options:
+  - Yalnız dosya adları uzundur
+  - Sadece ücretlidir
+  - Sadece Linux’ta çalışır
+  - Telif sorununun yanında zararlı yazılım taşıma riski de olabilir
+  answer: 3
+  explanation: Korsan yazılım paketleri kötü amaçlı kod dağıtımında kullanılabilir.
+- id: q17
+  question: Yazılım güncellemeleri neden güvenliğin parçasıdır?
+  options:
+  - Bilinen açıklar için düzeltmeler içerebilir
+  - Her güncelleme dosyaları siler
+  - Sadece simgeleri değiştirir
+  - Parolaları görünür yapar
+  answer: 0
+  explanation: Üreticiler keşfedilen güvenlik açıklarını güncellemelerle kapatabilir.
+- id: q18
+  question: Şüpheli bir program çalıştıktan sonra en uygun öğrenci davranışı hangisidir?
+  options:
+  - Rastgele on farklı temizleme aracı indirmek
+  - Kurumsal cihazsa BT sorumlusuna bildirmek ve şüpheli programı tekrar çalıştırmamak
+  - Güvenlik yazılımını kapatmak
+  - Olayı gizlemek
+  answer: 1
+  explanation: Olayı yetkili kişiye bildirmek ve zararı büyütecek rastgele işlemlerden kaçınmak daha güvenlidir.
+- id: q19
+  question: Aşağıdakilerden hangisi sosyal mühendislik işaretidir?
+  options:
+  - Dosyanın PDF olması
+  - Ekranın mavi olması
+  - “Kimseye söyleme, hemen hediye kartı al” baskısı
+  - Tarayıcı sekmesinin açık olması
+  answer: 2
+  explanation: Gizlilik, aciliyet ve geri döndürülmesi zor ödeme talepleri dolandırıcılıkta güçlü işaretlerdir.
+- id: q20
+  question: Phishing’e karşı en iyi genel davranış hangisidir?
+  options:
+  - Mesaj ne kadar acilse o kadar hızlı tıklamak
+  - Gönderen adı tanıdıksa her şeyi açmak
+  - Yalnız yazım hatası aramak
+  - Durmak, kaynağı bağımsız kanaldan doğrulamak ve şüpheli içeriği bildirmek
+  answer: 3
+  explanation: Dur-doğrula-bildir yaklaşımı farklı phishing türlerine karşı aktarılabilir bir savunmadır.
