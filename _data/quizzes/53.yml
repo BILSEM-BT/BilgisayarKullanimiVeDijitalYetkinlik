@@ -1,0 +1,183 @@
+title: Blender ile 3D Görselleştirme — Uygulama
+description: Blender 5.2 LTS arayüzü, Object/Edit Mode, dönüşümler, mesh düzenleme, malzeme, ışık, kamera ve render iş akışını kontrol eder.
+questions:
+- id: q1
+  question: Blender’da nesneleri gördüğümüz ve doğrudan düzenlediğimiz ana 3D alanın adı nedir?
+  options:
+  - 3D Viewport
+  - Outliner
+  - Timeline
+  - File Browser
+  answer: 0
+  explanation: 3D Viewport, sahneyi gördüğümüz ve nesneler üzerinde temel etkileşim yaptığımız ana alandır.
+- id: q2
+  question: Outliner ne işe yarar?
+  options:
+  - Yalnız render kalitesini belirler
+  - Sahnedeki nesne ve koleksiyonları hiyerarşik biçimde listeler
+  - Sadece ses dosyası çalar
+  - Mesh yüzlerini otomatik siler
+  answer: 1
+  explanation: Outliner sahnenin içerik/hiyerarşi görünümüdür.
+- id: q3
+  question: Mesh içindeki vertex, edge ve face öğelerini doğrudan düzenlemek için hangi mod kullanılır?
+  options:
+  - Sculpt Mode zorunludur
+  - Render Mode
+  - Edit Mode
+  - Camera Mode
+  answer: 2
+  explanation: Edit Mode, seçili mesh geometrisinin vertex/edge/face düzeyinde düzenlenmesini sağlar.
+- id: q4
+  question: Object Mode ile Edit Mode arasında geçiş için yaygın varsayılan kısayol hangisidir?
+  options:
+  - F12
+  - Ctrl+S
+  - Numpad 0
+  - Tab
+  answer: 3
+  explanation: Tab uygun bağlamda Object Mode ile Edit Mode arasında geçiş için yaygın kısayoldur.
+- id: q5
+  question: Blender’da G kısayolu ne yapar?
+  options:
+  - Seçili öğeyi taşımaya (Grab/Move) başlar
+  - Render alır
+  - Yeni material oluşturur
+  - Dosyayı kapatır
+  answer: 0
+  explanation: G, seçili nesne veya geometriyi taşımak için kullanılan Grab/Move kısayoludur.
+- id: q6
+  question: R kısayolu hangi dönüşüm içindir?
+  options:
+  - Scale
+  - Rotate
+  - Extrude
+  - Inset
+  answer: 1
+  explanation: R, Rotate yani döndürme işlemidir.
+- id: q7
+  question: S kısayolu neyi değiştirir?
+  options:
+  - Kamera lensini otomatik kilitler
+  - Yalnız rengi değiştirir
+  - Scale / ölçeği
+  - Render motorunu
+  answer: 2
+  explanation: S, seçili nesne veya geometriyi ölçeklemek için kullanılır.
+- id: q8
+  question: Edit Mode’da seçili yüzü uzatarak bağlı yeni geometri üretmek için temel araç hangisidir?
+  options:
+  - Material Preview
+  - Numpad 0
+  - Outliner
+  - Extrude (E)
+  answer: 3
+  explanation: Extrude, seçili geometriden bağlı yeni geometri üretmenin temel yöntemidir.
+- id: q9
+  question: Inset Faces aracının temel görevi nedir?
+  options:
+  - Seçili yüz içinde yeni bir iç sınır/yüz bölgesi oluşturmak
+  - Kamerayı sahneden silmek
+  - Render dosyasını sıkıştırmak
+  - Nesneyi otomatik UV açmak
+  answer: 0
+  explanation: Inset, seçili yüzün içinde yeni bir sınır oluşturur ve sonraki modelleme işlemleri için iç bölge sağlar.
+- id: q10
+  question: Bevel aracı neden kullanılır?
+  options:
+  - Sahne adını değiştirmek için
+  - Keskin kenarlara pah/yuvarlatılmış geçiş vermek için
+  - Sadece ışığı kapatmak için
+  - Dosyayı STL yapmak için
+  answer: 1
+  explanation: Bevel, keskin kenarları pahlar ve görselleştirmede daha gerçekçi ışık yakalayan kenarlar oluşturur.
+- id: q11
+  question: Ctrl+R kısayolu mesh düzenlemede yaygın olarak hangi araçla ilişkilidir?
+  options:
+  - Save As
+  - Material
+  - Loop Cut
+  - Render
+  answer: 2
+  explanation: Ctrl+R varsayılan Blender keymap’inde Loop Cut aracı için yaygın kısayoldur.
+- id: q12
+  question: Material’daki Roughness değeri temel olarak neyi etkiler?
+  options:
+  - Nesnenin konumunu
+  - Mesh poligon sayısını
+  - Kamera çözünürlüğünü
+  - Yansımanın ne kadar keskin veya dağınık göründüğünü
+  answer: 3
+  explanation: Roughness düşük olduğunda yansımalar daha keskin/parlak, yüksek olduğunda daha mat ve dağınık görünür.
+- id: q13
+  question: Base Color neyi belirler?
+  options:
+  - Malzemenin temel yüzey rengini
+  - Kameranın konumunu
+  - Objenin dosya uzantısını
+  - Timeline kare sayısını
+  answer: 0
+  explanation: Base Color, Principled BSDF gibi temel material yapılarında ana yüzey rengidir.
+- id: q14
+  question: Ürün görselleştirmede geniş ve daha yumuşak aydınlatma için hangi ışık türü sıkça uygundur?
+  options:
+  - Camera
+  - Area Light
+  - Mesh Cube
+  - Timeline Marker
+  answer: 1
+  explanation: Area Light bir yüzey alanından ışık verdiği için ürün sahnelerinde kontrollü ve daha yumuşak aydınlatma için kullanışlıdır.
+- id: q15
+  question: Numpad 0 varsayılan keymap’te ne için kullanılır?
+  options:
+  - Edit Mode’a geçmek
+  - Bevel yapmak
+  - Aktif kamera görünümüne geçmek
+  - Material silmek
+  answer: 2
+  explanation: Numpad 0 aktif kameranın gördüğü çerçeveyi görüntüler.
+- id: q16
+  question: F12 kısayolu varsayılan Blender keymap’te ne yapar?
+  options:
+  - Dosyayı kapatır
+  - Nesneyi çoğaltır
+  - Edit Mode’a geçer
+  - Render işlemini başlatır
+  answer: 3
+  explanation: F12, aktif sahneyi/kamerayı geçerli render ayarlarıyla render etmek için kullanılır.
+- id: q17
+  question: EEVEE ile Cycles arasındaki temel farkı en doğru ifade eden seçenek hangisidir?
+  options:
+  - EEVEE hızlı gerçek zamanlı/raster yaklaşımına, Cycles ise path-tracing tabanlı fiziksel render yaklaşımına odaklanır
+  - İkisi de yalnız ses düzenler
+  - Cycles sadece 2D çizim içindir
+  - EEVEE yalnız dosya kaydeder
+  answer: 0
+  explanation: EEVEE daha hızlı gerçek zamanlı/raster yaklaşımı, Cycles ise path-tracing tabanlı fiziksel ışık simülasyonu sağlar.
+- id: q18
+  question: Ctrl+A → Scale işlemi hangi durumda özellikle yararlı olabilir?
+  options:
+  - Render dosyasını silmek için
+  - Nesne ölçeğini uygulayıp bazı modifier/bevel davranışlarında öngörülebilir ölçü ilişkisi sağlamak için
+  - Outliner’ı gizlemek için
+  - Kamera eklemek için
+  answer: 1
+  explanation: Apply Scale, Object Mode’daki ölçek dönüşümünü nesnenin temel ölçeğine uygular; bazı geometri işlemlerinde tutarlı sonuç sağlar.
+- id: q19
+  question: Render çıktısının bakış açısını hangi nesne belirler?
+  options:
+  - Area Light
+  - Material
+  - Aktif Camera
+  - Outliner
+  answer: 2
+  explanation: Render görüntüsü aktif kameranın gördüğü çerçeveden üretilir.
+- id: q20
+  question: Dersin temel 3D görselleştirme akışı hangisidir?
+  options:
+  - Render al → sonra kamera ekle → modeli sil
+  - Sadece material rengi değiştir → bitir
+  - Kamerayı kapat → Timeline’ı sil
+  - Sahneyi/modeli düzenle → material ekle → ışıkları kur → kamerayı ayarla → render al → sonucu kontrol et
+  answer: 3
+  explanation: Ders, modelleme sonrası material, aydınlatma, kamera ve render kontrolünden oluşan temel görselleştirme zincirini öğretir.

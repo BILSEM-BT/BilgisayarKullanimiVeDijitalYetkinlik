@@ -1,4 +1,4 @@
-# Bilgisayar Kullanımı ve Dijital Yetkinlik — Güncel Müfredat v9
+# Bilgisayar Kullanımı ve Dijital Yetkinlik — Güncel Müfredat v10
 
 Bu sürümde içerik yapısı tahtada anlatıma uygun biçimde korunur. Yayımdaki her derste ayrıntılı ders içeriği ve 20 soruluk uygulama bulunur. Güncel yazılım davranışları üretici/resmî kaynaklarla kontrol edilir.
 
@@ -68,16 +68,16 @@ Bu sürümde içerik yapısı tahtada anlatıma uygun biçimde korunur. Yayımda
 - **8-2 — Tinkercad Codeblocks ile Algoritmik 3D Tasarım** — **yayında**, Türkçe kullanım
 - **8-3 — Onshape ile Parametrik CAD** — **yayında**, İngilizce ders içeriği
 - **8-4 — SOLIDWORKS ile 3D Modelleme** — **yayında**, İngilizce ders içeriği
-- **8-5 — 3D Yazıcı, Slicer ve Baskıya Hazırlık** — planlandı
-- **8-6 — Blender ile 3D Görselleştirme** — planlandı
+- **8-5 — 3D Yazıcı, Slicer ve Baskıya Hazırlık** — yayında
+- **8-6 — Blender ile 3D Görselleştirme** — yayında
 
 **8-7 müfredattan kaldırılmıştır.**
 
 ## Güncel durum
 - Toplam müfredat: **53 ders**
-- Yayında: **51 ders**
-- Planlanan: **2 ders** (8-5 ve 8-6)
-- Yayımdaki uygulama sorusu: **1020**
+- Yayında: **53 ders**
+- Planlanan: **0 ders**
+- Yayımdaki uygulama sorusu: **1060**
 
 ## İçerik standardı
 - Öğretmenin tahtada/projeksiyonda anlatabileceği akış.

@@ -1,0 +1,29 @@
+{
+  "version": "v10",
+  "status": "PASS",
+  "modules_total": 53,
+  "modules_live": 53,
+  "modules_planned": 0,
+  "front_matter_files_parsed": 110,
+  "live_quizzes": 53,
+  "questions_for_live": 1060,
+  "global_answer_distribution": {
+    "0": 265,
+    "1": 265,
+    "2": 265,
+    "3": 265
+  },
+  "exact_duplicate_question_text_groups": 0,
+  "terminal_image_dimensions": {
+    "visual-studio-2026-community-insiders-python-terminal.png": [
+      1000,
+      607
+    ],
+    "vscode-insiders-python-terminal.png": [
+      1000,
+      607
+    ]
+  },
+  "errors": [],
+  "warnings": []
+}

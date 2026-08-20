@@ -50,7 +50,7 @@ Bu paket Bölüm 1'i tam olarak içerir:
 - **1-6 — Windows Ayarları, Uygulamalar ve Güncellemeler**
 - **1-7 — Görev Yöneticisi ve Temel Sorun Giderme**
 
-Bölüm 1–7 dersleri yayımdadır. Bölüm 8 içinde 8-1–8-4 yayımdadır; 8-5 ve 8-6 planlıdır. 8-7 müfredattan çıkarılmıştır.
+Bölüm 1–8 içindeki 53 dersin tamamı yayımdadır. Bölüm 8; 8-1–8-6 olmak üzere 6 canlı dersten oluşur. 8-7 müfredattan çıkarılmıştır.
 
 ## Dosya yapısı
 
@@ -175,6 +175,15 @@ Bölüm 7 içerikleri Scratch, Makeblock, Microsoft MakeCode/micro:bit, Autodesk
 - 6-2 dersi **Visual Studio Code Insiders** için yeniden yazıldı; kurulum, arayüz panelleri, çok dilli geliştirme, Python eklentisi/yorumlayıcısı, terminal, çalıştırma-durdurma, debug ve temel kısayollar işlendi.
 - 8-1 **Tinkercad ile 3D Tasarım** ve 8-2 **Tinkercad Codeblocks ile Algoritmik 3D Tasarım** Türkçe kullanım akışıyla yayımlandı.
 - 8-3 **Onshape ile Parametrik CAD** ve 8-4 **SOLIDWORKS ile 3D Modelleme** İngilizce ders/quiz içeriğiyle yayımlandı.
-- 8-7 kaldırıldı. Müfredat artık **53 ders**, bunun **51'i yayında** ve **2'si planlıdır**.
-- Yayımdaki uygulama soru sayısı **1020**'dir.
+- 8-7 kaldırıldı. v9 sonunda müfredat **53 ders**, bunun **51'i yayında** ve **2'si planlı** durumdadır.
+- v9 sonunda yayımdaki uygulama soru sayısı **1020**'dir.
 - Ana sayfa açıklaması **“Bilgisayar Temellerinden Dijital Okuryazarlık”** olarak güncellendi.
+
+
+## Revize v10 — Bölüm 8 tamamlandı ve terminal görselleri düzenlendi
+
+- 6-1 ve 6-2 derslerindeki terminal çalışma ekranı görselleri, içerik sütununu gereksiz büyütmeyecek şekilde **maksimum 760 px** genişlikte ve mobilde %100 duyarlı gösterilecek biçimde düzenlendi. Kaynak PNG dosyaları da 1000 px genişliğe optimize edildi.
+- 8-5 **3D Yazıcı, Slicer ve Baskıya Hazırlık** Türkçe ders içeriği ve 20 soruluk uygulamasıyla yayımlandı. Model dosyası/G-code farkı, PrusaSlicer, yazıcı-filament-baskı profilleri, yönlendirme, katman yüksekliği, perimeter, infill, support, brim, Preview ve güvenlik işlendi.
+- 8-6 **Blender ile 3D Görselleştirme** Türkçe ders içeriği ve 20 soruluk uygulamasıyla yayımlandı. Blender 5.2 LTS, 3D Viewport, Outliner, Object/Edit Mode, G-R-S, Extrude, Inset, Bevel, material, ışık, kamera, EEVEE/Cycles ve render akışı işlendi.
+- Bölüm 8 artık 8-1–8-6 olmak üzere **6/6 yayında**; portalın tamamı **53/53 ders yayında** durumundadır.
+- Toplam uygulama soru sayısı **1060**'tır. Tüm quizlerde 20 soru, dört benzersiz seçenek, tek doğru cevap, açıklama ve A/B/C/D doğru cevap konumu dengesi korunur.

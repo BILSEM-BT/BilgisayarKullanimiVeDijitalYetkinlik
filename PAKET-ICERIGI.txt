@@ -1,4 +1,4 @@
-PAKET İÇERİĞİ — v9
+PAKET İÇERİĞİ — v10
 
 Tam repository: Bilgisayar Kullanımı ve Dijital Yetkinlik
 
@@ -9,18 +9,18 @@ Tam repository: Bilgisayar Kullanımı ve Dijital Yetkinlik
 - Bölüm 5: 6 ders — yayında
 - Bölüm 6: 6 ders — yayında
 - Bölüm 7: 6 ders — yayında
-- Bölüm 8: 6 ders — 4 yayında, 2 planlandı
+- Bölüm 8: 6 ders — yayında
 
-Toplam plan: 53 ders
-Yayında: 51 ders
-Toplam yayımdaki uygulama sorusu: 1020
+Toplam müfredat: 53 ders
+Yayında: 53 ders
+Planlı: 0 ders
+Toplam yayımdaki uygulama sorusu: 1060
 
-Son v9 değişiklikleri:
-- 6-1: Visual Studio 2026 Community Insiders + Python geliştirme kurulumu ve örnek proje
-- 6-2: Visual Studio Code Insiders + Python kurulumu, terminal, çalıştırma/durdurma, debug ve kısayollar
-- 8-1 ve 8-2: Türkçe Tinkercad 3D Design / Codeblocks
-- 8-3 ve 8-4: İngilizce Onshape / SOLIDWORKS içerikleri
-- 8-7 kaldırıldı
-- Ana sayfa açıklaması: “Bilgisayar Temellerinden Dijital Okuryazarlık”
+Son v10 değişiklikleri:
+- 6-1 ve 6-2 terminal ekran görselleri sayfa içinde daha kompakt ve responsive gösterilecek şekilde küçültüldü.
+- 8-5: 3D Yazıcı, Slicer ve Baskıya Hazırlık dersi + 20 soruluk uygulama yayımlandı.
+- 8-6: Blender ile 3D Görselleştirme dersi + 20 soruluk uygulama yayımlandı.
+- Bölüm 8 artık 6/6 yayında; tüm müfredat 53/53 yayında.
+- Yeni ders ve sorular resmî Prusa/PrusaSlicer, UltiMaker ve Blender 5.2 LTS kaynaklarıyla doğrulandı.
 
 Paket tam repository kopyasıdır; klasörün içeriği GitHub repository köküne yüklenmelidir.

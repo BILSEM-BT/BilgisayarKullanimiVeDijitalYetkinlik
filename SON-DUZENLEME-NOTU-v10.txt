@@ -1,0 +1,23 @@
+SON DÜZENLEME NOTU — v10
+
+1) Ders 6-1 ve 6-2 içindeki terminal çalışma ekranı görselleri küçültüldü.
+   - CSS: .lesson-figure.terminal-figure = max 760 px, responsive.
+   - Kaynak PNG görselleri 1000 x 607 px'e optimize edildi.
+
+2) Ders 8-5 — 3D Yazıcı, Slicer ve Baskıya Hazırlık yayımlandı.
+   - Türkçe ders içeriği
+   - PrusaSlicer örnek iş akışı
+   - 20 soruluk uygulama
+
+3) Ders 8-6 — Blender ile 3D Görselleştirme yayımlandı.
+   - Türkçe ders anlatımı
+   - Blender 5.2 LTS
+   - 20 soruluk uygulama
+
+4) Müfredat durumu:
+   - Toplam: 53 ders
+   - Yayında: 53 ders
+   - Planlı: 0 ders
+   - Uygulama sorusu: 1060
+
+5) 8-5 ve 8-6 soru/cevapları ders içeriği ve resmî kaynaklarla kontrol edildi.

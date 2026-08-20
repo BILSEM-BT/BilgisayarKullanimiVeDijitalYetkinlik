@@ -563,19 +563,21 @@
   section: 8
   title: 3D Yazıcı, Slicer ve Baskıya Hazırlık
   slug: 8-5-3d-yazici-slicer-ve-baskiya-hazirlik
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-21'
   review_cycle: 6 ay
-  path: ''
+  path: /dersler/8-5-3d-yazici-slicer-ve-baskiya-hazirlik/
   code: 8-5
   order_in_section: 5
+  quiz_path: /uygulamalar/8-5-3d-yazici-slicer-ve-baskiya-hazirlik/
 - id: 53
   section: 8
   title: Blender ile 3D Görselleştirme
   slug: 8-6-blender-ile-3d-gorsellestirme
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-21'
   review_cycle: 6 ay
-  path: ''
+  path: /dersler/8-6-blender-ile-3d-gorsellestirme/
   code: 8-6
   order_in_section: 6
+  quiz_path: /uygulamalar/8-6-blender-ile-3d-gorsellestirme/

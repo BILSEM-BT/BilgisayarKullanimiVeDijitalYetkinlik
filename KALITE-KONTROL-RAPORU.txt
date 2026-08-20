@@ -1,76 +1,40 @@
-KALİTE KONTROL RAPORU — v9
-Tarih: 2026-08-21
+KALİTE KONTROL RAPORU — v10
 
-PORTAL / MÜFREDAT
+GENEL DURUM
 - Toplam müfredat: 53 ders — TAMAM
-- Yayında: 51 ders — TAMAM
-- Planlı: 2 ders (8-5, 8-6) — TAMAM
-- 8-7 modules.yml kayıtlarından kaldırıldı — TAMAM
-- Ana sayfa açıklaması “Bilgisayar Temellerinden Dijital Okuryazarlık” — TAMAM
+- Yayında: 53 ders — TAMAM
+- Planlı: 0 ders — TAMAM
+- Canlı quiz: 53 — TAMAM
+- Toplam uygulama sorusu: 1060 — TAMAM
+- Markdown front matter: 110 dosya parse edildi — TAMAM
 
-DERS 6-1 — VISUAL STUDIO 2026 COMMUNITY INSIDERS
-- Resmî Insiders indirme adresi işlendi — TAMAM
-- Community ücretsiz eğitim/öğrenci kullanım çerçevesi güncel Microsoft sayfalarıyla kontrol edildi — TAMAM
-- Installer ve Workloads kurulumu anlatıldı — TAMAM
-- Python development iş yükü ve Python yorumlayıcısı ayrımı anlatıldı — TAMAM
-- Python yanında C#, Visual Basic, F#, C/C++ ve JavaScript/TypeScript kullanım alanları açıklandı — TAMAM
-- Python Application proje akışı ve örnek kod — TAMAM
-- Ctrl+F5 / F5 / Shift+F5 / F9 ve Terminal akışı — TAMAM
-- Çalışan Python örneğinin terminal görünümü ders içine eklendi — TAMAM
-- Örnek not ortalaması kodu gerçek Python ile çalıştırıldı: 80 ve 90 girdileri için 86.0 — TAMAM
-
-DERS 6-2 — VISUAL STUDIO CODE INSIDERS
-- Resmî Insiders indirme/kurulum bilgisi — TAMAM
-- User Installer / System Installer ayrımı — TAMAM
-- Çok dilli çalışma mantığı ve gerekli runtime/SDK/extension ayrımı — TAMAM
-- Activity Bar, Primary Side Bar, Editor, Panel, Status Bar — TAMAM
-- Python interpreter + Microsoft Python extension + Select Interpreter — TAMAM
-- Örnek Python programı, Run Python File in Terminal ve terminal görünümü — TAMAM
-- Ctrl+C ile terminal sürecini kesme ve Shift+F5 ile debug oturumunu durdurma ayrımı — TAMAM
-- Ctrl+Shift+P, Ctrl+P, Ctrl+`, Ctrl+B, Ctrl+Shift+X, F5, F10, F11 kısayolları — TAMAM
+DERS 6-1 / 6-2 GÖRSEL DÜZELTMESİ
+- Terminal figürleri .terminal-figure sınıfına alındı — TAMAM
+- Maksimum görüntü genişliği: 760 px; dar ekranda %100 responsive — TAMAM
+- Kaynak PNG boyutları: (1000, 607) ve (1000, 607) — TAMAM
 
 BÖLÜM 8
-- 8-1 Tinkercad ile 3D Tasarım — Türkçe kullanım — TAMAM
-- 8-2 Tinkercad Codeblocks ile Algoritmik 3D Tasarım — Türkçe kullanım — TAMAM
-- 8-3 Onshape ile Parametrik CAD — İngilizce içerik ve İngilizce quiz — TAMAM
-- 8-4 SOLIDWORKS ile 3D Modelleme — İngilizce içerik ve İngilizce quiz — TAMAM
-- 8-5 ve 8-6 planlı bırakıldı — TAMAM
-- 8-7 kaldırıldı — TAMAM
+- 8-1: yayında
+- 8-2: yayında
+- 8-3: yayında
+- 8-4: yayında
+- 8-5: yayında + 20 soru
+- 8-6: yayında + 20 soru
+- Bölüm 8: 6/6 yayında — TAMAM
 
-KAYNAK / DOĞRULUK KONTROLÜ
-- Visual Studio 2026 Insiders / Community / Python: Microsoft / Visual Studio resmî kaynakları — TAMAM
-- VS Code Insiders / Python / UI / Terminal: code.visualstudio.com — TAMAM
-- Tinkercad 3D Design / Codeblocks / kısayollar: Autodesk Tinkercad resmî kaynakları — TAMAM
-- Onshape: Onshape Help — TAMAM
-- SOLIDWORKS 2026: SOLIDWORKS Design Help — TAMAM
-- Değiştirilen/yeni 6 quizdeki 120 soru ders içeriği ve kaynaklarla yeniden karşılaştırıldı — TAMAM
-- Önceki v8 denetiminden taşınan soruların yapı ve cevap indeksleri yeniden kontrol edildi — TAMAM
+QUIZ YAPISI
+- Her canlı quiz: 20 soru — TAMAM
+- Her soru: 4 benzersiz seçenek + tek doğru cevap indeksi + açıklama — TAMAM
+- Her quizde doğru cevap dağılımı A/B/C/D = 5/5/5/5 — TAMAM
+- Tüm 1060 soruda global dağılım A/B/C/D = 265/265/265/265 — TAMAM
+- Birebir aynı soru metni grubu: 0 — TAMAM
 
-QUIZ / UYGULAMA KONTROLLERİ
-- 51 canlı quiz × 20 soru = 1020 soru — TAMAM
-- Her soruda 4 benzersiz seçenek — TAMAM
-- Her soruda answer 0–3 aralığında tek doğru seçenek — TAMAM
-- Her soruda açıklama alanı — TAMAM
-- Her quizde soru kimlikleri benzersiz — TAMAM
-- Her quizde A/B/C/D doğru cevap dağılımı 5/5/5/5 — TAMAM
-- Farklı dersler arasında birebir aynı soru metni: 0 — TAMAM
+İÇERİK DOĞRULAMA
+- 8-5 Prusa/PrusaSlicer ve UltiMaker resmî kaynaklarıyla kontrol edildi — TAMAM
+- 8-6 Blender 5.2 LTS resmî indirme sayfası ve 5.2 LTS Manual ile kontrol edildi — TAMAM
+- Yeni 40 soru ders metni ve kaynaklarla karşılaştırıldı — TAMAM
 
-YAPISAL KONTROLLER
-- modules.yml: 53 benzersiz kayıt — TAMAM
-- Canlı ders yolu: 51 / 51 mevcut — TAMAM
-- Canlı uygulama yolu: 51 / 51 mevcut — TAMAM
-- Canlı quiz veri dosyası: 51 / 51 mevcut — TAMAM
-- lesson module_id / permalink / quiz_path eşleşmesi — TAMAM
-- application quiz_id / lesson_path / permalink eşleşmesi — TAMAM
-- Markdown front matter: 106 dosya parse edildi, 0 hata — TAMAM
-- Visual Studio ve VS Code terminal görselleri mevcut ve CSS ile responsive — TAMAM
-- Sol ders paneli önceki düzeltmedeki gibi genel scrollbar oluşturmuyor; gerekirse yalnız Ders İçeriği listesi kayıyor — KORUNDU
-- Ders kartlarında Son Güncelleme Tarihi kullanımı — KORUNDU
-
-BUILD NOTU
-- Çalışma ortamında Ruby bulundu; Bundler/Jekyll komutu kurulu olmadığı için yerel Jekyll build çalıştırılamadı.
-- GitHub Pages workflow dosyası korunmuştur.
-
-NİHAİ DURUM
-- VALIDATION-v9.json: PASS
-- Nihai ZIP paketi `unzip -t` ile bütünlük testinden geçirilmiştir: TAMAM
+SONUÇ
+- VALIDATION-v10.json: PASS
+- Hata sayısı: 0
+- Uyarı sayısı: 0

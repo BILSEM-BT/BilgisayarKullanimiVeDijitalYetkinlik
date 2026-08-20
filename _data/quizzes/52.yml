@@ -1,0 +1,186 @@
+title: 3D Yazıcı, Slicer ve Baskıya Hazırlık — Uygulama
+description: 3D model dosyaları, slicer iş akışı, yazıcı/filament profilleri, yönlendirme, katman yüksekliği, perimeter, infill, support, brim,
+  preview ve güvenli baskı hazırlığını kontrol eder.
+questions:
+- id: q1
+  question: FFF/FDM baskıda slicer yazılımının temel görevi nedir?
+  options:
+  - 3D modeli katmanlara ayırıp yazıcının izleyeceği takım yolunu üretmek
+  - Filamenti fiziksel olarak eritmek
+  - 3D yazıcının kasasını soğutmak
+  - Yalnızca modeli renklendirmek
+  answer: 0
+  explanation: Slicer, modeli katmanlara böler ve yazıcı için hareket/ekstrüzyon komutlarını içeren baskı yolunu hesaplar.
+- id: q2
+  question: Aşağıdakilerden hangisi model dosyası ile G-code arasındaki farkı doğru açıklar?
+  options:
+  - G-code her yazıcıda aynı şekilde çalışır
+  - Model dosyası geometriyi temsil eder; G-code belirli dilimleme ayarlarına göre oluşturulan baskı komutlarıdır
+  - STL sıcaklık değerlerini her zaman saklar
+  - 3MF yalnızca metin belgesidir
+  answer: 1
+  explanation: Model dosyası geometri/proje bilgisini taşırken G-code dilimleme sonucu oluşur ve yazıcı/profil ayarlarına bağlıdır.
+- id: q3
+  question: PrusaSlicer belgelerine göre proje kaydı için tercih edilen ve ayarları da saklayabilen biçim hangisidir?
+  options:
+  - TXT
+  - BMP
+  - 3MF
+  - WAV
+  answer: 2
+  explanation: PrusaSlicer 3MF biçimini proje kaydı için tercih eder; model, ayar ve değiştiriciler gibi bilgileri birlikte saklayabilir.
+- id: q4
+  question: Başkasının hazırladığı G-code dosyasını doğrudan kendi yazıcında çalıştırmak neden riskli olabilir?
+  options:
+  - Dosya adı kısa olabilir
+  - G-code yalnızca renk bilgisidir
+  - G-code internetsiz açılmaz
+  - Dosya başka yazıcı, nozul, filament veya sıcaklık profiline göre hazırlanmış olabilir
+  answer: 3
+  explanation: G-code baskı makinesi ve profil ayarlarına bağlı olabilir; güvenli yaklaşım modeli kendi doğrulanmış profilinle yeniden dilimlemektir.
+- id: q5
+  question: Slicer içinde baskıya başlamadan önce ilk kontrol edilmesi gereken profil gruplarından biri hangisidir?
+  options:
+  - Doğru yazıcı/nozul profili
+  - Web tarayıcısı teması
+  - E-posta hesabı
+  - Monitör yenileme hızı
+  answer: 0
+  explanation: Yazıcı/nozul profili baskı hacmi ve makineye özgü sınırlar gibi kritik bilgileri belirler.
+- id: q6
+  question: Katman yüksekliği küçüldüğünde genel olarak ne beklenir?
+  options:
+  - Baskı her zaman daha kısa sürer
+  - Dikey ayrıntı artabilir ancak baskı süresi genellikle uzar
+  - Model otomatik olarak daha genişler
+  - Infill tamamen yok olur
+  answer: 1
+  explanation: Daha ince katmanlar Z yönünde daha fazla katman gerektirdiğinden ayrıntıyı artırabilir fakat süreyi uzatabilir.
+- id: q7
+  question: Model yönlendirmesi aşağıdakilerden hangisini doğrudan etkileyebilir?
+  options:
+  - Sadece dosya adını
+  - Yalnız ekran parlaklığını
+  - Destek ihtiyacını ve tabla temas alanını
+  - Bilgisayarın klavye düzenini
+  answer: 2
+  explanation: Modelin tabla üzerindeki yönü destek miktarını, ilk katman temasını, yüzey kalitesini ve dayanım yönünü etkileyebilir.
+- id: q8
+  question: Bir modelde çok sayıda çıkıntı için destek gerekiyor. İlk düşünülmesi gereken yaklaşım hangisidir?
+  options:
+  - Hemen %100 infill kullanmak
+  - Yalnız filament rengini değiştirmek
+  - Modeli küçültmeden baskıya başlamak
+  - Modeli yeniden yönlendirerek veya gerekirse parçaya bölerek desteği azaltmanın mümkün olup olmadığını kontrol etmek
+  answer: 3
+  explanation: Resmî slicer belgeleri, destek üretmeden önce yönlendirme veya modeli bölme ile overhang miktarını azaltmanın değerlendirilebileceğini
+    belirtir.
+- id: q9
+  question: Perimeter / çevre duvarlarının temel görevi nedir?
+  options:
+  - Modelin dış kabuğunu oluşturmak ve mekanik dayanımda önemli rol oynamak
+  - Sadece baskı süresini ekranda göstermek
+  - Kamerayı hareket ettirmek
+  - Filament makarasını döndürmek
+  answer: 0
+  explanation: Perimeterlar dış duvarları oluşturur ve özellikle parça dayanımında önemli rol oynar.
+- id: q10
+  question: Infill / dolgu ne için kullanılır?
+  options:
+  - Yalnız dosyayı sıkıştırmak
+  - Modelin iç yapısına ve üst katmanların desteğine katkı sağlamak
+  - Nozul çapını değiştirmek
+  - Ekran çözünürlüğünü artırmak
+  answer: 1
+  explanation: Infill, iç destek yapısı oluşturur ve mekanik özelliklere katkıda bulunur; her parçada %100 dolgu gerekmez.
+- id: q11
+  question: Support / destek yapısının amacı nedir?
+  options:
+  - Modeli internetten indirmek
+  - Yazıcıyı kapatmak
+  - Alttan yeterli geometriyle desteklenmeyen bölgelerin basılmasına geçici destek sağlamak
+  - Modelin rengini kalıcı değiştirmek
+  answer: 2
+  explanation: Destekler havada başlayacak veya aşırı çıkıntılı bölgelerin yazdırılmasına yardımcı olan geçici yapılardır.
+- id: q12
+  question: Brim hangi durumda özellikle yararlı olabilir?
+  options:
+  - Modelin içini tamamen doldurmak için
+  - Nozulu büyütmek için
+  - STL dosyasını düzenlemek için
+  - İlk katmanın tabla temas alanını artırıp tutunmayı iyileştirmek için
+  answer: 3
+  explanation: Brim model çevresinde ek ilk katman çizgileri oluşturarak yapışma alanını artırır.
+- id: q13
+  question: Dilimlemeden sonra Preview / Önizleme neden önemlidir?
+  options:
+  - Katman yollarını ve olası sorunları baskı başlamadan kontrol etmek için
+  - Yalnız bilgisayarın saatini görmek için
+  - Filamentin kimyasal yapısını değiştirmek için
+  - Modeli otomatik olarak patentlemek için
+  answer: 0
+  explanation: Preview, katmanları, destekleri, ilk katmanı ve takım yolunu kontrol ederek sorunları baskıdan önce yakalamaya yardım eder.
+- id: q14
+  question: İlk katmanda çizgiler arasında belirgin boşluklar varsa en doğru yaklaşım hangisidir?
+  options:
+  - Baskıyı kesinlikle hızlandırmak
+  - İlk katman/tabla kalibrasyonunu ve yüzey temizliğini kontrol etmek
+  - Infill oranını %100 yapmak
+  - G-code dosyasının adını değiştirmek
+  answer: 1
+  explanation: Kötü ilk katman; kalibrasyon, yüzey temizliği veya başka baskı ayarlarıyla ilgili olabilir ve göz ardı edilmemelidir.
+- id: q15
+  question: 3D baskı sıcaklıkları için en güvenilir başlangıç yaklaşımı hangisidir?
+  options:
+  - Her filament için aynı sıcaklığı ezberlemek
+  - İnternette rastgele bir sayı seçmek
+  - Yazıcı ve filament üreticisinin doğrulanmış profil/tavsiyelerini kullanmak
+  - Hotend sıcaklığını mümkün olan en yüksek değere çıkarmak
+  answer: 2
+  explanation: Malzeme, yazıcı ve filament üreticisine göre uygun sıcaklıklar değişebileceği için doğrulanmış profil kullanmak güvenlidir.
+- id: q16
+  question: Baskı sırasında hangi davranış güvenli değildir?
+  options:
+  - İlk katmanı gözlemlemek
+  - Baskı tablasının doğru yerleşimini kontrol etmek
+  - Öğretmen onayıyla dosya aktarmak
+  - Sıcak nozul veya hareketli mekanizmaya dokunmak
+  answer: 3
+  explanation: Hotend/nozul ve tabla sıcak olabilir, hareketli mekanizmalar da yaralanma riski oluşturur; çalışma sırasında dokunulmamalıdır.
+- id: q17
+  question: PrusaSlicer içindeki “Slice now” komutu ne yapar?
+  options:
+  - Seçili ayarlara göre modelden baskı yolları/G-code üretimini başlatır
+  - Modeli fiziksel olarak yazıcıdan çıkarır
+  - Kamerayı açar
+  - Bilgisayarı yeniden başlatır
+  answer: 0
+  explanation: Slice now, seçili yazıcı/filament/baskı ayarlarına göre modeli dilimler ve baskı yolunu hesaplar.
+- id: q18
+  question: 3MF projesi kaydetmenin önemli avantajı nedir?
+  options:
+  - Sadece resim kalitesini artırır
+  - Model ile slicer ayarlarını bir proje halinde daha sonra yeniden açmaya yardımcı olur
+  - G-code'u bütün yazıcılarda evrensel yapar
+  - Nozul çapını fiziksel olarak değiştirir
+  answer: 1
+  explanation: PrusaSlicer 3MF projesinde nesneleri, ayarları ve değiştiricileri birlikte saklayabilir.
+- id: q19
+  question: Aşağıdaki eşleştirmelerden hangisi doğrudur?
+  options:
+  - Brim = modelin iç dolgusu
+  - Infill = tabla çevresindeki yapışma çizgileri
+  - Support = gerektiğinde havada kalacak bölgeleri destekleyen geçici yapı
+  - Perimeter = yalnızca tahmini süre
+  answer: 2
+  explanation: Support, alttan yeterince desteklenmeyen bölgelerin yazdırılmasına yardım eden geçici yapıdır.
+- id: q20
+  question: Baskıya hazırlık için en doğru sıra hangisidir?
+  options:
+  - G-code indir → yazıcıya gönder → modeli sonra incele
+  - Modeli aç → rastgele sıcaklık seç → Preview yapmadan başlat
+  - Modeli aç → sadece rengini değiştir → yazdır
+  - Modeli içe aktar → doğru yazıcı/filament profilini seç → yönlendir/ayarları belirle → dilimle → Preview kontrolü → onaylı baskı dosyasını
+    aktar
+  answer: 3
+  explanation: Dersin güvenli iş akışı, doğru profil ve yönlendirme sonrası dilimleme ve mutlaka Preview kontrolü yapmaktır.
