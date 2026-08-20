@@ -255,62 +255,68 @@
   section: 4
   title: Parolalar, Passkey ve İki Aşamalı Doğrulama
   slug: 4-1-parolalar-passkey-ve-iki-asamali-dogrulama
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-20'
   review_cycle: 6 ay
-  path: ''
+  path: /dersler/4-1-parolalar-passkey-ve-iki-asamali-dogrulama/
   code: 4-1
   order_in_section: 1
+  quiz_path: /uygulamalar/4-1-parolalar-passkey-ve-iki-asamali-dogrulama/
 - id: 25
   section: 4
   title: Zararlı Yazılım, Phishing ve Dolandırıcılıktan Korunma
   slug: 4-2-zararli-yazilim-phishing-ve-dolandiriciliktan-korunma
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-20'
   review_cycle: 3-6 ay
-  path: ''
+  path: /dersler/4-2-zararli-yazilim-phishing-ve-dolandiriciliktan-korunma/
   code: 4-2
   order_in_section: 2
+  quiz_path: /uygulamalar/4-2-zararli-yazilim-phishing-ve-dolandiriciliktan-korunma/
 - id: 26
   section: 4
   title: Gizlilik, Site İzinleri ve Dijital Ayak İzi
   slug: 4-3-gizlilik-site-izinleri-ve-dijital-ayak-izi
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-20'
   review_cycle: 3-6 ay
-  path: ''
+  path: /dersler/4-3-gizlilik-site-izinleri-ve-dijital-ayak-izi/
   code: 4-3
   order_in_section: 3
+  quiz_path: /uygulamalar/4-3-gizlilik-site-izinleri-ve-dijital-ayak-izi/
 - id: 27
   section: 4
   title: Telif Hakkı, Kaynak Gösterme ve Dijital Etik
   slug: 4-4-telif-hakki-kaynak-gosterme-ve-dijital-etik
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-20'
   review_cycle: 6-12 ay
-  path: ''
+  path: /dersler/4-4-telif-hakki-kaynak-gosterme-ve-dijital-etik/
   code: 4-4
   order_in_section: 4
+  quiz_path: /uygulamalar/4-4-telif-hakki-kaynak-gosterme-ve-dijital-etik/
 - id: 28
   section: 4
   title: Yapay Zekâ ve Üretken Yapay Zekâ Temelleri
   slug: 4-5-yapay-zeka-ve-uretken-yapay-zeka-temelleri
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-20'
   review_cycle: 3 ay
-  path: ''
+  path: /dersler/4-5-yapay-zeka-ve-uretken-yapay-zeka-temelleri/
   code: 4-5
   order_in_section: 5
+  quiz_path: /uygulamalar/4-5-yapay-zeka-ve-uretken-yapay-zeka-temelleri/
 - id: 29
   section: 4
   title: Yapay Zekâyı Etkili, Güvenli ve Doğru Kullanma
   slug: 4-6-yapay-zekayi-etkili-guvenli-ve-dogru-kullanma
-  status: planlandı
-  updated: ''
+  status: yayında
+  updated: '2026-08-20'
   review_cycle: 3 ay
-  path: ''
+  path: /dersler/4-6-yapay-zekayi-etkili-guvenli-ve-dogru-kullanma/
   code: 4-6
   order_in_section: 6
+  quiz_path: /uygulamalar/4-6-yapay-zekayi-etkili-guvenli-ve-dogru-kullanma/
 - id: 30
   section: 5
   title: WinRAR, 7-Zip ve Sıkıştırılmış Dosyalar
