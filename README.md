@@ -5,7 +5,7 @@
 
 Bilgisayar kullanımından dijital okuryazarlığa; yazılım geliştirme, robotik, elektronik, 3D tasarım ve dijital üretime kadar uzanan konularda öğrencilerin derslere başlamadan önce gerekli temel bilgi ve kullanım hazırbulunuşluğunu desteklemek amacıyla hazırlanmış web tabanlı eğitim portalıdır.
 
-## 🌐 Yayınlanan Ders Portalı
+## Yayınlanan Ders Portalı
 
 **Canlı yayın adresi:**  
 [https://bilsem-bt.github.io/BilgisayarKullanimiVeDijitalYetkinlik/](https://bilsem-bt.github.io/BilgisayarKullanimiVeDijitalYetkinlik/)
